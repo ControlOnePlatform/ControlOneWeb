@@ -7,12 +7,12 @@
 
 <url>
   <loc>https://controlone.com.mx/</loc>
-  <lastmod>2025-12-08T12:00:00+00:00</lastmod>
+  <lastmod>2025-12-09T12:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://controlone.com.mx/productos</loc>
-  <lastmod>2025-12-08T12:00:00+00:00</lastmod>
+  <lastmod>2025-12-09T12:00:00+00:00</lastmod>
   <priority>0.95</priority>
 </url>
 <url>
@@ -27,7 +27,7 @@
 </url>
 <url>
   <loc>https://controlone.com.mx/blog</loc>
-  <lastmod>2025-12-08T10:00:00+00:00</lastmod>
+  <lastmod>2025-12-09T10:00:00+00:00</lastmod>
   <priority>0.90</priority>
 </url>
 
@@ -53,6 +53,11 @@
   <priority>0.50</priority>
 </url>
 
+<url>
+  <loc>https://controlone.com.mx/post/sellos-cable-acero-para-tolvas-y-pipas</loc>
+  <lastmod>2025-12-09T10:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
 <url>
   <loc>https://controlone.com.mx/post/seguridad-carga-temporada-alta-cierre-ano</loc>
   <lastmod>2025-12-04T10:00:00+00:00</lastmod>

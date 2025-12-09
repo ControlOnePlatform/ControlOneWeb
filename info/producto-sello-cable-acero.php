@@ -21,13 +21,18 @@ include '../includes/header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row gap-12 items-center">
                 
-                <div class="lg:w-1/2">
-                    <div class="relative bg-industrial rounded-xl overflow-hidden shadow-lg group">
-                        <img src="/assets/img/sellos/sello-tipo-cable-c-one316.avif" alt="Sello de cable de acero ajustable C-ONE 316" class="w-full h-auto object-cover transform transition-transform duration-500 group-hover:scale-105">
+                <div class="lg:w-1/2 flex flex-col items-center">
+                    
+                    <div class="relative bg-industrial rounded-xl overflow-hidden shadow-lg group w-full max-w-md">
+                        <img src="/assets/img/sellos/sello-tipo-cable-c-one316.avif" 
+                             alt="Sello de cable de acero ajustable C-ONE 316" 
+                             class="w-full h-80 md:h-96 object-contain p-6 transform transition-transform duration-500 group-hover:scale-105">
+                        
                         <div class="absolute top-4 left-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-sm">
                             Uso Rudo
                         </div>
                     </div>
+
                     <div class="mt-6 flex items-center justify-center space-x-4">
                         <span class="text-sm font-bold text-gray-500">Cuerpos:</span>
                         <div class="w-6 h-6 rounded-full bg-blue-600 border border-gray-200 shadow-sm" title="Azul"></div>

@@ -17,20 +17,25 @@ include '../includes/header.php';
         </div>
     </div>
 
-    <section class="py-12 bg-white">
+   <section class="py-12 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row gap-12 items-center">
                 
-                <div class="lg:w-1/2">
-                    <div class="relative bg-industrial rounded-xl overflow-hidden shadow-lg group">
-                        <img src="/assets/img/sellos/sello-seguridad-star-one-indicativo.avif" alt="Sello de botella ISO 17712 Star One" class="w-full h-auto object-cover transform transition-transform duration-500 group-hover:scale-105">
+                <div class="lg:w-1/2 flex flex-col items-center">
+                    
+                    <div class="relative bg-industrial rounded-xl overflow-hidden shadow-lg group w-full max-w-md">
+                        <img src="/assets/img/sellos/sello-seguridad-star-one-indicativo.avif" 
+                             alt="Sello de botella ISO 17712 Star One" 
+                             class="w-full h-80 md:h-96 object-contain p-6 transform transition-transform duration-500 group-hover:scale-105">
+                        
                         <div class="absolute top-4 left-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-sm">
                             Best Seller
                         </div>
                         <div class="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-sm">
-                            ISO 17712:2013
+                            ISO 17712 "H"
                         </div>
                     </div>
+
                     <div class="mt-6 flex items-center justify-center space-x-4">
                         <span class="text-sm font-bold text-gray-500">Colores Disponibles:</span>
                         <div class="w-6 h-6 rounded-full bg-yellow-400 border border-gray-200 shadow-sm" title="Amarillo"></div>
@@ -39,9 +44,8 @@ include '../includes/header.php';
                         <div class="w-6 h-6 rounded-full bg-gray-400 border border-gray-200 shadow-sm" title="Gris"></div>
                         <div class="w-6 h-6 rounded-full bg-black border border-gray-200 shadow-sm" title="Negro"></div>
                     </div>
-                </div>
 
-                <div class="lg:w-1/2">
+                </div> <div class="lg:w-1/2">
                     <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">STAR ONE SEAL</h1>
                     <p class="text-gray-500 text-lg mb-6">Sello de Alta Seguridad (High Security) | ISO PAS 17712:2013</p>
                     
@@ -74,8 +78,7 @@ include '../includes/header.php';
                             </a>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> </div>
         </div>
     </section>
 
