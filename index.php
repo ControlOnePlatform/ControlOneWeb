@@ -60,8 +60,8 @@ include 'includes/data_blog.php';
                         <span class="text-sm text-gray-600 font-medium">Norma 17712:2013 "H"</span>
                     </div>
                     <div class="bg-industrial p-6 rounded-lg text-center border border-gray-100 hover:shadow-md transition-shadow">
-                        <span class="block text-4xl font-bold text-primary mb-2">24h</span>
-                        <span class="text-sm text-gray-600 font-medium">Envíos Urgentes</span>
+                        <span class="block text-4xl font-bold text-primary mb-2">Rápido y Seguro</span>
+                        <span class="text-sm text-gray-600 font-medium">Envíos a todo México</span>
                     </div>
                     <div class="bg-industrial p-6 rounded-lg text-center border border-gray-100 hover:shadow-md transition-shadow">
                         <span class="block text-4xl font-bold text-accent mb-2">C-TPAT</span>
