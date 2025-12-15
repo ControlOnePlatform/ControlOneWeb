@@ -247,13 +247,17 @@ include 'includes/header.php';
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/precinto-plastico-quantum-ajustable.avif" alt="Quantum 12" class="h-32 w-auto object-contain">
+                        <img src="assets/img/sellos/precinto-plastico-quantum-ajustable.avif" alt="Quantum" class="h-32 w-auto object-contain">
                     </div>
-                    <h3 class="text-lg font-bold text-primary mb-2">Quantum 12"</h3>
-                    <p class="text-sm text-gray-500 mb-4">Inserto metálico de seguridad.</p>
-                    <a href="contacto?producto=quantum-12" class="block w-full border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold">Cotizar</a>
+                    <h3 class="text-lg font-bold text-primary mb-2">Quantum (8", 12", 16")</h3>
+                    <p class="text-sm text-gray-500 mb-4">Inserto metálico de seguridad. Resistencia 45kg.</p>
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="/info/producto-precinto-quantum.php" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="contacto?producto=quantum" class="bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    </div>
                 </div>
 
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative">
@@ -262,8 +266,12 @@ include 'includes/header.php';
                         <img src="assets/img/sellos/sello-plastico-quamtum-r-12.avif" alt="Quantum R12" class="h-32 w-auto object-contain">
                     </div>
                     <h3 class="text-lg font-bold text-primary mb-2">Quantum R12</h3>
-                    <p class="text-sm text-gray-500 mb-4">Mayor resistencia a la tracción.</p>
-                    <a href="contacto?producto=quantum-r12" class="block w-full border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold">Cotizar</a>
+                    <p class="text-sm text-gray-500 mb-4">Cola de Rata 2.5mm | Mayor tracción.</p>
+                    
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="/info/producto-quantum-r12.php" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="contacto?producto=quantum-r12" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    </div>
                 </div>
 
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
@@ -271,11 +279,15 @@ include 'includes/header.php';
                         <img src="assets/img/sellos/sello-plastico-quantum-r-18.avif" alt="Quantum R18" class="h-32 w-auto object-contain">
                     </div>
                     <h3 class="text-lg font-bold text-primary mb-2">Quantum R18 (Largo)</h3>
-                    <p class="text-sm text-gray-500 mb-4">45cm para bolsas grandes.</p>
-                    <a href="contacto?producto=quantum-r18" class="block w-full border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold">Cotizar</a>
+                    <p class="text-sm text-gray-500 mb-4">45cm para bolsas grandes y tambores.</p>
+                    
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="/info/producto-quantum-r18.php" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="contacto?producto=quantum-r18" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    </div>
                 </div>
-            </div>
-        </div>
+
+            </div> </div>
     </section>
 
     <section id="etiquetas" class="py-20 bg-industrial border-t border-gray-200">
