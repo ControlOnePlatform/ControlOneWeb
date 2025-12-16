@@ -608,7 +608,7 @@ $blog_posts = [
             </ul>
 
             <div class="mt-8 text-center">
-                <a href="/info/producto-sello-cable-acero.php" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-md">
+                <a href="/info/producto-sello-cable-acero" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-md">
                     Ver Ficha Técnica del Sello de Cable
                 </a>
             </div>
@@ -654,7 +654,7 @@ $blog_posts = [
                         <li><strong>Cable Ultra-Fino:</strong> Alambre trenzado de apenas <strong>0.7 mm</strong>. Entra en cualquier lado.</li>
                         <li><strong>Sin Herramientas:</strong> Se instala girando la aleta con la mano.</li>
                     </ul>
-                    <a href="/info/producto-sello-rotaseal.php" class="text-accent font-bold hover:underline text-sm">Ver Ficha Técnica Rotaseal &rarr;</a>
+                    <a href="/info/producto-sello-rotaseal" class="text-accent font-bold hover:underline text-sm">Ver Ficha Técnica Rotaseal &rarr;</a>
                 </div>
             </div>
 
@@ -670,14 +670,14 @@ $blog_posts = [
                         <li><strong>Cable de 1.8mm:</strong> Más grueso que el rotor, pero lo suficientemente fino para válvulas de paso de 1/2".</li>
                         <li><strong>Ajuste Rápido:</strong> Se jala como un cincho, pero con seguridad metálica.</li>
                     </ul>
-                    <a href="/info/producto-sello-c-one-x6.php" class="text-accent font-bold hover:underline text-sm">Ver Ficha Técnica X6 &rarr;</a>
+                    <a href="/info/producto-sello-c-one-x6" class="text-accent font-bold hover:underline text-sm">Ver Ficha Técnica X6 &rarr;</a>
                 </div>
             </div>
 
             <div class="bg-primary text-white p-6 rounded-lg text-center shadow-md mt-10">
                 <h3 class="text-xl font-bold mb-2">¿Cuál necesitas para tu operación?</h3>
                 <p class="mb-4 text-sm opacity-90">Tenemos stock inmediato de ambos modelos para envío a todo México.</p>
-                <a href="/contacto.php?asunto=Cotizacion+Medidores" class="inline-block bg-white text-primary font-bold py-2 px-6 rounded hover:bg-gray-100 transition-colors">
+                <a href="/contacto?asunto=Cotizacion+Medidores" class="inline-block bg-white text-primary font-bold py-2 px-6 rounded hover:bg-gray-100 transition-colors">
                     Solicitar Cotización
                 </a>
             </div>
