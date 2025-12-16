@@ -12,7 +12,7 @@ include '../includes/header.php';
     <div class="bg-gray-100 py-4 border-b border-gray-200">
         <div class="container mx-auto px-4 text-sm text-gray-500">
             <a href="/" class="hover:text-primary">Inicio</a> <span class="mx-2">/</span>
-            <a href="/productos.php" class="hover:text-primary">Catálogo</a> <span class="mx-2">/</span>
+            <a href="/productos" class="hover:text-primary">Catálogo</a> <span class="mx-2">/</span>
             <span class="text-primary font-bold">Star One Seal</span>
         </div>
     </div>
@@ -70,7 +70,7 @@ include '../includes/header.php';
                         </div>
                         
                         <div class="flex flex-col sm:flex-row gap-4">
-                            <a href="/contacto.php?producto=Star+One+Seal" class="flex-1 bg-accent hover:bg-orange-500 text-white text-center font-bold py-3 px-6 rounded-md shadow-md transition-colors">
+                            <a href="/contacto?producto=Star+One+Seal" class="flex-1 bg-accent hover:bg-orange-500 text-white text-center font-bold py-3 px-6 rounded-md shadow-md transition-colors">
                                 Solicitar Cotización
                             </a>
                             <a href="https://wa.me/525558642200?text=Hola,%20necesito%20precio%20del%20Star%20One%20Seal" target="_blank" class="flex-1 border-2 border-green-500 text-green-600 hover:bg-green-50 text-center font-bold py-3 px-6 rounded-md transition-colors flex items-center justify-center">
@@ -174,7 +174,7 @@ include '../includes/header.php';
   "sku": "STAR-ONE-SEAL",
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://controlone.com.mx/info/producto-sello-botella-star-one.php",
+    "url": "https://controlone.com.mx/info/producto-sello-botella-star-one",
     "priceCurrency": "MXN",
     "lowPrice": "15.00",
     "highPrice": "25.00",

@@ -22,10 +22,10 @@ include 'includes/data_blog.php';
                 Protege tu carga con <strong>marchamos de alta seguridad</strong>, sellos de botella y cable de acero. Cumplimiento C-TPAT garantizado para exportación.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="contacto.php" class="bg-accent hover:bg-orange-500 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                <a href="contacto" class="bg-accent hover:bg-orange-500 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                     Cotizar Marchamos
                 </a>
-                <a href="productos.php" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-md font-bold text-lg transition-all">
+                <a href="productos" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-md font-bold text-lg transition-all">
                     Ver Catálogo 2025
                 </a>
             </div>
@@ -92,7 +92,7 @@ include 'includes/data_blog.php';
                         <p class="text-gray-600 mb-4 text-sm">
                             Incluye <strong>sellos de botella (clavo)</strong> y sellos de cable de acero. Obligatorios para cruces fronterizos C-TPAT y <strong>candados para contenedores</strong> marítimos.
                         </p>
-                        <a href="productos.php#alta-seguridad" class="text-accent font-semibold hover:text-orange-600 inline-flex items-center">
+                        <a href="productos#alta-seguridad" class="text-accent font-semibold hover:text-orange-600 inline-flex items-center">
                             Ver Sellos de Botella
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                         </a>
@@ -111,7 +111,7 @@ include 'includes/data_blog.php';
                         <p class="text-gray-600 mb-4 text-sm">
                             Conocidos como <strong>cintillos de seguridad</strong>, cinchos numerados o cola de rata. Ideales para almacenes, botiquines, extintores y transporte retail.
                         </p>
-                        <a href="productos.php#plasticos" class="text-accent font-semibold hover:text-orange-600 inline-flex items-center">
+                        <a href="productos#plasticos" class="text-accent font-semibold hover:text-orange-600 inline-flex items-center">
                             Ver Cintillos y Cinchos
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                         </a>
@@ -130,7 +130,7 @@ include 'includes/data_blog.php';
                         <p class="text-gray-600 mb-4 text-sm">
                             <strong>Sellos de seguridad para camiones</strong> tipo torton y cajas secas. Banda metálica (fleje) con auditoría auditiva (cascabel) para detectar manipulación.
                         </p>
-                        <a href="productos.php#metalicos" class="text-accent font-semibold hover:text-orange-600 inline-flex items-center">
+                        <a href="productos#metalicos" class="text-accent font-semibold hover:text-orange-600 inline-flex items-center">
                             Ver Sellos para Camiones
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                         </a>
@@ -184,7 +184,7 @@ include 'includes/data_blog.php';
             <p class="text-gray-300 mb-8 max-w-2xl mx-auto text-lg">
                 Somos fabricantes. Obtén precios preferenciales de mayoreo para flotillas y empresas de logística. Atención personalizada inmediata.
             </p>
-            <a href="contacto.php" class="inline-block bg-accent hover:bg-orange-500 text-white px-10 py-4 rounded-md font-bold text-xl shadow-lg transition-colors">
+            <a href="contacto" class="inline-block bg-accent hover:bg-orange-500 text-white px-10 py-4 rounded-md font-bold text-xl shadow-lg transition-colors">
                 Solicitar Cotización
             </a>
         </div>
@@ -206,7 +206,7 @@ include 'includes/data_blog.php';
                     foreach ($ultimos_posts as $slug => $post): 
                 ?>
                     <article class="flex flex-col h-full group">
-                        <a href="post.php?slug=<?php echo $slug; ?>" class="block overflow-hidden rounded-lg mb-4 relative h-48">
+                        <a href="post/<?php echo $slug; ?>" class="block overflow-hidden rounded-lg mb-4 relative h-48">
                             <div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors z-10"></div>
                             <img src="<?php echo $post['imagen']; ?>" alt="<?php echo $post['titulo']; ?>" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
                         </a>
@@ -216,12 +216,12 @@ include 'includes/data_blog.php';
                                 <?php echo date('d M, Y', strtotime($post['fecha'])); ?>
                             </div>
                             <h3 class="text-lg font-bold text-primary mb-2 group-hover:text-accent transition-colors leading-tight">
-                                <a href="post.php?slug=<?php echo $slug; ?>"><?php echo $post['titulo']; ?></a>
+                                <a href="post/<?php echo $slug; ?>"><?php echo $post['titulo']; ?></a>
                             </h3>
                             <p class="text-gray-600 text-sm line-clamp-2 mb-4 flex-grow">
                                 <?php echo $post['extracto']; ?>
                             </p>
-                            <a href="post.php?slug=<?php echo $slug; ?>" class="text-primary font-bold text-sm hover:text-accent inline-flex items-center mt-auto">
+                            <a href="post/<?php echo $slug; ?>" class="text-primary font-bold text-sm hover:text-accent inline-flex items-center mt-auto">
                                 Leer más <span class="ml-1 text-lg">→</span>
                             </a>
                         </div>
@@ -237,7 +237,7 @@ include 'includes/data_blog.php';
             </div>
 
             <div class="text-center mt-12">
-                <a href="blog.php" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold py-3 px-8 rounded-md transition-colors">
+                <a href="blog" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold py-3 px-8 rounded-md transition-colors">
                     Ver Todos los Artículos
                 </a>
             </div>

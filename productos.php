@@ -58,7 +58,7 @@ include 'includes/header.php';
                         <p class="text-gray-600 mb-6 line-clamp-3">El estándar de oro para contenedores marítimos. Cuenta con mecanismo Anti-Giro y núcleo de acero galvanizado de alta resistencia.</p>
                         
                         <div class="mt-auto grid grid-cols-2 gap-4">
-                            <a href="/info/producto-sello-botella-star-one.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
+                            <a href="/info/producto-sello-botella-star-one" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
                                 Detalles
                             </a>
                             <a href="contacto?producto=star-one-seal" class="text-center bg-accent hover:bg-orange-600 text-white py-3 rounded-lg font-bold transition-colors shadow-md">
@@ -84,7 +84,7 @@ include 'includes/header.php';
                         <p class="text-gray-600 mb-6 line-clamp-3">Cable trenzado NPC que se destrenza al corte. Ideal para orificios irregulares en tolvas, válvulas y compuertas pesadas.</p>
                         
                         <div class="mt-auto grid grid-cols-2 gap-4">
-                            <a href="/info/producto-sello-cable-acero.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
+                            <a href="/info/producto-sello-cable-acero" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
                                 Detalles
                             </a>
                             <a href="contacto?producto=c-one-316" class="text-center bg-accent hover:bg-orange-600 text-white py-3 rounded-lg font-bold transition-colors shadow-md">
@@ -110,7 +110,7 @@ include 'includes/header.php';
                         <p class="text-gray-600 mb-6">El equilibrio perfecto entre flexibilidad y seguridad. Su cable de 1/8" entra en la mayoría de las válvulas de descarga estándar.</p>
                         
                         <div class="mt-auto grid grid-cols-2 gap-4">
-                            <a href="/info/producto-sello-c-one-180.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
+                            <a href="/info/producto-sello-c-one-180" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
                                 Detalles
                             </a>
                             <a href="contacto?producto=C-ONE-180" class="text-center bg-accent hover:bg-orange-600 text-white py-3 rounded-lg font-bold transition-colors shadow-md">
@@ -136,7 +136,7 @@ include 'includes/header.php';
                         <p class="text-gray-600 mb-6">Máxima durabilidad contra la corrosión. Cable de acero inoxidable grado marino 316. Ideal para transporte de químicos o ambientes salinos.</p>
                         
                         <div class="mt-auto grid grid-cols-2 gap-4">
-                            <a href="/info/producto-sello-c-block.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
+                            <a href="/info/producto-sello-c-block" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
                                 Detalles
                             </a>
                             <a href="contacto?producto=C-BLOCK" class="text-center bg-accent hover:bg-orange-600 text-white py-3 rounded-lg font-bold transition-colors shadow-md">
@@ -170,7 +170,7 @@ include 'includes/header.php';
                         <h3 class="text-xl font-bold text-primary mb-2">C-ONE X6 (1.8mm)</h3>
                         <p class="text-gray-600 text-sm mb-4 flex-grow">Cable delgado ideal para orificios pequeños en medidores y válvulas de paso.</p>
                         <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-c-one-x6.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
+                            <a href="/info/producto-sello-c-one-x6" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
                             <a href="contacto?producto=c-one-x6" class="block w-full text-center bg-accent hover:bg-orange-600 text-white font-bold py-2 rounded transition-colors shadow-sm text-xs">Cotizar</a>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ include 'includes/header.php';
                         <h3 class="text-xl font-bold text-primary mb-2">C-ONE 116 (Aluminio)</h3>
                         <p class="text-gray-600 text-sm mb-4 flex-grow">Cuerpo de aluminio anodizado. Excelente para intemperie y resistencia a la oxidación.</p>
                         <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-c-one-116.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
+                            <a href="/info/producto-sello-c-one-116" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
                             <a href="contacto?producto=c-one-116" class="text-center bg-accent hover:bg-orange-600 text-white py-2 rounded font-bold text-xs">Cotizar</a>
                         </div>
                     </div>
@@ -198,7 +198,7 @@ include 'includes/header.php';
                         <h3 class="text-xl font-bold text-primary mb-2">C-ONE 332 (2.3mm)</h3>
                         <p class="text-gray-600 text-sm mb-4 flex-grow">Cable intermedio para aplicaciones que requieren mayor tensión de ruptura.</p>
                         <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-c-one-332.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
+                            <a href="/info/producto-sello-c-one-332" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
                             <a href="contacto?producto=c-one-332" class="text-center bg-accent hover:bg-orange-600 text-white py-2 rounded font-bold text-xs">Cotizar</a>
                         </div>
                     </div>
@@ -213,7 +213,7 @@ include 'includes/header.php';
                         <h3 class="text-xl font-bold text-primary mb-2">Serie K (Aluminio)</h3>
                         <p class="text-gray-600 text-sm mb-4 flex-grow">La gama completa de aluminio anodizado. Modelos 116 y 332 con máxima durabilidad.</p>
                         <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-k-series.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
+                            <a href="/info/producto-sello-k-series" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
                             <a href="contacto?producto=Serie-K" class="text-center bg-accent hover:bg-orange-600 text-white py-2 rounded font-bold text-xs">Cotizar</a>
                         </div>
                     </div>
@@ -228,7 +228,7 @@ include 'includes/header.php';
                         <h3 class="text-xl font-bold text-primary mb-2">Rotaseal (Medidores)</h3>
                         <p class="text-gray-600 text-sm mb-4 flex-grow">Especial para medidores de luz/agua y taxímetros. Cuerpo transparente y cable fino.</p>
                         <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-rotaseal.php" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
+                            <a href="/info/producto-sello-rotaseal" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
                             <a href="contacto?producto=Rotaseal" class="text-center bg-accent hover:bg-orange-600 text-white py-2 rounded font-bold text-xs">Cotizar</a>
                         </div>
                     </div>
@@ -255,7 +255,7 @@ include 'includes/header.php';
                     <h3 class="text-lg font-bold text-primary mb-2">Quantum (8", 12", 16")</h3>
                     <p class="text-sm text-gray-500 mb-4">Inserto metálico de seguridad. Resistencia 45kg.</p>
                     <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-precinto-quantum.php" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="/info/producto-precinto-quantum" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
                         <a href="contacto?producto=quantum" class="bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
                     </div>
                 </div>
@@ -269,7 +269,7 @@ include 'includes/header.php';
                     <p class="text-sm text-gray-500 mb-4">Cola de Rata 2.5mm | Mayor tracción.</p>
                     
                     <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-quantum-r12.php" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="/info/producto-quantum-r12" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
                         <a href="contacto?producto=quantum-r12" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
                     </div>
                 </div>
@@ -282,7 +282,7 @@ include 'includes/header.php';
                     <p class="text-sm text-gray-500 mb-4">45cm para bolsas grandes y tambores.</p>
                     
                     <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-quantum-r18.php" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="/info/producto-quantum-r18" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
                         <a href="contacto?producto=quantum-r18" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
                     </div>
                 </div>
@@ -353,12 +353,12 @@ include 'includes/header.php';
   "@context": "https://schema.org",
   "@type": "ItemList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Star One Seal - ISO 17712", "url": "https://controlone.com.mx/info/producto-sello-botella-star-one.php" },
-    { "@type": "ListItem", "position": 2, "name": "C-ONE 316 - Cable Alta Seguridad", "url": "https://controlone.com.mx/info/producto-sello-cable-acero.php" },
-    { "@type": "ListItem", "position": 3, "name": "C-ONE 180 - Cable Intermedio", "url": "https://controlone.com.mx/info/producto-sello-c-one-180.php" },
-    { "@type": "ListItem", "position": 4, "name": "C-BLOCK - Inoxidable Premium", "url": "https://controlone.com.mx/info/producto-sello-c-block.php" },
-    { "@type": "ListItem", "position": 5, "name": "Serie K - Aluminio", "url": "https://controlone.com.mx/info/producto-sello-k-series.php" },
-    { "@type": "ListItem", "position": 6, "name": "Rotaseal - Medidores", "url": "https://controlone.com.mx/info/producto-sello-rotaseal.php" }
+    { "@type": "ListItem", "position": 1, "name": "Star One Seal - ISO 17712", "url": "https://controlone.com.mx/info/producto-sello-botella-star-one" },
+    { "@type": "ListItem", "position": 2, "name": "C-ONE 316 - Cable Alta Seguridad", "url": "https://controlone.com.mx/info/producto-sello-cable-acero" },
+    { "@type": "ListItem", "position": 3, "name": "C-ONE 180 - Cable Intermedio", "url": "https://controlone.com.mx/info/producto-sello-c-one-180" },
+    { "@type": "ListItem", "position": 4, "name": "C-BLOCK - Inoxidable Premium", "url": "https://controlone.com.mx/info/producto-sello-c-block" },
+    { "@type": "ListItem", "position": 5, "name": "Serie K - Aluminio", "url": "https://controlone.com.mx/info/producto-sello-k-series" },
+    { "@type": "ListItem", "position": 6, "name": "Rotaseal - Medidores", "url": "https://controlone.com.mx/info/producto-sello-rotaseal" }
   ]
 }
 </script>
