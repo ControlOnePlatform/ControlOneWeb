@@ -1,14 +1,14 @@
 <?php
-// includes/data_blog.php - BASE DE DATOS CON INTERLINKING (Imágenes Originales Respetadas)
+// includes/data_blog.php - BASE DE DATOS OPTIMIZADA (5 Categorías Maestras)
 
 $blog_posts = [
-    // 1. GUÍA GENERAL
+    // 1. GUÍA GENERAL -> GUÍAS TÉCNICAS
     'guia-2025-que-precinto-seguridad-elegir' => [
         'titulo'           => 'Guía 2025: ¿Qué Precinto de Seguridad elegir para tu carga?',
         'meta_description' => '¿Dudas entre sellos de plástico, cable o botella? Aprende a elegir el precinto correcto según la norma ISO 17712 y evita robos en tu carga.',
         'autor'            => 'Equipo Control One',
         'fecha'            => '2025-11-26',
-        'categoria'        => 'Guías Técnicas',
+        'categoria'        => 'Guías Técnicas y Tutoriales', // CAT 1
         'imagen'           => 'assets/img/blog/sellos.avif', 
         'extracto'         => 'No todos los sellos son iguales. Aprende a elegir entre precintos indicativos, de cable y de alta seguridad ISO 17712 para evitar robos y cumplir con aduanas.',
         'contenido'        => '
@@ -18,7 +18,7 @@ $blog_posts = [
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">1. Clasificación ISO 17712: La Regla de Oro</h2>
             <p class="mb-4">
-                Antes de comprar, debes conocer la norma. La organización ISO clasifica los sellos en tres niveles de resistencia física. (Para entender a fondo la certificación, lee nuestro artículo sobre la <a href="post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline font-bold">Norma ISO 17712 y C-TPAT aquí</a>).
+                Antes de comprar, debes conocer la norma. La organización ISO clasifica los sellos en tres niveles de resistencia física. (Para entender a fondo la certificación, lee nuestro artículo sobre la <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline font-bold">Norma ISO 17712 y C-TPAT aquí</a>).
             </p>
             
             <div class="overflow-x-auto mb-8 shadow-sm rounded-lg">
@@ -52,15 +52,15 @@ $blog_posts = [
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">2. Sellos Indicativos de Plástico: Control Visual</h2>
             <p class="mb-4">
-                No están diseñados para impedir el acceso físico, sino para <strong>evidenciarlo</strong>. Son ideales para logística inversa, cajas de plástico (totes) y carros de servicio. (Para cajas de cartón, te recomendamos usar <a href="post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">Etiquetas de Seguridad VOID</a>).
+                No están diseñados para impedir el acceso físico, sino para <strong>evidenciarlo</strong>. Son ideales para logística inversa, cajas de plástico (totes) y carros de servicio. (Para cajas de cartón, te recomendamos usar <a href="/post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">Etiquetas de Seguridad VOID</a>).
             </p>
             <p class="mb-4">
-                Nuestro modelo estrella, el <a href="productos#plasticos" class="text-accent hover:underline font-bold">Quantum 12"</a>, cuenta con un inserto metálico en la cerradura. Esto impide que el sello sea abierto con calor y vuelto a cerrar.
+                Nuestro modelo estrella, el <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum 12"</a>, cuenta con un inserto metálico en la cerradura. Esto impide que el sello sea abierto con calor y vuelto a cerrar.
             </p>
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">3. Sellos Metálicos y de Cable: Versatilidad</h2>
             <p class="mb-4">
-                Si tu transporte es terrestre (camiones torton, cajas secas, pipas), necesitas algo más fuerte que el plástico pero flexible. Revisa nuestra guía completa sobre <a href="post/sellos-seguridad-para-camiones-transporte" class="text-accent hover:underline font-bold">Sellos para Camiones y Transporte</a>.
+                Si tu transporte es terrestre (camiones torton, cajas secas, pipas), necesitas algo más fuerte que el plástico pero flexible. Revisa nuestra guía completa sobre <a href="/post/sellos-seguridad-para-camiones-transporte" class="text-accent hover:underline font-bold">Sellos para Camiones y Transporte</a>.
             </p>
             <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                 <li><strong>Para Válvulas:</strong> Usa cables delgados (1.5mm) como el <strong>C-ONE X6</strong>.</li>
@@ -70,19 +70,19 @@ $blog_posts = [
             <div class="bg-blue-50 border-l-4 border-accent p-6 my-8 rounded-r-lg">
                 <h3 class="font-bold text-primary mb-2">¿Vas a exportar a USA?</h3>
                 <p class="text-sm">
-                    La aduana americana (CBP) exige obligatoriamente un sello certificado <strong>"H" (High Security)</strong>. Asegúrate de elegir el correcto consultando nuestra <a href="post/precintos-seguridad-contenedores-c-tpat-iso-17712" class="text-accent hover:underline font-bold">Comparativa C-TPAT</a>.
+                    La aduana americana (CBP) exige obligatoriamente un sello certificado <strong>"H" (High Security)</strong>. Asegúrate de elegir el correcto consultando nuestra <a href="/post/precintos-seguridad-contenedores-c-tpat-iso-17712" class="text-accent hover:underline font-bold">Comparativa C-TPAT</a>.
                 </p>
             </div>
         '
     ],
 
-    // 2. TUTORIAL CABLE
+    // 2. TUTORIAL CABLE -> GUÍAS TÉCNICAS
     'como-colocar-sello-seguridad-cable-correctamente' => [
         'titulo'           => 'Cómo colocar un Sello de Cable Ajustable correctamente (Guía Técnica)',
         'meta_description' => 'Un sello de cable mal puesto es un riesgo. Tutorial paso a paso para colocar precintos ajustables con la técnica del Tirón Seco y evitar manipulaciones.',
         'autor'            => 'Ingeniería Control One',
         'fecha'            => '2025-11-27',
-        'categoria'        => 'Tutoriales',
+        'categoria'        => 'Guías Técnicas y Tutoriales', // CAT 1
         'imagen'           => 'assets/img/blog/sello-tipo-cable.avif',
         'extracto'         => 'Un sello de cable mal ajustado es un riesgo de seguridad. Aprende la técnica del "Tirón Seco" y cómo evitar la manipulación en válvulas y puertas.',
         'contenido'        => '
@@ -101,7 +101,7 @@ $blog_posts = [
                     <div class="flex-shrink-0 h-10 w-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg">1</div>
                     <div class="ml-4">
                         <h4 class="text-lg font-bold text-primary">Inserción Limpia</h4>
-                        <p class="text-gray-600">Pasa la punta del cable a través del mecanismo de cierre. Asegúrate de que no haya grasa o aceite en el cable (común en <a href="post/sellos-seguridad-valvulas-pipas-gas" class="text-accent hover:underline">pipas y válvulas</a>), ya que esto podría facilitar su deslizamiento inverso.</p>
+                        <p class="text-gray-600">Pasa la punta del cable a través del mecanismo de cierre. Asegúrate de que no haya grasa o aceite en el cable (común en <a href="/post/sellos-seguridad-valvulas-pipas-gas" class="text-accent hover:underline">pipas y válvulas</a>), ya que esto podría facilitar su deslizamiento inverso.</p>
                     </div>
                 </div>
                 <div class="flex">
@@ -127,13 +127,13 @@ $blog_posts = [
         '
     ],
 
-    // 3. CAMIONES
+    // 3. CAMIONES -> LOGÍSTICA Y TRANSPORTE
     'sellos-seguridad-para-camiones-transporte' => [
         'titulo'           => 'Los Mejores Sellos de Seguridad para Camiones y Transporte Terrestre',
         'meta_description' => '¿Torton, Rabón o Caja Seca? Descubre qué sellos de seguridad (metal, cable o plástico) necesitas para evitar el robo hormiga en carreteras de México.',
         'autor'            => 'Equipo Control One',
         'fecha'            => '2025-11-27',
-        'categoria'        => 'Logística Terrestre',
+        'categoria'        => 'Logística y Transporte de Carga', // CAT 2
         'imagen'           => 'assets/img/blog/vista-trasera-camion.avif',
         'extracto'         => '¿Torton, Rabón o Caja Seca? Descubre qué sello necesitas para cada tipo de camión y evita el robo hormiga en carreteras nacionales.',
         'contenido'        => '
@@ -141,14 +141,14 @@ $blog_posts = [
                 El transporte terrestre en México enfrenta retos únicos: vibración extrema, intentos de robo en paradas no autorizadas y manipulación de puertas. Un candado normal no basta.
             </p>
 
-            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">1. Cajas Secas y Tráileres: La Banda Metálica</h2>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">1. Cajas Secas y Tráileres: El Sello de Botella</h2>
             <p class="mb-4">
-                Para rutas nacionales, el <a href="productos#metalicos" class="text-accent hover:underline font-bold">Sello Metálico GL</a> es el rey indiscutible.
+                Para rutas fiscales y nacionales, el <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Star One Seal</a> (Sello de Clavo) es la opción más robusta y confiable.
             </p>
             <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                <li><strong>Resistencia:</strong> Cuerpo de acero galvanizado plano.</li>
-                <li><strong>Auditoría Auditiva:</strong> Cuenta con un mecanismo de "cascabel". Si agitas el sello y no suena, ha sido manipulado o pegado.</li>
-                <li><strong>Costo-Beneficio:</strong> Es la opción más económica que ofrece seguridad real (no indicativa).</li>
+                <li><strong>Alta Seguridad:</strong> Certificado ISO 17712 "H". Resiste más de 1,000 kg de tensión.</li>
+                <li><strong>Anti-Giro (Anti-Spin):</strong> Su diseño de ranuras impide que el sello gire a alta velocidad, bloqueando intentos de apertura por fricción.</li>
+                <li><strong>Evidencia Visual:</strong> El recubrimiento de ABS muestra marcas claras de estrés si intentan golpearlo o manipularlo químicamente.</li>
             </ul>
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">2. Pipas y Válvulas: El Reto del Espacio</h2>
@@ -156,7 +156,7 @@ $blog_posts = [
                 Asegurar una pipa de combustible o químicos es diferente. Los orificios de las válvulas son pequeños (menos de 3mm). Aquí, un sello de plástico se rompe con el calor y uno de perno no entra.
             </p>
             <p class="mb-4">
-                La solución técnica es el <strong>C-ONE X6</strong> o el <strong>C-ONE 116</strong>. (Conoce más en nuestro artículo sobre <a href="post/sellos-seguridad-valvulas-pipas-gas" class="text-accent hover:underline">seguridad para válvulas y pipas</a>).
+                La solución técnica es el <strong>C-ONE X6</strong> o el <strong>C-ONE 116</strong>. (Conoce más en nuestro artículo sobre <a href="/post/sellos-seguridad-valvulas-pipas-gas" class="text-accent hover:underline">seguridad para válvulas y pipas</a>).
             </p>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div class="bg-gray-50 p-4 rounded border border-gray-200">
@@ -171,18 +171,18 @@ $blog_posts = [
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">3. Camionetas de Reparto (Última Milla)</h2>
             <p class="mb-4">
-                Para el reparto urbano, la velocidad es clave. El chofer necesita romper el sello rápido para entregar. Aquí recomendamos el <a href="productos#plasticos" class="text-accent hover:underline font-bold">Quantum 12"</a> o el uso de <a href="post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">Cintillos de Seguridad</a>.
+                Para el reparto urbano, la velocidad es clave. El chofer necesita romper el sello rápido para entregar. Aquí recomendamos el <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum 12"</a> o el uso de <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">Cintillos de Seguridad</a>.
             </p>
         '
     ],
 
-    // 4. TUTORIAL CLAVO
+    // 4. TUTORIAL CLAVO -> GUÍAS TÉCNICAS
     'como-aplicar-sello-botella-clavo-contenedor' => [
         'titulo'           => 'Cómo aplicar un Sello de Clavo (Botella) en un Contenedor para C-TPAT',
         'meta_description' => 'Evita multas en aduana. Aprende el proceso VVTT (View, Verify, Tug, Twist) para colocar sellos de botella ISO 17712 en contenedores de exportación.',
         'autor'            => 'Ingeniería Control One',
         'fecha'            => '2025-11-27',
-        'categoria'        => 'Normatividad',
+        'categoria'        => 'Guías Técnicas y Tutoriales', // CAT 1
         'imagen'           => 'assets/img/blog/apicacion-sello-tipo-clavo.avif',
         'extracto'         => 'La correcta aplicación del sello de perno es vital para evitar el rechazo en aduana. Aprende a escuchar el "Click" de seguridad y verificar el mecanismo Anti-Spin.',
         'contenido'        => '
@@ -192,7 +192,7 @@ $blog_posts = [
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Estándar VVTT (View, Verify, Tug, Twist)</h2>
             <p class="mb-4">
-                Para cumplir con los estándares C-TPAT, sigue este proceso de inspección y colocación. (Si tienes dudas sobre qué sellos comprar, revisa nuestra <a href="post/precintos-seguridad-contenedores-c-tpat-iso-17712" class="text-accent hover:underline">comparativa de precintos C-TPAT</a>).
+                Para cumplir con los estándares C-TPAT, sigue este proceso de inspección y colocación. (Si tienes dudas sobre qué sellos comprar, revisa nuestra <a href="/post/precintos-seguridad-contenedores-c-tpat-iso-17712" class="text-accent hover:underline">comparativa de precintos C-TPAT</a>).
             </p>
             
             <h3 class="text-xl font-bold text-dark mt-6 mb-2">1. View (Inspeccionar)</h3>
@@ -212,18 +212,18 @@ $blog_posts = [
 
             <h3 class="text-xl font-bold text-dark mt-6 mb-2">4. Twist (Girar - Prueba Anti-Spin)</h3>
             <p class="mb-4 text-gray-700">
-                Gira el sello. Los sellos de alta tecnología como el <strong>Star One</strong> tienen muescas que impiden que el sello gire libremente a alta velocidad. Si gira demasiado suave o rápido, desconfía: puede no cumplir con la <a href="post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline">Norma ISO 17712</a>.
+                Gira el sello. Los sellos de alta tecnología como el <strong>Star One</strong> tienen muescas que impiden que el sello gire libremente a alta velocidad. Si gira demasiado suave o rápido, desconfía: puede no cumplir con la <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline">Norma ISO 17712</a>.
             </p>
         '
     ],
 
-    // 5. NORMATIVA ISO 17712
+    // 5. NORMATIVA -> NORMATIVIDAD
     'norma-iso-17712-c-tpat-explicada' => [
         'titulo'           => 'Todo lo que debes saber de la Norma ISO 17712 y C-TPAT',
         'meta_description' => '¿Qué es un sello "H"? Explicación sencilla de la norma ISO 17712:2013 y los requisitos C-TPAT obligatorios para exportar carga a Estados Unidos.',
         'autor'            => 'Control One Certificaciones',
         'fecha'            => '2025-11-27',
-        'categoria'        => 'Normatividad',
+        'categoria'        => 'Normatividad y Aduanas', // CAT 3
         'imagen'           => 'assets/img/bodega-control-one-sellos-seguridad.avif',
         'extracto'         => '¿Tu carga puede ser rechazada en la frontera? Entiende las 3 clasificaciones de la norma ISO 17712:2013 y por qué el sello "H" es obligatorio para exportar.',
         'contenido'        => '
@@ -239,11 +239,11 @@ $blog_posts = [
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                 <div class="bg-green-50 p-4 rounded-lg border border-green-200">
                     <h4 class="font-bold text-green-800 text-lg mb-2">1. Indicativos (I)</h4>
-                    <p class="text-sm text-gray-700">Fáciles de romper manualmente. Su función es solo mostrar evidencia visual de apertura. <br><em>Ej: <a href="post/cintillos-seguridad-evitar-robo-hormiga" class="text-green-700 hover:underline">Cintillos de plástico</a>.</em></p>
+                    <p class="text-sm text-gray-700">Fáciles de romper manualmente. Su función es solo mostrar evidencia visual de apertura. <br><em>Ej: <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-green-700 hover:underline">Cintillos de plástico</a>.</em></p>
                 </div>
                 <div class="bg-orange-50 p-4 rounded-lg border border-orange-200">
                     <h4 class="font-bold text-orange-800 text-lg mb-2">2. Seguridad (S)</h4>
-                    <p class="text-sm text-gray-700">Resistencia media. Requieren herramientas ligeras para abrirse. <br><em>Ej: <a href="post/sellos-seguridad-para-camiones-transporte" class="text-orange-700 hover:underline">Sellos de cable delgado</a>.</em></p>
+                    <p class="text-sm text-gray-700">Resistencia media. Requieren herramientas ligeras para abrirse. <br><em>Ej: <a href="/post/sellos-seguridad-para-camiones-transporte" class="text-orange-700 hover:underline">Sellos de cable delgado</a>.</em></p>
                 </div>
                 <div class="bg-primary p-4 rounded-lg border border-gray-800 text-white shadow-lg transform scale-105">
                     <h4 class="font-bold text-accent text-lg mb-2">3. Alta Seguridad (H)</h4>
@@ -264,19 +264,19 @@ $blog_posts = [
                 En Control One, sometemos nuestros productos a pruebas de laboratorio para garantizar el cumplimiento.
             </p>
             <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                <li><strong><a href="contacto?producto=Star-One" class="text-accent hover:underline font-bold">Star One Seal:</a></strong> Sello de perno (botella) con mecanismo anti-giro. (Ver <a href="post/como-aplicar-sello-botella-clavo-contenedor" class="text-accent hover:underline">tutorial de aplicación</a>).</li>
-                <li><strong><a href="contacto?producto=C-One-316" class="text-accent hover:underline font-bold">C-ONE 316:</a></strong> Sello de cable de 4.7mm que se destrenza al corte.</li>
+                <li><strong><a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold" title="Ver Ficha Técnica Star One">Star One Seal:</a></strong> Sello de perno (botella) con mecanismo anti-giro. (Ver <a href="/post/como-aplicar-sello-botella-clavo-contenedor" class="text-accent hover:underline">tutorial de aplicación</a>).</li>
+                <li><strong><a href="/info/producto-sello-cable-acero" class="text-accent hover:underline font-bold" title="Ver Ficha Técnica C-ONE 316">C-ONE 316:</a></strong> Sello de cable de 4.7mm que se destrenza al corte.</li>
             </ul>
         '
     ],
 
-    // 6. VÁLVULAS Y PIPAS
+    // 6. PIPAS -> CONTROL DE FLUIDOS
     'sellos-seguridad-valvulas-pipas-gas' => [
         'titulo'           => 'Seguridad en Válvulas: ¿Cómo evitar el robo hormiga en Pipas y Tanques?',
         'meta_description' => 'El robo de combustible empieza en la válvula. Conoce los sellos de cable delgado (1/16") diseñados para asegurar pipas, domos y tanques de químicos.',
         'autor'            => 'Ingeniería Control One',
         'fecha'            => '2025-12-01',
-        'categoria'        => 'Logística de Fluidos',
+        'categoria'        => 'Control de Fluidos y Energía', // CAT 4
         'imagen'           => 'assets/img/blog/sello-tipo-cable-aplicacion.avif',
         'extracto'         => 'El robo de combustible y químicos comienza en la válvula. Descubre qué sellos de seguridad caben en orificios pequeños y resisten la intemperie.',
         'contenido'        => '
@@ -289,7 +289,7 @@ $blog_posts = [
                 La mayoría de las manivelas de válvulas de descarga tienen orificios de bloqueo muy pequeños (menores a 3mm). Intentar forzar un sello de plástico estándar (cola de rata) suele romper el sello o dejarlo inoperable.
             </p>
             <p class="mb-4">
-                <strong>La solución:</strong> Sellos de cable de acero trenzado de bajo calibre. Para asegurar su efectividad, sigue nuestra <a href="post/como-colocar-sello-seguridad-cable-correctamente" class="text-accent hover:underline">guía de instalación de sellos de cable</a>.
+                <strong>La solución:</strong> Sellos de cable de acero trenzado de bajo calibre. Para asegurar su efectividad, sigue nuestra <a href="/post/como-colocar-sello-seguridad-cable-correctamente" class="text-accent hover:underline">guía de instalación de sellos de cable</a>.
             </p>
 
             <div class="bg-gray-100 p-5 rounded-lg mb-6 border-l-4 border-accent">
@@ -305,24 +305,24 @@ $blog_posts = [
             <ol class="list-decimal pl-6 mb-6 space-y-4 text-gray-700">
                 <li><strong>Domo Superior:</strong> Es el punto más común de ordeña. Al estar expuesto al sol y lluvia, requiere un sello metálico como el <strong>C-ONE 116</strong>, ya que el plástico se cristaliza y rompe con el sol UV.</li>
                 <li><strong>Válvula de Descarga:</strong> Requiere un sello muy ajustado (Tirón Seco) para evitar que la manivela gire ni un milímetro.</li>
-                <li><strong>Caja de Válvulas:</strong> Si tu pipa tiene gabinete, puedes usar un sello indicativo de plástico como el <a href="productos#plasticos" class="text-accent hover:underline font-bold">Quantum 12"</a> para control visual rápido.</li>
+                <li><strong>Caja de Válvulas:</strong> Si tu pipa tiene gabinete, puedes usar un sello indicativo de plástico como el <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum 12"</a> para control visual rápido.</li>
             </ol>
 
             <div class="mt-8 text-center">
-                <a href="contacto?producto=C-One-116" class="inline-block bg-primary text-white px-8 py-3 rounded font-bold hover:bg-blue-900 transition-colors shadow-lg">
+                <a href="/info/producto-sello-c-one-116" class="inline-block bg-primary text-white px-8 py-3 rounded font-bold hover:bg-blue-900 transition-colors shadow-lg">
                     Cotizar Sellos para Pipas
                 </a>
             </div>
         '
     ],
 
-    // 7. CINTILLOS
+    // 7. CINTILLOS -> PREVENCIÓN DE PÉRDIDAS
     'cintillos-seguridad-evitar-robo-hormiga' => [
         'titulo'           => 'Cintillos de Seguridad: La solución económica contra el Robo Hormiga',
         'meta_description' => '¿Pierdes mercancía en trayectos cortos? Descubre cómo los cintillos de seguridad foliados y cinchos de plástico evitan el robo hormiga en cajas y camionetas.',
         'autor'            => 'Equipo Control One',
         'fecha'            => '2025-12-03',
-        'categoria'        => 'Prevención de Pérdidas',
+        'categoria'        => 'Prevención de Pérdidas y Retail', // CAT 5
         'imagen'           => 'assets/img/blog/auditoria-sellos-de-seguridad.avif',
         'extracto'         => 'El robo hormiga representa el 30% de las pérdidas logísticas. Aprende a usar cintillos de seguridad foliados para blindar cajas de herramientas, botiquines y transporte retail.',
         'contenido'        => '
@@ -332,10 +332,10 @@ $blog_posts = [
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Qué es un Cintillo de Seguridad?</h2>
             <p class="mb-4">
-                A diferencia de un cincho de ferretería común que cualquiera puede comprar y reemplazar, un <strong>cintillo de seguridad</strong> (como nuestro modelo <a href="/productos#plasticos" class="text-accent hover:underline font-bold">Quantum</a>) cuenta con un <strong>folio único e irrepetible</strong> grabado con láser.
+                A diferencia de un cincho de ferretería común que cualquiera puede comprar y reemplazar, un <strong>cintillo de seguridad</strong> (como nuestro modelo <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum</a>) cuenta con un <strong>folio único e irrepetible</strong> grabado con láser.
             </p>
             <p class="mb-4">
-                Si un operador corta el cintillo para sustraer un producto, no podrá reemplazarlo por uno igual, dejando evidencia inmediata del delito. Para valores monetarios o documentos, recomendamos ver nuestra solución para <a href="post/sellos-seguridad-bolsas-dinero-transporte-valores" class="text-accent hover:underline">Transporte de Valores</a>.
+                Si un operador corta el cintillo para sustraer un producto, no podrá reemplazarlo por uno igual, dejando evidencia inmediata del delito. Para valores monetarios o documentos, recomendamos ver nuestra solución para <a href="/post/sellos-seguridad-bolsas-dinero-transporte-valores" class="text-accent hover:underline">Transporte de Valores</a>.
             </p>
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">3 Usos Críticos en tu Operación</h2>
@@ -350,7 +350,7 @@ $blog_posts = [
                 </div>
                 <div class="bg-gray-50 p-4 rounded border-l-4 border-accent">
                     <h4 class="font-bold text-primary">3. Camionetas de Reparto</h4>
-                    <p class="text-sm text-gray-600">Sella las puertas traseras en cada parada. (Para sellar cajas de cartón, revisa nuestras <a href="post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">Etiquetas VOID</a>). </p>
+                    <p class="text-sm text-gray-600">Sella las puertas traseras en cada parada. (Para sellar cajas de cartón, revisa nuestras <a href="/post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">Etiquetas VOID</a>). </p>
                 </div>
             </div>
 
@@ -361,13 +361,13 @@ $blog_posts = [
         '
     ],
 
-    // 8. ETIQUETAS VOID
+    // 8. VOID -> PREVENCIÓN DE PÉRDIDAS
     'etiquetas-seguridad-void-cajas-carton' => [
         'titulo'           => 'Etiquetas de Seguridad VOID: ¿Cómo proteger cajas de cartón y sobres?',
         'meta_description' => 'Para lo que no se puede cerrar con candado. Conoce las etiquetas de seguridad VOID (Total Transfer) que dejan evidencia irreversible al despegarse de cajas y sobres.',
         'autor'            => 'Tecnología Control One',
         'fecha'            => '2025-12-04',
-        'categoria'        => 'Seguridad en Empaque',
+        'categoria'        => 'Prevención de Pérdidas y Retail', // CAT 5
         'imagen'           => 'assets/img/blog/violacion-de-cinta-secure-label.avif',
         'extracto'         => '¿Cómo aseguras una caja de cartón o un sobre confidencial? Las etiquetas VOID son la respuesta. Al intentar despegarse, revelan un mensaje oculto imposible de borrar.',
         'contenido'        => '
@@ -416,18 +416,18 @@ $blog_posts = [
         '
     ],
 
-    // 9. COMPARATIVA C-TPAT
+    // 9. C-TPAT -> NORMATIVIDAD
     'precintos-seguridad-contenedores-c-tpat-iso-17712' => [
         'titulo'           => 'Precintos de Seguridad para Contenedores: ¿Cuál cumple con C-TPAT en 2025?',
         'meta_description' => 'Guía técnica de precintos de seguridad para contenedores marítimos. Conoce las diferencias entre sellos de botella y cable, y cuál garantiza tu certificación C-TPAT.',
         'autor'            => 'Ingeniería Control One',
         'fecha'            => '2025-12-04',
-        'categoria'        => 'Alta Seguridad',
+        'categoria'        => 'Normatividad y Aduanas', // CAT 3
         'imagen'           => 'assets/img/blog/comparativa-c-tpat-iso-17772.avif', 
         'extracto'         => 'No arriesgues tu certificación C-TPAT. Analizamos los candados de seguridad tipo botella y cable de acero que cumplen con la norma ISO 17712 para exportación.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
-                La elección de <strong>precintos de seguridad</strong> para el comercio internacional no es opcional. Para exportar a Estados Unidos y Europa, tu carga debe estar blindada bajo la normativa <a href="post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline font-bold">ISO 17712:2013</a>.
+                La elección de <strong>precintos de seguridad</strong> para el comercio internacional no es opcional. Para exportar a Estados Unidos y Europa, tu carga debe estar blindada bajo la normativa <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline font-bold">ISO 17712:2013</a>.
             </p>
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Estándar de Oro: Candados Tipo Botella (Bolt Seals)</h2>
@@ -445,7 +445,7 @@ $blog_posts = [
                 Cuando las barras del contenedor están desalineadas o necesitas asegurar válvulas de pipas internacionales, los sellos rígidos no entran. Aquí, los <strong>precintos de cable ajustable</strong> como el <strong>C-ONE 316</strong> son la solución técnica.
             </p>
             <p class="mb-4">
-                A diferencia de un cable común, este precinto utiliza un cable de acero galvanizado trenzado que se "florea" al cortarse, haciendo imposible su reconstrucción. (Aprende a <a href="post/como-colocar-sello-seguridad-cable-correctamente" class="text-accent hover:underline">instalar sellos de cable aquí</a>).
+                A diferencia de un cable común, este precinto utiliza un cable de acero galvanizado trenzado que se "florea" al cortarse, haciendo imposible su reconstrucción. (Aprende a <a href="/post/como-colocar-sello-seguridad-cable-correctamente" class="text-accent hover:underline">instalar sellos de cable aquí</a>).
             </p>
 
             <div class="bg-gray-100 p-6 rounded-lg border border-gray-300 my-8">
@@ -459,20 +459,20 @@ $blog_posts = [
             </div>
 
             <div class="mt-8 text-center">
-                <a href="contacto?producto=Star-One" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-md">
+                <a href="/info/producto-sello-botella-star-one" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-md">
                     Cotizar Candados Certificados ISO 17712
                 </a>
             </div>
         '
     ],
 
-    // 10. SECTOR BANCARIO (Nuevo)
+    // 10. BANCARIO -> PREVENCIÓN DE PÉRDIDAS (o Podríamos crear "Alta Seguridad y Valores" si crece)
     'sellos-seguridad-bolsas-dinero-transporte-valores' => [
         'titulo'           => 'Transporte de Valores: ¿Cómo asegurar bolsas de dinero y documentos?',
         'meta_description' => 'Evita el robo interno en el manejo de efectivo. Conoce el sello C-CASH con sistema de agarre "spikes" diseñado para bolsas de lona y valijas bancarias.',
         'autor'            => 'Seguridad Bancaria Control One',
         'fecha'            => '2025-12-04',
-        'categoria'        => 'Alta Seguridad',
+        'categoria'        => 'Prevención de Pérdidas y Retail', // CAT 5 (Encaja bien aquí por ser robo interno)
         'imagen'           => 'assets/img/blog/sellos-de-seguridad-para-banco.avif', 
         'extracto'         => 'El traslado de efectivo requiere más que un simple cincho. Descubre por qué los bancos usan sellos con "dientes" para evitar que las bolsas de lona sean violadas.',
         'contenido'        => '
@@ -482,7 +482,7 @@ $blog_posts = [
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Problema de los Cinchos Comunes</h2>
             <p class="mb-4">
-                Un error grave es usar <a href="post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">cintillos de plástico lisos</a> para cerrar valijas o bolsas de dinero. Estos se pueden deslizar fácilmente sobre la tela de la bolsa sin dejar evidencia, permitiendo la sustracción de efectivo o documentos confidenciales.
+                Un error grave es usar <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">cintillos de plástico lisos</a> para cerrar valijas o bolsas de dinero. Estos se pueden deslizar fácilmente sobre la tela de la bolsa sin dejar evidencia, permitiendo la sustracción de efectivo o documentos confidenciales.
             </p>
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Solución: Tecnología de Agarre "Spikes"</h2>
@@ -511,18 +511,19 @@ $blog_posts = [
             </ul>
 
             <div class="mt-8 text-center">
-                <a href="contacto?producto=c-cash" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                <a href="/contacto?producto=c-cash" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
                     Cotizar Sellos Bancarios C-CASH
                 </a>
             </div>
         '
     ],
+    // 11. TEMPORADA -> LOGÍSTICA
     'seguridad-carga-temporada-alta-cierre-ano' => [
         'titulo' => 'Seguridad Logística en Temporada Alta: 5 Claves para Blindar tu Carga este Fin de Año',
         'slug' => 'seguridad-carga-temporada-alta-cierre-ano',
         'fecha' => '2025-12-05',
         'autor' => 'Equipo Control One',
-        'categoria' => 'Logística y Prevención',
+        'categoria' => 'Logística y Transporte de Carga', // CAT 2
         'imagen' => 'assets/img/blog/sello-tipo-clavo-contenedor.avif',
         'extracto' => 'Diciembre es el mes crítico para el robo de transporte de carga. Descubre las estrategias esenciales y los sellos de seguridad C-TPAT necesarios para proteger tus envíos durante el pico logístico de fin de año.',
         'seo_title' => 'Seguridad de Carga en Temporada Alta y Navidad | Control One',
@@ -562,14 +563,14 @@ $blog_posts = [
             <p>La temporada alta debe ser motivo de celebración por el aumento de ventas, no de preocupación por pérdidas. Invertir en sellos de seguridad certificados y reforzar tus protocolos ahora es la decisión financiera más inteligente para cerrar el año con éxito. <strong>Contáctanos hoy mismo si necesitas resurtir tu stock de emergencia.</strong></p>
         '
     ],
-    // 11. NUEVO: TOLVAS Y GRANEL (Estrategia Cable de Acero)
+    // 11. TOLVAS -> LOGÍSTICA
     'sellos-cable-acero-para-tolvas-y-pipas' => [
         'titulo'           => 'Seguridad en Tolvas y Pipas: ¿Por qué el Sello de Cable es obligatorio?',
         'meta_description' => 'Las tolvas graneleras y pipas tienen cierres irregulares. Descubre por qué los sellos de cable de acero ajustable son la única opción segura para evitar la merma de carga a granel.',
         'autor'            => 'Ingeniería Control One',
         'fecha'            => '2025-12-09',
-        'categoria'        => 'Logística a Granel',
-        'imagen'           => 'assets/img/blog/sellos-seguridad-para-tolvas-y-pipas-comparativa.avif', // Reusamos esta imagen que ya tienes
+        'categoria'        => 'Logística y Transporte de Carga', // CAT 2 (También podría ir en Fluidos si es líquida, pero Tolvas es carga)
+        'imagen'           => 'assets/img/blog/sellos-seguridad-para-tolvas-y-pipas-comparativa.avif', 
         'extracto'         => 'Asegurar una tolva granelera o una pipa no es igual que cerrar un contenedor. Los orificios desalineados requieren sellos flexibles pero indestructibles.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -603,7 +604,7 @@ $blog_posts = [
                 Depende del orificio de tu válvula o cerrojo:
             </p>
             <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                <li><strong>Orificios pequeños (< 3mm):</strong> Usa el <a href="contacto?producto=C-One-116" class="text-accent font-bold hover:underline">C-ONE 116</a> (1.5mm). Ideal para válvulas de descarga de pipas.</li>
+                <li><strong>Orificios pequeños (< 3mm):</strong> Usa el <a href="/info/producto-sello-c-one-116" class="text-accent font-bold hover:underline">C-ONE 116</a> (1.5mm). Ideal para válvulas de descarga de pipas.</li>
                 <li><strong>Uso rudo / Tolvas:</strong> Usa el <strong>C-ONE 316</strong> (4.7mm). Su grosor intimida y requiere cizallas grandes para retirarse.</li>
             </ul>
 
@@ -614,13 +615,13 @@ $blog_posts = [
             </div>
         '
     ],
-    // 12. NUEVO: MEDIDORES Y VÁLVULAS (Rotaseal y X6)
+    // 12. MEDIDORES -> CONTROL DE FLUIDOS
     'sellos-seguridad-medidores-valvulas' => [
         'titulo'           => 'Medidores y Válvulas: Cómo proteger el "Punto Ciego" del Robo',
         'meta_description' => 'Guía para proteger medidores de luz, agua, gas y válvulas pequeñas. Descubre por qué el Rotaseal y el Cable Fino (X6) son la solución.',
         'autor'            => 'Equipo Control One',
         'fecha'            => '2025-12-10',
-        'categoria'        => 'Control de Servicios',
+        'categoria'        => 'Control de Fluidos y Energía', // CAT 4
         'imagen'           => 'assets/img/blog/medidor-con-sello-seguridad.avif',
         'extracto'         => 'Asegurar un contenedor es fácil, pero ¿qué pasa con los orificios milimétricos de un medidor o una válvula pequeña? Aquí la solución.',
         'contenido'        => '
@@ -679,6 +680,83 @@ $blog_posts = [
                 <p class="mb-4 text-sm opacity-90">Tenemos stock inmediato de ambos modelos para envío a todo México.</p>
                 <a href="/contacto?asunto=Cotizacion+Medidores" class="inline-block bg-white text-primary font-bold py-2 px-6 rounded hover:bg-gray-100 transition-colors">
                     Solicitar Cotización
+                </a>
+            </div>
+        '
+    ],
+
+    // 13. INSPECCIÓN -> GUÍAS TÉCNICAS
+    'senales-manipulacion-sellos-seguridad' => [
+        'titulo'           => '¿Tu carga fue abierta? 5 Señales visuales de manipulación en Sellos de Seguridad',
+        'meta_description' => 'Aprende a realizar una auditoría visual a tus sellos. Detecta marcas de estrés (blanqueamiento), pegamento o cortes limpios que indican robo de carga.',
+        'autor'            => 'Auditoría Control One',
+        'fecha'            => '2025-12-17',
+        'categoria'        => 'Guías Técnicas y Tutoriales', // CAT 1
+        'imagen'           => 'assets/img/blog/inspeccion-visual-sellos.avif', 
+        'extracto'         => 'Los ladrones son cada vez más sofisticados. Aprende a detectar las "micro-señales" de violación en sellos de botella y cable que pasan desapercibidas a simple vista.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Colocar un sello de seguridad es solo la mitad del trabajo. La otra mitad es saber <strong>inspeccionarlo</strong> al llegar a destino. Muchos robos ocurren porque el personal de recibo simplemente "corta y tira" el sello sin revisarlo.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Evidencia Silenciosa</h2>
+            <p class="mb-4">
+                Un sello de alta calidad certificado ISO 17712 está diseñado para ser "chismoso": si alguien intenta abrirlo sin la herramienta correcta, el sello debe gritarlo visualmente. Aquí las 5 señales que debes buscar:
+            </p>
+
+            <div class="space-y-8 my-8">
+                
+                <div class="flex flex-col md:flex-row gap-4 bg-gray-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">1</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">Blanqueamiento por Estrés (Stress Whitening)</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Al intentar forzar un sello de plástico o recubierto de ABS (como el <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Star One Seal</a>), el material sufre fatiga. Busca manchas blancas irregulares alrededor del cuello del sello o en la cápsula de cierre. Esto indica que intentaron palanquearlo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-gray-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">2</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">Corte "Limpio" en Cable</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Si usas sellos de cable de acero como el <a href="/info/producto-sello-cable-acero" class="text-accent hover:underline font-bold">C-ONE 316</a>, revisa la punta. Nuestros cables son <strong>NPC (Non-Preformed)</strong>, lo que significa que al cortarse se "florean" (se abren los hilos). Si ves un cable cortado que se mantiene perfectamente unido en la punta, es probable que haya sido pegado con pegamento industrial (Kola Loka).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-gray-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">3</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">Giro Libre (Spinning)</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            En los sellos de botella, intenta girar el clavo dentro del barril. Debe sentirse resistencia o trabarse gracias a las aletas <strong>Anti-Spin</strong>. Si gira libremente a gran velocidad (como un balero), es posible que hayan usado un taladro de alta rotación para desgastar el mecanismo interno y abrirlo por fricción.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Qué hacer si detectas una anomalía?</h2>
+            <ol class="list-decimal pl-6 mb-6 space-y-2 text-gray-700">
+                <li><strong>NO ABRAS EL SELLO:</strong> Detén la operación inmediatamente.</li>
+                <li><strong>Toma Fotos:</strong> Fotografía el sello puesto, enfocando la marca de manipulación y el número de folio.</li>
+                <li><strong>Llama a Seguridad:</strong> Notifica al supervisor y a la aseguradora antes de descargar la mercancía.</li>
+                <li><strong>Custodia el Sello:</strong> Una vez cortado (con testigo), guarda las piezas en una bolsa de evidencia como prueba legal.</li>
+            </ol>
+
+            <div class="bg-primary text-white p-8 rounded-xl text-center mt-10 shadow-2xl">
+                <p class="text-lg font-medium mb-4">No esperes a que ocurra un robo</p>
+                <p class="text-sm opacity-80 mb-6">Conoce nuestra línea completa de sellos certificados y asegura tu operación hoy mismo.</p>
+                <a href="/productos" class="inline-block bg-accent hover:bg-orange-500 text-white font-bold py-3 px-8 rounded-lg transition-transform transform hover:-translate-y-1">
+                    Ver Catálogo de Productos
                 </a>
             </div>
         '

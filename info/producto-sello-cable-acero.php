@@ -13,7 +13,7 @@ include '../includes/header.php';
         <div class="container mx-auto px-4 text-sm text-gray-500">
             <a href="/" class="hover:text-primary">Inicio</a> <span class="mx-2">/</span>
             <a href="/productos" class="hover:text-primary">Catálogo</a> <span class="mx-2">/</span>
-            <span class="text-primary font-bold">Sello de Cable C-ONE</span>
+            <span class="text-primary font-bold">Sello de Cable C-ONE 316</span>
         </div>
     </div>
 
@@ -43,7 +43,7 @@ include '../includes/header.php';
                 </div>
 
                 <div class="lg:w-1/2">
-                    <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">C-ONE CABLE SEAL</h1>
+                    <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">C-ONE 316 CABLE SEAL</h1>
                     <p class="text-gray-500 text-lg mb-6">Sello Ajustable de Acero | Calibres 1/16" a 3/16"</p>
                     
                     <div class="prose text-gray-600 mb-8 text-sm leading-relaxed">
