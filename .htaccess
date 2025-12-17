@@ -20,8 +20,11 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
   AddType image/avif .avif
 </IfModule>
 
-# --- REGLAS ESPECÍFICAS (BLOG) ---
+# --- REGLAS ESPECÍFICAS ---
 # ¡ESTO DEBE IR ANTES DE LAS REGLAS GENÉRICAS!
+
+# >>> NUEVO: Mapa del sitio dinámico
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
 # Redirigir /blog a blog.php
 RewriteRule ^blog/?$ blog.php [L]
