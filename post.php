@@ -64,6 +64,60 @@ include 'includes/header.php';
                 <?php echo $post['contenido']; ?>
             </article>
 
+            <!-- SECCIÓN: Artículos Relacionados -->
+            <?php
+            // Lógica para encontrar posts relacionados
+            $related_posts = [];
+            $current_category = isset($post['categoria']) ? $post['categoria'] : '';
+
+            // 1. Buscamos posts de la misma categoría
+            foreach ($blog_posts as $slug_rel => $post_rel) {
+                // Sáltate el post actual
+                if ($slug_rel === $slug) continue;
+
+                if ($post_rel['categoria'] === $current_category) {
+                    $related_posts[$slug_rel] = $post_rel;
+                }
+                // Limitamos a 2 relacionados
+                if (count($related_posts) >= 2) break;
+            }
+
+            // 2. Si no llenamos con la misma categoría, rellenamos con cualquiera reciente
+            if (count($related_posts) < 2) {
+                foreach ($blog_posts as $slug_rel => $post_rel) {
+                    if ($slug_rel === $slug) continue;
+                    if (array_key_exists($slug_rel, $related_posts)) continue; // Ya está agregado
+
+                    $related_posts[$slug_rel] = $post_rel;
+                    if (count($related_posts) >= 2) break;
+                }
+            }
+            ?>
+
+            <?php if (!empty($related_posts)): ?>
+            <div class="mt-20 pt-10 border-t border-gray-200">
+                <h3 class="text-2xl font-bold text-gray-800 mb-8 border-l-4 border-accent pl-4">También te podría interesar:</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <?php foreach ($related_posts as $r_slug => $r_post): ?>
+                    <a href="/post/<?php echo $r_slug; ?>" class="group block bg-gray-50 rounded-xl overflow-hidden hover:shadow-lg transition-all border border-gray-100">
+                        <div class="flex items-center">
+                            <div class="w-1/3 h-24 relative overflow-hidden">
+                                <img src="/<?php echo $r_post['imagen']; ?>" alt="<?php echo $r_post['titulo']; ?>" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform">
+                            </div>
+                            <div class="w-2/3 p-4">
+                                <span class="text-xs text-accent font-bold uppercase mb-1 block"><?php echo $r_post['categoria']; ?></span>
+                                <h4 class="text-sm font-bold text-gray-800 group-hover:text-primary leading-tight">
+                                    <?php echo $r_post['titulo']; ?>
+                                </h4>
+                            </div>
+                        </div>
+                    </a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <?php endif; ?>
+
             <div class="mt-16 pt-10 border-t border-gray-200 text-center">
                 <h3 class="text-primary font-bold mb-6 text-xl">¿Necesitas asesoría técnica?</h3>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">

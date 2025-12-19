@@ -26,6 +26,9 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # >>> NUEVO: Mapa del sitio dinámico
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
+# >>> NUEVO: Canal RSS (Feed)
+RewriteRule ^feed\.xml$ feed.php [L]
+
 # Redirigir /blog a blog.php
 RewriteRule ^blog/?$ blog.php [L]
 

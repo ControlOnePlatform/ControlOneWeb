@@ -14,6 +14,9 @@
 
       gtag('config', 'G-06SRZZQG4J');
     </script>
+    
+    <!-- Metricool Tracker -->
+    <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"1666cf12de8dae1244b46e660221810c"})});</script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
