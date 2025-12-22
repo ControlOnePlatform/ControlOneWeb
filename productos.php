@@ -312,7 +312,10 @@ include 'includes/header.php';
                         Etiquetas autoadhesivas que revelan un mensaje oculto ("OPEN VOID") al intentar ser removidas. Imposibles de pegar nuevamente sin dejar rastro.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="contacto?producto=etiquetas-void" class="inline-flex justify-center items-center bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-lg font-bold transition-colors shadow-md">
+                        <a href="/info/producto-cinta-seguridad-void" class="inline-flex justify-center items-center border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-lg font-bold transition-colors shadow-md">
+                            Detalles
+                        </a>
+                        <a href="contacto?producto=etiquetas-void" class="inline-flex justify-center items-center bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-bold transition-colors shadow-md">
                             Cotizar Etiquetas
                         </a>
                     </div>

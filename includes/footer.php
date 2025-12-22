@@ -89,7 +89,7 @@
         </svg>
     </a>
     
-    <?php include 'includes/chatbot.php'; ?>
+    <?php include __DIR__ . '/chatbot.php'; ?>
     <!-- Metricool Tracker (Pixel Fallback) -->
     <noscript><img src="https://tracker.metricool.com/c3po.jpg?hash=1666cf12de8dae1244b46e660221810c" alt="tracker" width="1" height="1" style="display:none;" /></noscript>
 </body>

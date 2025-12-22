@@ -132,18 +132,18 @@ $blog_posts = [
         'titulo'           => 'Los Mejores Sellos de Seguridad para Camiones y Transporte Terrestre',
         'meta_description' => '¿Torton, Rabón o Caja Seca? Descubre qué sellos de seguridad (metal, cable o plástico) necesitas para evitar el robo hormiga en carreteras de México.',
         'autor'            => 'Equipo Control One',
-        'fecha'            => '2025-11-27',
-        'categoria'        => 'Logística y Transporte de Carga', // CAT 2
+        'fecha'            => '2025-12-19', // FECHA ACTUALIZADA PARA FRESHNESS
+        'categoria'        => 'Logística y Transporte de Carga',
         'imagen'           => 'assets/img/blog/vista-trasera-camion.avif',
         'extracto'         => '¿Torton, Rabón o Caja Seca? Descubre qué sello necesitas para cada tipo de camión y evita el robo hormiga en carreteras nacionales.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
-                El transporte terrestre en México enfrenta retos únicos: vibración extrema, intentos de robo en paradas no autorizadas y manipulación de puertas. Un candado normal no basta.
+                El transporte terrestre en México enfrenta retos únicos: vibración extrema, intentos de robo en paradas no autorizadas y manipulación de puertas. Un candado normal no basta para proteger la cadena de suministro.
             </p>
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">1. Cajas Secas y Tráileres: El Sello de Botella</h2>
             <p class="mb-4">
-                Para rutas fiscales y nacionales, el <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Star One Seal</a> (Sello de Clavo) es la opción más robusta y confiable.
+                Para rutas fiscales y nacionales, el <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Star One Seal</a> (conocido comúnmente como Sello de Clavo) es la opción más robusta y confiable.
             </p>
             <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                 <li><strong>Alta Seguridad:</strong> Certificado ISO 17712 "H". Resiste más de 1,000 kg de tensión.</li>
@@ -173,6 +173,39 @@ $blog_posts = [
             <p class="mb-4">
                 Para el reparto urbano, la velocidad es clave. El chofer necesita romper el sello rápido para entregar. Aquí recomendamos el <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum 12"</a> o el uso de <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">Cintillos de Seguridad</a>.
             </p>
+
+            <hr class="my-10 border-gray-200">
+
+            <h2 class="text-2xl font-bold text-primary mb-6">Preguntas Frecuentes sobre Sellos para Transporte</h2>
+            
+            <div class="space-y-6" itemscope itemtype="https://schema.org/FAQPage">
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="bg-gray-50 p-4 rounded-lg">
+                    <h3 itemprop="name" class="font-bold text-primary cursor-pointer text-lg mb-2">¿Qué sello de seguridad se usa para cajas de tráiler?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text" class="text-gray-600">
+                            Para cajas secas y refrigeradas en rutas nacionales o fiscales, la norma exige un <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">sello de botella (clavo)</a> certificado <strong>ISO 17712 Alta Seguridad (H)</strong>. Si exportas a USA, este sello es obligatorio para cumplir con C-TPAT.
+                        </div>
+                    </div>
+                </div>
+
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="bg-gray-50 p-4 rounded-lg">
+                    <h3 itemprop="name" class="font-bold text-primary cursor-pointer text-lg mb-2">¿Cuál es la diferencia entre precinto y marchamo?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text" class="text-gray-600">
+                            Son sinónimos. En México se usan indistintamente junto con "sello de seguridad". Sin embargo, técnicamente "marchamo" suele referirse más a sellos metálicos o de plomo antiguos, mientras que "precinto" abarca las nuevas tecnologías de plástico y cable de acero.
+                        </div>
+                    </div>
+                </div>
+                
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="bg-gray-50 p-4 rounded-lg">
+                    <h3 itemprop="name" class="font-bold text-primary cursor-pointer text-lg mb-2">¿Cómo evitar el robo hormiga en camiones de reparto?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text" class="text-gray-600">
+                            Para unidades de última milla que abren puertas constantemente, lo más eficiente son los <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline font-bold">cintillos de seguridad foliados</a> de plástico. Permiten un control visual rápido (romper y tirar) en cada entrega sin alentar la operación con herramientas pesadas.
+                        </div>
+                    </div>
+                </div>
+            </div>
         '
     ],
 
@@ -762,4 +795,10 @@ $blog_posts = [
         '
     ],
 ];
+// --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
+    // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
+    uasort($blog_posts, function($a, $b) {
+        return strtotime($b['fecha']) - strtotime($a['fecha']);
+    });
+
 ?>

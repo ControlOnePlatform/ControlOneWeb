@@ -200,6 +200,7 @@ include 'includes/data_blog.php';
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <?php 
+                // Asegurarse de que $blog_posts esté definido (viene de data_blog.php)
                 $ultimos_posts = isset($blog_posts) ? array_slice($blog_posts, 0, 3) : [];
                 
                 if (!empty($ultimos_posts)):
@@ -246,35 +247,80 @@ include 'includes/data_blog.php';
 
     <section class="py-16 bg-gray-50 border-t border-gray-200">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-            <h2 class="text-2xl font-bold text-primary mb-6 border-l-4 border-accent pl-4">
-                Todo sobre Sellos de Seguridad Industrial en México
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-700 text-sm leading-relaxed">
+            
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-primary mb-2">Todo sobre Sellos de Seguridad Industrial</h2>
+                <p class="text-gray-500">Glosario técnico y normativa vigente en México</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700 text-sm leading-relaxed">
+                
                 <div>
-                    <h3 class="font-bold text-primary mb-2">¿Qué son los Sellos de Seguridad?</h3>
-                    <p class="mb-4">
-                        Los <strong>sellos de seguridad</strong> (también conocidos como precintos o marchamos) son dispositivos de bloqueo utilizados para asegurar mercancías durante su almacenamiento o transporte. Su función principal no es solo cerrar una puerta, sino dejar <strong>evidencia clara e irreversible</strong> de cualquier intento de apertura no autorizada o manipulación.
-                    </p>
-                    <h3 class="font-bold text-primary mb-2">Tipos de Precintos según su Resistencia</h3>
-                    <p>
-                        La norma internacional <strong>ISO 17712</strong> clasifica los sellos en tres niveles:
-                    </p>
-                    <ul class="list-disc pl-5 mt-2 space-y-1">
-                        <li><strong>Indicativos (I):</strong> Plásticos o metálicos ligeros. Se rompen fácilmente con la mano o tijeras. Uso: Almacenes, botiquines, carros de servicio.</li>
-                        <li><strong>Seguridad (S):</strong> Requieren herramientas ligeras para romperse. Uso: Camiones de reparto, tolvas.</li>
-                        <li><strong>Alta Seguridad (H):</strong> Fabricados en acero. Soportan más de 1,000 kg de tensión. Uso obligatorio para <strong>C-TPAT</strong>, exportación, contenedores marítimos y ferrocarril.</li>
-                    </ul>
+                    <div class="mb-6">
+                        <h3 class="font-bold text-primary text-lg mb-2 flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            ¿Qué son los Sellos de Seguridad?
+                        </h3>
+                        <p class="mb-3 text-justify">
+                            Los <strong>sellos de seguridad</strong> (también conocidos técnicamente como <strong>precintos</strong> o coloquialmente en México como <strong>marchamos</strong>) son dispositivos auxiliares diseñados para evidenciar cualquier intento de apertura no autorizada en contenedores, válvulas o cajas.
+                        </p>
+                        <p class="text-justify bg-white p-3 rounded border-l-4 border-accent">
+                            <strong>Diferencia clave:</strong> A diferencia de un candado tradicional que busca <em>impedir</em> la entrada, el sello de seguridad busca <em>delatar</em> la intrusión mediante evidencia visual irreversible (rotura o marcas de estrés).
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-primary text-lg mb-2">Sinónimos Comunes en la Industria</h3>
+                        <ul class="list-disc pl-5 space-y-1 text-gray-600">
+                            <li><strong>Precintos:</strong> Término usado en normativa aduanera y logística internacional.</li>
+                            <li><strong>Marchamos:</strong> Término popular derivado de los antiguos sellos de plomo.</li>
+                            <li><strong>Candados Fiscales:</strong> Sellos de alta seguridad utilizados para rutas controladas por el SAT o Aduanas.</li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div>
-                    <h3 class="font-bold text-primary mb-2">Importancia en la Logística Mexicana</h3>
-                    <p class="mb-4">
-                        En México, el robo al transporte de carga en carreteras es un riesgo constante. El uso de <strong>sellos de seguridad de alta tecnología</strong> es la primera barrera de defensa. Un sello foliado y certificado permite mantener la "Cadena de Custodia", asegurando que el producto que salió de la fábrica es exactamente el mismo que recibe el cliente.
+                    <h3 class="font-bold text-primary text-lg mb-4 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        Tipos según Norma ISO 17712
+                    </h3>
+                    <p class="mb-4 text-gray-600">
+                        La norma internacional clasifica los sellos en 3 niveles de resistencia física:
                     </p>
-                    <h3 class="font-bold text-primary mb-2">¿Por qué elegir Control One?</h3>
-                    <p>
-                        Somos fabricantes directos. Esto nos permite ofrecer tiempos de entrega inmediatos en <strong>sellos de botella</strong>, cables de acero y cintillos de plástico a precios competitivos. Todos nuestros productos cumplen con las normativas internacionales vigentes para garantizar que tu carga cruce fronteras sin contratiempos.
-                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <span class="w-8 h-8 rounded-full bg-green-100 text-green-800 font-bold flex items-center justify-center text-xs">I</span>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="font-bold text-primary">Indicativos (Indicative)</h4>
+                                <p class="text-xs text-gray-600">Plásticos o metálicos ligeros. Se rompen manualmente. Uso: <a href="/productos#plasticos" class="text-accent hover:underline">Cintillos para extintores</a>, almacenes y retail.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <span class="w-8 h-8 rounded-full bg-yellow-100 text-yellow-800 font-bold flex items-center justify-center text-xs">S</span>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="font-bold text-primary">Seguridad (Security)</h4>
+                                <p class="text-xs text-gray-600">Resistencia media. Requieren herramientas ligeras. Uso: Camiones de reparto y tolvas nacionales.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <span class="w-8 h-8 rounded-full bg-primary text-white font-bold flex items-center justify-center text-xs">H</span>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="font-bold text-primary">Alta Seguridad (High Security)</h4>
+                                <p class="text-xs text-gray-600">Acero reforzado. Resisten >1,000 kg. <strong>Obligatorios para C-TPAT</strong>. Uso: <a href="/productos#alta-seguridad" class="text-accent hover:underline">Contenedores marítimos</a>, tráileres y exportación.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
