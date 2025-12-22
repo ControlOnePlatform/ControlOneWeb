@@ -1,5 +1,6 @@
 <?php 
 // SEO TÉCNICO: Título enfocado en intención de compra y variedad
+// ESTRATEGIA: Mantenemos "Marchamos" en el título, es vital.
 $page_title = "Catálogo de Sellos de Seguridad, Marchamos y Cintillos | Control One";
 $meta_description = "Catálogo 2025 de sellos de seguridad y marchamos. Venta de sellos de botella ISO 17712, precintos de cable de acero y cintillos de plástico. Envíos a todo México.";
 include 'includes/header.php'; 
@@ -18,8 +19,9 @@ include 'includes/header.php';
         </div>
         <div class="relative z-10 container mx-auto px-4">
             <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Catálogo de Sellos y Precintos</h1>
+            
             <p class="text-xl text-gray-200 max-w-3xl mx-auto mb-10">
-                Soluciones certificadas contra la manipulación de carga. Desde <strong>candados fiscales</strong> para contenedores hasta cintillos para logística interna.
+                Soluciones certificadas contra la manipulación de carga. Encuentra desde <strong>marchamos de seguridad</strong> y candados fiscales, hasta cintillos para logística interna.
             </p>
             
             <a href="assets/pdf/Catalogo.pdf" target="_blank" class="inline-flex items-center bg-accent hover:bg-orange-500 text-white px-8 py-4 rounded-md font-bold text-lg transition-all transform hover:-translate-y-1 shadow-lg group">
@@ -33,7 +35,9 @@ include 'includes/header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <span class="text-accent font-bold tracking-widest uppercase text-sm">Certificación ISO 17712 "H"</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-primary mt-2 mb-4">Sellos de Alta Seguridad</h2>
+                
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mt-2 mb-4">Sellos y Marchamos de Alta Seguridad</h2>
+                
                 <p class="text-gray-600 text-lg">
                     Dispositivos diseñados para resistir intentos de intrusión severos. Obligatorios para cumplimiento <strong>C-TPAT</strong> y exportación.
                 </p>
@@ -287,6 +291,45 @@ include 'includes/header.php';
                     </div>
                 </div>
 
+                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
+                        <img src="assets/img/sellos/sello-alli-one-anillo.avif" alt="ALLI-ONE" class="h-32 w-auto object-contain">
+                    </div>
+                    <h3 class="text-lg font-bold text-primary mb-2">ALLI-ONE (Anillo Fijo)</h3>
+                    <p class="text-sm text-gray-500 mb-4">Cierre fijo tipo camión. Sin ajuste.</p>
+                    
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="/info/producto-alli-one" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="contacto?producto=alli-one" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
+                        <img src="assets/img/sellos/sello-jumbo-seal-paleta-grande.avif" alt="Jumbo Seal" class="h-32 w-auto object-contain">
+                    </div>
+                    <h3 class="text-lg font-bold text-primary mb-2">JUMBO SEAL (Paleta XL)</h3>
+                    <p class="text-sm text-gray-500 mb-4">Placa de 10x5cm para etiquetas grandes.</p>
+                    
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="/info/producto-jumbo-seal" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="contacto?producto=jumbo-seal" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
+                        <img src="assets/img/sellos/sello-c-gas-l-candado.avif" alt="C-GAS L Candado" class="h-32 w-auto object-contain">
+                    </div>
+                    <h3 class="text-lg font-bold text-primary mb-2">C-GAS L (Candado)</h3>
+                    <p class="text-sm text-gray-500 mb-4">Especial para válvulas de gas y oxígeno.</p>
+                    
+                    <div class="grid grid-cols-2 gap-2">
+                        <a href="/info/producto-sello-c-gas" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
+                        <a href="contacto?producto=c-gas-l" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    </div>
+                </div>
+
             </div> </div>
     </section>
 
@@ -336,9 +379,14 @@ include 'includes/header.php';
                     <p class="text-gray-300 text-lg mb-8 leading-relaxed">
                         Sistema de agarre "spikes" que garantiza un cierre inamovible en bolsas de lona y valijas de dinero.
                     </p>
-                    <a href="contacto?producto=c-cash" class="inline-block bg-white text-primary hover:bg-gray-100 px-8 py-3 rounded-lg font-bold transition-colors shadow-lg">
-                        Cotizar C-CASH
-                    </a>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="/info/producto-sello-c-cash" class="inline-block border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-3 rounded-lg font-bold transition-colors shadow-lg text-center">
+                            Detalles
+                        </a>
+                        <a href="contacto?producto=c-cash" class="inline-block bg-white text-primary hover:bg-gray-100 px-8 py-3 rounded-lg font-bold transition-colors shadow-lg text-center">
+                            Cotizar C-CASH
+                        </a>
+                    </div>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
                     <div class="relative w-full max-w-md aspect-video bg-white/10 rounded-xl backdrop-blur-sm p-6 border border-white/20 shadow-2xl flex items-center justify-center">

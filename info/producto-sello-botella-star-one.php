@@ -1,7 +1,8 @@
 <?php 
 // AJUSTE DE RUTAS PARA CARPETA "INFO"
-$page_title = "Sello de Clavo y Botella de Alta Seguridad | Star One Seal | Control One";
-$meta_description = "Sello de clavo (botella) certificado ISO 17712. Perno de acero de 9mm de alta seguridad. Obligatorio para C-TPAT y contenedores marítimos.";
+// ESTRATEGIA HÍBRIDA: Atacamos "Sello de Clavo/Botella" Y "Contenedores Marítimos" simultáneamente.
+$page_title = "Sello de Clavo y Botella (ISO 17712) para Contenedores | Star One";
+$meta_description = "Sello de clavo (botella) certificado ISO 17712. Perno de alta seguridad para contenedores marítimos y exportación C-TPAT. Envíos a todo México.";
 $page_image = "assets/img/sellos/sello-seguridad-star-one-indicativo.avif"; 
 
 // IMPORTANTE: Usamos "../" para salir de la carpeta 'info' y buscar el header
@@ -49,12 +50,17 @@ include '../includes/header.php';
                 
                 <div class="lg:w-1/2">
                     <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">Sello de Clavo / Botella (Star One)</h1>
-                    <p class="text-gray-500 text-lg mb-6">Alta Seguridad ISO 17712 "H" | Para Contenedores y Tráileres</p>
+                    
+                    <p class="text-gray-500 text-lg mb-6">Alta Seguridad ISO 17712 "H" | Especial para Contenedores Marítimos</p>
                     
                     <div class="prose text-gray-600 mb-8 text-sm leading-relaxed">
                         <p>
-                            Diseñado para soportar altos niveles de tensión e impactos. Este dispositivo, conocido en la industria como <strong>sello de clavo</strong> o perno, es la solución definitiva para el blindaje de carga en exportaciones.
+                            La solución definitiva para la exportación y el transporte multimodal. Este dispositivo, conocido técnicamente como <strong>sello de clavo o botella</strong>, está diseñado específicamente para bloquear las barras de los <strong>contenedores marítimos</strong> cumpliendo con la normativa de aduanas.
                         </p>
+                        <p class="mt-2">
+                            Su perno de acero soporta intentos de corte y altos impactos, garantizando que tu carga llegue intacta desde el puerto de origen hasta su destino.
+                        </p>
+                        
                         <ul class="list-disc pl-5 space-y-2 mt-4">
                             <li><strong>Tecnología Anti-Tamper:</strong> El revestimiento muestra señales visibles ante intentos de manipulación (fuerza o temperatura).</li>
                             <li><strong>Identificación Doble:</strong> Incluye marcaje láser tanto en el cuerpo como en el clavo para mayor seguridad.</li>
@@ -104,7 +110,6 @@ include '../includes/header.php';
                         </div>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <!-- Dimensiones -->
                             <div class="flex items-start p-4 rounded-xl bg-gray-50 border border-transparent hover:border-gray-200 transition-colors">
                                 <svg class="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                                 <div>
@@ -114,7 +119,6 @@ include '../includes/header.php';
                                 </div>
                             </div>
 
-                            <!-- Materiales -->
                             <div class="flex items-start p-4 rounded-xl bg-gray-50 border border-transparent hover:border-gray-200 transition-colors">
                                 <svg class="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
                                 <div>
@@ -124,7 +128,6 @@ include '../includes/header.php';
                                 </div>
                             </div>
 
-                            <!-- Resistencia -->
                             <div class="flex items-start p-4 rounded-xl bg-white border border-orange-100 shadow-sm">
                                 <svg class="w-5 h-5 text-accent mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                                 <div>
@@ -134,7 +137,6 @@ include '../includes/header.php';
                                 </div>
                             </div>
 
-                            <!-- Empaque -->
                             <div class="flex items-start p-4 rounded-xl bg-gray-50 border border-transparent hover:border-gray-200 transition-colors">
                                 <svg class="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
                                 <div>
@@ -144,7 +146,6 @@ include '../includes/header.php';
                                 </div>
                             </div>
 
-                            <!-- Personalización -->
                             <div class="flex items-start p-4 rounded-xl bg-gray-50 border border-transparent hover:border-gray-200 transition-colors">
                                 <svg class="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
                                 <div>
@@ -154,7 +155,6 @@ include '../includes/header.php';
                                 </div>
                             </div>
 
-                             <!-- Pedido Mínimo -->
                              <div class="flex items-start p-4 rounded-xl bg-yellow-50 border border-yellow-100">
                                 <svg class="w-5 h-5 text-yellow-600 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                 <div>
@@ -179,7 +179,6 @@ include '../includes/header.php';
                     </div>
 
                     <div class="lg:w-2/5 bg-gray-50 flex flex-col justify-center items-center p-8 lg:p-12 border-l border-gray-100 relative overflow-hidden">
-                        <!-- Decorative background circle -->
                         <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 rounded-full bg-blue-100 opacity-50 z-0"></div>
                         
                         <div class="relative z-10 w-full">
@@ -270,9 +269,9 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Sello de Clavo / Botella Star One Seal ISO 17712",
+  "name": "Sello de Clavo y Botella para Contenedores (Star One)",
   "image": "https://controlone.com.mx/assets/img/sellos/sello-seguridad-star-one-indicativo.avif",
-  "description": "Sello de alta seguridad tipo clavo (botella). Perno de 9mm certificado ISO 17712 H. Cumple C-TPAT para exportación.",
+  "description": "Sello de alta seguridad tipo clavo o botella. Certificado ISO 17712 H. Especial para asegurar contenedores marítimos en exportaciones C-TPAT.",
   "brand": { "@type": "Brand", "name": "Control One" },
   "sku": "STAR-ONE-SEAL-H",
   "offers": {

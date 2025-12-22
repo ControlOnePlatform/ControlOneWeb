@@ -195,7 +195,11 @@ include 'includes/data_blog.php';
             <div class="text-center mb-12">
                 <span class="text-accent font-bold tracking-widest uppercase text-sm">Centro de Conocimiento</span>
                 <h2 class="text-3xl font-bold text-primary mt-2">Guías sobre Seguridad en el Transporte</h2>
-                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Aprende a colocar correctamente un <strong>sello de cable</strong> y conoce las normas de exportación.</p>
+                
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                    Aprende a colocar correctamente un sello y conoce las normas en nuestra guía especializada sobre <a href="/post/sellos-seguridad-para-camiones-transporte" class="text-accent font-bold hover:underline">sellos de seguridad para transporte</a>.
+                </p>
+                
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">

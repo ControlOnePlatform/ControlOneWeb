@@ -1,7 +1,7 @@
 <?php 
-$page_title = "Precinto Quantum (8\", 12\", 16\") | Sello de Seguridad con Inserto Metálico | Control One";
-$meta_description = "Ficha técnica del Sello Quantum. Precinto de polipropileno con inserto de acero inoxidable. Resistencia 45 kgF. Ideal para industria alimentaria y transporte.";
-$page_image = "assets/img/sellos/precinto-plastico-quantum-ajustable.avif"; 
+$page_title = "Sello de Seguridad C-CASH para Bolsas de Efectivo | Control One";
+$meta_description = "Sello C-CASH de alta resistencia (60kgF) fabricado en Nylon 66. Especial para traslado de valores, bolsas de dinero y sacos. Requiere herramienta de aplicación.";
+$page_image = "assets/img/sellos/sello-plastico-c-cash.avif"; 
 
 include '../includes/header.php'; 
 ?>
@@ -11,7 +11,7 @@ include '../includes/header.php';
         <div class="container mx-auto px-4 text-sm text-gray-500">
             <a href="/" class="hover:text-primary">Inicio</a> <span class="mx-2">/</span>
             <a href="/productos" class="hover:text-primary">Catálogo</a> <span class="mx-2">/</span>
-            <span class="text-primary font-bold">Quantum Series</span>
+            <span class="text-primary font-bold">C-CASH (Alta Seguridad)</span>
         </div>
     </div>
 
@@ -21,54 +21,54 @@ include '../includes/header.php';
                 
                 <div class="lg:w-1/2 flex flex-col items-center">
                     <div class="relative bg-industrial rounded-xl overflow-hidden shadow-lg group w-full max-w-md border border-gray-100">
-                        <img src="/assets/img/sellos/precinto-plastico-quantum-ajustable.avif" 
-                             alt="Precinto Quantum con inserto metálico" 
+                        <img src="/assets/img/sellos/sello-de-seguridad-para-bancos-c-cash.avif" 
+                             alt="Sello de seguridad C-CASH para bolsas de valores" 
                              class="w-full h-80 md:h-96 object-contain p-6 transform transition-transform duration-500 group-hover:scale-105">
                         
-                        <div class="absolute top-4 left-4 bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-sm">
-                            Resistencia 45 kgF
+                        <div class="absolute top-4 left-4 bg-black text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-sm">
+                            Nylon 66 (Alta Resistencia)
                         </div>
                     </div>
+                    
                     <div class="mt-6 flex items-center justify-center space-x-4">
-                        <span class="text-sm font-bold text-gray-500">Colores de Línea:</span>
-                        <div class="w-6 h-6 rounded-full bg-yellow-400 border border-gray-200 shadow-sm" title="Amarillo"></div>
-                        <div class="w-6 h-6 rounded-full bg-blue-500 border border-gray-200 shadow-sm" title="Azul"></div>
-                        <div class="w-6 h-6 rounded-full bg-green-500 border border-gray-200 shadow-sm" title="Verde"></div>
-                        <div class="w-6 h-6 rounded-full bg-white border border-gray-200 shadow-sm" title="Blanco"></div>
-                        <div class="w-6 h-6 rounded-full bg-black border border-gray-200 shadow-sm" title="Negro"></div>
+                        <span class="text-sm font-bold text-gray-500">Color:</span>
+                        <div class="w-6 h-6 rounded-full bg-black border border-gray-200 shadow-sm ring-2 ring-gray-100" title="Negro"></div>
                     </div>
+                    <p class="text-xs text-center mt-3 text-gray-400 max-w-xs mx-auto">
+                        *Requiere herramienta ST-Fasten Tool para cerrado a tope.
+                    </p>
                 </div>
 
                 <div class="lg:w-1/2">
-                    <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">QUANTUM 8", 12" Y 16"</h1>
-                    <p class="text-gray-500 text-lg mb-6">Polipropileno con Inserto Metálico | Uso Rudo</p>
+                    <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">C-CASH</h1>
+                    <p class="text-gray-500 text-lg mb-6">Precinto de Seguridad para Traslado de Valores (CIT)</p>
                     
                     <div class="prose text-gray-600 mb-8 text-sm leading-relaxed">
                         <p>
-                            El precinto <strong>Quantum</strong> es la solución definitiva para quien busca la seguridad del metal con la versatilidad del plástico. Su sistema de cierre con <strong>inserto metálico</strong> ofrece una resistencia superior a la tracción y a temperaturas extremas.
+                            El <strong>C-CASH</strong> es un sello de seguridad de rendimiento superior fabricado en <strong>Nylon 66</strong>, superando por mucho la resistencia de los sellos comunes de polipropileno. Diseñado específicamente para el sector bancario y traslado de valores.
                         </p>
                         <ul class="list-disc pl-5 space-y-2 mt-4">
-                            <li><strong>Grado Alimenticio:</strong> Ideal para la industria alimentaria; materiales higiénicos y resistentes a aceites, grasas y combustibles.</li>
-                            <li><strong>Agarre Total:</strong> Cuenta con <strong>3 a 5 picos de retención</strong> en la base que se clavan en la bolsa/saco, evitando que el sello deslice o gire.</li>
-                            <li><strong>Inserto Metálico:</strong> Traba de acero (galvanizado o inoxidable) que imposibilita la apertura por calor o manipulaciones simples.</li>
-                            <li><strong>Resistencia Ruda:</strong> Soporta más de <strong>45 kgF</strong> y no se deforma ni cristaliza con el frío o calor extremo.</li>
+                            <li><strong>Resistencia Extrema:</strong> Soporta más de <strong>60 kgF</strong> de tensión, ideal para bolsas pesadas de monedas o documentos.</li>
+                            <li><strong>Spikes de Agarre:</strong> Picos especiales en el cuello que muerden la tela de la bolsa para impedir deslizamientos o giros.</li>
+                            <li><strong>Cierre Hermético:</strong> Diseñado para ser ajustado al máximo "a tope" utilizando la pinza <strong>ST-Fasten Tool</strong>.</li>
+                            <li><strong>Durabilidad:</strong> Resistente a temperaturas extremas (-40°C a +85°C), aceites y combustibles.</li>
                         </ul>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-8">
-                        <p class="text-sm text-gray-500 mb-2 font-bold">Aplicaciones Recomendadas:</p>
+                        <p class="text-sm text-gray-500 mb-2 font-bold">Usos Estratégicos:</p>
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span class="bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Bolsas de Dinero</span>
-                            <span class="bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Sacos Alimentarios</span>
-                            <span class="bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Tanques de Diésel</span>
-                            <span class="bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Cajas de Tráiler (Vacío)</span>
+                            <span class="bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Valijas Bancarias</span>
+                            <span class="bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Sacos de Correo</span>
+                            <span class="bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full text-xs font-semibold">Transporte de Valores</span>
                         </div>
                         
                         <div class="flex flex-col sm:flex-row gap-4">
-                            <a href="/contacto?producto=Sello+Quantum" class="flex-1 bg-accent hover:bg-orange-500 text-white text-center font-bold py-3 px-6 rounded-md shadow-md transition-colors">
+                            <a href="/contacto?producto=C-CASH" class="flex-1 bg-accent hover:bg-orange-500 text-white text-center font-bold py-3 px-6 rounded-md shadow-md transition-colors">
                                 Solicitar Cotización
                             </a>
-                            <a href="https://wa.me/525558642200?text=Hola,%20me%20interesa%20el%20sello%20Quantum" target="_blank" class="flex-1 border-2 border-green-500 text-green-600 hover:bg-green-50 text-center font-bold py-3 px-6 rounded-md transition-colors flex items-center justify-center">
+                            <a href="https://wa.me/525558642200?text=Me%20interesa%20el%20sello%20C-CASH%20para%20valores" target="_blank" class="flex-1 border-2 border-green-500 text-green-600 hover:bg-green-50 text-center font-bold py-3 px-6 rounded-md transition-colors flex items-center justify-center">
                                 WhatsApp
                             </a>
                         </div>
@@ -92,31 +92,19 @@ include '../includes/header.php';
                             </div>
                             <div>
                                 <h3 class="font-bold text-gray-900 text-lg">Ficha Técnica</h3>
-                                <p class="text-xs text-gray-500 uppercase tracking-wider">Sello Plástico con Inserto Metálico</p>
+                                <p class="text-xs text-gray-500 uppercase tracking-wider">Modelo: C-CASH</p>
                             </div>
                         </div>
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <!-- Dimensiones y Tamaños -->
-                            <div class="flex items-start p-4 rounded-xl bg-gray-50 border border-transparent hover:border-gray-200 transition-colors col-span-1 md:col-span-2">
+                            <!-- Dimensiones -->
+                            <div class="flex items-start p-4 rounded-xl bg-gray-50 border border-transparent hover:border-gray-200 transition-colors">
                                 <svg class="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
-                                <div class="w-full">
-                                    <p class="text-xs text-gray-500 font-semibold uppercase mb-2">Dimensiones Disponibles</p>
-                                    <div class="grid grid-cols-3 gap-2 text-center">
-                                        <div class="bg-white p-2 rounded shadow-sm">
-                                            <p class="text-xs text-gray-400">Quantum 8"</p>
-                                            <p class="text-sm font-bold text-gray-800">26.4 cm</p>
-                                        </div>
-                                        <div class="bg-white p-2 rounded shadow-sm">
-                                            <p class="text-xs text-gray-400">Quantum 12"</p>
-                                            <p class="text-sm font-bold text-gray-800">35.2 cm</p>
-                                        </div>
-                                        <div class="bg-white p-2 rounded shadow-sm">
-                                            <p class="text-xs text-gray-400">Quantum 16"</p>
-                                            <p class="text-sm font-bold text-gray-800">49.0 cm</p>
-                                        </div>
-                                    </div>
-                                    <p class="text-xs text-gray-400 mt-2 text-right">Ancho de banda: 8 mm</p>
+                                <div>
+                                    <p class="text-xs text-gray-500 font-semibold uppercase mb-1">Dimensiones</p>
+                                    <p class="text-sm text-gray-800">Longitud: <strong>203 mm (8")</strong></p>
+                                    <p class="text-sm text-gray-800">Ancho Banda: <strong>7.45 mm</strong></p>
+                                    <p class="text-xs text-gray-400 mt-1">Útil: 189 mm</p>
                                 </div>
                             </div>
 
@@ -125,8 +113,8 @@ include '../includes/header.php';
                                 <svg class="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
                                 <div>
                                     <p class="text-xs text-gray-500 font-semibold uppercase mb-1">Materiales</p>
-                                    <p class="text-sm text-gray-800">Cuerpo: <strong>Polipropileno</strong></p>
-                                    <p class="text-sm text-gray-800">Inserto: <strong>Acero Inoxidable</strong></p>
+                                    <p class="text-sm text-gray-800">Cuerpo: <strong>Nylon 66</strong></p>
+                                    <p class="text-xs text-gray-500">(Antiestático)</p>
                                 </div>
                             </div>
 
@@ -134,9 +122,9 @@ include '../includes/header.php';
                             <div class="flex items-start p-4 rounded-xl bg-white border border-blue-100 shadow-sm">
                                 <svg class="w-5 h-5 text-blue-500 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                                 <div>
-                                    <p class="text-xs text-blue-600 font-semibold uppercase mb-1">Resistencia</p>
-                                    <p class="text-lg font-bold text-gray-900">> 45 kgF</p>
-                                    <p class="text-xs text-gray-400">Superior al plástico estándar</p>
+                                    <p class="text-xs text-blue-600 font-semibold uppercase mb-1">Resistencia Tracción</p>
+                                    <p class="text-lg font-bold text-gray-900">> 60 kgF</p>
+                                    <p class="text-xs text-gray-400">Extra Fuerte</p>
                                 </div>
                             </div>
 
@@ -145,8 +133,8 @@ include '../includes/header.php';
                                 <svg class="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
                                 <div>
                                     <p class="text-xs text-gray-500 font-semibold uppercase mb-1">Empaque</p>
-                                    <p class="text-sm text-gray-800">Caja: <strong>1,000 pzas</strong></p>
-                                    <p class="text-xs text-gray-500">Bolsas de 100 pzas</p>
+                                    <p class="text-sm text-gray-800">Caja: <strong>1,000 pzas</strong> (6.4 kg)</p>
+                                    <p class="text-xs text-gray-500">Bolsa: 50 pzas</p>
                                 </div>
                             </div>
 
@@ -155,8 +143,8 @@ include '../includes/header.php';
                                 <svg class="w-5 h-5 text-gray-400 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
                                 <div>
                                     <p class="text-xs text-gray-500 font-semibold uppercase mb-1">Grabado</p>
-                                    <p class="text-sm text-gray-800">Láser / Hotstamping</p>
-                                    <p class="text-xs text-gray-500">Área: 37 x 15 mm</p>
+                                    <p class="text-sm text-gray-800">Láser Alfanumérico</p>
+                                    <p class="text-xs text-gray-500">Área: 50 x 20 mm</p>
                                 </div>
                             </div>
 
@@ -173,12 +161,12 @@ include '../includes/header.php';
 
                         <div class="mt-8 bg-blue-50 border border-blue-100 rounded-xl p-5 flex gap-4">
                             <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-sm text-blue-600">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
                             </div>
                             <div>
-                                <h4 class="font-bold text-blue-800 text-sm mb-1">Sistema de Inserto Metálico</h4>
+                                <h4 class="font-bold text-blue-800 text-sm mb-1">Cierre "A Tope"</h4>
                                 <p class="text-sm text-blue-700 leading-relaxed">
-                                    Utiliza un clip de acero dentro de la cámara de bloqueo que muerde la cola del sello. Esto hace imposible abrirlo con vapor (como pasa con los sellos 100% plásticos) garantizando mayor seguridad.
+                                    Requiere el uso de la pinza <strong>ST-Fasten Tool</strong> para garantizar un tensado máximo alrededor del cuello de la bolsa. Imposible de lograr con cierre manual, lo que añade una capa extra de seguridad.
                                 </p>
                             </div>
                         </div>
@@ -192,13 +180,13 @@ include '../includes/header.php';
                             <h4 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6 text-center">Dibujo Técnico</h4>
                             
                             <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-100 transform transition-transform hover:scale-105 duration-500">
-                                <img src="/assets/img/planos/plano-tecnico-quantum.jpg" 
-                                     alt="Plano técnico dimensiones sello Quantum" 
+                                <img src="/assets/img/planos/plano-tecnico-c-cash.jpg" 
+                                     alt="Plano técnico dimensiones sello C-CASH" 
                                      class="w-full h-auto object-contain mix-blend-multiply"
-                                     onerror="this.src='/assets/img/sellos/precinto-plastico-quantum-ajustable.avif'"> 
+                                     onerror="this.src='/assets/img/sellos/sello-de-seguridad-para-bancos-c-cash.avif'"> 
                             </div>
                             <p class="text-xs text-gray-400 mt-6 text-center">
-                                Disponible en 3 longitudes para adaptarse a cualquier saco o contenedor.
+                                Sello robusto de 7.45mm de ancho.
                             </p>
                         </div>
                     </div>
@@ -215,28 +203,28 @@ include '../includes/header.php';
             <div class="space-y-6" itemscope itemtype="https://schema.org/FAQPage">
                 
                 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="bg-gray-50 p-6 rounded-lg">
-                    <h3 itemprop="name" class="font-bold text-primary text-lg mb-2">¿Es seguro para alimentos?</h3>
+                    <h3 itemprop="name" class="font-bold text-primary text-lg mb-2">¿Por qué usar Nylon 66 en lugar de plástico común?</h3>
                     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <div itemprop="text" class="text-gray-600 text-sm">
-                            Sí. El polipropileno utilizado es grado alimenticio (FDA compliant), ideal para sellar sacos de harina, azúcar, químicos o tanques de aceites comestibles sin riesgo de contaminación.
+                            El Nylon 66 es un polímero de ingeniería mucho más resistente a la tracción y a la temperatura que el polipropileno. En el traslado de valores, esto es crucial para evitar roturas accidentales por el peso de las monedas.
                         </div>
                     </div>
                 </div>
 
                 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="bg-gray-50 p-6 rounded-lg">
-                    <h3 itemprop="name" class="font-bold text-primary text-lg mb-2">¿Qué ventaja tiene el inserto metálico?</h3>
+                    <h3 itemprop="name" class="font-bold text-primary text-lg mb-2">¿Es obligatorio usar la herramienta de cierre?</h3>
                     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <div itemprop="text" class="text-gray-600 text-sm">
-                            Aumenta drásticamente la resistencia a la tracción (~45kg) comparado con un sello todo plástico (~15-20kg). Además, resiste técnicas de apertura por calentamiento que suelen ablandar los mecanismos plásticos simples.
+                            Se recomienda encarecidamente. Aunque se puede cerrar manualmente, la pinza ST-Fasten permite aplicar la fuerza necesaria para apretar el sello "a tope" contra la bolsa, impidiendo cualquier hueco por donde se pueda manipular el contenido.
                         </div>
                     </div>
                 </div>
 
                 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="bg-gray-50 p-6 rounded-lg">
-                    <h3 itemprop="name" class="font-bold text-primary text-lg mb-2">¿Para qué sirven los picos en la base?</h3>
+                    <h3 itemprop="name" class="font-bold text-primary text-lg mb-2">¿Puede romperse en climas muy fríos?</h3>
                     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <div itemprop="text" class="text-gray-600 text-sm">
-                            Son "dientes" o picos de retención que se agarran al cuello de la bolsa o saco de tela/plástico. Esto evita que el sello gire o se deslice, dificultando que alguien pueda manipular la boca del saco sin romper el sello.
+                            No. El Nylon 66 mantiene su flexibilidad y resistencia incluso a temperaturas bajo cero (-40°C), a diferencia de otros plásticos que se cristalizan y vuelven quebradizos.
                         </div>
                     </div>
                 </div>
@@ -250,19 +238,19 @@ include '../includes/header.php';
             <h2 class="text-xl font-bold text-gray-500 mb-6 uppercase tracking-wider text-center">Recursos Relacionados</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 
-                <a href="/post/seguridad-alimentaria-sellos" class="bg-white p-4 rounded shadow-sm hover:shadow-md transition-shadow group">
-                    <h3 class="font-bold text-primary group-hover:text-accent mb-2">Seguridad Alimentaria</h3>
-                    <p class="text-xs text-gray-500">Normativas para el sellado de sacos y contenedores.</p>
+                <a href="/post/guia-traslado-valores-seguro" class="bg-white p-4 rounded shadow-sm hover:shadow-md transition-shadow group">
+                    <h3 class="font-bold text-primary group-hover:text-accent mb-2">Traslado de Valores</h3>
+                    <p class="text-xs text-gray-500">Protocolos de seguridad para efectivo en tránsito (CIT).</p>
                 </a>
 
-                <a href="/post/guia-seleccion-sellos-seguridad" class="bg-white p-4 rounded shadow-sm hover:shadow-md transition-shadow group">
-                    <h3 class="font-bold text-primary group-hover:text-accent mb-2">Plástico vs Metal</h3>
-                    <p class="text-xs text-gray-500">¿Cuándo usar inserto metálico y cuándo uno indicativo simple?</p>
+                <a href="/post/ventajas-nylon-vs-polipropileno" class="bg-white p-4 rounded shadow-sm hover:shadow-md transition-shadow group">
+                    <h3 class="font-bold text-primary group-hover:text-accent mb-2">Nylon 66 vs PP</h3>
+                    <p class="text-xs text-gray-500">¿Cuando vale la pena invertir en un material superior?</p>
                 </a>
 
-                <a href="/post/control-bolsas-dinero" class="bg-white p-4 rounded shadow-sm hover:shadow-md transition-shadow group">
-                    <h3 class="font-bold text-primary group-hover:text-accent mb-2">Bolsas de Valores</h3>
-                    <p class="text-xs text-gray-500">Cómo asegurar el traslado de efectivo y documentos.</p>
+                <a href="/post/como-usar-pinzas-tensado" class="bg-white p-4 rounded shadow-sm hover:shadow-md transition-shadow group">
+                    <h3 class="font-bold text-primary group-hover:text-accent mb-2">Herramientas de Sellado</h3>
+                    <p class="text-xs text-gray-500">Tutorial de uso para pinzas de tensado manual.</p>
                 </a>
 
             </div>
@@ -274,16 +262,20 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Sello de Seguridad Quantum",
-  "image": "https://controlone.com.mx/assets/img/sellos/precinto-plastico-quantum-ajustable.avif",
-  "description": "Precinto de polipropileno con inserto metálico de alta resistencia (45 kgF). Disponible en 8, 12 y 16 pulgadas.",
+  "name": "Sello de Seguridad C-CASH para Valores",
+  "image": "https://controlone.com.mx/assets/img/sellos/sello-plastico-c-cash.avif",
+  "description": "Sello de Nylon 66 de alta resistencia (>60kg) para bolsas de dinero y transporte de valores. Requiere herramienta de aplicación.",
   "brand": { "@type": "Brand", "name": "Control One" },
-  "sku": "QUANTUM-GEN",
+  "sku": "C-CASH-NYLON",
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://controlone.com.mx/info/producto-precinto-quantum",
+    "url": "https://controlone.com.mx/info/producto-sello-c-cash",
     "priceCurrency": "MXN",
-    "availability": "https://schema.org/InStock"
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Control One"
+    }
   }
 }
 </script>
