@@ -169,10 +169,14 @@ $blog_posts = [
                 </div>
             </div>
 
-            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">3. Camionetas de Reparto (Última Milla)</h2>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">3. Camionetas de Reparto y Logística Inversa</h2>
             <p class="mb-4">
-                Para el reparto urbano, la velocidad es clave. El chofer necesita romper el sello rápido para entregar. Aquí recomendamos el <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum 12"</a> o el uso de <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">Cintillos de Seguridad</a>.
+                Para el reparto urbano, la velocidad es clave. El chofer necesita romper el sello rápido para entregar.
             </p>
+            <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                <li><strong>Cintillos Ajustables:</strong> Como el <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum 12"</a>, ideal para cajas plásticas.</li>
+                <li><strong>Sellos de Anillo (Fijos):</strong> El nuevo <a href="/info/producto-alli-one" class="text-accent hover:underline font-bold">ALLI-ONE</a> es perfecto para puertas de camiones de 3.5 toneladas, ya que su cierre fijo evita que el chofer lo apriete excesivamente para ocultar daños.</li>
+            </ul>
 
             <hr class="my-10 border-gray-200">
 
@@ -341,9 +345,17 @@ $blog_posts = [
                 <li><strong>Caja de Válvulas:</strong> Si tu pipa tiene gabinete, puedes usar un sello indicativo de plástico como el <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum 12"</a> para control visual rápido.</li>
             </ol>
 
-            <div class="mt-8 text-center">
-                <a href="/info/producto-sello-c-one-116" class="inline-block bg-primary text-white px-8 py-3 rounded font-bold hover:bg-blue-900 transition-colors shadow-lg">
-                    Cotizar Sellos para Pipas
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Solución Especializada: C-GAS L</h2>
+            <p class="mb-4">
+                Para tanques de oxígeno medicinal y cilindros de gas que requieren un sello tipo candado (Padlock), hemos introducido el <a href="/info/producto-sello-c-gas" class="text-accent hover:underline font-bold">C-GAS L</a>. Su diseño compacto evita que se atore con otras válvulas durante el transporte en jaulas.
+            </p>
+
+            <div class="mt-8 text-center grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a href="/info/producto-sello-c-one-116" class="inline-block bg-primary text-white px-6 py-3 rounded font-bold hover:bg-blue-900 transition-colors shadow-lg text-sm">
+                    Ver Sello Cable Fino (Pipas)
+                </a>
+                <a href="/info/producto-sello-c-gas" class="inline-block bg-accent text-white px-6 py-3 rounded font-bold hover:bg-orange-600 transition-colors shadow-lg text-sm">
+                    Ver Sello C-GAS (Cilindros)
                 </a>
             </div>
         '
@@ -386,6 +398,11 @@ $blog_posts = [
                     <p class="text-sm text-gray-600">Sella las puertas traseras en cada parada. (Para sellar cajas de cartón, revisa nuestras <a href="/post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">Etiquetas VOID</a>). </p>
                 </div>
             </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Necesitas Etiquetar y Sellar al mismo tiempo?</h2>
+            <p class="mb-4">
+                Si tu operación requiere pegar etiquetas grandes (códigos de barras, QR de inventario) pero no tienes dónde pegarlas, el <a href="/info/producto-jumbo-seal" class="text-accent hover:underline font-bold">JUMBO SEAL</a> es la solución. Su paleta extra grande de 10x5 cm funciona como una placa de identificación móvil que viaja segura con la mercancía.
+            </p>
 
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Regla de Oro: "Sello Roto, Sello Reportado"</h2>
             <p class="mb-4">
@@ -543,9 +560,12 @@ $blog_posts = [
                 <li><strong>Logística Documental:</strong> Envío de contratos originales y pruebas legales.</li>
             </ul>
 
-            <div class="mt-8 text-center">
+            <div class="mt-8 text-center flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/info/producto-sello-c-cash" class="inline-block bg-white border-2 border-primary text-primary hover:bg-gray-50 px-8 py-3 rounded-md font-bold transition-all shadow-md">
+                    Ver Ficha Técnica C-CASH
+                </a>
                 <a href="/contacto?producto=c-cash" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
-                    Cotizar Sellos Bancarios C-CASH
+                    Cotizar Sellos Bancarios
                 </a>
             </div>
         '
