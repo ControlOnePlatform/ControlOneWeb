@@ -22,8 +22,16 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     // Recorremos los posts. Importante: RSS suele mostrar los más recientes primero.
     // El array de data_blog ya viene en orden, pero si quisiéramos asegurar orden inverso (lo último primero):
     $reversed_posts = array_reverse($blog_posts); 
+    $today = date("Y-m-d"); // Fecha actual del servidor
     
     foreach ($reversed_posts as $slug => $post): 
+        // LÓGICA DE PROGRAMACIÓN:
+        // Si la fecha del post es mayor a hoy (futuro), NO lo mostramos en el RSS.
+        // Así Metricool no lo verá hasta que llegue el día.
+        if ($post['fecha'] > $today) {
+            continue;
+        }
+
         // Convertimos fecha YYYY-MM-DD a formato RSS estándar (RFC 822)
         $pubDate = date(DATE_RSS, strtotime($post['fecha']));
         $link = $base_url . 'post/' . $slug;
