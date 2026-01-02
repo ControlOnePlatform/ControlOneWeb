@@ -923,6 +923,102 @@ $blog_posts = [
             </div>
         '
     ],
+
+    // 16. LOGÍSTICA INVERSA -> PREVENCIÓN (VIERNES 02 ENE)
+    'logistica-inversa-devoluciones' => [
+        'titulo'           => 'La Pesadilla de Enero: Cómo controlar las Devoluciones y evitar el "Cambiazo"',
+        'meta_description' => 'Enero es el mes de las devoluciones. Aprende a usar sellos indicativos para asegurar que el producto que regresa es el mismo que enviaste.',
+        'autor'            => 'Equipo Control One',
+        'fecha'            => '2026-01-02', // HOY VIERNES
+        'categoria'        => 'Prevención de Pérdidas y Retail', // CAT 5
+        'imagen'           => 'assets/img/blog/logistica-inversa-devoluciones.avif', 
+        'extracto'         => 'El 30% de las devoluciones en Enero son fraudulentas. Descubre cómo blindar tu proceso de logística inversa para evitar recibir cajas vacías o "piedras".',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La fiesta de ventas de diciembre se convierte en la resaca operativa de enero. Las devoluciones inundan el almacén, y con ellas, el fraude.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Fraude del "Cambiazo"</h2>
+            <p class="mb-4">
+                Un cliente compra un electrónico nuevo, inicia la devolución, y envía de regreso su aparato viejo en la caja nueva. Si tu equipo de almacén no inspecciona a fondo, esa "merma" entra a tu inventario.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Solución: Etiqueta de Garantía (VOID)</h2>
+            <p class="mb-4">
+                La regla es simple: <strong>"Si el sello está roto, no hay devolución automática".</strong>
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                <div class="bg-blue-50 p-6 rounded-xl border border-blue-100">
+                    <h4 class="font-bold text-primary text-lg mb-2">Paso 1: Sellado en Origen</h4>
+                    <p class="text-sm text-gray-600">Coloca una etiqueta VOID pequeña sobre la apertura de la caja del producto o sobre un tornillo clave.</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-xl border border-blue-100">
+                    <h4 class="font-bold text-primary text-lg mb-2">Paso 2: Validación Visual</h4>
+                    <p class="text-sm text-gray-600">Al recibir la devolución, el operador solo mira la etiqueta. ¿Dice "VOID"? Entonces el cliente abrió el equipo. Garantía anulada.</p>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto?producto=etiquetas-void" class="inline-block bg-accent text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg hover:bg-orange-600">
+                    Cotizar Etiquetas de Garantía
+                </a>
+            </div>
+        '
+    ],
+
+    // 17. TRANSPORTE -> SEGURIDAD (SÁBADO 03 ENE)
+    'seguridad-rutas-fin-semana' => [
+        'titulo'           => 'Rutas de Fin de Semana: ¿Por qué son las más peligrosas?',
+        'meta_description' => 'El sábado es el día con más incidencia de robo en carreteras secundarias. Checklist de seguridad para despachos de fin de semana.',
+        'autor'            => 'Seguridad Patrimonial C1',
+        'fecha'            => '2026-01-03', // MAÑANA SÁBADO
+        'categoria'        => 'Logística y Transporte de Carga', // CAT 2
+        'imagen'           => 'assets/img/blog/camion-carretera-noche.avif', // Usaremos una existente o genérica por ahora
+        'extracto'         => 'Menos patrullas, menos tráfico, más riesgo. Si tus unidades salen este sábado, asegúrate de que lleven doble sello (Botella + Cable).',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Los delincuentes saben que los sábados por la tarde la vigilancia disminuye. Es el momento crítico para el transporte de carga.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Regla del "Doble Candado"</h2>
+            <p class="mb-4">
+                Para rutas de alto riesgo en fin de semana, recomendamos redundancia:
+            </p>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-6">
+                <li><strong>Sello de Botella (ISO 17712):</strong> En las barras principales.</li>
+                <li><strong>Sello de Cable (3.5mm):</strong> Cruzando las manijas. Es un disuasivo visual potente.</li>
+            </ul>
+             <p class="mb-4">
+                El tiempo que les toma romper dos sellos es la diferencia entre un robo consumado y un intento frustrado.
+            </p>
+        '
+    ],
+
+    // 18. ESTRATEGIA -> PLANEACIÓN (DOMINGO 04 ENE)
+    'kpis-seguridad-2026' => [
+        'titulo'           => '3 KPIs de Seguridad Logística que debes medir en 2026',
+        'meta_description' => 'Lo que no se mide, no se mejora. Define tus indicadores clave: Tasa de Violación, Tiempo de Cierre y Costo por Sello.',
+        'autor'            => 'Dirección Control One',
+        'fecha'            => '2026-01-04', // DOMINGO
+        'categoria'        => 'Guías Técnicas y Tutoriales', // CAT 1
+        'imagen'           => 'assets/img/blog/kpis-seguridad-logistica-2026.avif', 
+        'extracto'         => 'Arranca la primera semana completa del año con metas claras. Te ayudamos a definir los KPIs que realmente importan para reducir mermas.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                ¿Sabes cuánto perdiste por robo hormiga en 2025? Si la respuesta es "no estoy seguro", necesitas estos KPIs en tu tablero de control.
+            </p>
+            <div class="bg-gray-100 p-6 rounded-lg mb-4">
+                <h3 class="font-bold text-primary">KPI #1: Tasa de Integridad de Sellos</h3>
+                <p class="text-sm">(Sellos Intactos / Total de Envíos) x 100. Si está debajo del 99.5%, tienes un problema de proceso.</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg mb-4">
+                <h3 class="font-bold text-primary">KPI #2: Falsos Positivos</h3>
+                <p class="text-sm">Número de sellos rotos "por accidente" o "mal colocados". Esto indica falta de capacitación en choferes.</p>
+            </div>
+            <p class="mt-6">
+                <strong>Propósito de Año Nuevo:</strong> Capacita a tu personal en enero. Un equipo que sabe colocar un sello es tu primera línea de defensa.
+            </p>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
