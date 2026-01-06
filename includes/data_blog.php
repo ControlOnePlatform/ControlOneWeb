@@ -1019,6 +1019,154 @@ $blog_posts = [
             </p>
         '
     ],
+
+    // 19. NORMATIVA -> ACTUALIZACIÓN (LUNES 05 ENE)
+    'actualizacion-protocolos-c-tpat-2026' => [
+        'titulo'           => 'Actualización de Protocolos C-TPAT 2026: ¿Tus sellos siguen vigentes?',
+        'meta_description' => 'Arranca el año auditando tu seguridad. Conoce los nuevos requisitos de la norma ISO 17712 para exportación a Estados Unidos.',
+        'autor'            => 'Ingeniería Control One',
+        'fecha'            => '2026-01-05', // HOY LUNES
+        'categoria'        => 'Normatividad y Aduanas', // CAT 3
+        'imagen'           => 'assets/img/blog/sello-botella-contenedor-puerto.avif', 
+        'extracto'         => 'Nuevo año, nuevas reglas. La CBP ha actualizado sus criterios de inspección para sellos de alta seguridad. Revisa si tus sellos de botella cumplen con la prueba de giro.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                No hay peor manera de empezar el año que con una carga rechazada en la frontera. La normativa C-TPAT se ha endurecido para 2026.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Prueba de "No Giro" (Anti-Spin)</h2>
+            <p class="mb-4">
+                El criterio más vigilado este año es la función "Anti-Spin". Los agentes aduanales están verificando que, una vez cerrado, el sello <strong>no permita girar el perno</strong> dentro del barril a alta velocidad, ya que esto era usado para abrir sellos con taladros.
+            </p>
+            <div class="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-500 mb-6">
+                <h3 class="font-bold text-yellow-800 text-lg mb-2">Acción Inmediata:</h3>
+                <p class="text-gray-700">Verifica tu stock actual. Si tus sellos de botella giran libremente, estás en riesgo de inspección secundaria (Rojo Aduanal).</p>
+            </div>
+        '
+    ],
+
+    // 20. PRODUCTO -> COMPARATIVA (MARTES 06 ENE)
+    'sellos-metalicos-vs-plasticos-guia' => [
+        'titulo'           => 'Sellos Metálicos vs. Plásticos: ¿Cuándo usar cuál?',
+        'meta_description' => 'No gastes de más ni arriesgues tu carga. Guía definitiva para elegir entre seguridad indicativa (plástico) y alta seguridad (metal).',
+        'autor'            => 'Equipo Control One',
+        'fecha'            => '2026-01-06', // MARTES
+        'categoria'        => 'Guías Técnicas y Tutoriales', // CAT 1
+        'imagen'           => 'assets/img/blog/comparativa-sello-metal-vs-plastico.avif', 
+        'extracto'         => '¿Usar un sello de botella para una camioneta de reparto? ¿Un cincho de plástico para un contenedor? Descubre los errores más comunes de selección.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Elegir el sello incorrecto tiene dos consecuencias: o tiras dinero a la basura (sobre-protección) o te roban la mercancía (sub-protección).
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                <div class="border p-6 rounded-xl hover:shadow-lg transition-shadow">
+                    <h3 class="text-xl font-bold text-industrial mb-2">Sellos de PLÁSTICO</h3>
+                    <ul class="list-disc pl-5 text-gray-600 space-y-2">
+                        <li><strong>Función:</strong> Evidencia de apertura (Indicativos).</li>
+                        <li><strong>Uso Ideal:</strong> Cajas de cartón, botiquines, extintores, camionetas de reparto urbano, bolsas de dinero.</li>
+                        <li><strong>Resistencia:</strong> Baja (se rompen con tijeras o mano).</li>
+                    </ul>
+                </div>
+                <div class="border p-6 rounded-xl hover:shadow-lg transition-shadow bg-gray-50">
+                    <h3 class="text-xl font-bold text-primary mb-2">Sellos METÁLICOS</h3>
+                    <ul class="list-disc pl-5 text-gray-600 space-y-2">
+                        <li><strong>Función:</strong> Barrera física (Seguridad).</li>
+                        <li><strong>Uso Ideal:</strong> Contenedores marítimos, tráilers, tolvas, vagones de tren.</li>
+                        <li><strong>Resistencia:</strong> Alta (requieren cizallas).</li>
+                    </ul>
+                </div>
+            </div>
+        '
+    ],
+
+    // 21. INDUSTRIA -> FARMACÉUTICA (MIÉRCOLES 07 ENE)
+    'seguridad-cadena-frio-vacunas-alimentos' => [
+        'titulo'           => 'Cadena de Frío: Cómo asegurar Vacunas y Perecederos',
+        'meta_description' => 'En farmacéutica y alimentos, una apertura no autorizada no solo es robo, es contaminación. Soluciones de seguridad para Thermo King y hieleras.',
+        'autor'            => 'Ingeniería Control One',
+        'fecha'            => '2026-01-07', // MIÉRCOLES
+        'categoria'        => 'Control de Fluidos y Energía', // CAT 4
+        'imagen'           => 'assets/img/blog/seguridad-cadena-frio-farmaceutica.avif', 
+        'extracto'         => 'El robo no es el único riesgo. Si la puerta se abre por 5 minutos, la carga se pierde. Aprende a asegurar la integridad térmica de tu envío.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Transportar aguacates o vacunas requiere un nivel de seguridad diferente. Aquí lo valioso no es solo el producto, sino su temperatura.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Sello como Bitácora de Temperatura</h2>
+            <p class="mb-4">
+                Recomendamos que el número de folio del sello quede registrado en la bitácora del termógrafo.
+            </p>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-6">
+                <li><strong>Hieleras de Unicel:</strong> Usa etiquetas VOID que no se desprenda con la condensación (adhesivo especial).</li>
+                <li><strong>Cajas Refrigeradas:</strong> Sello de cable ajustable que permita cerrar las manijas incluso con sellos de goma gruesos.</li>
+            </ul>
+        '
+    ],
+
+
+
+    // 22. ENERGÍA -> MEDIDORES (JUEVES 08 ENE)
+    'medidores-luz-agua-proteccion' => [
+        'titulo'           => 'Protección de Servicios: Cómo asegurar medidores de Luz y Agua',
+        'meta_description' => 'Evita multas por manipulación o robo de servicios. Los sellos tipo Rotaseal y de Alambre son la solución estándar para asegurar medidores residenciales e industriales.',
+        'autor'            => 'Control One Energía',
+        'fecha'            => '2026-01-08', // JUEVES
+        'categoria'        => 'Control de Fluidos y Energía', // CAT 4
+        'imagen'           => 'assets/img/blog/medidores-agua-luz-sellos.avif', 
+        'extracto'         => 'Las empresas de servicios públicos pierden millones por "diablitos" y puentes. Aprende a sellar correctamente los aros y gabinetes de medición.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La seguridad no es solo para grandes contenedores. Los medidores de CFE y agua potable son puntos críticos de manipulación.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Sello "Rotaseal" (Rotores)</h2>
+            <p class="mb-4">
+                Es el estándar de la industria eléctrica. Consiste en un cuerpo de plástico transparente que aloja un rotor de color.
+            </p>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-6">
+                <li><strong>Mecanismo Visual:</strong> Al girar la mariposa, el alambre se enrolla dentro. Si alguien intenta jalarlo, el plástico transparente muestra evidencia de estrés (blanqueamiento).</li>
+                <li><strong>Versatilidad:</strong> Puedes usar el largo de alambre que necesites, ideal para medidores de difícil acceso.</li>
+            </ul>
+             <div class="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-6">
+                <h3 class="font-bold text-blue-800 text-lg mb-2">¿Eres contratista?</h3>
+                <p class="text-gray-700">Personaliza tus sellos con tu logo. Eso garantiza al cliente que fuiste TÚ quien realizó el último mantenimiento lícito.</p>
+            </div>
+            <div class="mt-8 text-center">
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Cotizar Sellos para Medidores
+                </a>
+            </div>
+        '
+    ],
+
+    // 23. CAPITAL HUMANO -> CAPACITACIÓN (VIERNES 09 ENE)
+    'capacitacion-choferes-seguridad-carga' => [
+        'titulo'           => 'Capacitación a Choferes: El eslabón olvidado de la seguridad',
+        'meta_description' => 'Puedes tener el mejor sello del mundo, pero si tu chofer no sabe ponerlo, no sirve. Guía rápida de capacitación para operadores 2026.',
+        'autor'            => 'Equipo Control One',
+        'fecha'            => '2026-01-09', // VIERNES
+        'categoria'        => 'Logística y Transporte de Carga', // CAT 2
+        'imagen'           => 'assets/img/blog/chofer-inspeccionando-sello.avif', 
+        'extracto'         => 'El 60% de las violaciones de sellos ocurren por complicidad o negligencia del operador. Empodera a tu equipo con este protocolo de 3 pasos.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Tu chofer es el custodio final de la mercancía. ¿Sabe realmente para qué sirve ese pedazo de metal que pone en la puerta?
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Protocolo "VVV" para Operadores</h2>
+            <div class="space-y-4 my-6">
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">1.</span>
+                    <div><strong>Verificar:</strong> Que el sello no tenga daños antes de ponerlo.</div>
+                </div>
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">2.</span>
+                    <div><strong>Validar:</strong> Jalar el sello hacia abajo ("Pull Test") para confirmar que cerró.</div>
+                </div>
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">3.</span>
+                    <div><strong>Visualizar:</strong> Tomar foto del sello puesto donde se lea el folio.</div>
+                </div>
+            </div>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
