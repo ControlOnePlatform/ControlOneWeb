@@ -105,6 +105,41 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         case 'mas_10000':  $volumen_texto = "Más de 10,000 piezas"; break;
     }
 
+    // =================================================================
+    // 💾 RESPALDO LOCAL (FAIL-SAFE)
+    // =================================================================
+    // Guardamos el lead en un archivo por si falla el correo o el SMTP.
+    
+    $backup_dir = 'protegido';
+    $backup_file = $backup_dir . '/leads_backup.jsonl';
+
+    // 1. Crear carpeta y protegerla si no existe
+    if (!is_dir($backup_dir)) {
+        mkdir($backup_dir, 0755, true);
+        // Crear .htaccess para prohibir descarga directa
+        file_put_contents($backup_dir . '/.htaccess', "Deny from all");
+    }
+
+    // 2. Preparar datos para backup
+    $datos_backup = [
+        'fecha' => date('Y-m-d H:i:s'),
+        'ip' => $_SERVER['REMOTE_ADDR'],
+        'nombre' => $nombre,
+        'email' => $email,
+        'empresa' => $empresa,
+        'telefono' => $telefono,
+        'volumen' => $volumen_texto,
+        'mensaje' => $mensaje
+    ];
+
+    // 3. Escribir en archivo (JSON Line por cada lead)
+    file_put_contents($backup_file, json_encode($datos_backup) . "\n", FILE_APPEND | LOCK_EX);
+
+
+    // =================================================================
+    // 📧 PROCESAMIENTO DEL CORREO (BREVO)
+    // =================================================================
+
     $mail = new PHPMailer(true);
 
     try {
@@ -147,10 +182,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
 
     } catch (Exception $e) {
-        // Si falla el envío, mostramos el error técnico en pantalla para que me digas qué dice
-        echo "Error al enviar correo: " . $mail->ErrorInfo;
-        // error_log("Error al enviar correo: " . $mail->ErrorInfo);
-        // header("Location: contacto.php?status=error");
+        // ERROR: Guardamos en log del servidor pero no mostramos al usuario
+        error_log("Error al enviar correo (Lead guardado en backup): " . $mail->ErrorInfo);
+        
+        // Redirigir a error amigable
+        header("Location: contacto.php?status=error");
         exit();
     }
 } else {
