@@ -28,8 +28,25 @@ $cf_secret_key = '0x4AAAAAACEz9-Z-jd06SXwgX18RT6OJTb4';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+    // FUNCIÓN DE REGISTRO DE AMENAZAS
+    function registrar_amenaza($tipo, $detalle = '') {
+        $log_file = 'protegido/security_log.jsonl';
+        $datos = [
+            'fecha' => date('Y-m-d H:i:s'),
+            'ip' => $_SERVER['REMOTE_ADDR'],
+            'tipo' => $tipo,
+            'detalle' => $detalle,
+            'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
+        ];
+        // Asegurar que directorio existe (aunque ya lo hicimos abajo, mejor prevenir)
+        if (!is_dir('protegido')) { mkdir('protegido', 0755, true); }
+        
+        file_put_contents($log_file, json_encode($datos) . "\n", FILE_APPEND | LOCK_EX);
+    }
+
     // 1. Validación Honeypot
     if (!empty($_POST['website_check'])) {
+        registrar_amenaza('Honeypot Triggered', 'Campo oculto website_check completado');
         die("Error de validación (H)."); 
     }
 
@@ -37,6 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $turnstile_response = $_POST['cf-turnstile-response'] ?? '';
     
     if (empty($turnstile_response)) {
+        registrar_amenaza('Captcha Missing', 'No se envió token de Turnstile');
         header("Location: contacto.php?status=captcha_error");
         die();
     }
@@ -57,15 +75,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = curl_exec($ch);
     
     if (curl_errno($ch)) {
-        // Si falla la conexión con Cloudflare, permitimos pasar (fail-open) o mostramos error
+        // Si falla la conexión con Cloudflare, permitimos pasar (fail-open)
         error_log('Error cURL Turnstile: ' . curl_error($ch));
-        // Opcional: header("Location: contacto.php?status=error"); die();
     }
     curl_close($ch);
 
     $response = json_decode($result);
 
     if (!$response->success) {
+        registrar_amenaza('Captcha Failed', 'Validación de Cloudflare fallida o token inválido');
         header("Location: contacto.php?status=robot_error");
         die();
     }
@@ -80,7 +98,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     foreach ($palabras_prohibidas as $palabra) {
         if (strpos($mensaje_raw, $palabra) !== false) {
-            header("Location: contacto.php?status=success"); 
+            registrar_amenaza('Keyword Blocked', 'Palabra detectada: ' . $palabra);
+            header("Location: contacto.php?status=success"); // Simulamos éxito (Shadow Ban)
             die();
         }
     }
