@@ -51,6 +51,11 @@ include 'includes/header.php';
                             <input type="text" id="website_check" name="website_check" autocomplete="off" tabindex="-1">
                         </div>
 
+                        <!-- Campos ocultos de Tracking -->
+                        <input type="hidden" name="utm_source" id="utm_source" value="">
+                        <input type="hidden" name="utm_medium" id="utm_medium" value="">
+                        <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
                                 <label for="nombre" class="block text-sm font-medium text-gray-700 mb-1">Nombre Completo</label>
@@ -97,22 +102,37 @@ include 'includes/header.php';
                         </p>
                     </form>
                     <script>
-                    document.querySelector('form').addEventListener('submit', function(e) {
-                        var btn = this.querySelector('button[type="submit"]');
-                        var tel = document.getElementById('telefono').value;
-                        
-                        // Validación simple
-                        if(tel.length < 10) {
-                            e.preventDefault();
-                            alert('Por favor, ingresa un número de teléfono válido.');
-                            return;
-                        }
+                        document.querySelector('form').addEventListener('submit', function(e) {
+                            var btn = this.querySelector('button[type="submit"]');
+                            var tel = document.getElementById('telefono').value;
+                            
+                            // Validación simple
+                            if(tel.length < 10) {
+                                e.preventDefault();
+                                alert('Por favor, ingresa un número de teléfono válido.');
+                                return;
+                            }
+    
+                            // Efecto de carga
+                            btn.disabled = true;
+                            btn.innerText = 'Enviando... 🚀';
+                            btn.classList.add('opacity-50', 'cursor-not-allowed');
+                        });
 
-                        // Efecto de carga
-                        btn.disabled = true;
-                        btn.innerText = 'Enviando... 🚀';
-                        btn.classList.add('opacity-50', 'cursor-not-allowed');
-                    });
+                        // Lógica de Tracking (UTMs)
+                        document.addEventListener('DOMContentLoaded', () => {
+                            // 1. Intentar leer de URL (Priority) o SessionStorage (Persistencia)
+                            const urlParams = new URLSearchParams(window.location.search);
+                            
+                            const source = urlParams.get('utm_source') || sessionStorage.getItem('utm_source') || 'Organico/Directo';
+                            const medium = urlParams.get('utm_medium') || sessionStorage.getItem('utm_medium') || '';
+                            const campaign = urlParams.get('utm_campaign') || sessionStorage.getItem('utm_campaign') || '';
+
+                            // 2. Llenar inputs ocultos
+                            document.getElementById('utm_source').value = source;
+                            if(medium) document.getElementById('utm_medium').value = medium;
+                            if(campaign) document.getElementById('utm_campaign').value = campaign;
+                        });
                     </script>
                 </div>
 

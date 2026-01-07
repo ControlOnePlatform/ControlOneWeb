@@ -115,6 +115,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $volumen  = strip_tags(trim($_POST["volumen"])); 
     $mensaje  = strip_tags(trim($_POST["mensaje"]));
 
+    // Tracking Info
+    $utm_source = strip_tags(trim($_POST['utm_source'] ?? 'No detectado'));
+
     // Traducción volumen
     $volumen_texto = $volumen;
     switch ($volumen) {
@@ -148,7 +151,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'empresa' => $empresa,
         'telefono' => $telefono,
         'volumen' => $volumen_texto,
-        'mensaje' => $mensaje
+        'mensaje' => $mensaje,
+        'origen' => $utm_source // Guardar origen en backup
     ];
 
     // 3. Escribir en archivo (JSON Line por cada lead)
@@ -188,6 +192,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <li><strong>Correo:</strong> <a href='mailto:$email'>$email</a></li>
                     <li><strong>Teléfono:</strong> $telefono</li>
                     <li><strong>Volumen:</strong> $volumen_texto</li>
+                    <li><strong>Fuente:</strong> <span style='background-color:#e1f5fe; padding:2px 5px; border-radius:3px;'>$utm_source</span></li>
                 </ul>
                 <div style='background: white; padding: 15px; border-left: 4px solid #d35400;'>
                     <strong>Mensaje:</strong><br>$mensaje

@@ -120,18 +120,18 @@ include 'includes/data_blog.php';
 
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden group hover:shadow-xl transition-shadow duration-300">
                     <div class="h-48 bg-gray-200 relative overflow-hidden">
-                        <img src="assets/img/sellos/sello-metalico-gl-iso17712-alta-seguridad.avif" alt="Sellos metálicos de banda para camiones" class="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105">
+                        <img src="assets/img/sellos/sello-tipo-cable-c-one316.avif" alt="Sello de cable de acero ajustable alta seguridad" class="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105">
                         <div class="absolute top-4 right-4 bg-accent text-white p-2 rounded-full">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"></path></svg>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-primary mb-2">Sellos Metálicos</h3>
+                        <h3 class="text-xl font-bold text-primary mb-2">Sellos de Cable de Acero</h3>
                         <p class="text-gray-600 mb-4 text-sm">
-                            <strong>Sellos de seguridad para camiones</strong> tipo torton y cajas secas. Banda metálica (fleje) con auditoría auditiva (cascabel) para detectar manipulación.
+                            <strong>Sellos ajustables</strong> con cable de acero trenzado (3.5mm y 5mm). Alta resistencia a la tracción e ideales para camiones, tolvas y furgones.
                         </p>
-                        <a href="productos#metalicos" class="text-accent font-semibold hover:text-orange-600 inline-flex items-center">
-                            Ver Sellos para Camiones
+                        <a href="productos#cables" class="text-accent font-semibold hover:text-orange-600 inline-flex items-center">
+                            Ver Sellos de Cable
                             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                         </a>
                     </div>
@@ -204,8 +204,23 @@ include 'includes/data_blog.php';
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <?php 
-                // Asegurarse de que $blog_posts esté definido (viene de data_blog.php)
-                $ultimos_posts = isset($blog_posts) ? array_slice($blog_posts, 0, 3) : [];
+                // Asegurarse de que $blog_posts esté definido
+                if (isset($blog_posts)) {
+                    // 1. Filtrar solo los que ya pasaron (Fecha <= Hoy)
+                    $posts_publicados = array_filter($blog_posts, function($post) {
+                        return strtotime($post['fecha']) <= time();
+                    });
+
+                    // 2. Ordenar por fecha descendente (El más nuevo primero)
+                    uasort($posts_publicados, function($a, $b) {
+                        return strtotime($b['fecha']) - strtotime($a['fecha']);
+                    });
+
+                    // 3. Tomar los 3 más recientes
+                    $ultimos_posts = array_slice($posts_publicados, 0, 3);
+                } else {
+                    $ultimos_posts = [];
+                }
                 
                 if (!empty($ultimos_posts)):
                     foreach ($ultimos_posts as $slug => $post): 
