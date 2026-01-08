@@ -90,7 +90,8 @@ include 'includes/data_blog.php';
                                 <a href="post/<?php echo $slug; ?>" class="block h-48 overflow-hidden relative">
                                     <img src="<?php echo $post['imagen']; ?>" 
                                          alt="<?php echo $post['titulo']; ?>" 
-                                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                         loading="lazy">
                                     
                                     <div class="absolute top-4 left-4 bg-primary text-white text-[10px] md:text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
                                         <?php echo $post['categoria']; ?>

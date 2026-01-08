@@ -82,7 +82,7 @@ include 'includes/data_blog.php';
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden group hover:shadow-xl transition-shadow duration-300">
                     <div class="h-48 bg-gray-200 relative overflow-hidden">
-                        <img src="assets/img/sellos/sello-seguridad-star-one-indicativo.avif" alt="Sellos de botella y clavo alta seguridad" class="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105">
+                        <img src="assets/img/sellos/sello-seguridad-star-one-indicativo.avif" alt="Sellos de botella y clavo alta seguridad" class="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105" loading="lazy">
                         <div class="absolute top-4 right-4 bg-accent text-white p-2 rounded-full">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
                         </div>
@@ -101,7 +101,7 @@ include 'includes/data_blog.php';
 
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden group hover:shadow-xl transition-shadow duration-300">
                     <div class="h-48 bg-gray-200 relative overflow-hidden">
-                        <img src="assets/img/sellos/precinto-plastico-quantum-ajustable.avif" alt="Precintos de plástico indicativos tipo cola de rata" class="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105">
+                        <img src="assets/img/sellos/precinto-plastico-quantum-ajustable.avif" alt="Precintos de plástico indicativos tipo cola de rata" class="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105" loading="lazy">
                         <div class="absolute top-4 right-4 bg-accent text-white p-2 rounded-full">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
                         </div>
@@ -120,7 +120,7 @@ include 'includes/data_blog.php';
 
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden group hover:shadow-xl transition-shadow duration-300">
                     <div class="h-48 bg-gray-200 relative overflow-hidden">
-                        <img src="assets/img/sellos/sello-tipo-cable-c-one316.avif" alt="Sello de cable de acero ajustable alta seguridad" class="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105">
+                        <img src="assets/img/sellos/sello-tipo-cable-c-one316.avif" alt="Sello de cable de acero ajustable alta seguridad" class="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-105" loading="lazy">
                         <div class="absolute top-4 right-4 bg-accent text-white p-2 rounded-full">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"></path></svg>
                         </div>
@@ -228,7 +228,7 @@ include 'includes/data_blog.php';
                     <article class="flex flex-col h-full group">
                         <a href="post/<?php echo $slug; ?>" class="block overflow-hidden rounded-lg mb-4 relative h-48">
                             <div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors z-10"></div>
-                            <img src="<?php echo $post['imagen']; ?>" alt="<?php echo $post['titulo']; ?>" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                            <img src="<?php echo $post['imagen']; ?>" alt="<?php echo $post['titulo']; ?>" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
                         </a>
                         <div class="flex flex-col flex-grow">
                             <div class="text-xs font-bold text-gray-400 mb-2 flex items-center">

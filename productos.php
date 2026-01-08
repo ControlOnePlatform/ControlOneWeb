@@ -254,7 +254,7 @@ include 'includes/header.php';
                 
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/precinto-plastico-quantum-ajustable.avif" alt="Quantum" class="h-32 w-auto object-contain">
+                        <img src="assets/img/sellos/precinto-plastico-quantum-ajustable.avif" alt="Quantum" class="h-32 w-auto object-contain" loading="lazy">
                     </div>
                     <h3 class="text-lg font-bold text-primary mb-2">Quantum (8", 12", 16")</h3>
                     <p class="text-sm text-gray-500 mb-4">Inserto metálico de seguridad. Resistencia 45kg.</p>
@@ -267,7 +267,7 @@ include 'includes/header.php';
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative">
                     <div class="absolute top-0 right-0 bg-accent text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">REFORZADO</div>
                     <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-plastico-quamtum-r-12.avif" alt="Quantum R12" class="h-32 w-auto object-contain">
+                        <img src="assets/img/sellos/sello-plastico-quamtum-r-12.avif" alt="Quantum R12" class="h-32 w-auto object-contain" loading="lazy">
                     </div>
                     <h3 class="text-lg font-bold text-primary mb-2">Quantum R12</h3>
                     <p class="text-sm text-gray-500 mb-4">Cola de Rata 2.5mm | Mayor tracción.</p>
@@ -280,7 +280,7 @@ include 'includes/header.php';
 
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-plastico-quantum-r-18.avif" alt="Quantum R18" class="h-32 w-auto object-contain">
+                        <img src="assets/img/sellos/sello-plastico-quantum-r-18.avif" alt="Quantum R18" class="h-32 w-auto object-contain" loading="lazy">
                     </div>
                     <h3 class="text-lg font-bold text-primary mb-2">Quantum R18 (Largo)</h3>
                     <p class="text-sm text-gray-500 mb-4">45cm para bolsas grandes y tambores.</p>
@@ -293,7 +293,7 @@ include 'includes/header.php';
 
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-alli-one-anillo.avif" alt="ALLI-ONE" class="h-32 w-auto object-contain">
+                        <img src="assets/img/sellos/sello-alli-one-anillo.avif" alt="ALLI-ONE" class="h-32 w-auto object-contain" loading="lazy">
                     </div>
                     <h3 class="text-lg font-bold text-primary mb-2">ALLI-ONE (Anillo Fijo)</h3>
                     <p class="text-sm text-gray-500 mb-4">Cierre fijo tipo camión. Sin ajuste.</p>
@@ -306,7 +306,7 @@ include 'includes/header.php';
 
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-jumbo-seal-paleta-grande.avif" alt="Jumbo Seal" class="h-32 w-auto object-contain">
+                        <img src="assets/img/sellos/sello-jumbo-seal-paleta-grande.avif" alt="Jumbo Seal" class="h-32 w-auto object-contain" loading="lazy">
                     </div>
                     <h3 class="text-lg font-bold text-primary mb-2">JUMBO SEAL (Paleta XL)</h3>
                     <p class="text-sm text-gray-500 mb-4">Placa de 10x5cm para etiquetas grandes.</p>
@@ -319,7 +319,7 @@ include 'includes/header.php';
 
                 <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                     <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-c-gas-l-candado.avif" alt="C-GAS L Candado" class="h-32 w-auto object-contain">
+                        <img src="assets/img/sellos/sello-c-gas-l-candado.avif" alt="C-GAS L Candado" class="h-32 w-auto object-contain" loading="lazy">
                     </div>
                     <h3 class="text-lg font-bold text-primary mb-2">C-GAS L (Candado)</h3>
                     <p class="text-sm text-gray-500 mb-4">Especial para válvulas de gas y oxígeno.</p>
@@ -390,7 +390,7 @@ include 'includes/header.php';
                 </div>
                 <div class="md:w-1/2 flex justify-center">
                     <div class="relative w-full max-w-md aspect-video bg-white/10 rounded-xl backdrop-blur-sm p-6 border border-white/20 shadow-2xl flex items-center justify-center">
-                        <img src="assets/img/sellos/sello-de-seguridad-para-bancos-c-cash.avif" alt="C-CASH Sello Bancario" class="max-w-full max-h-full object-contain">
+                        <img src="assets/img/sellos/sello-de-seguridad-para-bancos-c-cash.avif" alt="C-CASH Sello Bancario" class="max-w-full max-h-full object-contain" loading="lazy">
                     </div>
                 </div>
             </div>
