@@ -1,60 +1,57 @@
 <?php
-// sitemap.php - Generador Dinámico para Control One
+// sitemap.php - Generador Dinámico para Google
 header("Content-type: application/xml; charset=utf-8");
 
-// Incluimos tu "base de datos" de posts
-include 'includes/data_blog.php'; 
+// 1. Cargar Base de Datos del Blog
+require_once 'includes/data_blog.php';
 
-// URL base de tu sitio (asegúrate que termine en /)
-$base_url = "https://controlone.com.mx/";
+// 2. Configuración Base
+$base_url = "https://controlone.com.mx";
+$today = date('Y-m-d');
 
-// Cabecera obligatoria del XML
 echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
     <url>
-        <loc><?php echo $base_url; ?></loc>
-        <lastmod><?php echo date("Y-m-d"); ?></lastmod>
-        <priority>1.00</priority>
+        <loc><?php echo $base_url; ?>/</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
     </url>
     <url>
-        <loc><?php echo $base_url; ?>productos</loc>
-        <priority>0.95</priority>
+        <loc><?php echo $base_url; ?>/productos</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc><?php echo $base_url; ?>contacto</loc>
-        <priority>0.90</priority>
+        <loc><?php echo $base_url; ?>/nosotros</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc><?php echo $base_url; ?>nosotros</loc>
-        <priority>0.80</priority>
+        <loc><?php echo $base_url; ?>/contacto</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc><?php echo $base_url; ?>blog</loc>
-        <priority>0.90</priority>
+        <loc><?php echo $base_url; ?>/blog</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
     </url>
-
-    <!-- Fichas Técnicas (Escaneo Automático de carpeta 'info') -->
-    <?php
-    $files = glob("info/*.php"); // Busca todos los .php en info
-    foreach ($files as $file) {
-        $slug_producto = basename($file, '.php'); // Obtiene nombre sin extensión
-        echo "<url>\n";
-        echo "        <loc>" . $base_url . "info/" . $slug_producto . "</loc>\n";
-        echo "        <priority>0.95</priority>\n";
-        echo "    </url>\n";
-    }
-    ?>
     <?php 
-    // Aquí recorremos tu array $blog_posts automáticamente
-    foreach ($blog_posts as $slug => $post): 
+    if (isset($blog_posts) && !empty($blog_posts)):
+        foreach ($blog_posts as $slug => $post): 
     ?>
     <url>
-        <loc><?php echo $base_url . 'post/' . $slug; ?></loc>
-        <lastmod><?php echo $post['fecha']; ?>T12:00:00+00:00</lastmod>
-        <priority>0.85</priority>
+        <loc><?php echo $base_url; ?>/post/<?php echo $slug; ?></loc>
+        <lastmod><?php echo $post['fecha']; ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
-    <?php endforeach; ?>
-
+    <?php 
+        endforeach; 
+    endif;
+    ?>
 </urlset>

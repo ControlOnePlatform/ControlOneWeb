@@ -1,33 +1,76 @@
 <?php 
-$page_title = "Página no encontrada | Control One";
+$page_title = "Error 404 - Violación de Seguridad | Control One";
 include 'includes/header.php'; 
 ?>
 
-<main class="flex flex-col items-center justify-center min-h-[60vh] bg-gray-50 text-center px-4">
-    <div class="max-w-2xl mx-auto">
-        <div class="text-9xl font-bold text-gray-200 mb-4">404</div>
-        <h1 class="text-3xl font-bold text-primary mb-4">¡Vaya! Nos perdimos en la ruta.</h1>
-        <p class="text-gray-600 mb-8 text-lg">
-            La página que buscas no existe o ha sido movida. Pero no te preocupes, tu carga sigue segura con nosotros.
-        </p>
-        
-        <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/" class="bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-colors shadow-lg">
-                Volver al Inicio
-            </a>
-            <a href="/productos" class="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-md font-bold transition-colors">
-                Ver Catálogo
-            </a>
-        </div>
+<!-- Sección Full Screen con Tema Oscuro "Security Console" -->
+<main class="min-h-[85vh] flex items-center justify-center bg-[#0B2239] relative overflow-hidden">
+    
+    <!-- Patrón de fondo tecnológico (Grid) -->
+    <div class="absolute inset-0 opacity-5 pointer-events-none" 
+         style="background-image: linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(90deg, #ffffff 1px, transparent 1px); background-size: 40px 40px;">
+    </div>
+    
+    <!-- Círculo decorativo de fondo -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-900 rounded-full blur-3xl opacity-20 pointer-events-none"></div>
 
-        <div class="mt-12 pt-8 border-t border-gray-200">
-            <p class="text-sm text-gray-500 mb-4">¿Buscas algo urgente?</p>
-            <a href="https://wa.me/522218027570" target="_blank" class="inline-flex items-center text-accent font-bold hover:text-orange-600">
-                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.506-.669-.516-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-                Escríbenos por WhatsApp
-            </a>
+    <div class="relative z-10 max-w-2xl w-full text-center px-6">
+        
+        <!-- Icono con Efecto Neón -->
+        <div class="mb-8 relative inline-flex justify-center items-center">
+             <div class="absolute inset-0 bg-red-600 blur-2xl opacity-30 rounded-full animate-pulse"></div>
+             <div class="bg-[#0f2d4a] p-6 rounded-full border border-red-500/30 shadow-2xl relative z-10">
+                <svg class="w-16 h-16 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                </svg>
+             </div>
         </div>
+        
+        <!-- Títulos -->
+        <h1 class="text-6xl md:text-8xl font-black text-white mb-2 tracking-tighter opacity-90">
+            4<span class="text-accent">0</span>4
+        </h1>
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-200 mb-6 tracking-wide">
+            ¡ALTO! CÓDIGO INCORRECTO
+        </h2>
+        
+        <!-- Mensaje Estilo Terminal -->
+        <div class="bg-[#051321] border-l-4 border-accent p-6 mb-10 text-left rounded-r-lg shadow-lg mx-auto max-w-lg">
+            <p class="font-mono text-green-400 text-sm mb-2">> System.Scan_Result:</p>
+            <p class="text-gray-300 text-lg leading-relaxed">
+                "El <strong>precinto de seguridad</strong> de esta URL ha sido violado o el manifiesto de carga no existe en nuestra base de datos."
+            </p>
+        </div>
+        
+        <!-- Botones Premium -->
+        <div class="flex flex-col sm:flex-row gap-5 justify-center items-center">
+             <a href="/" class="group relative px-8 py-4 bg-accent hover:bg-orange-500 text-white font-bold rounded-lg transition-all shadow-lg hover:shadow-orange-500/40 overflow-hidden w-full sm:w-auto">
+                <div class="absolute inset-0 w-full h-full bg-white/20 transform -translate-x-full skew-x-12 group-hover:animate-shine"></div>
+                <span class="relative flex items-center justify-center gap-2">
+                    🛡️ Regresar a Zona Segura
+                </span>
+             </a>
+             
+             <a href="contacto" class="px-8 py-4 border border-gray-600 text-gray-300 hover:text-white hover:border-white hover:bg-white/5 rounded-lg transition-all w-full sm:w-auto flex items-center justify-center gap-2">
+                📡 Contactar Soporte
+             </a>
+        </div>
+        
+        <p class="mt-12 text-xs text-gray-600 font-mono">
+            IP: <?php echo $_SERVER['REMOTE_ADDR']; ?> | ID: <?php echo uniqid(); ?>
+        </p>
+
     </div>
 </main>
+
+<style>
+/* Animación de brillo para el botón */
+@keyframes shine {
+    100% { transform: translateX(100%) skewX(-12deg); }
+}
+.group-hover\:animate-shine:hover {
+    animation: shine 0.7s;
+}
+</style>
 
 <?php include 'includes/footer.php'; ?>
