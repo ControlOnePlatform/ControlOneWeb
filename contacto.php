@@ -76,19 +76,29 @@ include 'includes/header.php';
                                 <input type="text" id="empresa" name="empresa" autocomplete="organization" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-colors" placeholder="Nombre de tu empresa">
                             </div>
                         </div>
-                        <div>
-                            <label for="volumen" class="block text-sm font-medium text-gray-700 mb-1">Volumen Mensual Estimado</label>
-                            <select id="volumen" name="volumen" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-colors bg-white">
-                                <option value="">Selecciona una cantidad...</option>
-                                <option value="menos_1000">Menos de 1,000 piezas (Pedido Mínimo)</option>
-                                <option value="1000_5000">1,000 - 5,000 piezas</option>
-                                <option value="5000_10000">5,000 - 10,000 piezas</option>
-                                <option value="mas_10000">Más de 10,000 piezas (Precio Distribuidor)</option>
-                            </select>
+                        <!-- SECCIÓN: COTIZADOR DINÁMICO -->
+                        <div class="bg-gray-50 p-5 rounded-lg border border-gray-200 shadow-inner">
+                            <div class="flex justify-between items-center mb-3">
+                                <label class="block text-sm font-bold text-primary">Configura tu Pedido</label>
+                                <span class="text-xs text-gray-400 bg-white px-2 py-1 rounded border">Puedes agregar varios productos</span>
+                            </div>
+                            
+                            <div id="order-items" class="space-y-4">
+                                <!-- Aquí se inyectan las filas con JS -->
+                            </div>
+
+                            <button type="button" id="add-item-btn" class="mt-4 w-full py-2 border-2 border-dashed border-gray-300 text-gray-500 rounded-md hover:border-accent hover:text-accent font-semibold text-sm transition-all flex justify-center items-center">
+                                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                                Agregar otro producto
+                            </button>
                         </div>
+
                         <div>
-                            <label for="mensaje" class="block text-sm font-medium text-gray-700 mb-1">¿Qué tipo de sello necesitas?</label>
-                            <textarea id="mensaje" name="mensaje" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-colors" placeholder="Ej: Necesito sellos de botella para contenedores o sellos de cable para pipas..."></textarea>
+                            <label for="comentarios_visual" class="block text-sm font-medium text-gray-700 mb-1">Comentarios Adicionales / Dudas</label>
+                            <textarea id="comentarios_visual" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-accent focus:border-accent outline-none transition-colors" placeholder="Ej: Requiero personalización con logo y envío urgente a Monterrey..."></textarea>
+                            
+                            <!-- ESTE ES EL CAMPO QUE LEE PHP (Se llena automático) -->
+                            <input type="hidden" name="mensaje" id="mensaje_final">
                         </div>
 
                         <div class="cf-turnstile" data-sitekey="0x4AAAAAACEz927vdcZlGnzw"></div>
@@ -101,39 +111,159 @@ include 'includes/header.php';
                             Tus datos están protegidos. Consulta nuestro <a href="/aviso-privacidad" class="underline hover:text-accent">Aviso de Privacidad</a>.
                         </p>
                     </form>
-                    <script>
-                        document.querySelector('form').addEventListener('submit', function(e) {
-                            var btn = this.querySelector('button[type="submit"]');
-                            var tel = document.getElementById('telefono').value;
-                            
-                            // Validación simple
-                            if(tel.length < 10) {
-                                e.preventDefault();
-                                alert('Por favor, ingresa un número de teléfono válido.');
-                                return;
+                        <script>
+                            // --- CATÁLOGO DE PRODUCTOS (Configuración) ---
+                            const catalog = [
+                                { group: 'Alta Seguridad (ISO 17712)', options: [
+                                    { id: 'star-one', name: 'Star One Seal (Botella)', min: 100 },
+                                    { id: 'c-one-316', name: 'C-ONE 316 (Cable 5mm)', min: 100 },
+                                    { id: 'c-block', name: 'C-BLOCK (Inoxidable)', min: 100 }
+                                ]},
+                                { group: 'Cables de Acero', options: [
+                                    { id: 'c-one-180', name: 'C-ONE 180 (Cable 3.2mm)', min: 100 },
+                                    { id: 'c-one-x6', name: 'C-ONE X6 (Cable 1.8mm)', min: 200 },
+                                    { id: 'serie-k', name: 'Serie K (Aluminio)', min: 200 }
+                                ]},
+                                { group: 'Plásticos y Etiquetas', options: [
+                                    { id: 'quantum', name: 'Quantum (Plástico)', min: 1000 },
+                                    { id: 'rotaseal', name: 'Rotaseal (Medidores)', min: 500 },
+                                    { id: 'secure-label', name: 'Etiquetas VOID', min: 1000 },
+                                    { id: 'c-cash', name: 'C-CASH (Bancario)', min: 100 }
+                                ]}
+                            ];
+
+                            // --- LÓGICA DEL COTIZADOR ---
+                            const container = document.getElementById('order-items');
+                            const addBtn = document.getElementById('add-item-btn');
+
+                            // Función para crear el select de opciones
+                            function buildOptionsHTML() {
+                                let html = '<option value="">Selecciona un producto...</option>';
+                                catalog.forEach(group => {
+                                    html += `<optgroup label="${group.group}">`;
+                                    group.options.forEach(prod => {
+                                        html += `<option value="${prod.name}" data-min="${prod.min}">${prod.name}</option>`;
+                                    });
+                                    html += `</optgroup>`;
+                                });
+                                html += '<option value="Otro">Otro / No estoy seguro</option>';
+                                return html;
                             }
-    
-                            // Efecto de carga
-                            btn.disabled = true;
-                            btn.innerText = 'Enviando... 🚀';
-                            btn.classList.add('opacity-50', 'cursor-not-allowed');
-                        });
 
-                        // Lógica de Tracking (UTMs)
-                        document.addEventListener('DOMContentLoaded', () => {
-                            // 1. Intentar leer de URL (Priority) o SessionStorage (Persistencia)
-                            const urlParams = new URLSearchParams(window.location.search);
-                            
-                            const source = urlParams.get('utm_source') || sessionStorage.getItem('utm_source') || 'Organico/Directo';
-                            const medium = urlParams.get('utm_medium') || sessionStorage.getItem('utm_medium') || '';
-                            const campaign = urlParams.get('utm_campaign') || sessionStorage.getItem('utm_campaign') || '';
+                            // Función para agregar fila
+                            function addRow() {
+                                const rowId = Date.now();
+                                const div = document.createElement('div');
+                                div.className = 'grid grid-cols-12 gap-2 items-start bg-white p-3 rounded border border-gray-200 relative group animate-fade-in';
+                                div.innerHTML = `
+                                    <div class="col-span-7 sm:col-span-8">
+                                        <label class="text-xs text-gray-500 font-bold block mb-1">Producto</label>
+                                        <select class="prod-select w-full text-sm border-gray-300 rounded focus:ring-accent focus:border-accent" required>
+                                            ${buildOptionsHTML()}
+                                        </select>
+                                    </div>
+                                    <div class="col-span-4 sm:col-span-3">
+                                        <label class="text-xs text-gray-500 font-bold block mb-1">Cantidad</label>
+                                        <input type="number" class="qty-input w-full text-sm border-gray-300 rounded focus:ring-accent focus:border-accent" placeholder="Min: 100" min="1" required>
+                                    </div>
+                                    <div class="col-span-1 flex items-end justify-center h-full pb-1">
+                                        <button type="button" class="text-red-300 hover:text-red-500 transition-colors" onclick="this.closest('.grid').remove()">
+                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                                        </button>
+                                    </div>
+                                    <div class="col-span-12 text-[10px] text-gray-400 mt-1 min-msg hidden">
+                                        * Pedido mínimo sugerido: <span class="min-val font-bold">100</span> pzas
+                                    </div>
+                                `;
+                                container.appendChild(div);
 
-                            // 2. Llenar inputs ocultos
-                            document.getElementById('utm_source').value = source;
-                            if(medium) document.getElementById('utm_medium').value = medium;
-                            if(campaign) document.getElementById('utm_campaign').value = campaign;
-                        });
-                    </script>
+                                // Event Listener para actualizar el "Minimo"
+                                const select = div.querySelector('.prod-select');
+                                const input = div.querySelector('.qty-input');
+                                const msg = div.querySelector('.min-msg');
+                                const minSpan = div.querySelector('.min-val');
+
+                                select.addEventListener('change', function() {
+                                    const opt = this.options[this.selectedIndex];
+                                    const min = opt.getAttribute('data-min');
+                                    if(min) {
+                                        input.min = min;
+                                        input.placeholder = "Min: " + min;
+                                        minSpan.innerText = min;
+                                        msg.classList.remove('hidden');
+                                    } else {
+                                        msg.classList.add('hidden');
+                                        input.placeholder = "Cantidad";
+                                    }
+                                });
+                            }
+
+                            // Inicializar con 1 fila
+                            addRow();
+
+                            // Botón Agregar
+                            addBtn.addEventListener('click', addRow);
+
+
+                            // --- SUBMIT: Compilar mensaje ---
+                            document.querySelector('form').addEventListener('submit', function(e) {
+                                e.preventDefault(); // Pausa para procesar
+                                
+                                const rows = document.querySelectorAll('#order-items .grid');
+                                let orderText = "📋 DETALLE DEL PEDIDO:\n";
+                                let hasItems = false;
+
+                                rows.forEach(row => {
+                                    const prod = row.querySelector('.prod-select').value;
+                                    const qty = row.querySelector('.qty-input').value;
+                                    if(prod && qty) {
+                                        orderText += `- ${qty} pzas de [ ${prod} ]\n`;
+                                        hasItems = true;
+                                    }
+                                });
+
+                                const comments = document.getElementById('comentarios_visual').value;
+                                if(comments) {
+                                    orderText += `\n📝 COMENTARIOS ADICIONALES:\n${comments}`;
+                                }
+
+                                if(!hasItems) {
+                                    alert("Por favor selecciona al menos un producto y cantidad.");
+                                    return;
+                                }
+
+                                // Llenar el input real
+                                document.getElementById('mensaje_final').value = orderText;
+
+                                // Validar teléfono
+                                const tel = document.getElementById('telefono').value;
+                                if(tel.length < 10) {
+                                    alert('Por favor, ingresa un número de teléfono válido.');
+                                    return;
+                                }
+
+                                // Enviar
+                                const btn = this.querySelector('button[type="submit"]');
+                                btn.disabled = true;
+                                btn.innerText = 'Procesando Cotización... 🚀';
+                                btn.classList.add('opacity-50', 'cursor-not-allowed');
+                                
+                                this.submit();
+                            });
+
+
+                            // Lógica de Tracking (UTMs)
+                            document.addEventListener('DOMContentLoaded', () => {
+                                const urlParams = new URLSearchParams(window.location.search);
+                                const source = urlParams.get('utm_source') || sessionStorage.getItem('utm_source') || 'Organico/Directo';
+                                const medium = urlParams.get('utm_medium') || sessionStorage.getItem('utm_medium') || '';
+                                const campaign = urlParams.get('utm_campaign') || sessionStorage.getItem('utm_campaign') || '';
+
+                                document.getElementById('utm_source').value = source;
+                                if(medium) document.getElementById('utm_medium').value = medium;
+                                if(campaign) document.getElementById('utm_campaign').value = campaign;
+                            });
+                        </script>
                 </div>
 
                 <div class="lg:w-1/3 space-y-8">
