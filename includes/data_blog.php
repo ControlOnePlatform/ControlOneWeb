@@ -1341,6 +1341,64 @@ $blog_posts = [
             </ul>
         '
     ],
+
+    // 31. SÁBADO 17 ENE -> ROBO HORMIGA
+    'seguridad-inventarios-robo-hormiga-almacen' => [
+        'titulo'           => 'Enemigo en Casa: Combatiendo el Robo Hormiga',
+        'meta_description' => 'El 40% de las pérdidas ocurren detro del almacén. Estrategias para sellar pallets, cajas y jaulas de alto valor durante el fin de semana.',
+        'autor'            => 'Auditoría Interna',
+        'fecha'            => '2026-01-17', // SÁBADO
+        'categoria'        => 'Prevención de Pérdidas y Retail', // CAT 5
+        'imagen'           => 'assets/img/blog/blog_sabado_inventario.png', 
+        'extracto'         => 'No solo se roban camiones. Aprende a proteger tu stock estático con sellos de bajo costo pero alta evidencia.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Sellar la puerta del CEDIS no basta si tus empleados pueden abrir las cajas "para sacar una muestra" y volverlas a cerrar.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Jaula de Alto Valor</h2>
+            <p class="mb-4">
+                Electrónicos, vinos y cigarros deben estar en zonas enrejadas. Pero ¿quién tiene la llave?
+            </p>
+            <h3 class="text-xl font-bold text-gray-800 mt-6 mb-2">Protocolo de Llave Sellada</h3>
+            <p class="mb-4">
+                Mete las llaves de la jaula en una bolsa de seguridad o caja pequeña y séllala con un folio único (Rotaseal). Si el supervisor de fin de semana necesita abrir, tendrá que romper el sello y justificarlo el lunes.
+            </p>
+        '
+    ],
+
+    // 32. DOMINGO 18 ENE -> CÓDIGO DE COLORES
+    'codigo-colores-sellos-seguridad' => [
+        'titulo'           => 'Psicología del Color en Seguridad: ¿Qué significa el Rojo?',
+        'meta_description' => 'Optimiza tu operación asignando colores por zona, día o tipo de producto. Guía rápida de codificación visual para jefes de patio.',
+        'autor'            => 'Control One Tips',
+        'fecha'            => '2026-01-18', // DOMINGO
+        'categoria'        => 'Logística y Transporte de Carga', // CAT 2
+        'imagen'           => 'assets/img/blog/blog_domingo_colores.png', 
+        'extracto'         => 'Un sistema visual simple puede reducir errores de carga en un 30%. Descubre cómo implementar un "Semáforo Logístico".',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                ¿Por qué vendemos sellos en 5 colores? No es por estética. Es por velocidad.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Ejemplos de Codificación</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                <div class="bg-red-50 p-4 border-l-4 border-red-500">
+                    <strong>ROJO:</strong> Carga de Alto Valor / Peligrosa / Cuarentena.
+                </div>
+                <div class="bg-green-50 p-4 border-l-4 border-green-500">
+                    <strong>VERDE:</strong> Producto liberado / Orgánico / Reciclable.
+                </div>
+                <div class="bg-blue-50 p-4 border-l-4 border-blue-500">
+                    <strong>AZUL:</strong> Carga Nacional / Estándar.
+                </div>
+                <div class="bg-yellow-50 p-4 border-l-4 border-yellow-500">
+                    <strong>AMARILLO:</strong> Devoluciones / Merma.
+                </div>
+            </div>
+            <p class="mb-4">
+                Si un guardia ve un camión saliendo con sello AMARILLO (Devolución) pero lleva papeles de Venta Nueva, sabe inmediatamente que algo está mal.
+            </p>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
