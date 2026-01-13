@@ -13,6 +13,7 @@
       gtag('js', new Date());
 
       gtag('config', 'G-06SRZZQG4J');
+      gtag('config', 'AW-17797845908');
     </script>
     
     <!-- Metricool Tracker -->

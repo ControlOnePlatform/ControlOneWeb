@@ -1216,6 +1216,131 @@ $blog_posts = [
             </p>
         '
     ],
+
+    // 26. LUNES 12 ENE -> ISO 17712
+    'normativa-iso-17712-2026-actualizacion' => [
+        'titulo'           => 'Normativa ISO 17712:2026 ¿Sigue vigente tu certificación?',
+        'meta_description' => 'Análisis de los requisitos actuales para sellos de Alta Seguridad. Evita que tu carga sea rechazada en aduana por incumplimiento C-TPAT.',
+        'autor'            => 'Control One Normatividad',
+        'fecha'            => '2026-01-12', // LUNES
+        'categoria'        => 'Alta Seguridad y C-TPAT', // CAT 1
+        'imagen'           => 'assets/img/blog/blog_lunes_iso_2026.png', 
+        'extracto'         => 'El cumplimiento aduanero es binario: o cumples o no pasas. Repasamos la Cláusula 6 y las pruebas de laboratorio que tus sellos deben superar hoy.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Muchos clientes nos preguntan si un sello "parecido" a un perno es suficiente. La respuesta corta es NO. La respuesta larga está en la norma ISO 17712.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Qué define a un Sello de "Alta Seguridad" (H)?</h2>
+            <p class="mb-4">
+                No es solo que sea de metal. Debe haber pasado pruebas de impacto, cizalla, flexión y tracción en un laboratorio acreditado (ISO 17025).
+            </p>
+            <h3 class="text-xl font-bold text-gray-800 mt-6 mb-2">La Cláusula 6: Evidencia de Manipulación</h3>
+            <p class="mb-4">
+                La actualización más crítica exige que, si el sello es atacado, debe dejar una evidencia visible e irreversible ("tamper evidence"). Nuestro modelo Star One Seal cumple con esto gracias a su diseño anti-giro.
+            </p>
+            <div class="mt-8 bg-blue-50 p-4 border border-blue-200 rounded">
+                <strong>Tip de Experto:</strong> Solicita siempre el certificado de laboratorio vigente (menos de 2 años) a tu proveedor.
+            </div>
+        '
+    ],
+
+    // 27. MARTES 13 ENE -> MAPA DE RIESGO
+    'mapa-riesgo-carretero-mexico-2026' => [
+        'titulo'           => 'Mapa de Riesgo 2026: Las carreteras más peligrosas para la carga',
+        'meta_description' => 'Actualización trimestral de zonas rojas de robo a transporte. Puebla, Estado de México y Bajío siguen en alerta máxima.',
+        'autor'            => 'Inteligencia Logística',
+        'fecha'            => '2026-01-13', // MARTES
+        'categoria'        => 'Logística y Transporte de Carga', // CAT 2
+        'imagen'           => 'assets/img/blog/blog_martes_mapa_robo.png', 
+        'extracto'         => 'Planificar tu ruta ya no es opcional. Identificamos los "Triángulos de las Bermudas" del transporte terrestre y qué sellos usar en cada tramo.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La delincuencia evoluciona. Anteriormente, el robo era violencia pura. Ahora usan "Jammers" y técnicas de apertura limpia.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Puntos Críticos Detectados</h2>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-6">
+                <li><strong>Arco Norte (Puebla-Hidalgo):</strong> Alta incidencia de intercepción armada. Se recomienda Sello de Barrera + Custodia.</li>
+                <li><strong>Circuito Exterior Mexiquense:</strong> Riesgo de paradas no autorizadas. Uso obligatorio de Sello GPS o monitoreo activo.</li>
+                <li><strong>Carretera 57 (Matehuala):</strong> Robo en paraderos. Asegura tus puertas incluso si el chofer solo baja a comer.</li>
+            </ul>
+            <h3 class="text-xl font-bold text-gray-800 mt-6 mb-2">¿Cómo mitigar el riesgo?</h3>
+            <p class="mb-4">
+                En zonas rojas, la redundancia es clave. Un sello de cable C-ONE 316 (5mm) es mucho más difícil de cortar rápido que uno estándar, comprando tiempo valioso para la reacción policial.
+            </p>
+        '
+    ],
+
+    // 28. MIÉRCOLES 14 ENE -> ECOLOGÍA
+    'sellos-seguridad-plasticos-reciclados' => [
+        'titulo'           => 'Logística Verde: La era de los Sellos Reciclados',
+        'meta_description' => 'Tu huella de carbono importa. Conoce la nueva generación de sellos fabricados con polímeros reciclados post-consumo (PCR) sin perder resistencia.',
+        'autor'            => 'Control One Sustentabilidad',
+        'fecha'            => '2026-01-14', // MIÉRCOLES
+        'categoria'        => 'Innovación y Tecnología', // CAT 3
+        'imagen'           => 'assets/img/blog/blog_miercoles_eco.png', 
+        'extracto'         => 'Las empresas Fortune 500 ya exigen proveedores sustentables. Cumple tus metas ESG cambiando a precintos eco-friendly.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                ¿Sabías que un centro de distribución desecha miles de sellos de plástico al año? 
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Mismo Sello, Menos Plástico Nuevo</h2>
+            <p class="mb-4">
+                La tecnología de polímeros ha avanzado. Ahora podemos inyectar sellos "Quantum" con hasta un 50% de material reciclado post-industrial.
+            </p>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-6">
+                <li><strong>Resistencia Idéntica:</strong> Probados a la tracción (18-25 kg) igual que el material virgen.</li>
+                <li><strong>Certificado Verde:</strong> Te entregamos una carta de material para tus auditorías ambientales.</li>
+            </ul>
+        '
+    ],
+
+    // 29. JUEVES 15 ENE -> PIPAS Y VÁLVULAS
+    'sellos-para-pipas-combustible-valvulas' => [
+        'titulo'           => 'Control de Fluidos: Asegurando Válvulas de Descarga',
+        'meta_description' => 'El robo de combustible y químicos ocurre en la "última milla". Aprende a sellar válvulas de mariposa y esferas en pipas.',
+        'autor'            => 'División Industrial',
+        'fecha'            => '2026-01-15', // JUEVES
+        'categoria'        => 'Control de Fluidos y Energía', // CAT 4
+        'imagen'           => 'assets/img/blog/blog_jueves_pipas.png', 
+        'extracto'         => 'Una válvula mal sellada es una invitación al "huachicoleo". Guía técnica para uso de cables ajustables en la industria química.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Sellar una caja seca es fácil. Sellar una válvula llena de grasa, solventes y vibración es otro nivel.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Solución: C-ONE Ajustable</h2>
+            <p class="mb-4">
+                Para pipas, el sello de clavo no sirve. Necesitas un sello de cable que se pueda apretar ("cinchar") alrededor volante de la válvula.
+            </p>
+            <div class="bg-yellow-50 p-4 border-l-4 border-accent mb-4">
+                <strong>Precaución:</strong> En ambientes explosivos (Gasolineras), usa cables con recubrimiento plástico o de materiales que no generen chispas al corte.
+            </div>
+        '
+    ],
+
+    // 30. VIERNES 16 ENE -> RFID
+    'tecnologia-rfid-vs-sellos-tradicionales' => [
+        'titulo'           => 'RFID vs. Sellos Tradicionales: ¿El fin del plástico?',
+        'meta_description' => 'Comparativa costo-beneficio entre sellos inteligentes RFID y precintos mecánicos numerados. ¿Vale la pena la inversión?',
+        'autor'            => 'Control One Tech',
+        'fecha'            => '2026-01-16', // VIERNES
+        'categoria'        => 'Innovación y Tecnología', // CAT 3
+        'imagen'           => 'assets/img/blog/blog_viernes_rfid.png', 
+        'extracto'         => 'Automatizar tu patio suena genial, pero ¿cuánto cuesta realmente? Analizamos el ROI de implementar sellos digitales en 2026.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La promesa del RFID es clara: "Saber que el camión llegó sin que nadie se baje a revisar".
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Realidad Operativa</h2>
+            <p class="mb-4">
+                Implementar RFID requiere antenas, software y sellos que cuestan 10 veces más.
+            </p>
+            <h3 class="text-xl font-bold text-gray-800 mt-6 mb-2">¿Para quién es?</h3>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-6">
+                <li><strong>SI:</strong> Si tienes un circuito cerrado (loop) donde controlas origen y destino con portales automatizados.</li>
+                <li><strong>NO:</strong> Si envías a clientes externos que no tienen lector. Ahí, el sello visual tradicional sigue siendo el rey de la costo-eficiencia.</li>
+            </ul>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
