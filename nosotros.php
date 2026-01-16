@@ -1,130 +1,139 @@
 <?php 
-// SEO: Título enfocado en autoridad y ubicación
-$page_title = "Nosotros - Fabricantes de Sellos de Seguridad en México | Control One";
-// SEO: Meta descripción atacando "Fabricantes", "Marchamos" y ciudades clave
-$meta_description = "En Control One somos fabricantes directos de sellos de seguridad y marchamos certificados ISO 17712. Abastecemos a Monterrey, Guadalajara, Querétaro y todo México.";
+// SEO: Título enfocado en autoridad y confianza (Branding)
+$page_title = "Nosotros - Fábrica de Sellos de Seguridad Industrial | Control One";
+// SEO: Meta descripción con énfasis en capacidad de producción y cobertura
+$meta_description = "Conoce la planta de Control One. Fabricantes de sellos de seguridad ISO 17712 con más de 10 años protegiendo la carga en México y USA.";
 include 'includes/header.php'; 
 ?>
 
 <main>
-    <section class="relative bg-primary h-[400px] flex items-center justify-center text-center">
+    <!-- HERO SECTION: Imagen Realista Generada -->
+    <section class="relative bg-gray-900 h-[500px] flex items-center justify-center text-center overflow-hidden">
         <div class="absolute inset-0 z-0">
-            <img src="assets/img/bodega-control-one-sellos-seguridad.avif" alt="Fábrica y oficinas de Control One en México" class="w-full h-full object-cover opacity-30">
-            <div class="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
+            <!-- Nueva imagen generada con realismo industrial -->
+            <img src="assets/img/nosotros_factory_realism.png" alt="Planta de producción de sellos Control One" class="w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/10 via-gray-900/60 to-gray-900"></div>
         </div>
-        <div class="relative z-10 container mx-auto px-4">
-            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Fabricantes Líderes en Seguridad Logística</h1>
-            <p class="text-xl text-gray-200 max-w-3xl mx-auto">
-                Más de 10 años blindando la cadena de suministro con <strong>marchamos y precintos</strong> de alta tecnología.
+        <div class="relative z-10 container mx-auto px-4 animate-fade-in-up">
+            <span class="text-accent font-bold tracking-[0.2em] uppercase text-sm mb-4 block">Nuestra Esencia</span>
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                No Solo Fabricamos Plástico.<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Fabricamos Certeza.</span>
+            </h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8 font-light">
+                Detrás de cada sello hay un equipo de ingenieros obsesionados con que tu carga llegue intacta a su destino.
             </p>
+            <a href="#filosofia" class="inline-block border border-white text-white hover:bg-white hover:text-primary px-8 py-3 rounded-full transition-all duration-300 text-sm font-bold tracking-wide">
+                Conoce Nuestra Filosofía
+            </a>
         </div>
     </section>
 
-    <section class="py-20 bg-white">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col lg:flex-row items-center gap-12">
-                <div class="lg:w-1/2">
-                    <span class="text-accent font-bold tracking-widest uppercase text-sm">Quiénes Somos</span>
-                    <h2 class="text-3xl font-bold text-primary mt-2 mb-6">Ingeniería Mexicana contra el Robo de Carga</h2>
-                    
-                    <div class="prose text-gray-600 leading-relaxed space-y-4">
-                        <p>
-                            Desde nuestra fundación, <strong>Control One</strong> nació con una misión clara: eliminar las pérdidas por robo hormiga y contaminación en el transporte de carga. No somos solo distribuidores; somos <strong>fabricantes de sellos de seguridad</strong> comprometidos con la innovación.
-                        </p>
-                        <p>
-                            Entendemos que un sello roto es una pérdida de confianza. Por eso, nuestros procesos de manufactura cumplen estrictamente con la norma <strong>ISO 17712:2013</strong>, garantizando que cada <strong>marchamo de botella</strong> o cable que sale de nuestra planta resista los intentos de manipulación más sofisticados.
-                        </p>
-                        <p>
-                            Colaboramos con las principales flotas de transporte, aerolíneas y empresas de retail, ofreciendo soluciones personalizadas como <strong>cintillos foliados</strong> y candados fiscales para asegurar sus activos más valiosos.
-                        </p>
-                    </div>
-                </div>
-                <div class="lg:w-1/2">
-                    <div class="relative rounded-lg shadow-xl overflow-hidden group">
-                        <img src="assets/img/historia.avif" alt="Personal de Control One inspeccionando sellos de seguridad" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
-                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/90 to-transparent p-8">
-                            <p class="text-white font-bold text-lg">"Tu carga es nuestra prioridad."</p>
-                            <p class="text-accent text-sm">Equipo Control One</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- STATS BAR: Datos Duros (Sin Promesa de Tiempo) -->
+    <section class="py-10 bg-primary border-b border-gray-800 relative z-20 -mt-10 mx-4 md:mx-auto max-w-5xl rounded-lg shadow-2xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-gray-700">
+            <div class="group py-2 md:py-0">
+                <span class="block text-4xl font-bold text-accent mb-1 group-hover:scale-110 transition-transform">12+</span>
+                <span class="text-xs text-gray-400 uppercase tracking-widest">Años de Experiencia</span>
+            </div>
+            <div class="group py-2 md:py-0">
+                <span class="block text-4xl font-bold text-white mb-1 group-hover:scale-110 transition-transform">5M+</span>
+                <span class="text-xs text-gray-400 uppercase tracking-widest">Sellos Vendidos</span>
+            </div>
+            <div class="group py-2 md:py-0">
+                <span class="block text-4xl font-bold text-white mb-1 group-hover:scale-110 transition-transform">0%</span>
+                <span class="text-xs text-gray-400 uppercase tracking-widest">Rechazos en Aduana</span>
             </div>
         </div>
     </section>
 
-    <section class="py-16 bg-gray-50 border-t border-gray-200">
+    <!-- FILOSOFÍA / NARRATIVA (Sin Timeline) -->
+    <section id="filosofia" class="py-24 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl font-bold text-primary mb-4">Cobertura Logística Nacional</h2>
-                <p class="text-gray-600">
-                    Gracias a nuestra ubicación estratégica en el Estado de México, garantizamos envíos rápidos de <strong>precintos de seguridad</strong> a los principales corredores industriales del país.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border-b-4 border-accent">
-                    <div class="text-2xl mb-2">🏔️</div>
-                    <h3 class="font-bold text-primary">Monterrey</h3>
-                    <p class="text-xs text-gray-500 mt-1">Atención a industria regia y cruces fronterizos.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border-b-4 border-accent">
-                    <div class="text-2xl mb-2">🏢</div>
-                    <h3 class="font-bold text-primary">Guadalajara</h3>
-                    <p class="text-xs text-gray-500 mt-1">Seguridad para el corredor de occidente.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border-b-4 border-accent">
-                    <div class="text-2xl mb-2">🏛️</div>
-                    <h3 class="font-bold text-primary">Querétaro y Bajío</h3>
-                    <p class="text-xs text-gray-500 mt-1">Abastecimiento al clúster automotriz.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border-b-4 border-accent">
-                    <div class="text-2xl mb-2">🚢</div>
-                    <h3 class="font-bold text-primary">Puertos y Fronteras</h3>
-                    <p class="text-xs text-gray-500 mt-1">Manzanillo, Veracruz, Tijuana y Laredo.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-white border-t border-gray-200">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-primary">Calidad Certificada</h2>
-                <p class="text-gray-600 mt-2">Cumplimos con las normativas globales para evitar que tu carga sea detenida.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center max-w-4xl mx-auto">
-                <div class="flex flex-col items-center p-8 bg-industrial rounded-xl border border-gray-200">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4 text-accent shadow-sm">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h4 class="text-xl font-bold text-primary mb-2">ISO 17712:2013 "H"</h4>
-                    <p class="text-gray-600 text-sm">
-                        Nuestros sellos de alta seguridad son sometidos a pruebas de tensión, corte e impacto en laboratorios acreditados.
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-primary mb-8">Ingeniería Mexicana contra el Robo de Carga</h2>
+                
+                <div class="prose prose-lg text-gray-600 leading-relaxed mx-auto">
+                    <p>
+                        Todo comenzó con una pregunta simple: <strong>"¿Por qué los sellos se rompen antes de llegar?"</strong>.
                     </p>
-                </div>
-                <div class="flex flex-col items-center p-8 bg-industrial rounded-xl border border-gray-200">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4 text-accent shadow-sm">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h4 class="text-xl font-bold text-primary mb-2">Cumplimiento C-TPAT</h4>
-                    <p class="text-gray-600 text-sm">
-                        Diseñados para cumplir con los requisitos de la aduana estadounidense para exportadores y transportistas certificados.
+                    <p>
+                        Notamos que el mercado mexicano estaba inundado de precintos importados de baja calidad que se cristalizaban con el frío o se abrían con un simple golpe. Decidimos que la industria merecía algo mejor.
                     </p>
+                    <p>
+                        Así nació <strong>Control One</strong>. Invertimos en moldes propios de inyección y desarrollamos nuestra fórmula de polímero de alto impacto. Hoy, no solo vendemos un producto; vendemos la tranquilidad de que tu contenedor cruzará la frontera sin contratiempos.
+                    </p>
+                    <div class="mt-12 bg-gray-50 p-8 rounded-xl border-l-4 border-accent text-left shadow-sm">
+                        <p class="italic text-gray-800 font-medium text-xl mb-4">
+                            "La seguridad no se negocia. Un sello de unos cuantos pesos protege una carga de millones."
+                        </p>
+                        <cite class="not-italic text-sm font-bold text-primary block">— Dirección General, Control One</cite>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-primary py-16 text-white text-center">
+    <!-- GALERÍA / VALORES -->
+    <section class="py-20 bg-industrial">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6">¿Listo para proteger tu operación?</h2>
-            <p class="mb-8 text-lg text-gray-300 max-w-2xl mx-auto">Hablemos sobre tus necesidades de seguridad. Atendemos urgencias y pedidos programados.</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="contacto" class="bg-accent hover:bg-orange-500 text-white px-8 py-3 rounded-md font-bold transition-colors shadow-lg">
-                    Contactar a Ventas
-                </a>
-                <a href="productos" class="border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-3 rounded-md font-bold transition-colors">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-primary mb-4">Nuestro ADN</h2>
+                <p class="text-gray-600">Lo que nos hace diferentes a un distribuidor genérico.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:-translate-y-2 transition-transform duration-300 text-center group">
+                    <div class="w-20 h-20 mx-auto bg-blue-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+                        <svg class="w-10 h-10 text-primary group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Laboratorio Propio</h3>
+                    <p class="text-gray-500 text-sm">
+                        Cada lote se prueba internamente antes de enviarse. Si no pasa la prueba de tensión, se destruye.
+                    </p>
+                </div>
+                 <!-- Card 2 -->
+                 <div class="bg-white p-8 rounded-xl shadow-lg hover:-translate-y-2 transition-transform duration-300 text-center group">
+                    <div class="w-20 h-20 mx-auto bg-orange-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-accent transition-colors">
+                        <svg class="w-10 h-10 text-accent group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Compliance Total</h3>
+                    <p class="text-gray-500 text-sm">
+                        Cumplimos con las normativas C-TPAT e ISO. Tu seguridad jurídica es tan importante como la física.
+                    </p>
+                </div>
+                 <!-- Card 3 -->
+                 <div class="bg-white p-8 rounded-xl shadow-lg hover:-translate-y-2 transition-transform duration-300 text-center group">
+                    <div class="w-20 h-20 mx-auto bg-green-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-green-600 transition-colors">
+                        <svg class="w-10 h-10 text-green-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4h-4v-4H8m1-6V4m0 0H8m1 0h.01M16 12h2a2 2 0 002-2V8a2 2 0 00-2-2h-2m-4 0h-4m1 4v4m-4 4H8m8 4h1M4 12a2 2 0 110-4h.01M12 12h.01M20 12h.01M4 16h.01M4 20h.01M8 20h.01M12 20h.01M16 20h.01M20 20h.01"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Personalización Láser</h3>
+                    <p class="text-gray-500 text-sm">
+                        Tu marca, tu seguridad. Grabamos códigos de barras, numeración consecutiva y el logotipo de tu empresa para control total.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION FINAL -->
+    <section class="bg-primary py-20 relative overflow-hidden">
+        <!-- Decoration Circles -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-accent opacity-10 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-blue-500 opacity-10 blur-3xl"></div>
+        
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h2 class="text-4xl font-bold text-white mb-6">Protege tu operación hoy mismo</h2>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                Únete a las empresas que ya blindaron su carga con Control One.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <a href="productos" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-bold shadow-lg transition-transform hover:scale-105">
                     Ver Productos
+                </a>
+                <a href="contacto" class="bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-white px-8 py-4 rounded-lg font-bold transition-colors">
+                    Solicitar Cotización
                 </a>
             </div>
         </div>
@@ -140,7 +149,7 @@ include 'includes/header.php';
   "logo": "https://controlone.com.mx/assets/img/logo-control-one-industrial.avif",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+52-55-5864-2200",
+    "telephone": "+52-56-4174-9969",
     "contactType": "sales",
     "areaServed": ["MX", "US"],
     "availableLanguage": ["Spanish", "English"]

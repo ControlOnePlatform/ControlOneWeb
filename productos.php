@@ -1,415 +1,311 @@
 <?php 
 // SEO TÉCNICO: Título enfocado en intención de compra y variedad
-// ESTRATEGIA: Mantenemos "Marchamos" en el título, es vital.
 $page_title = "Catálogo de Sellos de Seguridad, Marchamos y Cintillos | Control One";
 $meta_description = "Catálogo 2025 de sellos de seguridad y marchamos. Venta de sellos de botella ISO 17712, precintos de cable de acero y cintillos de plástico. Envíos a todo México.";
 include 'includes/header.php'; 
 ?>
 
-<main>
-    <section class="relative bg-primary h-[500px] flex items-center justify-center text-center">
+<main class="scroll-smooth bg-gray-50">
+    <!-- HERO COMPACTO -->
+    <section class="relative bg-primary h-[350px] flex items-center justify-center text-center shadow-lg">
         <div class="absolute inset-0 z-0">
             <img src="assets/img/bodega-control-one-sellos-seguridad.avif" 
                  alt="Almacén de precintos y sellos de seguridad en México" 
-                 class="w-full h-full object-cover opacity-30" 
+                 class="w-full h-full object-cover opacity-20" 
                  fetchpriority="high"
                  width="1920" 
-                 height="500">
-            <div class="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
+                 height="400">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-gray-900/90"></div>
         </div>
-        <div class="relative z-10 container mx-auto px-4">
-            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Catálogo de Sellos y Precintos</h1>
+        <div class="relative z-10 container mx-auto px-4 animate-fade-in-up">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Catálogo de Seguridad Industrial</h1>
             
-            <p class="text-xl text-gray-200 max-w-3xl mx-auto mb-10">
-                Soluciones certificadas contra la manipulación de carga. Encuentra desde <strong>marchamos de seguridad</strong> y candados fiscales, hasta cintillos para logística interna.
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8 font-light leading-relaxed">
+                Protección certificada para tu cadena de suministro. <strong class="text-white">ISO 17712 "H"</strong> y cumplimiento C-TPAT.
             </p>
             
-            <a href="assets/pdf/Catalogo.pdf" target="_blank" class="inline-flex items-center bg-accent hover:bg-orange-500 text-white px-8 py-4 rounded-md font-bold text-lg transition-all transform hover:-translate-y-1 shadow-lg group">
-                <svg class="w-6 h-6 mr-3 group-hover:animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                Descargar Ficha Técnica (PDF)
+            <a href="assets/pdf/Catalogo.pdf" target="_blank" class="inline-flex items-center bg-accent hover:bg-orange-500 text-white px-8 py-3 rounded-full font-bold text-base transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-orange-500/40 ring-1 ring-white/20 backdrop-blur-sm group">
+                <svg class="w-5 h-5 mr-3 group-hover:animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                Descargar Catálogo PDF
             </a>
         </div>
     </section>
 
-    <section id="alta-seguridad" class="py-24 bg-white">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-accent font-bold tracking-widest uppercase text-sm">Certificación ISO 17712 "H"</span>
-                
-                <h2 class="text-3xl md:text-4xl font-bold text-primary mt-2 mb-4">Sellos y Marchamos de Alta Seguridad</h2>
-                
-                <p class="text-gray-600 text-lg">
-                    Dispositivos diseñados para resistir intentos de intrusión severos. Obligatorios para cumplimiento <strong>C-TPAT</strong> y exportación.
-                </p>
-                <div class="w-24 h-1 bg-accent mx-auto mt-6 rounded-full"></div>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-                
-                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden flex flex-col hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2">
-                    <div class="h-80 bg-gray-50 relative flex justify-center items-center p-6 overflow-hidden">
-                        <img src="assets/img/sellos/sello-seguridad-star-one-indicativo.avif" 
-                             alt="Sello de botella Star One Seal ISO 17712" 
-                             class="w-full h-full object-contain mix-blend-multiply transform transition-transform duration-500 group-hover:scale-110"
-                             loading="lazy">
-                        <div class="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-md">Exportación</div>
-                    </div>
-                    <div class="p-8 flex-grow flex flex-col">
-                        <div class="mb-4">
-                            <h3 class="text-2xl font-bold text-primary mb-2">Star One Seal</h3>
-                            <p class="text-gray-500 text-sm">Sello de Clavo (Botella) | ISO 17712 "H"</p>
-                        </div>
-                        <p class="text-gray-600 mb-6 line-clamp-3">El estándar de oro para contenedores marítimos. Cuenta con mecanismo Anti-Giro y núcleo de acero galvanizado de alta resistencia.</p>
-                        
-                        <div class="mt-auto grid grid-cols-2 gap-4">
-                            <a href="/info/producto-sello-botella-star-one" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
-                                Detalles
-                            </a>
-                            <a href="contacto?producto=star-one-seal" class="text-center bg-accent hover:bg-orange-600 text-white py-3 rounded-lg font-bold transition-colors shadow-md">
-                                Cotizar
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden flex flex-col hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2">
-                    <div class="h-80 bg-gray-50 relative flex justify-center items-center p-6 overflow-hidden">
-                        <img src="assets/img/sellos/sello-tipo-cable-c-one316.avif" 
-                             alt="Sello de cable de acero grueso C-ONE 316" 
-                             class="w-full h-full object-contain mix-blend-multiply transform transition-transform duration-500 group-hover:scale-110"
-                             loading="lazy">
-                        <div class="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-md">Tolvas y Pipas</div>
-                    </div>
-                    <div class="p-8 flex-grow flex flex-col">
-                        <div class="mb-4">
-                            <h3 class="text-2xl font-bold text-primary mb-2">C-ONE 316 (4.7mm)</h3>
-                            <p class="text-gray-500 text-sm">Cable de Acero Ajustable | ISO 17712 "H"</p>
-                        </div>
-                        <p class="text-gray-600 mb-6 line-clamp-3">Cable trenzado NPC que se destrenza al corte. Ideal para orificios irregulares en tolvas, válvulas y compuertas pesadas.</p>
-                        
-                        <div class="mt-auto grid grid-cols-2 gap-4">
-                            <a href="/info/producto-sello-cable-acero" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
-                                Detalles
-                            </a>
-                            <a href="contacto?producto=c-one-316" class="text-center bg-accent hover:bg-orange-600 text-white py-3 rounded-lg font-bold transition-colors shadow-md">
-                                Cotizar
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden flex flex-col hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2">
-                    <div class="h-80 bg-gray-50 relative flex justify-center items-center p-6 overflow-hidden">
-                        <img src="assets/img/sellos/sello-c-one-180.avif" 
-                             alt="Sello C-ONE 180 Alta Seguridad" 
-                             class="w-full h-full object-contain mix-blend-multiply transform transition-transform duration-500 group-hover:scale-110"
-                             loading="lazy">
-                        <div class="absolute top-4 right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-md">Versátil</div>
-                    </div>
-                    <div class="p-8 flex-grow flex flex-col">
-                        <div class="mb-4">
-                            <h3 class="text-2xl font-bold text-primary mb-2">C-ONE 180 (3.2mm)</h3>
-                            <p class="text-gray-500 text-sm">Cable Galvanizado | Resistencia Media-Alta</p>
-                        </div>
-                        <p class="text-gray-600 mb-6">El equilibrio perfecto entre flexibilidad y seguridad. Su cable de 1/8" entra en la mayoría de las válvulas de descarga estándar.</p>
-                        
-                        <div class="mt-auto grid grid-cols-2 gap-4">
-                            <a href="/info/producto-sello-c-one-180" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
-                                Detalles
-                            </a>
-                            <a href="contacto?producto=C-ONE-180" class="text-center bg-accent hover:bg-orange-600 text-white py-3 rounded-lg font-bold transition-colors shadow-md">
-                                Cotizar
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden flex flex-col hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2">
-                    <div class="h-80 bg-gray-50 relative flex justify-center items-center p-6 overflow-hidden">
-                        <img src="assets/img/sellos/sello-c-block.avif" 
-                             alt="Sello C-BLOCK Inoxidable" 
-                             class="w-full h-full object-contain mix-blend-multiply transform transition-transform duration-500 group-hover:scale-110"
-                             loading="lazy">
-                        <div class="absolute top-4 right-4 bg-gray-900 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-md">Premium</div>
-                    </div>
-                    <div class="p-8 flex-grow flex flex-col">
-                        <div class="mb-4">
-                            <h3 class="text-2xl font-bold text-primary mb-2">C-BLOCK (Inox)</h3>
-                            <p class="text-gray-500 text-sm">Cuerpo Policarbonato + Cable Inoxidable</p>
-                        </div>
-                        <p class="text-gray-600 mb-6">Máxima durabilidad contra la corrosión. Cable de acero inoxidable grado marino 316. Ideal para transporte de químicos o ambientes salinos.</p>
-                        
-                        <div class="mt-auto grid grid-cols-2 gap-4">
-                            <a href="/info/producto-sello-c-block" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-3 rounded-lg font-bold transition-colors">
-                                Detalles
-                            </a>
-                            <a href="contacto?producto=C-BLOCK" class="text-center bg-accent hover:bg-orange-600 text-white py-3 rounded-lg font-bold transition-colors shadow-md">
-                                Cotizar
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
+    <!-- STICKY NAVIGATION (Functionality Fixed) -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm border-b border-gray-200">
+        <div class="container mx-auto px-4">
+            <div id="product-nav" class="flex overflow-x-auto gap-4 py-3 no-scrollbar justify-start md:justify-center text-sm">
+                <!-- Data-target attributes for JS fallback -->
+                <a href="#alta-seguridad" data-target="alta-seguridad" class="whitespace-nowrap font-bold text-gray-600 hover:text-accent transition-colors scroll-link px-3 py-1 rounded hover:bg-gray-50">⭐️ Alta Seguridad</a>
+                <a href="#cables-acero" data-target="cables-acero" class="whitespace-nowrap font-bold text-gray-600 hover:text-accent transition-colors scroll-link px-3 py-1 rounded hover:bg-gray-50">⛓️ Cables</a>
+                <a href="#plasticos" data-target="plasticos" class="whitespace-nowrap font-bold text-gray-600 hover:text-accent transition-colors scroll-link px-3 py-1 rounded hover:bg-gray-50">🏷️ Plásticos</a>
+                <a href="#etiquetas" data-target="etiquetas" class="whitespace-nowrap font-bold text-gray-600 hover:text-accent transition-colors scroll-link px-3 py-1 rounded hover:bg-gray-50">🚫 Etiquetas</a>
+                <a href="#bancario" data-target="bancario" class="whitespace-nowrap font-bold text-gray-600 hover:text-accent transition-colors scroll-link px-3 py-1 rounded hover:bg-gray-50">🏦 Bancario</a>
             </div>
         </div>
-    </section>
+    </nav>
 
-    <section id="cables-acero" class="py-20 bg-industrial border-t border-gray-200">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center mb-12">
-                <div class="w-2 h-12 bg-gray-600 mr-4"></div>
-                <div>
-                    <h2 class="text-3xl font-bold text-primary">Logística Terrestre (Cables)</h2>
-                    <p class="text-gray-500 mt-1">Soluciones flexibles para válvulas de descarga, pipas y control de servicios.</p>
-                </div>
-            </div>
-            
-            <div class="flex flex-wrap justify-center gap-10">
-                
-                <div class="w-full md:w-[calc(50%-1.25rem)] lg:w-[calc(33.33%-1.67rem)] flex flex-col bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-100">
-                    <div class="h-64 bg-white relative flex justify-center items-center p-4">
-                         <img src="assets/img/sellos/sello-tipo-cable-c-onex6.avif" alt="Sello de cable ajustable" class="max-w-full max-h-full object-contain" loading="lazy">
-                    </div>
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-xl font-bold text-primary mb-2">C-ONE X6 (1.8mm)</h3>
-                        <p class="text-gray-600 text-sm mb-4 flex-grow">Cable delgado ideal para orificios pequeños en medidores y válvulas de paso.</p>
-                        <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-c-one-x6" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
-                            <a href="contacto?producto=c-one-x6" class="block w-full text-center bg-accent hover:bg-orange-600 text-white font-bold py-2 rounded transition-colors shadow-sm text-xs">Cotizar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-full md:w-[calc(50%-1.25rem)] lg:w-[calc(33.33%-1.67rem)] flex flex-col bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-100">
-                    <div class="h-64 bg-white relative flex justify-center items-center p-4">
-                         <img src="assets/img/sellos/sello-tipo-cable-c-one116.avif" alt="Precinto de cable 1/16" class="max-w-full max-h-full object-contain" loading="lazy">
-                    </div>
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-xl font-bold text-primary mb-2">C-ONE 116 (Aluminio)</h3>
-                        <p class="text-gray-600 text-sm mb-4 flex-grow">Cuerpo de aluminio anodizado. Excelente para intemperie y resistencia a la oxidación.</p>
-                        <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-c-one-116" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
-                            <a href="contacto?producto=c-one-116" class="text-center bg-accent hover:bg-orange-600 text-white py-2 rounded font-bold text-xs">Cotizar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-full md:w-[calc(50%-1.25rem)] lg:w-[calc(33.33%-1.67rem)] flex flex-col bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-100">
-                    <div class="h-64 bg-white relative flex justify-center items-center p-4">
-                         <img src="assets/img/sellos/sello-tipo-cable-c-one332.avif" alt="Sello de cable 3/32" class="max-w-full max-h-full object-contain" loading="lazy">
-                    </div>
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-xl font-bold text-primary mb-2">C-ONE 332 (2.3mm)</h3>
-                        <p class="text-gray-600 text-sm mb-4 flex-grow">Cable intermedio para aplicaciones que requieren mayor tensión de ruptura.</p>
-                        <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-c-one-332" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
-                            <a href="contacto?producto=c-one-332" class="text-center bg-accent hover:bg-orange-600 text-white py-2 rounded font-bold text-xs">Cotizar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-full md:w-[calc(50%-1.25rem)] lg:w-[calc(33.33%-1.67rem)] flex flex-col bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-100">
-                    <div class="h-64 bg-white relative flex justify-center items-center p-4">
-                         <img src="assets/img/sellos/sello-k-series.avif" alt="Sello Serie K Aluminio" class="max-w-full max-h-full object-contain" loading="lazy">
-                         <div class="absolute top-0 right-0 bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">Pro</div>
-                    </div>
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-xl font-bold text-primary mb-2">Serie K (Aluminio)</h3>
-                        <p class="text-gray-600 text-sm mb-4 flex-grow">La gama completa de aluminio anodizado. Modelos 116 y 332 con máxima durabilidad.</p>
-                        <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-k-series" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
-                            <a href="contacto?producto=Serie-K" class="text-center bg-accent hover:bg-orange-600 text-white py-2 rounded font-bold text-xs">Cotizar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-full md:w-[calc(50%-1.25rem)] lg:w-[calc(33.33%-1.67rem)] flex flex-col bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-100">
-                    <div class="h-64 bg-white relative flex justify-center items-center p-4">
-                         <img src="assets/img/sellos/sello-rotaseal.avif" alt="Sello Rotaseal Medidores" class="max-w-full max-h-full object-contain" loading="lazy">
-                         <div class="absolute top-0 right-0 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">Rotor</div>
-                    </div>
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-xl font-bold text-primary mb-2">Rotaseal (Medidores)</h3>
-                        <p class="text-gray-600 text-sm mb-4 flex-grow">Especial para medidores de luz/agua y taxímetros. Cuerpo transparente y cable fino.</p>
-                        <div class="grid grid-cols-2 gap-2 mt-auto">
-                            <a href="/info/producto-sello-rotaseal" class="text-center border-2 border-primary text-primary hover:bg-primary hover:text-white py-2 rounded font-bold text-xs">Detalles</a>
-                            <a href="contacto?producto=Rotaseal" class="text-center bg-accent hover:bg-orange-600 text-white py-2 rounded font-bold text-xs">Cotizar</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="plasticos" class="py-20 bg-white border-t border-gray-200">
+    <!-- ALTA SEGURIDAD (Diseño Tarjeta Horizontal LLAMATIVO) -->
+    <section id="alta-seguridad" class="py-16 scroll-mt-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-primary mb-2">Cintillos de Seguridad (Indicativos)</h2>
-                <p class="text-gray-600">Soluciones económicas y foliadas para control de inventario y logística inversa.</p>
-                <div class="w-20 h-1 bg-accent mx-auto mt-4 rounded-full"></div>
+                <span class="inline-block bg-accent/10 text-accent font-bold px-4 py-1 rounded-full text-xs uppercase tracking-wider mb-2">Máxima Protección</span>
+                <h2 class="text-3xl font-bold text-primary">Sellos Certificados (ISO 17712)</h2>
+                <p class="text-gray-500 mt-2">Cumplimiento C-TPAT obligatorio para exportación.</p>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 
-                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/precinto-plastico-quantum-ajustable.avif" alt="Quantum" class="h-32 w-auto object-contain" loading="lazy">
+                <!-- STAR ONE -->
+                <div class="bg-white rounded-xl shadow-md border-2 border-transparent hover:border-accent hover:shadow-2xl transition-all duration-300 group flex flex-col md:flex-row overflow-hidden">
+                    <div class="md:w-2/5 h-64 md:h-auto bg-gray-50 flex items-center justify-center p-4 relative">
+                        <div class="absolute top-0 left-0 bg-accent text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10">TOP VENTAS</div>
+                        <img src="assets/img/sellos/sello-seguridad-star-one-indicativo.avif" alt="Star One" class="h-4/5 object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <h3 class="text-lg font-bold text-primary mb-2">Quantum (8", 12", 16")</h3>
-                    <p class="text-sm text-gray-500 mb-4">Inserto metálico de seguridad. Resistencia 45kg.</p>
-                    <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-precinto-quantum" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
-                        <a href="contacto?producto=quantum" class="bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative">
-                    <div class="absolute top-0 right-0 bg-accent text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">REFORZADO</div>
-                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-plastico-quamtum-r-12.avif" alt="Quantum R12" class="h-32 w-auto object-contain" loading="lazy">
-                    </div>
-                    <h3 class="text-lg font-bold text-primary mb-2">Quantum R12</h3>
-                    <p class="text-sm text-gray-500 mb-4">Cola de Rata 2.5mm | Mayor tracción.</p>
-                    
-                    <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-quantum-r12" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
-                        <a href="contacto?producto=quantum-r12" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    <div class="p-6 md:w-3/5 flex flex-col">
+                        <h3 class="text-2xl font-bold text-primary mb-1">Star One Seal</h3>
+                        <p class="text-xs font-bold text-green-600 bg-green-50 inline-block px-2 py-1 rounded w-max mb-3">✅ Certificado ISO 17712 "H"</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">
+                            El sello de botella más confiable del mercado. Núcleo de acero, cubierta ABS y mecanismo anti-giro patentado.
+                        </p>
+                        <div class="grid grid-cols-2 gap-3 mt-auto">
+                            <a href="/info/producto-sello-botella-star-one" class="text-center text-sm font-bold text-gray-500 border border-gray-200 rounded-lg py-3 hover:bg-gray-50 hover:text-primary transition-colors">Ver Ficha</a>
+                            <a href="contacto?producto=star-one-seal" class="text-center text-sm font-bold text-white bg-accent rounded-lg py-3 hover:bg-orange-600 transition-colors shadow-md">Cotizar Ahora</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-plastico-quantum-r-18.avif" alt="Quantum R18" class="h-32 w-auto object-contain" loading="lazy">
+                <!-- C-ONE 316 -->
+                <div class="bg-white rounded-xl shadow-md border-2 border-transparent hover:border-accent hover:shadow-2xl transition-all duration-300 group flex flex-col md:flex-row overflow-hidden">
+                    <div class="md:w-2/5 h-64 md:h-auto bg-gray-50 flex items-center justify-center p-4 relative">
+                        <div class="absolute top-0 left-0 bg-blue-900 text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10">USO RUDO</div>
+                        <img src="assets/img/sellos/sello-tipo-cable-c-one316.avif" alt="C-ONE 316" class="h-4/5 object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <h3 class="text-lg font-bold text-primary mb-2">Quantum R18 (Largo)</h3>
-                    <p class="text-sm text-gray-500 mb-4">45cm para bolsas grandes y tambores.</p>
-                    
-                    <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-quantum-r18" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
-                        <a href="contacto?producto=quantum-r18" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-alli-one-anillo.avif" alt="ALLI-ONE" class="h-32 w-auto object-contain" loading="lazy">
-                    </div>
-                    <h3 class="text-lg font-bold text-primary mb-2">ALLI-ONE (Anillo Fijo)</h3>
-                    <p class="text-sm text-gray-500 mb-4">Cierre fijo tipo camión. Sin ajuste.</p>
-                    
-                    <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-alli-one" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
-                        <a href="contacto?producto=alli-one" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    <div class="p-6 md:w-3/5 flex flex-col">
+                        <h3 class="text-2xl font-bold text-primary mb-1">C-ONE 316</h3>
+                        <p class="text-xs font-bold text-green-600 bg-green-50 inline-block px-2 py-1 rounded w-max mb-3">✅ Certificado ISO 17712 "H"</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">
+                            Cable de acero trenzado de 3/16" (4.7mm). Fuerza de ruptura superior a 1 tonelada. Ideal para tolvas y furgones.
+                        </p>
+                        <div class="grid grid-cols-2 gap-3 mt-auto">
+                            <a href="/info/producto-sello-cable-acero" class="text-center text-sm font-bold text-gray-500 border border-gray-200 rounded-lg py-3 hover:bg-gray-50 hover:text-primary transition-colors">Ver Ficha</a>
+                            <a href="contacto?producto=c-one-316" class="text-center text-sm font-bold text-white bg-accent rounded-lg py-3 hover:bg-orange-600 transition-colors shadow-md">Cotizar Ahora</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-jumbo-seal-paleta-grande.avif" alt="Jumbo Seal" class="h-32 w-auto object-contain" loading="lazy">
+                 <!-- C-ONE 180 -->
+                 <div class="bg-white rounded-xl shadow-md border-2 border-transparent hover:border-accent hover:shadow-2xl transition-all duration-300 group flex flex-col md:flex-row overflow-hidden">
+                    <div class="md:w-2/5 h-64 md:h-auto bg-gray-50 flex items-center justify-center p-4">
+                        <img src="assets/img/sellos/sello-c-one-180.avif" alt="C-ONE 180" class="h-4/5 object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <h3 class="text-lg font-bold text-primary mb-2">JUMBO SEAL (Paleta XL)</h3>
-                    <p class="text-sm text-gray-500 mb-4">Placa de 10x5cm para etiquetas grandes.</p>
-                    
-                    <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-jumbo-seal" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
-                        <a href="contacto?producto=jumbo-seal" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-100 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    <div class="h-40 mb-4 flex items-center justify-center bg-gray-50 rounded-md">
-                        <img src="assets/img/sellos/sello-c-gas-l-candado.avif" alt="C-GAS L Candado" class="h-32 w-auto object-contain" loading="lazy">
-                    </div>
-                    <h3 class="text-lg font-bold text-primary mb-2">C-GAS L (Candado)</h3>
-                    <p class="text-sm text-gray-500 mb-4">Especial para válvulas de gas y oxígeno.</p>
-                    
-                    <div class="grid grid-cols-2 gap-2">
-                        <a href="/info/producto-sello-c-gas" class="border border-primary text-primary hover:bg-primary hover:text-white py-2 rounded transition-colors font-bold text-sm">Detalles</a>
-                        <a href="contacto?producto=c-gas-l" class="block w-full bg-accent hover:bg-orange-600 text-white py-2 rounded transition-colors font-bold text-sm">Cotizar</a>
+                    <div class="p-6 md:w-3/5 flex flex-col">
+                        <h3 class="text-xl font-bold text-primary mb-1">C-ONE 180 (3.2mm)</h3>
+                        <p class="text-xs font-bold text-gray-500 mb-3">Cable Galvanizado | Resistencia Media</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">
+                            Equilibrio perfecto. Cable de 1/8" que se adapta a la mayoría de las válvulas y cerrojos estándar.
+                        </p>
+                        <div class="grid grid-cols-2 gap-3 mt-auto">
+                            <a href="/info/producto-sello-c-one-180" class="text-center text-sm font-bold text-gray-500 border border-gray-200 rounded-lg py-3 hover:bg-gray-50 hover:text-primary transition-colors">Ver Detalles</a>
+                            <a href="contacto?producto=C-ONE-180" class="text-center text-sm font-bold text-white bg-primary rounded-lg py-3 hover:bg-accent transition-colors shadow-md">Cotizar</a>
+                        </div>
                     </div>
                 </div>
 
-            </div> </div>
+                <!-- C-BLOCK -->
+                 <div class="bg-white rounded-xl shadow-md border-2 border-transparent hover:border-accent hover:shadow-2xl transition-all duration-300 group flex flex-col md:flex-row overflow-hidden">
+                    <div class="md:w-2/5 h-64 md:h-auto bg-gray-50 flex items-center justify-center p-4 relative">
+                        <div class="absolute top-0 left-0 bg-gray-800 text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10">INOXIDABLE</div>
+                        <img src="assets/img/sellos/sello-c-block.avif" alt="C-BLOCK" class="h-4/5 object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 md:w-3/5 flex flex-col">
+                        <h3 class="text-xl font-bold text-primary mb-1">C-BLOCK (Inox)</h3>
+                        <p class="text-xs font-bold text-gray-500 mb-3">Cable Grado Marino</p>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">
+                            Cuerpo de policarbonato transparente y cable inoxidable 316. Inmune a la corrosión y ambientes salinos.
+                        </p>
+                        <div class="grid grid-cols-2 gap-3 mt-auto">
+                            <a href="/info/producto-sello-c-block" class="text-center text-sm font-bold text-gray-500 border border-gray-200 rounded-lg py-3 hover:bg-gray-50 hover:text-primary transition-colors">Ver Detalles</a>
+                            <a href="contacto?producto=C-BLOCK" class="text-center text-sm font-bold text-white bg-primary rounded-lg py-3 hover:bg-accent transition-colors shadow-md">Cotizar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
-    <section id="etiquetas" class="py-20 bg-industrial border-t border-gray-200">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center mb-10">
-                <div class="w-2 h-12 bg-red-600 mr-4"></div>
-                <div>
-                    <h2 class="text-3xl font-bold text-primary">Etiquetas de Seguridad (VOID)</h2>
-                    <p class="text-gray-500 mt-1">Evidencia de manipulación para cajas y sobres.</p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-md p-8 flex flex-col md:flex-row gap-8 items-center border-l-8 border-red-500 hover:shadow-lg transition-shadow">
-                <div class="md:w-1/3 flex justify-center">
-                    <div class="w-full h-64 bg-gray-50 rounded-lg flex items-center justify-center overflow-hidden">
-                        <img src="assets/img/sellos/secure-label.avif" alt="Etiqueta VOID" class="max-w-full max-h-full object-contain" loading="lazy">
+    <!-- CABLES (GRID 3) -->
+    <section id="cables-acero" class="py-16 bg-white border-t border-gray-100 scroll-mt-20">
+        <div class="container mx-auto px-4">
+             <h2 class="text-2xl font-bold text-primary mb-8 flex items-center gap-3">
+                 <span class="bg-primary h-8 w-1 rounded"></span>
+                 Logística Terrestre (Cables)
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- X6 -->
+                <div class="bg-white rounded-xl border border-gray-200 p-5 hover:border-accent hover:shadow-xl transition-all duration-300 group flex flex-col">
+                    <div class="h-48 flex justify-center items-center bg-gray-50 rounded-lg mb-4 p-4">
+                        <img src="assets/img/sellos/sello-tipo-cable-c-onex6.avif" class="h-full object-contain mix-blend-multiply group-hover:scale-110 transition-transform" alt="X6">
+                    </div>
+                    <div class="flex-grow text-center">
+                        <h4 class="font-bold text-xl text-primary">C-ONE X6</h4>
+                        <p class="text-sm text-gray-500 mb-4">Cable fino 1.8mm | Válvulas pequeñas</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 mt-4">
+                         <a href="/info/producto-sello-c-one-x6" class="text-center py-2 text-sm font-bold text-gray-500 hover:text-primary border border-gray-200 rounded hover:bg-gray-50">Ver Ficha</a>
+                         <a href="contacto?producto=x6" class="text-center py-2 text-sm font-bold text-white bg-accent rounded hover:bg-orange-600">Cotizar</a>
                     </div>
                 </div>
-                <div class="md:w-2/3">
-                    <h3 class="text-2xl font-bold text-primary mb-4">Secure Label VOID</h3>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        Etiquetas autoadhesivas que revelan un mensaje oculto ("OPEN VOID") al intentar ser removidas. Imposibles de pegar nuevamente sin dejar rastro.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="/info/producto-cinta-seguridad-void" class="inline-flex justify-center items-center border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-lg font-bold transition-colors shadow-md">
-                            Detalles
-                        </a>
-                        <a href="contacto?producto=etiquetas-void" class="inline-flex justify-center items-center bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-bold transition-colors shadow-md">
-                            Cotizar Etiquetas
-                        </a>
+
+                <!-- 116 -->
+                <div class="bg-white rounded-xl border border-gray-200 p-5 hover:border-accent hover:shadow-xl transition-all duration-300 group flex flex-col">
+                    <div class="h-48 flex justify-center items-center bg-gray-50 rounded-lg mb-4 p-4">
+                        <img src="assets/img/sellos/sello-tipo-cable-c-one116.avif" class="h-full object-contain mix-blend-multiply group-hover:scale-110 transition-transform" alt="116">
+                    </div>
+                    <div class="flex-grow text-center">
+                        <h4 class="font-bold text-xl text-primary">C-ONE 116</h4>
+                        <p class="text-sm text-gray-500 mb-4">Cuerpo Aluminio | Cable 1/16"</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 mt-4">
+                         <a href="/info/producto-sello-c-one-116" class="text-center py-2 text-sm font-bold text-gray-500 hover:text-primary border border-gray-200 rounded hover:bg-gray-50">Ver Ficha</a>
+                         <a href="contacto?producto=116" class="text-center py-2 text-sm font-bold text-white bg-accent rounded hover:bg-orange-600">Cotizar</a>
+                    </div>
+                </div>
+
+                 <!-- Rotaseal -->
+                 <div class="bg-white rounded-xl border border-gray-200 p-5 hover:border-accent hover:shadow-xl transition-all duration-300 group flex flex-col">
+                    <div class="h-48 flex justify-center items-center bg-gray-50 rounded-lg mb-4 p-4 relative">
+                        <div class="absolute top-2 right-2 bg-yellow-400 text-white text-[10px] uppercase font-bold px-2 py-1 rounded">Rotor</div>
+                        <img src="assets/img/sellos/sello-rotaseal.avif" class="h-full object-contain mix-blend-multiply group-hover:scale-110 transition-transform" alt="Rotaseal">
+                    </div>
+                    <div class="flex-grow text-center">
+                        <h4 class="font-bold text-xl text-primary">Rotaseal</h4>
+                        <p class="text-sm text-gray-500 mb-4">Para Medidores (Luz/Agua)</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 mt-4">
+                         <a href="/info/producto-sello-rotaseal" class="text-center py-2 text-sm font-bold text-gray-500 hover:text-primary border border-gray-200 rounded hover:bg-gray-50">Ver Ficha</a>
+                         <a href="contacto?producto=Rotaseal" class="text-center py-2 text-sm font-bold text-white bg-accent rounded hover:bg-orange-600">Cotizar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLÁSTICOS (GRID 4) -->
+    <section id="plasticos" class="py-16 bg-gray-50 scroll-mt-20">
+        <div class="container mx-auto px-4">
+             <div class="text-center mb-10">
+                <h2 class="text-2xl font-bold text-primary mb-2">Cintillos Plásticos Indicativos</h2>
+                <p class="text-gray-500">Soluciones económicas y versátiles.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Item Plástico -->
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 hover:border-accent hover:shadow-lg transition-all flex flex-col items-center text-center group">
+                    <img src="assets/img/sellos/precinto-plastico-quantum-ajustable.avif" class="h-32 mb-4 object-contain group-hover:-translate-y-1 transition-transform" alt="Quantum">
+                    <h5 class="font-bold text-gray-800 mb-1">Quantum</h5>
+                    <p class="text-xs text-gray-400 mb-4">Inserto Metálico</p>
+                    <div class="w-full mt-auto grid grid-cols-1 gap-2">
+                        <a href="/info/producto-precinto-quantum" class="text-xs font-bold text-accent border border-accent rounded py-1 hover:bg-accent hover:text-white transition-colors">Detalles</a>
+                        <a href="contacto?producto=quantum" class="text-xs font-bold text-white bg-accent rounded py-1 hover:bg-orange-600 transition-colors">Cotizar</a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 hover:border-accent hover:shadow-lg transition-all flex flex-col items-center text-center group">
+                    <img src="assets/img/sellos/sello-plastico-quamtum-r-12.avif" class="h-32 mb-4 object-contain group-hover:-translate-y-1 transition-transform" alt="R12">
+                    <h5 class="font-bold text-gray-800 mb-1">Quantum R12</h5>
+                    <p class="text-xs text-gray-400 mb-4">Cola de Rata</p>
+                    <div class="w-full mt-auto grid grid-cols-1 gap-2">
+                        <a href="/info/producto-quantum-r12" class="text-xs font-bold text-accent border border-accent rounded py-1 hover:bg-accent hover:text-white transition-colors">Detalles</a>
+                         <a href="contacto?producto=quantum-r12" class="text-xs font-bold text-white bg-accent rounded py-1 hover:bg-orange-600 transition-colors">Cotizar</a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 hover:border-accent hover:shadow-lg transition-all flex flex-col items-center text-center group">
+                    <img src="assets/img/sellos/sello-alli-one-anillo.avif" class="h-32 mb-4 object-contain group-hover:-translate-y-1 transition-transform" alt="Alli">
+                    <h5 class="font-bold text-gray-800 mb-1">Alli-One</h5>
+                    <p class="text-xs text-gray-400 mb-4">Anillo Fijo</p>
+                    <div class="w-full mt-auto grid grid-cols-1 gap-2">
+                        <a href="/info/producto-alli-one" class="text-xs font-bold text-accent border border-accent rounded py-1 hover:bg-accent hover:text-white transition-colors">Detalles</a>
+                         <a href="contacto?producto=alli-one" class="text-xs font-bold text-white bg-accent rounded py-1 hover:bg-orange-600 transition-colors">Cotizar</a>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 hover:border-accent hover:shadow-lg transition-all flex flex-col items-center text-center group">
+                    <img src="assets/img/sellos/sello-jumbo-seal-paleta-grande.avif" class="h-32 mb-4 object-contain group-hover:-translate-y-1 transition-transform" alt="Jumbo">
+                    <h5 class="font-bold text-gray-800 mb-1">Jumbo Seal</h5>
+                    <p class="text-xs text-gray-400 mb-4">Paleta Grande</p>
+                    <div class="w-full mt-auto grid grid-cols-1 gap-2">
+                         <a href="/info/producto-jumbo-seal" class="text-xs font-bold text-accent border border-accent rounded py-1 hover:bg-accent hover:text-white transition-colors">Detalles</a>
+                         <a href="contacto?producto=jumbo-seal" class="text-xs font-bold text-white bg-accent rounded py-1 hover:bg-orange-600 transition-colors">Cotizar</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="bancario" class="relative py-20 bg-primary text-white overflow-hidden">
-        <div class="absolute inset-0 z-0">
-             <img src="assets/img/boveda.avif" class="w-full h-full object-cover opacity-10" alt="Seguridad Bancaria" loading="lazy">
-        </div>
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <div class="md:w-1/2">
-                    <span class="text-accent font-bold tracking-widest uppercase mb-2 block">Alta Seguridad Bancaria</span>
-                    <h2 class="text-4xl font-bold mb-6">C-CASH: Sello para Valores</h2>
-                    <p class="text-gray-300 text-lg mb-8 leading-relaxed">
-                        Sistema de agarre "spikes" que garantiza un cierre inamovible en bolsas de lona y valijas de dinero.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="/info/producto-sello-c-cash" class="inline-block border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-3 rounded-lg font-bold transition-colors shadow-lg text-center">
-                            Detalles
-                        </a>
-                        <a href="contacto?producto=c-cash" class="inline-block bg-white text-primary hover:bg-gray-100 px-8 py-3 rounded-lg font-bold transition-colors shadow-lg text-center">
-                            Cotizar C-CASH
-                        </a>
-                    </div>
-                </div>
-                <div class="md:w-1/2 flex justify-center">
-                    <div class="relative w-full max-w-md aspect-video bg-white/10 rounded-xl backdrop-blur-sm p-6 border border-white/20 shadow-2xl flex items-center justify-center">
-                        <img src="assets/img/sellos/sello-de-seguridad-para-bancos-c-cash.avif" alt="C-CASH Sello Bancario" class="max-w-full max-h-full object-contain" loading="lazy">
-                    </div>
-                </div>
+    <!-- ETIQUETAS & BANCARIO (FEATURED) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-gray-200 border-t border-gray-200">
+        <section id="etiquetas" class="bg-white py-16 px-8 hover:bg-red-50 transition-colors group scroll-mt-20">
+            <div class="flex items-center gap-6 max-w-lg mx-auto">
+                 <img src="assets/img/sellos/secure-label.avif" alt="Etiqueta VOID" class="w-32 h-32 object-contain group-hover:scale-105 transition-transform">
+                 <div>
+                     <h3 class="text-2xl font-bold text-gray-900 group-hover:text-red-600 transition-colors">Etiquetas VOID</h3>
+                     <p class="text-sm text-gray-500 mb-4">Evidencia de apertura instantánea. Mensaje oculto al despegar.</p>
+                     <div class="flex gap-3">
+                         <a href="/info/producto-cinta-seguridad-void" class="text-sm font-bold text-gray-500 hover:text-red-600 underline">Ficha Técnica</a>
+                         <a href="contacto?producto=etiquetas-void" class="text-sm font-bold bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition-colors shadow">Cotizar</a>
+                     </div>
+                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="bancario" class="bg-white py-16 px-8 hover:bg-blue-50 transition-colors group scroll-mt-20">
+             <div class="flex items-center gap-6 max-w-lg mx-auto">
+                 <img src="assets/img/sellos/sello-de-seguridad-para-bancos-c-cash.avif" alt="C-CASH" class="w-32 h-32 object-contain group-hover:scale-105 transition-transform">
+                 <div>
+                     <h3 class="text-2xl font-bold text-gray-900 group-hover:text-blue-900 transition-colors">C-CASH Bancario</h3>
+                     <p class="text-sm text-gray-500 mb-4">Spikes para valijas de dinero. Seguridad máxima en traslado de valores.</p>
+                     <div class="flex gap-3">
+                         <a href="/info/producto-sello-c-cash" class="text-sm font-bold text-gray-500 hover:text-blue-900 underline">Ficha Técnica</a>
+                         <a href="contacto?producto=c-cash" class="text-sm font-bold bg-blue-900 text-white px-5 py-2 rounded-lg hover:bg-blue-800 transition-colors shadow">Cotizar</a>
+                     </div>
+                 </div>
+            </div>
+        </section>
+    </div>
 
 </main>
+
+<script>
+    // Smooth scrolling fix for sticky nav anchors
+    document.querySelectorAll('.scroll-link').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('data-target');
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80, // Offset for sticky nav
+                    behavior: 'smooth'
+                });
+                // Update URL hash without jumping
+                history.pushState(null, null, '#' + targetId);
+            }
+        });
+    });
+</script>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
+  "name": "Catálogo Control One",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Star One Seal - ISO 17712", "url": "https://controlone.com.mx/info/producto-sello-botella-star-one" },
-    { "@type": "ListItem", "position": 2, "name": "C-ONE 316 - Cable Alta Seguridad", "url": "https://controlone.com.mx/info/producto-sello-cable-acero" },
-    { "@type": "ListItem", "position": 3, "name": "C-ONE 180 - Cable Intermedio", "url": "https://controlone.com.mx/info/producto-sello-c-one-180" },
-    { "@type": "ListItem", "position": 4, "name": "C-BLOCK - Inoxidable Premium", "url": "https://controlone.com.mx/info/producto-sello-c-block" },
-    { "@type": "ListItem", "position": 5, "name": "Serie K - Aluminio", "url": "https://controlone.com.mx/info/producto-sello-k-series" },
-    { "@type": "ListItem", "position": 6, "name": "Rotaseal - Medidores", "url": "https://controlone.com.mx/info/producto-sello-rotaseal" }
+    { "@type": "ListItem", "position": 1, "name": "Star One Seal", "url": "https://controlone.com.mx/info/producto-sello-botella-star-one" },
+    { "@type": "ListItem", "position": 2, "name": "C-ONE 316", "url": "https://controlone.com.mx/info/producto-sello-cable-acero" }
   ]
 }
 </script>
