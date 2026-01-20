@@ -99,7 +99,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     foreach ($palabras_prohibidas as $palabra) {
         if (strpos($mensaje_raw, $palabra) !== false) {
             registrar_amenaza('Keyword Blocked', 'Palabra detectada: ' . $palabra);
-            header("Location: gracias"); // Simulamos éxito (Shadow Ban)
+            header("Location: contacto.php?status=success"); // Simulamos éxito (Shadow Ban)
             die();
         }
     }
@@ -213,7 +213,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ";
 
         $mail->send();
-        header("Location: gracias");
+        header("Location: contacto.php?status=success");
         exit();
 
     } catch (Exception $e) {
