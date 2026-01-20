@@ -1399,6 +1399,162 @@ $blog_posts = [
             </p>
         '
     ],
+    // --- SEMANA 4: 19 ENE - 25 ENE 2026 ---
+
+    // 33. LUNES 19 ENE -> SELLOS VS CANDADOS
+    'sello-seguridad-vs-candado-diferencias' => [
+        'titulo'           => 'Sello de Seguridad vs. Candado: ¿Cuál necesitas realmente?',
+        'meta_description' => 'Muchos confunden la función de un candado con la de un sello de seguridad. Descubre por qué el candado NO sirve para auditoría de carga.',
+        'autor'            => 'Control One Academy',
+        'fecha'            => '2026-01-19',
+        'categoria'        => 'Alta Seguridad (ISO 17712)',
+        'imagen'           => 'assets/img/blog/blog_sem4_lunes_candado_vs_sello.avif', // USUARIO: Generar imagen 
+        'extracto'         => 'Un candado impide, un sello evidencia. Aprende las diferencias críticas entre proteger tu carga y auditar tu carga con sellos de seguridad.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                "Le puse un candado, es imposible que lo abran". Error. Si tienen la llave o una cizalla, lo abrirán y lo volverán a cerrar sin dejar rastro.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Sello de Seguridad es un Testigo</h2>
+            <p class="mb-4">
+                La función principal de los <strong>sellos de seguridad</strong> no es solo impedir la entrada física bajo fuerza extrema, sino dejar una <strong>evidencia irrefutable</strong> de manipulación. Un candado se puede abrir y cerrar infinitamente; un sello, una vez roto, muere.
+            </p>
+            <h3 class="text-xl font-bold text-gray-800 mt-6 mb-2">La Regla de Oro</h3>
+            <p class="mb-4">
+                Usa candados para asegurar perímetros (puertas de almacén). Usa <strong>precintos</strong> para la custodia de bienes móviles que salen de tu vista.
+            </p>
+        '
+    ],
+
+    // 34. MARTES 20 ENE -> PRECINTOS DE CLAVO
+    'precintos-clavo-norma-iso-17712' => [
+        'titulo'           => 'Precintos de Clavo: ¿Por qué son obligatorios en Contenedores?',
+        'meta_description' => 'Si exportas por mar, necesitas precintos de clavo (Bolt Seals). Conoce la normativa ISO 17712 y evita que tu carga se quede en puerto.',
+        'autor'            => 'Equipo Técnico',
+        'fecha'            => '2026-01-20',
+        'categoria'        => 'Normatividad y C-TPAT',
+        'imagen'           => 'assets/img/blog/blog_sem4_martes_precinto_clavo.avif', // USUARIO: Generar imagen
+        'extracto'         => 'Tu contenedor no subirá al barco sin un Bolt Seal "H". Guía rápida sobre precintos de alta seguridad y su correcta colocación.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                 En el mundo marítimo, el rey es el <strong>Bolt Seal</strong> (Sello de Botella o Clavo). Pero no cualquiera sirve.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La letra "H" es Vital</h2>
+            <p class="mb-4">
+                Para cumplir con C-TPAT, tus <strong>precintos</strong> deben tener la marca "H" (High Security) grabada en el cuerpo y el clavo. Esto certifica que resisten más de 1 tonelada de tensión y ataques con herramientas manuales.
+            </p>
+            <p class="mb-4">
+                En Control One, nuestro modelo <strong>Star One Seal</strong> no solo cumple la norma, sino que incluye plástico ABS que evidencia intentos de giro ("Spinning attacks").
+            </p>
+        '
+    ],
+
+    // 35. MIÉRCOLES 21 ENE -> MARCHAMOS FISCALES
+    'marchamos-fiscales-vs-operativos-diferencias' => [
+        'titulo'           => 'Marchamos Fiscales vs. Operativos: Evita multas en Aduana',
+        'meta_description' => '¿Sabes cuándo usar un marchamo fiscal validado por el SAT y cuándo uno operativo? No arriesgues tu patente aduanal por un error de precinto.',
+        'autor'            => 'Consultoría Aduanal',
+        'fecha'            => '2026-01-21',
+        'categoria'        => 'Normatividad y C-TPAT',
+        'imagen'           => 'assets/img/blog/blog_sem4_miercoles_marchamo_fiscal.avif', // USUARIO: Generar imagen
+        'extracto'         => 'El marchamo fiscal es ley, el operativo es control interno. Aprende a distinguir y gestionar ambos en tu cadena logística.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                En la aduana mexicana, un error en el número de <strong>marchamo</strong> declarado en el pedimento es multa segura (o embargo precautorio).
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Quién coloca el Marchamo?</h2>
+            <p class="mb-4">
+                El <strong>marchamo fiscal</strong> (candado oficial rojo o verde) lo coloca la autoridad o el agente aduanal. Tú como dueño de la carga debes colocar un <strong>marchamo operativo</strong> adicional de alta seguridad para tu propia trazabilidad hasta el destino final.
+            </p>
+            <p class="mb-4">
+                Nunca confíes solo en el sello fiscal; son genéricos y fáciles de clonar. Tu sello operativo es tu verdadera garantía.
+            </p>
+        '
+    ],
+
+    // 36. JUEVES 22 ENE -> CABLES DE ACERO
+    'guia-diametros-precintos-cable-acero' => [
+        'titulo'           => 'Guía de Diámetros: Precintos de Cable (1.5mm vs 5mm)',
+        'meta_description' => '¿Qué grosor de cable usar para una válvula o un furgón? Guía técnica para elegir el precinto de cable correcto según el orificio de cierre.',
+        'autor'            => 'Ingeniería de Producto',
+        'fecha'            => '2026-01-22',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog_sem4_jueves_cable_acero.avif', // USUARIO: Generar imagen
+        'extracto'         => 'No intentes meter un cable de 5mm en un medidor de luz. Elige el calibre correcto de tus precintos para evitar devoluciones y gastos.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La versatilidad de los <strong>precintos de cable</strong> es su mayor ventaja, pero también su trampa. El tamaño sí importa.
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>1.5mm a 1.8mm (Como el C-ONE X6):</strong> Ideales para medidores de luz, válvulas de paso pequeñas y botiquines.</li>
+                <li><strong>3.2mm (C-ONE 180):</strong> El estándar para camiones torton y cajas secas. Equilibrio precio-seguridad.</li>
+                <li><strong>5.0mm (C-ONE 316):</strong> Alta Seguridad. Para furgones de ferrocarril y tolvas mineras donde la vibración es extrema.</li>
+            </ul>
+        '
+    ],
+
+    // 37. VIERNES 23 ENE -> PLÁSTICOS REPARTO
+    'errores-comunes-precintos-plastico-reparto' => [
+        'titulo'           => '5 Errores al colocar Precintos de Plástico en Repartos',
+        'meta_description' => 'En logística de última milla, la velocidad mata la seguridad. Evita estos errores al cerrar tus cajas plásticas y bolsas de valores.',
+        'autor'            => 'Operaciones Express',
+        'fecha'            => '2026-01-23',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem4_viernes_plastico_reparto.avif', // USUARIO: Generar imagen
+        'extracto'         => 'Dejarlos muy flojos o no apretar hasta el tope. Aprende a usar correctamente los sellos indicativos para farmacia y retail.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Un <strong>precinto de plástico</strong> mal puesto es un regalo para el ladrón. En la prisa del reparto, los choferes cometen fallas básicas.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Apretar hasta el fondo</h2>
+            <p class="mb-4">
+                En bolsas de lona o cajas con orejas pequeñas, el precinto debe ajustarse ("pull-tight") lo más posible. Si dejas lazo sobrante, permites que metan una herramienta para apalancar y romper el mecanismo sin dejar huella visible a simple vista.
+            </p>
+        '
+    ],
+
+    // 38. SÁBADO 24 ENE -> CEDIS
+    'seguridad-cedis-protocolos-fin-semana' => [
+        'titulo'           => 'Protocolo de Fin de Semana: Asegurando el CEDIS',
+        'meta_description' => 'El domingo es el día favorito del crimen organizado. Refuerza los accesos de tu Centro de Distribución con sellos foliados en las rejas.',
+        'autor'            => 'Seguridad Patrimonial',
+        'fecha'            => '2026-01-24',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem4_sabado_cedis.avif', // USUARIO: Generar imagen
+        'extracto'         => 'Las puertas se cierran el sábado y se abren el lunes. ¿Quién vigila en medio? Usa sellos para auditar a tus guardias de seguridad.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Los guardias cuidan el almacén, pero ¿quién cuida a los guardias? El <strong>sello de seguridad</strong> es tu auditor silencioso.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Bitácora de Sello Roto</h2>
+            <p class="mb-4">
+                Coloca un sello foliado en cada acceso peatonal y vehicular el sábado a mediodía. Si el lunes el sello no coincide o está roto, hubo una apertura no autorizada, sin importar qué diga la bitácora del guardia. La evidencia física no miente.
+            </p>
+        '
+    ],
+
+    // 39. DOMINGO 25 ENE -> DETECCIÓN DE FRAUDE (Cambiado para no repetir RFID)
+    'como-detectar-sello-seguridad-manipulado-clonado' => [
+        'titulo'           => 'CSI Logístico: 3 Signos de que tu Sello fue Manipulado',
+        'meta_description' => 'Un sello roto es obvio, pero un sello "pegado" con calor o  clonado es sutil. Aprende a inspeccionar cabezales y cables como un perito.',
+        'autor'            => 'Auditoría Forense',
+        'fecha'            => '2026-01-25',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem4_domingo_fraude.avif', // USUARIO: Generar imagen
+        'extracto'         => 'Los ladrones usan pegamento, calor y agujas. Entrena a tu equipo de recibo para detectar las marcas invisibles del "Tampering".',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                El peor robo no es el violento, es el silencioso. Cuando el camión llega con el sello "puesto" pero falta mercancía.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Inspección Táctil</h2>
+            <p class="mb-4">
+                No basta con mirar. El guardia debe <strong>tirar</strong> del sello con fuerza (Pull Test) y girar el mecanismo. Si el cabezal gira demasiado libre o se siente pegajoso, ha sido manipulado con calor o solventes.
+            </p>
+            <h3 class="text-xl font-bold text-gray-800 mt-6 mb-2">Clonación 3D</h3>
+            <p class="mb-4">
+                Hoy en día, imprimen sellos falsos con el mismo folio. La clave está en la <strong>tipografía</strong>. Un sello láser original tiene relieve y quemado específico; una copia suele ser pintura superficial. Compara siempre con una muestra virgen.
+            </p>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
