@@ -40,6 +40,24 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
+    <?php
+    // 3. PRODUCTOS INDIVIDUALES (Carpeta 'info') - CRÍTICO PARA SEO
+    $info_files = glob(__DIR__ . '/info/*.php');
+    foreach ($info_files as $file) {
+        $filename = basename($file, '.php');
+        // Ignorar archivos que no sean productos (si los hubiera)
+        if ($filename !== 'index') {
+    ?>
+    <url>
+        <loc><?php echo $base_url; ?>/info/<?php echo $filename; ?></loc>
+        <lastmod><?php echo date("Y-m-d", filemtime($file)); ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <?php
+        }
+    }
+    ?>
     <?php 
     if (isset($blog_posts) && !empty($blog_posts)):
         foreach ($blog_posts as $slug => $post): 

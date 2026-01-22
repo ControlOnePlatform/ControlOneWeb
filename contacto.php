@@ -128,7 +128,7 @@ include 'includes/header.php';
                                     { id: 'quantum', name: 'Quantum (Plástico)', min: 1000 },
                                     { id: 'rotaseal', name: 'Rotaseal (Medidores)', min: 500 },
                                     { id: 'secure-label', name: 'Etiquetas VOID', min: 1000 },
-                                    { id: 'c-cash', name: 'C-CASH (Bancario)', min: 100 }
+                                    { id: 'c-cash', name: 'C-CASH (Bancario)', min: 1000 }
                                 ]}
                             ];
 

@@ -18,7 +18,7 @@ include 'includes/header.php';
             <div class="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-gray-900/90"></div>
         </div>
         <div class="relative z-10 container mx-auto px-4 animate-fade-in-up">
-            <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Catálogo de Seguridad Industrial</h1>
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Catálogo de Sellos de Seguridad y Precintos</h1>
             
             <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8 font-light leading-relaxed">
                 Protección certificada para tu cadena de suministro. <strong class="text-white">ISO 17712 "H"</strong> y cumplimiento C-TPAT.

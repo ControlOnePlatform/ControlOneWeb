@@ -1,7 +1,7 @@
 <?php 
 // AJUSTE DE RUTAS PARA CARPETA "INFO"
-$page_title = "Sello de Cable de Acero Ajustable 3/16 | C-ONE 316 | Control One";
-$meta_description = "Sello de seguridad de cable de acero ajustable (3.5mm y 4.7mm). Cuerpo de aluminio y cable galvanizado que se destrenza al corte. Ideal para camiones y tolvas.";
+$page_title = "Sello de Seguridad Cable de Acero 3/16 (4.7mm) | C-ONE 316";
+$meta_description = "Sello de seguridad de cable de acero ajustable (3/16). Precinto metálico de alta resistencia para tolvas, camiones y carga suelta. Envío inmediato.";
 $page_image = "assets/img/sellos/sello-tipo-cable-c-one316.avif"; 
 
 // Salimos de la carpeta 'info' para buscar el header
@@ -43,8 +43,8 @@ include '../includes/header.php';
                 </div>
 
                 <div class="lg:w-1/2">
-                    <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">Sellos de Cable de Acero (C-ONE 316)</h1>
-                    <p class="text-gray-500 text-lg mb-6">Precinto de Seguridad tipo Cable Ajustable | Para Tolvas y Camiones</p>
+                    <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">Sello de Seguridad Cable de Acero 3/16" (C-ONE 316)</h1>
+                    <p class="text-gray-500 text-lg mb-6">Precinto Metálico Ajustable | Ideal para Tolvas y Camiones</p>
                     
                     <div class="prose text-gray-600 mb-8 text-sm leading-relaxed">
                         <p>

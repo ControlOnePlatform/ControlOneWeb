@@ -1,7 +1,7 @@
 <?php 
 // SEO TÉCNICO: Título optimizado para búsqueda general y específica
-$page_title = "Fabricantes de Sellos de Seguridad, Marchamos y Precintos | Control One";
-$meta_description = "Fabricantes de sellos de seguridad, marchamos y precintos fiscales en México. Certificados ISO 17712. Venta de sellos de botella, cable y cintillos para transporte.";
+$page_title = "Sellos de Seguridad y Precintos ISO 17712 | Fábrica Control One";
+$meta_description = "¿Buscas Sellos de Seguridad Certificados? Somos Fabricantes en México. Precintos de Botella, Cable y Plástico con envío inmediato. Cotiza Mayoreo aquí.";
 include 'includes/header.php'; 
 include 'includes/data_blog.php'; 
 ?>
@@ -365,6 +365,35 @@ include 'includes/data_blog.php';
   "url": "https://controlone.com.mx",
   "areaServed": ["MX", "Monterrey", "Guadalajara", "Querétaro", "Puebla", "Tijuana"],
   "priceRange": "$$"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "¿Qué sello de seguridad se usa para cajas de tráiler?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Para cajas secas y refrigeradas en rutas nacionales o fiscales, la norma exige un sello de botella (clavo) certificado ISO 17712 Alta Seguridad (H). Si exportas a USA, este sello es obligatorio para cumplir con C-TPAT."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Cuál es la diferencia entre precinto y marchamo?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Son sinónimos. En México se usan indistintamente junto con 'sello de seguridad'. Sin embargo, técnicamente 'marchamo' suele referirse más a sellos metálicos o de plomo antiguos, mientras que 'precinto' abarca las nuevas tecnologías de plástico y cable de acero."
+    }
+  }, {
+    "@type": "Question",
+    "name": "¿Cómo evitar el robo hormiga en camiones de reparto?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Para unidades de última milla que abren puertas constantemente, lo más eficiente son los cintillos de seguridad foliados de plástico. Permiten un control visual rápido (romper y tirar) en cada entrega sin alentar la operación con herramientas pesadas."
+    }
+  }]
 }
 </script>
 

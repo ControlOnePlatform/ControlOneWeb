@@ -32,12 +32,23 @@
                 </div>
 
                 <div>
-                    <h4 class="text-lg font-semibold mb-6 text-accent">Empresa</h4>
+                    <h4 class="text-lg font-semibold mb-6 text-accent">Catálogo Rápido</h4>
                     <ul class="space-y-3 text-sm">
-                        <li><a href="/nosotros" class="text-gray-300 hover:text-white transition-colors">Nosotros</a></li>
-                        <li><a href="/contacto" class="text-gray-300 hover:text-white transition-colors">Contacto</a></li>
-                        <li><a href="/aviso-privacidad" class="text-gray-300 hover:text-white transition-colors">Aviso de Privacidad</a></li>
-                        <li><a href="/terminos-condiciones" class="text-gray-300 hover:text-white transition-colors">Términos y Condiciones</a></li>
+                        <li><a href="/info/producto-sello-botella-star-one" class="text-gray-300 hover:text-white transition-colors" title="Sello de Clavo ISO 17712">Sello Botella (Clavo)</a></li>
+                        <li><a href="/info/producto-sello-cable-acero" class="text-gray-300 hover:text-white transition-colors" title="Sello de Cable Ajustable">Sello Cable Acero</a></li>
+                        <li><a href="/info/producto-precinto-quantum" class="text-gray-300 hover:text-white transition-colors" title="Cintillos para transporte">Cintillos Plásticos</a></li>
+                        <li><a href="/info/producto-cinta-seguridad-void" class="text-gray-300 hover:text-white transition-colors" title="Etiquetas VOID Violables">Etiquetas VOID</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-6 text-accent">Cobertura México</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="/contacto?ciudad=Monterrey" class="hover:text-white">Sellos en Monterrey</a></li>
+                        <li><a href="/contacto?ciudad=Guadalajara" class="hover:text-white">Sellos en Guadalajara</a></li>
+                        <li><a href="/contacto?ciudad=Queretaro" class="hover:text-white">Sellos en Querétaro</a></li>
+                        <li><a href="/contacto?ciudad=Puebla" class="hover:text-white">Sellos en Puebla</a></li>
+                        <li><a href="/contacto?ciudad=Manzanillo" class="hover:text-white">Sellos en Manzanillo</a></li>
                     </ul>
                 </div>
 

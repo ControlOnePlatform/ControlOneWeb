@@ -1,8 +1,8 @@
 <?php 
 // AJUSTE DE RUTAS PARA CARPETA "INFO"
-// ESTRATEGIA HÍBRIDA: Atacamos "Sello de Clavo/Botella" Y "Contenedores Marítimos" simultáneamente.
-$page_title = "Sello de Clavo y Botella (ISO 17712) para Contenedores | Star One";
-$meta_description = "Sello de clavo (botella) certificado ISO 17712. Perno de alta seguridad para contenedores marítimos y exportación C-TPAT. Envíos a todo México.";
+// ESTRATEGIA HÍBRIDA: Atacamos "Sellos de Seguridad" Y "ISO 17712" simultáneamente.
+$page_title = "Sello de Seguridad Tipo Clavo ISO 17712 Contenedores | Star One";
+$meta_description = "Sello de seguridad tipo clavo (botella) certificado ISO 17712. Perno de alta seguridad para contenedores marítimos y exportación C-TPAT. Envíos a todo México.";
 $page_image = "assets/img/sellos/sello-seguridad-star-one-indicativo.avif"; 
 
 // IMPORTANTE: Usamos "../" para salir de la carpeta 'info' y buscar el header
@@ -14,7 +14,7 @@ include '../includes/header.php';
         <div class="container mx-auto px-4 text-sm text-gray-500">
             <a href="/" class="hover:text-primary">Inicio</a> <span class="mx-2">/</span>
             <a href="/productos" class="hover:text-primary">Catálogo</a> <span class="mx-2">/</span>
-            <span class="text-primary font-bold">Sello de Clavo Star One</span>
+            <span class="text-primary font-bold">Sello de Seguridad Star One</span>
         </div>
     </div>
 
@@ -26,7 +26,7 @@ include '../includes/header.php';
                     
                     <div class="relative bg-industrial rounded-xl overflow-hidden shadow-lg group w-full max-w-md">
                         <img src="/assets/img/sellos/sello-seguridad-star-one-indicativo.avif" 
-                             alt="Sello de Clavo y Botella de Alta Seguridad ISO 17712 para Contenedores" 
+                             alt="Sello de Seguridad Tipo Clavo Alta Seguridad ISO 17712" 
                              class="w-full h-80 md:h-96 object-contain p-6 transform transition-transform duration-500 group-hover:scale-105">
                         
                         <div class="absolute top-4 left-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide shadow-sm">
@@ -49,7 +49,7 @@ include '../includes/header.php';
                 </div> 
                 
                 <div class="lg:w-1/2">
-                    <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">Sello de Clavo / Botella (Star One)</h1>
+                    <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">Sello de Seguridad Tipo Botella (Star One)</h1>
                     
                     <p class="text-gray-500 text-lg mb-6">Alta Seguridad ISO 17712 "H" | Especial para Contenedores Marítimos</p>
                     
