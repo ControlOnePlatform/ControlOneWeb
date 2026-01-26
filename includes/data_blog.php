@@ -1408,7 +1408,7 @@ $blog_posts = [
         'autor'            => 'Control One Academy',
         'fecha'            => '2026-01-19',
         'categoria'        => 'Alta Seguridad (ISO 17712)',
-        'imagen'           => 'assets/img/blog/blog_sem4_lunes_candado_vs_sello.avif', // USUARIO: Generar imagen 
+        'imagen'           => 'assets/img/blog/log_sem4_lunes_candado_vs_sello.avif', 
         'extracto'         => 'Un candado impide, un sello evidencia. Aprende las diferencias críticas entre proteger tu carga y auditar tu carga con sellos de seguridad.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1432,7 +1432,7 @@ $blog_posts = [
         'autor'            => 'Equipo Técnico',
         'fecha'            => '2026-01-20',
         'categoria'        => 'Normatividad y C-TPAT',
-        'imagen'           => 'assets/img/blog/blog_sem4_martes_precinto_clavo.avif', // USUARIO: Generar imagen
+        'imagen'           => 'assets/img/blog/blog_sem4_martes_precinto_clavo.avif',
         'extracto'         => 'Tu contenedor no subirá al barco sin un Bolt Seal "H". Guía rápida sobre precintos de alta seguridad y su correcta colocación.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1455,7 +1455,7 @@ $blog_posts = [
         'autor'            => 'Consultoría Aduanal',
         'fecha'            => '2026-01-21',
         'categoria'        => 'Normatividad y C-TPAT',
-        'imagen'           => 'assets/img/blog/blog_sem4_miercoles_marchamo_fiscal.avif', // USUARIO: Generar imagen
+        'imagen'           => 'assets/img/blog/blog_sem4_miercoles_marchamo_fiscal.avif',
         'extracto'         => 'El marchamo fiscal es ley, el operativo es control interno. Aprende a distinguir y gestionar ambos en tu cadena logística.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1478,7 +1478,7 @@ $blog_posts = [
         'autor'            => 'Ingeniería de Producto',
         'fecha'            => '2026-01-22',
         'categoria'        => 'Logística y Transporte de Carga',
-        'imagen'           => 'assets/img/blog/blog_sem4_jueves_cable_acero.avif', // USUARIO: Generar imagen
+        'imagen'           => 'assets/img/blog/blog_sem4_jueves_cable_acero.avif',
         'extracto'         => 'No intentes meter un cable de 5mm en un medidor de luz. Elige el calibre correcto de tus precintos para evitar devoluciones y gastos.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1499,7 +1499,7 @@ $blog_posts = [
         'autor'            => 'Operaciones Express',
         'fecha'            => '2026-01-23',
         'categoria'        => 'Prevención de Pérdidas y Retail',
-        'imagen'           => 'assets/img/blog/blog_sem4_viernes_plastico_reparto.avif', // USUARIO: Generar imagen
+        'imagen'           => 'assets/img/blog/blog_sem4_viernes_plastico_reparto.avif',
         'extracto'         => 'Dejarlos muy flojos o no apretar hasta el tope. Aprende a usar correctamente los sellos indicativos para farmacia y retail.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1519,7 +1519,7 @@ $blog_posts = [
         'autor'            => 'Seguridad Patrimonial',
         'fecha'            => '2026-01-24',
         'categoria'        => 'Prevención de Pérdidas y Retail',
-        'imagen'           => 'assets/img/blog/blog_sem4_sabado_cedis.avif', // USUARIO: Generar imagen
+        'imagen'           => 'assets/img/blog/blog_sem4_sabado_cedis.avif',
         'extracto'         => 'Las puertas se cierran el sábado y se abren el lunes. ¿Quién vigila en medio? Usa sellos para auditar a tus guardias de seguridad.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1539,11 +1539,11 @@ $blog_posts = [
         'autor'            => 'Auditoría Forense',
         'fecha'            => '2026-01-25',
         'categoria'        => 'Prevención de Pérdidas y Retail',
-        'imagen'           => 'assets/img/blog/blog_sem4_domingo_fraude.avif', // USUARIO: Generar imagen
+        'imagen'           => 'assets/img/blog/blog_sem4_domingo_fraude.avif',
         'extracto'         => 'Los ladrones usan pegamento, calor y agujas. Entrena a tu equipo de recibo para detectar las marcas invisibles del "Tampering".',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
-                El peor robo no es el violento, es el silencioso. Cuando el camión llega con el sello "puesto" pero falta mercancía.
+                El peor robo no es el violento, es el silencioso. Cuando el camión llega con el sello "puesto" pero falta mercancía, la auditoría forense comienza en el sello.
             </p>
             <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Inspección Táctil</h2>
             <p class="mb-4">
@@ -1552,6 +1552,198 @@ $blog_posts = [
             <h3 class="text-xl font-bold text-gray-800 mt-6 mb-2">Clonación 3D</h3>
             <p class="mb-4">
                 Hoy en día, imprimen sellos falsos con el mismo folio. La clave está en la <strong>tipografía</strong>. Un sello láser original tiene relieve y quemado específico; una copia suele ser pintura superficial. Compara siempre con una muestra virgen.
+            </p>
+        '
+    ],
+    // --- SEMANA 5: 26 ENE - 01 FEB 2026 (NUEVA PARRILLA V2) ---
+
+    // 40. LUNES 26 ENE -> COMPRAS INTELIGENTES
+    'sello-seguridad-cable-largo-vs-corto' => [
+        'titulo'           => 'Sello de 12" vs 18": ¿Cuándo pagar por el cable extra?',
+        'meta_description' => '¿Vale la pena comprar sellos de cable extralargos? Ahorra dinero eligiendo la medida correcta. Guía técnica para furgones y barras cruzadas.',
+        'autor'            => 'Ingeniería de Producto',
+        'fecha'            => '2026-01-26', // HOY
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog-transporte-logistica.avif',
+        'extracto'         => 'Muchos gerentes piden cables largos "por si acaso" y tiran dinero. Te explicamos técnicamente cuándo sí necesitas más de 12 pulgadas.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                En el mundo de los <a href="/info/producto-sello-cable-acero" class="text-accent hover:underline font-bold" title="Ver Sello de Cable 3/16">sellos de cable</a>, el tamaño impacta el presupuesto. El estándar es 12 pulgadas (30 cm), pero ¿cuándo se justifica pagar el sobreprecio por 18, 24 o 36 pulgadas?
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Estándar: 12 Pulgadas (30cm)</h2>
+            <p class="mb-4">
+                Esta medida cubre el 80% de las necesidades terrestres: Camiones Torton, Cajas Secas y Contenedores estándares. El lazo es suficiente para cruzar las dos manijas y cerrar cómodamente. Si tu operación es estándar, quédate aquí.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Excepción: Barras Cruzadas y Furgones</h2>
+            <p class="mb-4">
+                Necesitas cables de **18 pulgadas o más** en dos casos específicos:
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Furgones de Ferrocarril:</strong> Los mecanismos de cierre suelen estar muy separados o requieren dar vuelta alrededor de una barra gruesa.</li>
+                <li><strong>Barras "Anti-Apertura":</strong> Si tu protocolo de seguridad exige "abrazar" las barras verticales del contenedor (no solo las manijas) para máxima seguridad, necesitas mínimo 50 cm de cable.</li>
+            </ul>
+        '
+    ],
+
+    // 41. MARTES 27 ENE -> SECTOR AGRÍCOLA
+    'inocuidad-alimentaria-sellos-oxido' => [
+        'titulo'           => 'Inocuidad Alimentaria: Sellos que no oxidan tu carga',
+        'meta_description' => 'Exportar berries o aguacate requiere cuidado extremo. Evita sellos de mala calidad que sueltan óxido o rebabas sobre la comida.',
+        'autor'            => 'Calidad Control One',
+        'fecha'            => '2026-01-27',
+        'categoria'        => 'Normatividad y Aduanas',
+        'imagen'           => 'assets/img/blog/blog-agro-exportacion.avif',
+        'extracto'         => 'En la exportación de perecederos, el rechazo no siempre es por droga; a veces es por contaminación física. Usa materiales limpios (Aluminio/ABS).',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Imagina que tu contenedor de aguacate llega a Europa, pero al abrirlo, encuentran polvo de óxido sobre las cajas palletizadas. Lote rechazado por contaminación física.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El peligro del Acero de Baja Calidad</h2>
+            <p class="mb-4">
+                Muchos sellos "económicos" usan acero sin tratar. Con la condensación de la cadena de frío, estos sellos se oxidan en días, goteando material corrosivo sobre la carga.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Materiales Seguros (Grado Alimenticio)</h2>
+            <p class="mb-4">
+                Para agroexportación, recomendamos estrictamente:
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Cuerpo de Aluminio Anodizado:</strong> Como nuestro <a href="/info/producto-sello-cable-acero" class="text-accent hover:underline font-bold">C-ONE 316</a>. El aluminio no se oxida, solo se opaca, garantizando limpieza.</li>
+                <li><strong>Plásticos Vírgenes:</strong> Evita plásticos reciclados de dudosa procedencia que puedan tener olores fuertes. Nuestros sellos <a href="/productos#plasticos" class="text-accent hover:underline">Quantum</a> usan polipropileno limpio.</li>
+            </ul>
+        '
+    ],
+
+    // 42. MIÉRCOLES 28 ENE -> OPERATIVIDAD
+    'por-que-se-rompen-sellos-al-colocar' => [
+        'titulo'           => 'El mito del "Jale Fuerte": Por qué se rompen los sellos al colocarlos',
+        'meta_description' => '¿Tus choferes rompen los sellos plásticos antes de salir? No es mala calidad, es mala técnica. Aprende el ángulo correcto de cierre.',
+        'autor'            => 'Capacitación Operativa',
+        'fecha'            => '2026-01-28',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog-operatividad-almacen.avif',
+        'extracto'         => 'Reducir la "merma operativa" es fácil si enseñas a tu equipo a no aplicar fuerza bruta en el ángulo incorrecto.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                "Oye, tus sellos salieron malos, se me rompió en la mano". Si escuchas esto seguido, el problema probablemente no sea el sello, sino el ángulo.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Error del Ángulo de 90°</h2>
+            <p class="mb-4">
+                Los <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">cintillos indicativos</a> tienen una resistencia a la tracción lineal (hacia atrás). Pero si el operador jala la cola hacia un lado (90 grados) mientras aprieta, crea un efecto de cizalla que degolla el sello inmediatamente.
+            </p>
+            <div class="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 my-6">
+                <h3 class="font-bold text-blue-800 text-lg mb-2">La Técnica Correcta: "Alineación y Cierre"</h3>
+                <p class="text-gray-700">
+                    1. Inserta la cola en el candado.<br>
+                    2. Jala SIEMPRE en línea recta, siguiendo la dirección del sello.<br>
+                    3. Nunca uses el pie o palanques contra la puerta para apretar "más".
+                </p>
+            </div>
+        '
+    ],
+
+    // 43. JUEVES 29 ENE -> AUTOMOTRIZ
+    'seguridad-racks-contenedores-retornables' => [
+        'titulo'           => 'Piezas Críticas: Asegurando Racks y Contenedores Retornables',
+        'meta_description' => 'La industria automotriz mueve millones en racks. No gastes en un sello de botella para cada viaje. Soluciones eficientes para logística circular.',
+        'autor'            => 'Control One Industrial',
+        'fecha'            => '2026-01-29',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog-automotriz-racks.avif',
+        'extracto'         => 'En circuitos cerrados (Planta-Proveedor-Planta), el costo del sello importa. Aprende a asegurar racks metálicos sin inflar tu presupuesto.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Un rack de defensas o motores viaja de ida y vuelta 100 veces al año. Ponerle un sello de alta seguridad ($20 MXN) en cada vuelta es incosteable.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Reto del Material Retornable</h2>
+            <p class="mb-4">
+                El riesgo aquí no es que se roben el contenedor entero (es muy grande), sino que abran el rack para robar piezas individuales ("hormiga").
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Solución: Indicativo Resistente</h2>
+            <p class="mb-4">
+                Recomendamos sellos de polipropileno de cuerpo ancho, como el <a href="/info/producto-jumbo-seal" class="text-accent hover:underline font-bold">Jumbo Seal</a>.
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Visibilidad:</strong> Su paleta grande permite pegar etiquetas de control de inventario temporales.</li>
+                <li><strong>Costo-Beneficio:</strong> Suficientemente barato para romperse en cada viaje, suficientemente fuerte para no romperse con el movimiento del camión.</li>
+            </ul>
+        '
+    ],
+
+    // 44. VIERNES 30 ENE -> PERSONALIZACIÓN
+    'logo-en-sellos-vs-folio-generico' => [
+        'titulo'           => 'Más allá del Folio: ¿Por qué poner tu LOGO reduce el fraude?',
+        'meta_description' => 'Un número lo tiene cualquiera. Tu marca no. Descubre por qué personalizar tus sellos de seguridad con láser hace imposible la sustitución por genéricos.',
+        'autor'            => 'Marketing & Seguridad',
+        'fecha'            => '2026-01-30',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog-branding-laser.avif',
+        'extracto'         => 'Si usas sellos genéricos "de caja", un ladrón puede comprar los mismos en la ferretería y cambiarlo. Tu logo es tu verdadero candado.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Imagina este escenario: Tu camión sale con el sello "001234". El ladrón tiene una caja de sellos idénticos comprados en internet. Rompe el tuyo, roba, y pone su propio "001235". Si tu guardia no revisa bitácoras, nadie se da cuenta.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Barrera de la Marca</h2>
+            <p class="mb-4">
+                Cuando grabamos tu <strong>Logo Corporativo</strong> con láser en el cuerpo del sello, elevamos la barrera de entrada para el delincuente.
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Intransferible:</strong> Ya no basta con tener un sello azul; necesitan uno azul CON tu logo específico. Eso no se vende en ferreterías.</li>
+                <li><strong>Imagen:</strong> Proyecta profesionalismo ante tus clientes al entregar la carga sellada con tu propia marca.</li>
+            </ul>
+            <p class="mb-4">
+                En Control One, el grabado láser de alta resolución permite incluir logos detallados y códigos de barras (Code 128) legibles por escáner, eliminando errores de captura manual.
+            </p>
+        '
+    ],
+
+    // 45. SÁBADO 31 ENE -> OFICINAS / ARCHIVO
+    'seguridad-archivo-muerto-y-rh' => [
+        'titulo'           => 'Archivos Muertos y Bodegas de RH: El olvido de la seguridad',
+        'meta_description' => 'La información confidencial también se roba. Protege cajas de archivo, expedientes de RH y bodegas de papelería con sellos indicativos económicos.',
+        'autor'            => 'Seguridad Corporativa',
+        'fecha'            => '2026-01-31',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog-corporativo-archivo.avif',
+        'extracto'         => 'Nadie cuida las cajas de archivo hasta que falta un contrato. Soluciones simples para asegurar la confidencialidad interna.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                No todo es carga industrial. Las empresas tienen activos pasivos críticos: Contratos originales, expedientes de empleados con datos sensibles y bodegas de suministros.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El "Sello Testigo"</h2>
+            <p class="mb-4">
+                Una caja de archivo "zunchada" o una puerta de bodega que se abre una vez al mes no necesita un candado de acero. Necesita un <strong>sello indicativo</strong>.
+            </p>
+            <p class="mb-4">
+                Colocar un pequeño cintillo foliado en el cierre de la caja garantiza que nadie ha husmeado en los documentos. Es una medida de disuasión psicológica muy potente para el personal interno curiosos o malintencionado.
+            </p>
+        '
+    ],
+
+    // 46. DOMINGO 01 FEB -> MEJORES PRÁCTICAS
+    'disposicion-final-sellos-rotos' => [
+        'titulo'           => '¿Qué hacer con los sellos rotos? Protocolo de "Bolsa de Evidencia"',
+        'meta_description' => 'Tirar el sello roto a la basura es un error. Aprende por qué debes custodiar los sellos cortados por 30 días ante posibles reclamos de cliente.',
+        'autor'            => 'Auditoría Control One',
+        'fecha'            => '2026-02-01',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog-auditoria-inspector.avif',
+        'extracto'         => 'El viaje del sello no termina cuando se corta. Ese pedazo de plástico o metal es tu única prueba física si el cliente reclama faltantes mañana.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Llega el camión, cortan el sello, y lo tiran al piso del patio. Dos días después, el cliente llama: "Faltan 10 cajas". Tú dices: "El sello llegó bien". El cliente dice: "¿Tienes el sello?". Y ahí pierdes la discusión.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Regla de los 30 Días</h2>
+            <p class="mb-4">
+                Recomendamos implementar una "Bolsa de Evidencia" en el área de recibo.
+            </p>
+            <ol class="list-decimal pl-5 space-y-2 mb-6 text-gray-700">
+                <li>Al cortar el sello, verifica que el folio coincida.</li>
+                <li>Guarda las dos partes (o el cable cortado) en una bolsa ziploc pequeña.</li>
+                <li>Engrapa la bolsa a la hoja de recibo o guárdala en una caja etiquetada por fecha.</li>
+                <li>Consérvala 30 días (o el tiempo que tu cliente tenga para reclamar).</li>
+            </ol>
+            <p class="mb-4">
+                Si hay reclamo, sacas el sello físico. Si fue manipulado ingeniosamente (pegado), un análisis forense lo revelará. Si lo tiraste a la basura, no tienes defensa.
             </p>
         '
     ],
