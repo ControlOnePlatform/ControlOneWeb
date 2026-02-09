@@ -1,6 +1,6 @@
 <?php 
 // AJUSTE DE RUTAS PARA CARPETA "INFO"
-$page_title = "Sello de Seguridad Cable de Acero 3/16 (4.7mm) | C-ONE 316";
+$page_title = "Sello de Cable de Acero 3/16\" (C-ONE 316) | Alta Seguridad";
 $meta_description = "Sello de seguridad de cable de acero ajustable (3/16). Precinto metálico de alta resistencia para tolvas, camiones y carga suelta. Envío inmediato.";
 $page_image = "assets/img/sellos/sello-tipo-cable-c-one316.avif"; 
 

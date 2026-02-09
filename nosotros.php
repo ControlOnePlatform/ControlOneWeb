@@ -1,8 +1,8 @@
 <?php 
 // SEO: Título enfocado en autoridad y confianza (Branding)
-$page_title = "Nosotros - Fábrica de Sellos de Seguridad Industrial | Control One";
+$page_title = "Fábrica de Sellos de Seguridad Industrial en México | Control One";
 // SEO: Meta descripción con énfasis en capacidad de producción y cobertura
-$meta_description = "Conoce la planta de Control One. Fabricantes de sellos de seguridad ISO 17712 con más de 10 años protegiendo la carga en México y USA.";
+$meta_description = "Somos Fabricantes de Sellos de Seguridad en México. Planta certificada ISO 17712. Conoce nuestra ingeniería detrás del mejor precinto industrial.";
 include 'includes/header.php'; 
 ?>
 

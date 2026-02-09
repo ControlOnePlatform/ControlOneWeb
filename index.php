@@ -1,7 +1,7 @@
 <?php 
 // SEO TÉCNICO: Título optimizado para búsqueda general y específica
-$page_title = "Sellos de Seguridad y Precintos ISO 17712 | Fábrica Control One";
-$meta_description = "¿Buscas Sellos de Seguridad Certificados? Somos Fabricantes en México. Precintos de Botella, Cable y Plástico con envío inmediato. Cotiza Mayoreo aquí.";
+$page_title = "Sellos de Seguridad: Fábrica y Venta de Precintos en México | Control One";
+$meta_description = "Fábrica de Sellos de Seguridad. Venta de precintos de botella ISO 17712, cables de acero y marchamos de plástico. Envíos urgentes a todo México. Cotiza aquí.";
 include 'includes/header.php'; 
 include 'includes/data_blog.php'; 
 ?>
@@ -40,13 +40,18 @@ include 'includes/data_blog.php';
                     <h2 class="text-3xl font-bold text-primary mt-2 mb-6">Soluciones de seguridad C-TPAT para transporte de carga internacional</h2>
                     <div class="prose text-gray-600 leading-relaxed">
                         <p class="mb-4">
-                            En <strong>Control One</strong>, fabricamos <strong>precintos de alta seguridad</strong> diseñados para blindar la cadena de suministro logística. Entendemos que cada trayecto es un riesgo, por eso desarrollamos dispositivos que cumplen normativas globales.
+                            En <strong>Control One</strong>, somos líderes en la <strong>venta de sellos de seguridad</strong> y precintos diseñados para blindar la cadena de suministro logística. Entendemos que cada trayecto es un riesgo, por eso fabricamos dispositivos que cumplen las normativas globales más estrictas.
                         </p>
                         <p class="mb-4">
-                            Nuestra gama abarca desde precintos indicativos para control de inventarios, <strong>hasta candados de alta seguridad certificados ISO 17712 / C-TPAT</strong> ideales para asegurar contenedores marítimos, cajas de tráiler y operaciones de exportación.
+                            Nuestra catálogo incluye soluciones para cada necesidad:
                         </p>
+                        <ul class="list-disc pl-5 mb-4 space-y-1">
+                            <li><strong>Alta Seguridad (ISO 17712):</strong> Sellos de botella (clavo) para contenedores y exportación.</li>
+                            <li><strong>Transporte Terrestre:</strong> Sellos de cable de acero ajustable (3/16") para camiones y tolvas.</li>
+                            <li><strong>Logística y Reparto:</strong> Precintos indicativos de plástico y cintillos foliados.</li>
+                        </ul>
                         <p>
-                            Ya sea que busques <strong>sellos de cable de acero</strong> ajustables o sellos de botella (perno) obligatorios para cruces fronterizos, garantizamos cumplimiento normativo y stock inmediato.
+                            Garantizamos el mejor <strong>precio de sellos de seguridad</strong> en México, con stock disponible para envíos urgentes a Monterrey, Guadalajara, CDMX, Manzanillo y Tijuana.
                         </p>
                     </div>
                 </div>
@@ -344,7 +349,38 @@ include 'includes/data_blog.php';
         </div>
     </section>
 
+
+
 </main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Control One",
+  "url": "https://controlone.com.mx",
+  "logo": "https://controlone.com.mx/assets/img/logo-control-one-industrial.avif",
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61584181824253",
+    "https://www.linkedin.com/in/control-one-0b2488397/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+52-56-4174-9969",
+    "contactType": "sales",
+    "areaServed": ["MX", "US"],
+    "availableLanguage": ["Spanish", "English"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av Lago de Guadalupe km 27.5-Bodega A3",
+    "addressLocality": "Tlalnepantla",
+    "addressRegion": "MEX",
+    "postalCode": "54010",
+    "addressCountry": "MX"
+  }
+}
+</script>
 
 <script type="application/ld+json">
 {

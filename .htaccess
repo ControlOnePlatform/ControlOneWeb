@@ -18,6 +18,10 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# 1.1 Quitar barra al final (Trailing Slash) para evitar contenido duplicado
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
 # 2. Soporte para imágenes modernas (AVIF)
 <IfModule mod_mime.c>
   AddType image/avif .avif
@@ -57,6 +61,11 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
   ExpiresByType application/pdf "access plus 1 month"
 </IfModule>
 
+# 5. Compresión GZIP (VELOCIDAD EXTREMA PARA GOOGLE)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
 # --- SEGURIDAD AVANZADA (HEADERS) ---
 <IfModule mod_headers.c>
   # Protege contra ataques de "Clickjacking" (nadie puede poner tu web en un iframe)
@@ -71,6 +80,6 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
   # Controla cuánta info pasas a otros sitios cuando alguien hace clic en un link tuyo
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   
-  # (Opcional) Seguridad estricta de transporte (HSTS) - Solo si tienes SSL 100% estable
-  # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # (Opcional) Seguridad estricta de transporte (HSTS) - ACTIVADO PARA SEO
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>

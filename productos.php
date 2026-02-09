@@ -1,7 +1,7 @@
 <?php 
 // SEO TÉCNICO: Título enfocado en intención de compra y variedad
-$page_title = "Catálogo de Sellos de Seguridad, Marchamos y Cintillos | Control One";
-$meta_description = "Catálogo 2025 de sellos de seguridad y marchamos. Venta de sellos de botella ISO 17712, precintos de cable de acero y cintillos de plástico. Envíos a todo México.";
+$page_title = "Sellos de Seguridad y Marchamos: Catálogo y Precios de Fábrica 2025";
+$meta_description = "Catálogo de Sellos de Seguridad y Marchamos 2025. Precios directos de fábrica en precintos de botella ISO 17712, cables y plásticos. Cotiza aquí.";
 include 'includes/header.php'; 
 ?>
 

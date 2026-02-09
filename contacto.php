@@ -1,6 +1,6 @@
 <?php 
-$page_title = "Cotización de Sellos de Seguridad y Precintos | Envíos a todo México";
-$meta_description = "Solicita tu cotización de sellos de seguridad, marchamos y precintos ISO 17712. Precios de fábrica y envíos urgentes a Monterrey, Guadalajara, CDMX y todo el país.";
+$page_title = "Cotizar Sellos de Seguridad y Precintos | Atención Inmediata México";
+$meta_description = "Cotiza al instante tus Sellos de Seguridad y Marchamos. Envíos urgentes a Monterrey, CDMX y Guadalajara. Precios de mayoreo desde 100 piezas.";
 include 'includes/header.php'; 
 ?>
 

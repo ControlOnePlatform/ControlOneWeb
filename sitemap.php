@@ -40,6 +40,20 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
+    <url>
+        <loc><?php echo $base_url; ?>/blog</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc><?php echo $base_url; ?>/aviso-privacidad</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc><?php echo $base_url; ?>/terminos-condiciones</loc>
+        <priority>0.5</priority>
+    </url>
     <?php
     // 3. PRODUCTOS INDIVIDUALES (Carpeta 'info') - CRÍTICO PARA SEO
     $info_files = glob(__DIR__ . '/info/*.php');
