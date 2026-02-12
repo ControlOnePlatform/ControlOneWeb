@@ -2,6 +2,7 @@
 // includes/data_blog.php - BASE DE DATOS OPTIMIZADA (5 Categorías Maestras)
 
 $blog_posts = [
+
     // 1. GUÍA GENERAL -> GUÍAS TÉCNICAS
     'guia-2025-que-precinto-seguridad-elegir' => [
         'titulo'           => 'Sellos de Seguridad: Guía 2025 para elegir el precinto correcto',
@@ -1174,7 +1175,7 @@ $blog_posts = [
         'autor'            => 'Jefe de Seguridad C1',
         'fecha'            => '2026-01-10', // SÁBADO
         'categoria'        => 'Prevención de Pérdidas y Retail', // CAT 5
-        'imagen'           => 'assets/img/blog/blog_fin_semana_patios.png', 
+        'imagen'           => 'assets/img/blog/blog_fin_semana_patios.avif', 
         'extracto'         => '¿Tus guardias revisan los sellos con linterna cada 2 horas? Si la respuesta es no, tu patio es vulnerable. Protocolo de rondines nocturnos.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1198,7 +1199,7 @@ $blog_posts = [
         'autor'            => 'Gerencia de Calidad',
         'fecha'            => '2026-01-11', // DOMINGO
         'categoria'        => 'Logística y Transporte de Carga', // CAT 2
-        'imagen'           => 'assets/img/blog/blog_cadena_frio_2026.png', 
+        'imagen'           => 'assets/img/blog/blog_cadena_frio_2026.avif', 
         'extracto'         => 'Hielo, condensación y plásticos quebradizos. Por qué los sellos genéricos fallan en transporte médico y cómo evitar pérdidas millonarias.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1224,7 +1225,7 @@ $blog_posts = [
         'autor'            => 'Control One Normatividad',
         'fecha'            => '2026-01-12', // LUNES
         'categoria'        => 'Alta Seguridad y C-TPAT', // CAT 1
-        'imagen'           => 'assets/img/blog/blog_lunes_iso_2026.png', 
+        'imagen'           => 'assets/img/blog/blog_lunes_iso_2026.avif', 
         'extracto'         => 'El cumplimiento aduanero es binario: o cumples o no pasas. Repasamos la Cláusula 6 y las pruebas de laboratorio que tus sellos deben superar hoy.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1251,7 +1252,7 @@ $blog_posts = [
         'autor'            => 'Inteligencia Logística',
         'fecha'            => '2026-01-13', // MARTES
         'categoria'        => 'Logística y Transporte de Carga', // CAT 2
-        'imagen'           => 'assets/img/blog/blog_martes_mapa_robo.png', 
+        'imagen'           => 'assets/img/blog/blog_martes_mapa_robo.avif', 
         'extracto'         => 'Planificar tu ruta ya no es opcional. Identificamos los "Triángulos de las Bermudas" del transporte terrestre y qué sellos usar en cada tramo.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1277,7 +1278,7 @@ $blog_posts = [
         'autor'            => 'Control One Sustentabilidad',
         'fecha'            => '2026-01-14', // MIÉRCOLES
         'categoria'        => 'Innovación y Tecnología', // CAT 3
-        'imagen'           => 'assets/img/blog/blog_miercoles_eco.png', 
+        'imagen'           => 'assets/img/blog/blog_miercoles_eco.avif', 
         'extracto'         => 'Las empresas Fortune 500 ya exigen proveedores sustentables. Cumple tus metas ESG cambiando a precintos eco-friendly.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1301,7 +1302,7 @@ $blog_posts = [
         'autor'            => 'División Industrial',
         'fecha'            => '2026-01-15', // JUEVES
         'categoria'        => 'Control de Fluidos y Energía', // CAT 4
-        'imagen'           => 'assets/img/blog/blog_jueves_pipas.png', 
+        'imagen'           => 'assets/img/blog/blog_jueves_pipas.avif', 
         'extracto'         => 'Una válvula mal sellada es una invitación al "huachicoleo". Guía técnica para uso de cables ajustables en la industria química.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1324,7 +1325,7 @@ $blog_posts = [
         'autor'            => 'Control One Tech',
         'fecha'            => '2026-01-16', // VIERNES
         'categoria'        => 'Innovación y Tecnología', // CAT 3
-        'imagen'           => 'assets/img/blog/blog_viernes_rfid.png', 
+        'imagen'           => 'assets/img/blog/blog_viernes_rfid.avif', 
         'extracto'         => 'Automatizar tu patio suena genial, pero ¿cuánto cuesta realmente? Analizamos el ROI de implementar sellos digitales en 2026.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1349,7 +1350,7 @@ $blog_posts = [
         'autor'            => 'Auditoría Interna',
         'fecha'            => '2026-01-17', // SÁBADO
         'categoria'        => 'Prevención de Pérdidas y Retail', // CAT 5
-        'imagen'           => 'assets/img/blog/blog_sabado_inventario.png', 
+        'imagen'           => 'assets/img/blog/blog_sabado_inventario.avif', 
         'extracto'         => 'No solo se roban camiones. Aprende a proteger tu stock estático con sellos de bajo costo pero alta evidencia.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1373,7 +1374,7 @@ $blog_posts = [
         'autor'            => 'Control One Tips',
         'fecha'            => '2026-01-18', // DOMINGO
         'categoria'        => 'Logística y Transporte de Carga', // CAT 2
-        'imagen'           => 'assets/img/blog/blog_domingo_colores.png', 
+        'imagen'           => 'assets/img/blog/blog_domingo_colores.avif', 
         'extracto'         => 'Un sistema visual simple puede reducir errores de carga en un 30%. Descubre cómo implementar un "Semáforo Logístico".',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
@@ -1908,6 +1909,209 @@ $blog_posts = [
                 <li><strong>Tamper-Evident:</strong> Capacidad de dejar evidencia visible (manchas, rotura) ante un intento de manipulación.</li>
                 <li><strong>Folio Consecutivo:</strong> Número único grabado (láser o hot-stamp) para trazabilidad.</li>
             </ul>
+        '
+    ],
+
+    // --- SEMANA 6: 09 FEB - 15 FEB 2026 (ACTUAL) ---
+
+    // 54. LUNES 09 FEB -> BANDA METÁLICA (Alternativa Económica)
+    'sellos-banda-metalica-alternativa-economica' => [
+        'titulo'           => 'Sellos de Banda Metálica: La alternativa económica al Sello de Botella',
+        'meta_description' => '¿Necesitas seguridad metálica pero el sello de botella es muy caro? Conoce los sellos de banda (Globe Seals) para cajas de camión y carga suelta.',
+        'autor'            => 'Finanzas y Logística',
+        'fecha'            => '2026-02-09',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog_sem6_lunes_banda_metalica.avif',
+        'extracto'         => 'No toda la carga requiere ISO 17712 "H". Para trayectos nacionales cortos, el sello de banda metálica ofrece resistencia al corte a una fracción del precio.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                A veces, un sello de plástico es muy poco, pero un sello de botella certificado es "matar moscas a cañonazos". Existe un punto medio: el <strong>Sello de Banda Metálica</strong>.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Qué es un Sello de Banda (Globe Seal)?</h2>
+            <p class="mb-4">
+                Es una tira de acero galvanizado con un mecanismo de cierre de bola (de ahí el nombre "Globe"). A diferencia del cable, es una lámina plana.
+            </p>
+            <h3 class="text-xl font-bold text-gray-800 mt-6 mb-2">Ventajas Clave</h3>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Costo:</strong> Cuesta significativamente menos que un sello de botella o cable.</li>
+                <li><strong>Seguridad Visual:</strong> Al ser de metal, disuade el robo oportunista (no se rompe con la mano).</li>
+                <li><strong>Facilidad de Uso:</strong> No requiere herramientas para cerrarse, solo para abrirse (tijeras de hojalatero).</li>
+            </ul>
+            <p class="mb-4">
+                Es la opción ideal para asegurar cajas de herramientas, puertas de camiones de reparto urbano y contenedores vacíos en retorno.
+            </p>
+        '
+    ],
+
+    // 55. MARTES 10 FEB -> FARMA / FRÍO EXTREMO
+    'sellos-seguridad-nitrogeno-liquido-farma' => [
+        'titulo'           => 'Cadena de Frío Extrema: Sellos que resisten el Nitrógeno Líquido (-196°C)',
+        'meta_description' => 'El plástico común se rompe como cristal a bajas temperaturas. Descubre qué sellos usar para transporte de vacunas, plasma y criogenia.',
+        'autor'            => 'Ingeniería de Materiales',
+        'fecha'            => '2026-02-10',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog_sem6_martes_frio_farma.avif',
+        'extracto'         => 'En la logística farmacéutica y de criogenia, un sello roto por fragilidad térmica puede arruinar un lote de vacunas. Usa materiales probados.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La mayoría de los sellos de polipropileno estándar se vuelven quebradizos a los -20°C. Pero, ¿qué pasa cuando transportas muestras biológicas en nitrógeno líquido a -196°C?
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Fragilidad Térmica</h2>
+            <p class="mb-4">
+                A temperaturas criogénicas, la estructura molecular del plástico cambia. Un simple golpe en un bache puede hacer estallar un sello común, simulando una violación que no existió (falso positivo).
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Solución: Nylon y Metal</h2>
+            <p class="mb-4">
+                Para estas aplicaciones críticas, en Control One recomendamos:
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Sellos de Nylon (Poliamida):</strong> Soportan rangos térmicos mucho más amplios sin cristalizarse.</li>
+                <li><strong>Sellos de Cable de Aluminio (C-ONE 116):</strong> El metal no sufre esta fragilidad y mantiene su integridad física incluso en congelación profunda.</li>
+            </ul>
+        '
+    ],
+
+    // 56. MIÉRCOLES 11 FEB -> SEGURIDAD INDUSTRIAL (Corte)
+    'como-cortar-sellos-seguridad-herramientas-correctas' => [
+        'titulo'           => 'Seguridad Industrial: Cómo cortar un Sello de Alta Seguridad sin accidentes',
+        'meta_description' => 'Retirar un sello de acero mal puede causar lesiones oculares. Protocolo de seguridad y herramientas correctas (Cizallas) para el corte de precintos.',
+        'autor'            => 'Seguridad Industrial',
+        'fecha'            => '2026-02-11',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog_sem6_miercoles_corte_seguro.avif',
+        'extracto'         => 'Un cable de acero bajo tensión es un látigo potencial al cortarse. Protege a tu personal de recibo con las cizallas y gafas adecuadas.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Hemos visto accidentes graves en patios de maniobras: desde cortes en manos hasta lesiones oculares por alambres que "saltan". Retirar un sello ISO 17712 requiere respeto.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">No uses pinzas de electricista</h2>
+            <p class="mb-4">
+                El error #1 es intentar cortar un sello de perno o cable grueso con pinzas comunes. El operador aplica fuerza excesiva, se resbala y se lastima.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Kit de Corte Seguro</h2>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Cizallas de Corte de Perno (Bolt Cutters):</strong> De al menos 24 pulgadas de mango para hacer palanca sin esfuerzo.</li>
+                <li><strong>Gafas de Seguridad:</strong> OBLIGATORIAS. Al cortar un sello de botella, el clavo puede salir disparado como una bala por la presión liberada.</li>
+                <li><strong>Guantes de Carnaza:</strong> Especialmente para sellos de cable, ya que los hilos de acero deshilachados son como agujas.</li>
+            </ul>
+        '
+    ],
+
+    // 57. JUEVES 12 FEB -> COMBUSTIBLE (Aprobado)
+    'como-evitar-robo-diesel-sellos-tanque' => [
+        'titulo'           => 'Robo de Diesel: Cómo sellar Tanques de Combustible en Flotillas',
+        'meta_description' => 'El huachicol empieza en casa. Aprende a sellar el tapón del tanque y las líneas de retorno para evitar la extracción de diesel en tus camiones.',
+        'autor'            => 'Control de Fluidos',
+        'fecha'            => '2026-02-12',
+        'categoria'        => 'Control de Fluidos y Energía',
+        'imagen'           => 'assets/img/blog/blog_sem6_jueves_robo_diesel.avif',
+        'extracto'         => '¿Tu rendimiento de combustible no cuadra? El robo de diesel es la fuga financiera #1. Asegura tapones y aforadores con sellos rotativos.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Si tienes una flotilla, sabes que el rendimiento de 2.5 km/l a veces baja "misteriosamente" a 1.8 km/l. No es el motor, es la ordeña.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Puntos Vulnerables del Camión</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+                <div class="bg-gray-100 p-4 rounded">
+                    <h4 class="font-bold text-dark">1. El Tapón del Tanque</h4>
+                    <p class="text-sm">Es lo obvio. Usa un <strong>Sello de Cable Ajustable (C-ONE 116)</strong> si el tapón tiene orejas, o instala una abrazadera de seguridad.</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded">
+                    <h4 class="font-bold text-dark">2. El Aforador y Retorno</h4>
+                    <p class="text-sm">Los ladrones expertos no abren el tapón; desconectan la manguera de retorno o el aforador arriba del tanque. Sella estas tuercas con <strong>Pasta de Seguridad (Tamper Seal)</strong> o sellos Rotaseal.</p>
+                </div>
+            </div>
+            <p class="mb-4">
+                Implementar un control estricto de sellos en cada carga de combustible puede ahorrarte hasta un 15% en costos operativos mensuales.
+            </p>
+        '
+    ],
+
+    // 58. VIERNES 13 FEB -> ECOLOGÍA (Aprobado)
+    'sellos-seguridad-ecologicos-biodegradables-reciclables' => [
+        'titulo'           => 'Sellos de Seguridad Sustentables: ¿Biodegradables o Reciclables?',
+        'meta_description' => 'Cumple tus metas ESG. Diferencias entre sellos biodegradables y sellos de polipropileno 100% reciclables. ¿Cuál es la mejor opción verde?',
+        'autor'            => 'Sustentabilidad Corporativa',
+        'fecha'            => '2026-02-13',
+        'categoria'        => 'Normatividad y Aduanas',
+        'imagen'           => 'assets/img/blog/blog_sem6_viernes_ecologia.avif',
+        'extracto'         => 'Las empresas globales exigen cadenas de suministro verdes. Descubre cómo manejar los desechos de tus sellos de seguridad responsablemente.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Cada año se tiran millones de sellos de plástico a la basura. Ante la presión por la sustentabilidad (ESG), las empresas buscan opciones "verdes".
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Mito del Biodegradable</h2>
+            <p class="mb-4">
+                Los plásticos biodegradables a menudo pierden resistencia mecánica antes de tiempo, lo cual es un riesgo inaceptable en seguridad. Además, requieren condiciones de composta industrial que rara vez existen en un patio de maniobras.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Apuesta: Reciclaje Circular</h2>
+            <p class="mb-4">
+                En Control One, apostamos por el <strong>Polipropileno (PP) de Alta Densidad 100% Reciclable</strong>.
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li>Nuestros sellos (como el Quantum) pueden ser triturados y re-procesados para crear nuevos productos plásticos (no de seguridad, pero sí tarimas o cajas).</li>
+                <li>Recomendamos implementar contenedores de "Reciclaje de Sellos" en tus andenes para separar el plástico del metal y vender el scrap.</li>
+            </ul>
+        '
+    ],
+
+    // 59. SÁBADO 14 FEB -> TECNOLOGÍA (Aprobado)
+    'codigo-barras-vs-qr-sellos-seguridad' => [
+        'titulo'           => 'Tecnología de Marcaje: ¿Código de Barras 128 o Código QR en tus sellos?',
+        'meta_description' => 'Optimiza tu entrada al almacén. Ventajas y desventajas de usar Código de Barras lineal vs códigos 2D (QR / Datamatrix) en sellos de seguridad.',
+        'autor'            => 'Tecnología Logística',
+        'fecha'            => '2026-02-14',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem6_sabado_qr_barras.avif',
+        'extracto'         => '¿Tu escáner batalla para leer el sello? Elegir el formato de código correcto (128, 39, QR) acelera tus procesos de recibo y embarque.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Un sello seguro no solo debe ser difícil de romper, debe ser fácil de leer. La elección del marcado láser es clave para la eficiencia operativa.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Código de Barras 128 (Lineal)</h2>
+            <p class="mb-4">
+                Es el estándar clásico.
+                <br><strong>Pros:</strong> Lo lee cualquier pistola láser barata.
+                <br><strong>Contras:</strong> Ocupa mucho espacio ("largo"). En sellos delgados o curvos, a veces no cabe o se deforma, dificultando la lectura.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Código QR / Datamatrix (2D)</h2>
+            <p class="mb-4">
+                El futuro de la trazabilidad.
+                <br><strong>Pros:</strong> Cabe mucha información en un cuadrado pequeño. Tiene corrección de errores (se lee aunque esté un poco rayado).
+                <br><strong>Contras:</strong> Requiere lectores de imagen 2D (cámaras), no escáneres láser viejos.
+            </p>
+            <p class="mb-4">
+                <strong>Veredicto:</strong> Si usas smartphones para auditar, ve por el QR. Si tienes pistolas láser antiguas, quédate con Code 128.
+            </p>
+        '
+    ],
+
+    // 60. DOMINGO 15 FEB -> C-TPAT ACTUALIZACIÓN (Aprobado)
+    'inspeccion-7-puntos-contenedor-c-tpat-2026' => [
+        'titulo'           => 'C-TPAT 2026: La Inspección de 7 Puntos del Contenedor (Checklist)',
+        'meta_description' => 'No dejes pasar drogas ni contrabando. Guía paso a paso de la Inspección de 7 Puntos (y 17 puntos del tractor) obligatoria para certificaciones OEA y C-TPAT.',
+        'autor'            => 'Cumplimiento Aduanero',
+        'fecha'            => '2026-02-15',
+        'categoria'        => 'Normatividad y C-TPAT',
+        'imagen'           => 'assets/img/blog/blog_sem6_domingo_ctpat_7puntos.avif',
+        'extracto'         => 'El sello es el punto final, pero antes debes revisar el contenedor. Descarga el checklist oficial de inspección de seguridad física.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Para el <strong>C-TPAT</strong>, la seguridad no es un producto, es un proceso. Antes de colocar nuestro <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Sello de Alta Seguridad</a>, debes validar que el contenedor no tenga "dobles fondos".
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Los 7 Puntos Críticos</h2>
+            <ol class="list-decimal pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Pared Delantera:</strong> ¿Es sólida? Gólpeala para oír huecos.</li>
+                <li><strong>Lado Izquierdo:</strong> Busca reparaciones recientes en la lámina.</li>
+                <li><strong>Lado Derecho:</strong> Igual inspección.</li>
+                <li><strong>Piso:</strong> ¿Está plano? Un piso elevado puede ocultar mercancía ilícita.</li>
+                <li><strong>Techo:</strong> Revisa desde adentro que no entre luz (huecos) y que la altura sea uniforme.</li>
+                <li><strong>Puertas Interiores/Exteriores:</strong> Mecanismos de cierre funcionando.</li>
+                <li><strong>Exterior / Chasis (Undercarriage):</strong> Revisa vigas y compartimentos naturales.</li>
+            </ol>
+            <p class="mb-4">
+                Solo cuando los 7 puntos están "limpios", se procede a cerrar y colocar el sello ISO 17712 en la puerta derecha.
+            </p>
         '
     ],
 ];
