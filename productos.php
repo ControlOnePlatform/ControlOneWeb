@@ -41,6 +41,7 @@ include 'includes/header.php';
                 <a href="#plasticos" data-target="plasticos" class="whitespace-nowrap font-bold text-gray-600 hover:text-accent transition-colors scroll-link px-3 py-1 rounded hover:bg-gray-50">🏷️ Plásticos</a>
                 <a href="#etiquetas" data-target="etiquetas" class="whitespace-nowrap font-bold text-gray-600 hover:text-accent transition-colors scroll-link px-3 py-1 rounded hover:bg-gray-50">🚫 Etiquetas</a>
                 <a href="#bancario" data-target="bancario" class="whitespace-nowrap font-bold text-gray-600 hover:text-accent transition-colors scroll-link px-3 py-1 rounded hover:bg-gray-50">🏦 Bancario</a>
+                <a href="/info/producto-gps-tracker" class="whitespace-nowrap font-bold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors px-4 py-1 rounded-full shadow-sm hover:shadow-md flex items-center gap-1">📡 GPS</a>
             </div>
         </div>
     </nav>

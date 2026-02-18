@@ -2114,6 +2114,463 @@ $blog_posts = [
             </p>
         '
     ],
+
+    // --- SEMANA 7: 16 FEB - 22 FEB 2026 ---
+
+    // 61. LUNES 16 FEB -> IA + LOGÍSTICA (Ángulo: Futuro Tecnológico)
+    'inteligencia-artificial-sellos-seguridad-logistica' => [
+        'titulo'           => 'Inteligencia Artificial y Sellos de Seguridad: La Revolución Logística que ya llegó',
+        'meta_description' => '¿Puede una IA detectar si un sello de seguridad fue manipulado? Descubre cómo la visión artificial y el machine learning están transformando la inspección de precintos.',
+        'autor'            => 'Innovación Control One',
+        'fecha'            => '2026-02-16',
+        'categoria'        => 'Innovación y Tecnología',
+        'imagen'           => 'assets/img/blog/blog_sem7_lunes_ia_logistica.avif',
+        'extracto'         => 'Las cámaras con IA ya pueden leer folios, detectar estrés en plásticos y alertar manipulación en tiempo real. ¿Están tus sellos de seguridad listos para el futuro?',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Imagina que una cámara en tu andén de recibo fotografía automáticamente el <strong>sello de seguridad</strong> del camión, lee el folio, lo compara con la orden de compra y detecta si hay marcas de estrés en el plástico. Todo en menos de 2 segundos. Esto ya no es ciencia ficción.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Problema Humano: La Fatiga Visual</h2>
+            <p class="mb-4">
+                Después de revisar 50 camiones en un turno de 8 horas, el guardia más capacitado empieza a fallar. Sus ojos se cansan, su cerebro normaliza las anomalías. Según estudios del sector logístico, la tasa de detección de manipulación por inspección visual cae un <strong>35% después de las primeras 4 horas</strong> del turno.
+            </p>
+            <p class="mb-4">
+                Ahí es donde la Inteligencia Artificial entra como el "segundo par de ojos" que nunca se cansa. Pero ojo: la IA no reemplaza al <a href="/post/senales-manipulacion-sellos-seguridad" class="text-accent hover:underline font-bold">entrenamiento humano en detección de manipulación</a>; lo potencia.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">3 Aplicaciones Reales de IA en Precintos de Seguridad</h2>
+            <div class="space-y-6 my-8">
+                <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-accent">
+                    <h3 class="font-bold text-primary text-lg mb-2">1. Lectura Automática de Folios (OCR Logístico)</h3>
+                    <p class="text-gray-700 text-sm">Cámaras con OCR (Reconocimiento Óptico de Caracteres) leen el número de folio del <strong>precinto</strong> al momento de la llegada y lo cruzan con tu sistema WMS. Si el número no coincide, lanza alerta inmediata. Elimina errores de captura manual (que son el 12% de las discrepancias de inventario).</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-accent">
+                    <h3 class="font-bold text-primary text-lg mb-2">2. Análisis de Integridad Visual (Computer Vision)</h3>
+                    <p class="text-gray-700 text-sm">Algoritmos de visión artificial entrenados con miles de imágenes de <strong>sellos de seguridad</strong> pueden detectar el famoso <a href="/post/senales-manipulacion-sellos-seguridad" class="text-accent hover:underline">"blanqueamiento por estrés"</a> en plásticos ABS con una precisión del 97%. Tu guardia podría no verlo a simple vista; la cámara sí.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-accent">
+                    <h3 class="font-bold text-primary text-lg mb-2">3. Predicción de Rutas de Riesgo</h3>
+                    <p class="text-gray-700 text-sm">Los algoritmos de Machine Learning analizan patrones históricos: qué rutas tienen más incidentes de sellos violados, qué días de la semana, qué tipo de carga. Esto permite <a href="/post/mapa-riesgo-carretero-mexico-2026" class="text-accent hover:underline">actualizar el mapa de riesgo</a> en tiempo real.</p>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Tus Sellos están listos para la IA?</h2>
+            <p class="mb-4">
+                Para que estas tecnologías funcionen, necesitas <strong>marchamos</strong> con marcaje de alta definición: folios grabados con láser (no estampado caliente borroso) y <a href="/post/codigo-barras-vs-qr-sellos-seguridad" class="text-accent hover:underline">códigos QR o Code 128</a> legibles por scanner. Los sellos genéricos de ferretería con números pintados simplemente no funcionan con OCR.
+            </p>
+            <p class="mb-4">
+                En Control One, todos nuestros <strong>precintos</strong> incluyen grabado láser de alta resolución compatible con lectores ópticos e inteligencia artificial, desde el <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Quantum</a> hasta el <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Star One Seal</a>.
+            </p>
+
+            <div class="bg-primary text-white p-8 rounded-xl text-center mt-10 shadow-2xl">
+                <p class="text-lg font-medium mb-4">El futuro de la seguridad logística ya es presente</p>
+                <p class="text-sm opacity-80 mb-6">Pregunta por nuestros sellos con marcaje IA-Ready y prepara tu operación para la automatización.</p>
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-500 text-white font-bold py-3 px-8 rounded-lg transition-transform transform hover:-translate-y-1">
+                    Cotizar Sellos con Grabado Láser HD
+                </a>
+            </div>
+        '
+    ],
+
+    // 62. MARTES 17 FEB -> MARKETPLACE vs FÁBRICA (Ángulo: Advertencia Comercial)
+    'error-comprar-sellos-seguridad-marketplace-amazon' => [
+        'titulo'           => 'Error Fatal: Comprar Sellos de Seguridad en Amazon o Mercado Libre',
+        'meta_description' => '¿Buscas precintos de seguridad baratos en Marketplace? Cuidado: sin certificado ISO 17712 real, esos marchamos podrían NO proteger tu carga. Te explicamos los riesgos.',
+        'autor'            => 'Consultoría Comercial',
+        'fecha'            => '2026-02-17',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem7_martes_marketplace.avif',
+        'extracto'         => 'Ese pack de "100 sellos por $299" en Marketplace puede salirte carísimo. Sin certificación real ni trazabilidad de folios, estás comprando una ilusión de seguridad.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La tentación es real: escribes "<strong>sellos de seguridad</strong>" en Amazon o Mercado Libre y aparecen cientos de ofertas a precios irrisorios. Piezas de plástico con números impresos que prometen "alta seguridad". Pero detrás de esa ganga hay un riesgo enorme.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Los 4 Peligros Ocultos de los Sellos de Marketplace</h2>
+            
+            <div class="space-y-6 my-8">
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">1</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-red-800 text-lg">Sin Certificado ISO 17712 Real</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Dicen "ISO 17712" en la descripción, pero <strong>no tienen el certificado de laboratorio</strong> que lo respalde. Cualquiera puede escribir "ISO 17712" en una etiqueta. Lo que importa es el reporte de un <a href="/post/validar-certificado-sellos-c-tpat" class="text-accent hover:underline">laboratorio acreditado ISO 17025</a> que avale las pruebas de tracción, impacto y cizalla.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">2</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-red-800 text-lg">Folios Duplicados</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Los vendedores de Marketplace compran a granel en Asia y <strong>revenden lotes con números repetidos</strong>. Tú puedes tener el sello "C00145" y otra empresa en Guadalajara el mismo. Eso elimina toda trazabilidad de tus <strong>precintos</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">3</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-red-800 text-lg">Material Reciclado de Baja Calidad</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Para abaratar costos, usan plástico reciclado que se rompe con facilidad. Un <strong>marchamo</strong> que se quiebra solo con la vibración del camino genera falsos positivos constantes y nadie confía en tu sistema de seguridad.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">4</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-red-800 text-lg">Sin Soporte ni Factura Fiscal</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Si sufres un robo, el seguro pregunta: <em>"¿Dónde compraste los sellos?"</em>. Mostrar una captura de pantalla de Mercado Libre no es lo mismo que presentar una factura de un fabricante certificado con historial de lote.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Diferencia: Comprar Directo de Fábrica</h2>
+            <p class="mb-4">
+                En Control One somos <strong>fabricantes directos</strong>. Cada lote de <strong>sellos de seguridad</strong> sale con:
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Folios Exclusivos:</strong> Tu rango de números es TUYO. Nadie más en México tendrá los mismos.</li>
+                <li><strong>Factura CFDI:</strong> Deducible y válida ante aseguradoras.</li>
+                <li><strong>Certificado de Calidad:</strong> Con el lote, fecha de producción y pruebas aplicadas.</li>
+                <li><strong>Grabado Láser Personalizado:</strong> Con <a href="/post/logo-en-sellos-vs-folio-generico" class="text-accent hover:underline">tu logo</a>, imposible de clonar en una ferretería.</li>
+            </ul>
+
+            <div class="bg-accent/10 p-6 rounded-lg border border-accent mt-8 text-center">
+                <h3 class="font-bold text-primary text-xl mb-2">¿Ya compraste sellos genéricos?</h3>
+                <p class="text-gray-600 mb-4">Te hacemos una evaluación gratuita de calidad. Mándanos una muestra y te decimos si realmente te protegen.</p>
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-all shadow-md">
+                    Solicitar Evaluación Gratis
+                </a>
+            </div>
+        '
+    ],
+
+    // 63. MIÉRCOLES 18 FEB -> BLOCKCHAIN + TRAZABILIDAD (Ángulo: Deep Tech)
+    'blockchain-trazabilidad-precintos-seguridad' => [
+        'titulo'           => 'Blockchain y Precintos de Seguridad: ¿Puede un sello ser inmutable?',
+        'meta_description' => '¿Imagina que cada precinto de seguridad quede registrado en blockchain? Así, nadie podría alterar la bitácora de folios. Analizamos el futuro de los marchamos digitales.',
+        'autor'            => 'Control One Tech',
+        'fecha'            => '2026-02-18',
+        'categoria'        => 'Innovación y Tecnología',
+        'imagen'           => 'assets/img/blog/blog_sem7_miercoles_blockchain.avif',
+        'extracto'         => 'La bitácora de sellos en papel se puede alterar. Pero, ¿y si cada folio quedara grabado en un registro digital imposible de hackear? Así funciona blockchain en logística.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Hoy, el folio de tu <strong>precinto de seguridad</strong> se apunta en una hoja de Excel o en una bitácora de papel. El chofer escribe "C-0045821" y el guardia firma. ¿Pero quién garantiza que nadie cambió ese número después? Nadie.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Talón de Aquiles de la Trazabilidad Actual</h2>
+            <p class="mb-4">
+                El problema con las bitácoras tradicionales de <strong>sellos de seguridad</strong> es que son editables. Un guardia corrupto puede borrar un folio y escribir otro. Un chofer puede "perder" la hoja. En caso de robo, la evidencia se convierte en "tu palabra contra la mía".
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Promesa de Blockchain para Marchamos</h2>
+            <p class="mb-4">
+                Blockchain es, en esencia, un libro de registros que <strong>nadie puede alterar</strong> una vez escrito. Aplicado a <strong>precintos de seguridad</strong>, funcionaría así:
+            </p>
+            <div class="space-y-4 my-8">
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">1.</span>
+                    <div><strong>Registro de Producción:</strong> Al fabricarse, el folio del <strong>marchamo</strong> queda grabado en la cadena. Nadie puede clonarlo sin que se detecte.</div>
+                </div>
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">2.</span>
+                    <div><strong>Evento de Sellado:</strong> El operador escanea el <a href="/post/codigo-barras-vs-qr-sellos-seguridad" class="text-accent hover:underline">código QR</a> del sello → Queda registrado: quién lo puso, cuándo, en qué unidad y en qué ruta.</div>
+                </div>
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">3.</span>
+                    <div><strong>Evento de Apertura:</strong> Al recibir la carga, se escanea de nuevo → Se cierra el ciclo. Si el sello cambió o el folio no coincide, la cadena lo detecta automáticamente.</div>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Es práctico hoy? La realidad sobria</h2>
+            <p class="mb-4">
+                Siendo honestos, la implementación masiva de blockchain en <strong>precintos</strong> todavía es prematura para la mayoría de las empresas mexicanas. El costo de la infraestructura digital es alto y la penetración de smartphones en andenes todavía es limitada.
+            </p>
+            <p class="mb-4">
+                <strong>Pero lo que SÍ puedes hacer hoy</strong> es usar sellos con marcaje láser de alta definición, <a href="/post/logo-en-sellos-vs-folio-generico" class="text-accent hover:underline">personalizados con tu logo</a>, y llevar una bitácora fotográfica digital (WhatsApp Business funciona). Eso, combinado con <strong>marchamos de seguridad</strong> certificados, es tu "blockchain analógico".
+            </p>
+
+            <div class="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mt-8">
+                <h3 class="font-bold text-primary mb-2">💡 Primer paso hacia la digitalización:</h3>
+                <p class="text-gray-700">Solicita tus <strong>sellos de seguridad</strong> con código QR único. Tu guardia escanea con el celular y listo: tienes foto, hora y ubicación GPS del sello al momento de la inspección. Sin blockchain, sin inversión millonaria.</p>
+            </div>
+        '
+    ],
+
+    // 64. JUEVES 19 FEB -> STORYTELLING (Ángulo: Caso Real / Narrativo)
+    'caso-real-sello-seguridad-detuvo-robo-millonario' => [
+        'titulo'           => 'Caso Real: Cómo un solo Sello de Seguridad detuvo un robo de $2 millones',
+        'meta_description' => 'Un sello de botella ISO 17712 con anti-spin salvó una carga de electrónicos en la México-Querétaro. Historia real de un cliente de Control One.',
+        'autor'            => 'Casos de Éxito',
+        'fecha'            => '2026-02-19',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog_sem7_jueves_caso_real.avif',
+        'extracto'         => 'El chofer estaba dormido. Los ladrones tenían cizallas. El sello Star One no cedió. Esta es la historia de cómo un precinto ISO 17712 salvó una carga millonaria.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                <em>Nota: Los nombres y datos específicos han sido modificados para proteger la privacidad del cliente. Los hechos técnicos son reales.</em>
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Escenario: Carretera México-Querétaro, 2:47 AM</h2>
+            <p class="mb-4">
+                Una empresa de electrónicos transportaba un lote de laptops valorado en $2.1 millones MXN. El tráiler llevaba doble seguridad: un candado comercial y un <strong>sello de seguridad</strong> <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Star One Seal</a> (ISO 17712 "H") en la puerta derecha.
+            </p>
+            <p class="mb-4">
+                El chofer hizo una parada no autorizada en un paradero. Se quedó dormido. Dos sujetos llegaron en una camioneta y en 45 segundos cortaron el candado comercial con una cizalla de 24 pulgadas. Luego, intentaron con el <strong>sello de botella</strong>.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Lo que sucedió con el Sello</h2>
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 my-6">
+                <p class="mb-3 text-gray-700"><strong>Primer intento (Cizalla):</strong> El acero al carbono del clavo resistió el corte. La cizalla de 24" no fue suficiente para un sello certificado "H" con más de 1,000 kg de resistencia.</p>
+                <p class="mb-3 text-gray-700"><strong>Segundo intento (Taladro/Spin):</strong> Intentaron la técnica de giro con un taladro portátil. El <strong>mecanismo Anti-Spin</strong> del Star One bloqueó la rotación. El sello se trabó pero NO se abrió.</p>
+                <p class="text-gray-700"><strong>Resultado:</strong> Los delincuentes abandonaron el intento tras 8 minutos de fracasos. El chofer despertó con el ruido del taladro y activó el botón de pánico.</p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Evidencia que salvó el reclamo</h2>
+            <p class="mb-4">
+                Al llegar a destino, el <strong>precinto</strong> mostraba las <a href="/post/senales-manipulacion-sellos-seguridad" class="text-accent hover:underline font-bold">5 señales clásicas de manipulación</a>: blanqueamiento por estrés en el ABS, marcas de cizalla en el clavo y desgaste en las muescas anti-giro.
+            </p>
+            <p class="mb-4">
+                La aseguradora validó que el sello era <strong>ISO 17712 certificado</strong>, que la empresa tenía factura del fabricante (Control One) y que el protocolo <a href="/post/como-aplicar-sello-botella-clavo-contenedor" class="text-accent hover:underline">VVTT</a> se había aplicado. El reclamo se procesó sin objeción.
+            </p>
+
+            <div class="bg-accent/10 p-6 rounded-xl border border-accent my-8">
+                <h3 class="font-bold text-primary text-lg mb-3">Lecciones del caso:</h3>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                    <li>El candado comercial falló en 45 segundos. El <strong>sello de seguridad ISO 17712</strong> resistió 8 minutos (tiempo suficiente para reacción).</li>
+                    <li>La certificación real, no la etiqueta, fue la diferencia ante la aseguradora.</li>
+                    <li>Los <strong>marchamos</strong> de baja calidad de marketplace habrían cedido al primer intento.</li>
+                </ul>
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto?producto=star-one-seal" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Protege tu carga con Star One Seal
+                </a>
+            </div>
+        '
+    ],
+
+    // 65. VIERNES 20 FEB -> INDUSTRIA MINERA (Ángulo: Nuevo Sector)
+    'sellos-seguridad-industria-minera-explosivos' => [
+        'titulo'           => 'Sellos de Seguridad en Minería: Protegiendo Explosivos y Minerales',
+        'meta_description' => 'La industria minera requiere precintos de seguridad para detonadores, almacenes de explosivos y transporte de concentrados. Conoce las exigencias de la SEDENA.',
+        'autor'            => 'División Minera',
+        'fecha'            => '2026-02-20',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog_sem7_viernes_mineria.avif',
+        'extracto'         => 'En minería, un sello violado no solo significa robo: puede significar terrorismo. Los precintos para polvorines y detonadores tienen exigencias únicas.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La seguridad en la industria minera no tiene margen de error. Los <strong>sellos de seguridad</strong> para almacenes de explosivos, camiones de concentrado y polvorines deben cumplir con regulaciones de la SEDENA (Secretaría de la Defensa Nacional) además de las normas logísticas estándar.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Riesgo Extremo: Detonadores y Material Controlado</h2>
+            <p class="mb-4">
+                Un <strong>marchamo</strong> en un almacén de explosivos no solo previene robo, previene un desastre. La SEDENA exige control estricto de <strong>precintos</strong> numerados para cada acceso a polvorines y para el transporte de materiales controlados.
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Polvorines:</strong> Cada apertura debe quedar registrada con el folio del sello roto y el nuevo sello colocado.</li>
+                <li><strong>Transporte de Explosivos:</strong> <strong>Precintos de seguridad</strong> metálicos <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline">ISO 17712 "H"</a> obligatorios en cada unidad.</li>
+                <li><strong>Concentrados Minerales:</strong> Sellos en tolvas para evitar contaminación o sustracción durante el trayecto mina-fundidora.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Desafío Ambiental: Polvo, Humedad y Vibración</h2>
+            <p class="mb-4">
+                Las minas operan en condiciones extremas. Un sello de plástico estándar se cristaliza con el polvo abrasivo y la radiación UV del desierto. Los <strong>sellos de seguridad</strong> para minería requieren:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+                <div class="bg-gray-100 p-4 rounded border-l-4 border-primary">
+                    <h4 class="font-bold text-primary">Para Polvorines</h4>
+                    <p class="text-sm text-gray-600">Sellos de cable de acero como el <a href="/info/producto-sello-cable-acero" class="text-accent hover:underline font-bold">C-ONE 316</a> (4.7mm). Inmunes al polvo y la corrosión. Requieren cizallas industriales para retirarse.</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded border-l-4 border-primary">
+                    <h4 class="font-bold text-primary">Para Tolvas de Concentrado</h4>
+                    <p class="text-sm text-gray-600"><a href="/post/sellos-cable-acero-para-tolvas-y-pipas" class="text-accent hover:underline">Cables ajustables</a> de 50cm+ para abrazar los mecanismos de descarga que suelen estar deformados por el uso rudo.</p>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Sello Inoxidable: C-BLOCK para ambientes salinos</h2>
+            <p class="mb-4">
+                En minas con contacto con agua salada o ácidos (procesamiento de cobre, por ejemplo), el acero galvanizado se corroe rápido. Para estas aplicaciones, nuestro <a href="/info/producto-sello-c-block" class="text-accent hover:underline font-bold">C-BLOCK</a> con cable inoxidable 316 marino es la opción técnica correcta. Su cuerpo de policarbonato transparente permite inspección visual sin tocarlo.
+            </p>
+
+            <div class="mt-8 text-center flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/contacto?producto=c-one-316" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Cotizar para Mina
+                </a>
+                <a href="/info/producto-sello-c-block" class="inline-block bg-white border-2 border-primary text-primary hover:bg-gray-50 px-8 py-3 rounded-md font-bold transition-all">
+                    Ver Sello Inoxidable
+                </a>
+            </div>
+        '
+    ],
+
+    // 66. SÁBADO 21 FEB -> FINANZAS / PÉRDIDAS (Ángulo: Cifras de Impacto)
+    'costo-no-sellar-carga-cifras-reales-mexico' => [
+        'titulo'           => 'El Costo de NO Sellar: Cifras reales de pérdidas logísticas en México',
+        'meta_description' => 'En México se roban $35,000 MDP al año en transporte. ¿Cuánto cuesta un sello de seguridad vs cuánto pierdes sin él? Las matemáticas del ROI de los precintos.',
+        'autor'            => 'Análisis Financiero',
+        'fecha'            => '2026-02-21',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem7_sabado_costo_no_sellar.avif',
+        'extracto'         => 'Un sello ISO 17712 cuesta menos que un café. Un robo de mercancía puede costarte la empresa. Hacemos las cuentas con datos reales del sector transporte.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Según la <strong>ANTP</strong> (Asociación Nacional de Transporte Privado) y <strong>FreightWatch</strong>, México pierde aproximadamente <strong>$35,000 millones de pesos anuales</strong> por robo a transporte de carga. Y la cifra crece cada año.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Las Matemáticas Brutales</h2>
+            <p class="mb-4">
+                Pongamos números reales sobre la mesa para entender el verdadero costo de no usar <strong>sellos de seguridad</strong> certificados:
+            </p>
+
+            <div class="overflow-x-auto mb-8 shadow-sm rounded-lg">
+                <table class="min-w-full bg-white border border-gray-200">
+                    <thead class="bg-primary text-white">
+                        <tr>
+                            <th class="py-3 px-4 text-left">Concepto</th>
+                            <th class="py-3 px-4 text-right">Costo Aproximado</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700 text-sm">
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 px-4">Sello de Botella ISO 17712 (por unidad)</td>
+                            <td class="py-3 px-4 text-right font-bold text-green-600">$15 - $30 MXN</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 px-4">Cintillo Indicativo (por unidad)</td>
+                            <td class="py-3 px-4 text-right font-bold text-green-600">$2 - $5 MXN</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 px-4">Robo promedio por evento (carga general)</td>
+                            <td class="py-3 px-4 text-right font-bold text-red-600">$800,000 - $3,000,000 MXN</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 px-4">Deducible de seguro por evento</td>
+                            <td class="py-3 px-4 text-right font-bold text-red-600">$150,000 - $500,000 MXN</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-3 px-4">Aumento de prima de seguro post-robo</td>
+                            <td class="py-3 px-4 text-right font-bold text-red-600">+15% a +40% anual</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="bg-accent/10 p-6 rounded-xl border border-accent my-8">
+                <h3 class="font-bold text-primary text-xl mb-2">La ecuación es clara:</h3>
+                <p class="text-gray-700">Un <strong>precinto</strong> de $25 pesos protege una carga de $2,000,000 pesos. Eso es un ROI de <strong>80,000x</strong>. Ninguna otra inversión en seguridad te da ese retorno.</p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Las Pérdidas que NO ves</h2>
+            <p class="mb-4">
+                El robo directo es solo la punta del iceberg. Las pérdidas "colaterales" por no usar <strong>marchamos de seguridad</strong> certificados incluyen:
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Tiempo muerto:</strong> 72 horas promedio de investigación por evento, durante las cuales tu unidad está detenida.</li>
+                <li><strong>Reputación:</strong> Un cliente que recibe su carga violada no te vuelve a dar un embarque. Perdiste un contrato, no solo una carga.</li>
+                <li><strong>Legal:</strong> Sin <strong>precintos de seguridad</strong> <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline">ISO 17712</a> en exportación, puedes perder tu certificación <a href="/post/actualizacion-protocolos-c-tpat-2026" class="text-accent hover:underline">C-TPAT</a> y quedar fuera del comercio con USA.</li>
+                <li><strong>Robo hormiga acumulado:</strong> $500 pesos de faltante diario x 250 días = <strong>$125,000 pesos al año</strong> que "nadie sabe a dónde se fueron".</li>
+            </ul>
+
+            <div class="bg-primary text-white p-8 rounded-xl text-center mt-10 shadow-2xl">
+                <p class="text-2xl font-bold mb-4">$25 pesos. Eso cuesta proteger tu carga.</p>
+                <p class="text-sm opacity-80 mb-6">No esperes al primer robo para convencerte. La inversión más inteligente es la que evita la pérdida.</p>
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-500 text-white font-bold py-3 px-8 rounded-lg transition-transform transform hover:-translate-y-1">
+                    Cotizar Sellos de Seguridad
+                </a>
+            </div>
+        '
+    ],
+
+    // 67. DOMINGO 22 FEB -> OEA MÉXICO (Ángulo: Normativa Nacional)
+    'auditoria-oea-2026-sellos-seguridad-requisito' => [
+        'titulo'           => 'Auditoría OEA 2026: El Sello de Seguridad como requisito obligatorio en México',
+        'meta_description' => 'Si buscas la certificación OEA (Operador Económico Autorizado) del SAT, tus precintos de seguridad deben cumplir ISO 17712. Checklist de preparación para la auditoría.',
+        'autor'            => 'Comercio Exterior',
+        'fecha'            => '2026-02-22',
+        'categoria'        => 'Normatividad y C-TPAT',
+        'imagen'           => 'assets/img/blog/blog_sem7_domingo_oea_auditoria.avif',
+        'extracto'         => 'El programa OEA del SAT no es opcional para exportadores serios. Los marchamos de seguridad ISO 17712 son un requisito que el auditor revisará punto por punto.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                El programa <strong>OEA (Operador Económico Autorizado)</strong> de la Aduana de México (SAT) es el equivalente nacional del <a href="/post/actualizacion-protocolos-c-tpat-2026" class="text-accent hover:underline font-bold">C-TPAT estadounidense</a>. Si tu empresa exporta o importa, obtener esta certificación te da beneficios tangibles: menos inspecciones, carriles preferentes y trato preferencial.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Qué revisa el auditor OEA respecto a sellos?</h2>
+            <p class="mb-4">
+                El perfil de seguridad OEA tiene un apartado específico sobre <strong>integridad de la carga</strong> que incluye el uso de <strong>precintos de seguridad</strong>. Estos son los puntos que el auditor verificará en tu planta:
+            </p>
+
+            <div class="space-y-4 my-8">
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-primary">
+                    <h3 class="font-bold text-primary text-lg mb-2">1. Política de Sellado Documentada</h3>
+                    <p class="text-sm text-gray-700">¿Tienes un procedimiento escrito (SOP) que especifique qué tipo de <strong>sello de seguridad</strong> se usa para cada tipo de carga? Debe incluir: marca, modelo, clasificación (<a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline">ISO 17712 "I", "S" o "H"</a>) y proveedor autorizado.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-primary">
+                    <h3 class="font-bold text-primary text-lg mb-2">2. Control de Inventario de Sellos</h3>
+                    <p class="text-sm text-gray-700">Los <strong>marchamos</strong> deben tratarse como valores. El auditor pedirá ver tu bitácora de folios: ¿quién recibe los sellos? ¿Quién los asigna? ¿Dónde se resguardan bajo llave? Un sello "suelto" sin rastreo es una no conformidad mayor.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-primary">
+                    <h3 class="font-bold text-primary text-lg mb-2">3. Certificado ISO 17712 del proveedor</h3>
+                    <p class="text-sm text-gray-700">El auditor solicitará el <a href="/post/validar-certificado-sellos-c-tpat" class="text-accent hover:underline font-bold">certificado de pruebas de laboratorio</a> vigente del fabricante de tus <strong>precintos de seguridad</strong>. Si compraste sellos genéricos sin certificado, es una observación crítica.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-primary">
+                    <h3 class="font-bold text-primary text-lg mb-2">4. Capacitación del Personal</h3>
+                    <p class="text-sm text-gray-700">¿Tus operadores saben colocar e inspeccionar un sello correctamente? El auditor puede pedir evidencia de <a href="/post/capacitacion-choferes-seguridad-carga" class="text-accent hover:underline">capacitación a choferes</a> (fotos, listas de asistencia, constancias).</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-primary">
+                    <h3 class="font-bold text-primary text-lg mb-2">5. Procedimiento ante Sello Violado</h3>
+                    <p class="text-sm text-gray-700">¿Qué pasa si al recibir un camión el <strong>sello de seguridad</strong> está roto o el folio no coincide? Debes tener un protocolo de respuesta documentado que incluya notificación, fotografías y custodia del sello como evidencia.</p>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Beneficios tangibles de la certificación OEA</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+                <div class="bg-green-50 p-4 rounded-lg border border-green-200 text-center">
+                    <span class="text-3xl font-bold text-green-700 block mb-2">-70%</span>
+                    <p class="text-sm text-gray-600">Reducción en inspecciones aduanales</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg border border-green-200 text-center">
+                    <span class="text-3xl font-bold text-green-700 block mb-2">48hrs</span>
+                    <p class="text-sm text-gray-600">Despacho exprés vs 5+ días sin OEA</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg border border-green-200 text-center">
+                    <span class="text-3xl font-bold text-green-700 block mb-2">Mutual</span>
+                    <p class="text-sm text-gray-600">Reconocimiento C-TPAT automático</p>
+                </div>
+            </div>
+
+            <p class="mb-4">
+                En resumen: invertir en <strong>sellos de seguridad</strong> certificados y un protocolo documentado no solo te protege contra robos, sino que abre puertas comerciales. Los clientes internacionales prefieren trabajar con proveedores certificados OEA/C-TPAT.
+            </p>
+
+            <div class="bg-primary text-white p-8 rounded-xl text-center mt-10 shadow-2xl">
+                <p class="text-lg font-medium mb-4">¿Preparándote para tu auditoría OEA?</p>
+                <p class="text-sm opacity-80 mb-6">Te ayudamos a elegir los sellos correctos y te entregamos toda la documentación que el auditor necesita ver.</p>
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-500 text-white font-bold py-3 px-8 rounded-lg transition-transform transform hover:-translate-y-1">
+                    Asesoría para Certificación OEA
+                </a>
+            </div>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
