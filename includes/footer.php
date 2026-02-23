@@ -1,90 +1,115 @@
 <footer class="bg-primary text-white pt-16 pb-8 mt-auto relative z-10">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+
+            <!-- CTA Banner -->
+            <div class="relative bg-gradient-to-r from-accent/20 to-accent/5 border border-accent/20 rounded-2xl p-8 mb-14 flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden">
+                <div class="absolute -right-10 -top-10 w-40 h-40 bg-accent/10 rounded-full blur-2xl"></div>
+                <div class="relative z-10">
+                    <h3 class="text-xl md:text-2xl font-bold text-white mb-1">¿Buscas sellos de seguridad para tu operación?</h3>
+                    <p class="text-gray-300 text-sm">Cotiza precintos y marchamos con precios de fábrica. Respuesta en menos de 2 horas.</p>
+                </div>
+                <a href="/contacto" class="relative z-10 flex-shrink-0 bg-accent hover:bg-orange-500 text-white px-8 py-3 rounded-lg font-bold transition-all shadow-lg shadow-accent/20 hover:-translate-y-0.5 inline-flex items-center gap-2 group">
+                    Cotizar Ahora
+                    <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
+            </div>
+
+            <nav class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12" aria-label="Navegación del pie de página">
                 
-                <div class="space-y-4">
+                <!-- Col 1: Logo + Social -->
+                <div class="lg:col-span-2 space-y-4">
                     <a href="/" class="inline-block mb-2">
-    					<img src="/assets/img/logo-control-one-industrial.avif" alt="Control One" class="h-12 w-auto">
-					</a>
-                    <p class="text-gray-300 text-sm leading-relaxed">
-                        Líderes en soluciones de seguridad logística. Protegemos tu carga con sellos de alta calidad y certificación ISO.
+                        <img src="/assets/img/logo-control-one-industrial.avif" alt="Control One - Sellos de Seguridad" class="h-12 w-auto">
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
+                        Fabricantes de sellos de seguridad ISO 17712 y precintos certificados para la industria logística en México. Más de 12 años protegiendo tu cadena de suministro.
                     </p>
-                    <div class="flex space-x-4 pt-2">
-                        <a href="https://www.facebook.com/profile.php?id=61584181824253" target="_blank" rel="noopener noreferrer nofollow" class="text-gray-300 hover:text-accent transition-colors">
+                    <div class="flex space-x-3 pt-2">
+                        <a href="https://www.facebook.com/profile.php?id=61584181824253" target="_blank" rel="noopener noreferrer nofollow" class="bg-white/10 hover:bg-accent w-9 h-9 rounded-lg flex items-center justify-center transition-all hover:-translate-y-0.5" title="Facebook">
                             <span class="sr-only">Facebook</span>
-                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                         </a>
-                        <a href="https://www.linkedin.com/in/control-one-0b2488397/" target="_blank" rel="noopener noreferrer nofollow" class="text-gray-300 hover:text-accent transition-colors">
+                        <a href="https://www.linkedin.com/in/control-one-0b2488397/" target="_blank" rel="noopener noreferrer nofollow" class="bg-white/10 hover:bg-accent w-9 h-9 rounded-lg flex items-center justify-center transition-all hover:-translate-y-0.5" title="LinkedIn">
                             <span class="sr-only">LinkedIn</span>
-                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                         </a>
                     </div>
                 </div>
 
+                <!-- Col 2: Soluciones -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-6 text-accent">Soluciones</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li><a href="/productos#alta-seguridad" class="text-gray-300 hover:text-white transition-colors">Sellos de Alta Seguridad</a></li>
-                        <li><a href="/productos#plasticos" class="text-gray-300 hover:text-white transition-colors">Sellos de Plástico</a></li>
-                        <li><a href="/productos#metalicos" class="text-gray-300 hover:text-white transition-colors">Sellos Metálicos</a></li>
-                        <li><a href="/productos#cables" class="text-gray-300 hover:text-white transition-colors">Sellos de Cable</a></li>
+                    <h4 class="text-sm font-bold mb-5 text-accent uppercase tracking-wider">Soluciones</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li><a href="/productos#alta-seguridad" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos de Alta Seguridad</a></li>
+                        <li><a href="/productos#plasticos" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Precintos Plásticos</a></li>
+                        <li><a href="/productos#cables" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos de Cable</a></li>
+                        <li><a href="/productos#metalicos" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos Metálicos</a></li>
+                        <li><a href="/productos#gps" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Rastreo GPS</a></li>
                     </ul>
                 </div>
 
+                <!-- Col 3: Recursos -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-6 text-accent">Catálogo Rápido</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li><a href="/info/producto-sello-botella-star-one" class="text-gray-300 hover:text-white transition-colors" title="Sello de Clavo ISO 17712">Sello Botella (Clavo)</a></li>
-                        <li><a href="/info/producto-sello-cable-acero" class="text-gray-300 hover:text-white transition-colors" title="Sello de Cable Ajustable">Sello Cable Acero</a></li>
-                        <li><a href="/info/producto-precinto-quantum" class="text-gray-300 hover:text-white transition-colors" title="Cintillos para transporte">Cintillos Plásticos</a></li>
-                        <li><a href="/info/producto-cinta-seguridad-void" class="text-gray-300 hover:text-white transition-colors" title="Etiquetas VOID Violables">Etiquetas VOID</a></li>
+                    <h4 class="text-sm font-bold mb-5 text-accent uppercase tracking-wider">Recursos</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li><a href="/blog" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Blog</a></li>
+                        <li><a href="/assets/pdf/Catalogo.pdf" target="_blank" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Catálogo PDF 2026</a></li>
+                        <li><a href="/nosotros" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sobre Nosotros</a></li>
+                        <li><a href="/contacto" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Cotizar</a></li>
+                    </ul>
+
+                    <h4 class="text-sm font-bold mt-6 mb-4 text-accent uppercase tracking-wider">Cobertura</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/contacto?ciudad=Monterrey" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos en Monterrey</a></li>
+                        <li><a href="/contacto?ciudad=Guadalajara" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos en Guadalajara</a></li>
+                        <li><a href="/contacto?ciudad=Queretaro" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos en Querétaro</a></li>
                     </ul>
                 </div>
 
+                <!-- Col 4: Contacto -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-6 text-accent">Cobertura México</h4>
-                    <ul class="space-y-3 text-sm text-gray-400">
-                        <li><a href="/contacto?ciudad=Monterrey" class="hover:text-white">Sellos en Monterrey</a></li>
-                        <li><a href="/contacto?ciudad=Guadalajara" class="hover:text-white">Sellos en Guadalajara</a></li>
-                        <li><a href="/contacto?ciudad=Queretaro" class="hover:text-white">Sellos en Querétaro</a></li>
-                        <li><a href="/contacto?ciudad=Puebla" class="hover:text-white">Sellos en Puebla</a></li>
-                        <li><a href="/contacto?ciudad=Manzanillo" class="hover:text-white">Sellos en Manzanillo</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="text-lg font-semibold mb-6 text-accent">Contacto</h4>
+                    <h4 class="text-sm font-bold mb-5 text-accent uppercase tracking-wider">Contacto</h4>
                     <ul class="space-y-4 text-sm text-gray-300">
-                        <li class="flex items-start">
-                            <svg class="h-5 w-5 text-accent mr-3 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <li class="flex items-start gap-3">
+                            <svg class="h-5 w-5 text-accent mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
-                            <span>Av Lago de Guadalupe km 27.5-Bodega A3, San Pedro Barrientos, 54010 Tlalnepantla, Méx.</span>
+                            <span class="text-gray-400">Av Lago de Guadalupe km 27.5, Bodega A3, Tlalnepantla, Méx.</span>
                         </li>
-                        <li class="flex items-center">
-                            <a href="tel:+525641749969" class="text-accent hover:text-white transition-colors">
-                                <svg class="h-5 w-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <li>
+                            <a href="tel:+525558642200" class="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
+                                <svg class="h-5 w-5 text-accent flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                 </svg>
+                                +52 55 5864 2200
                             </a>
-                            <a href="tel:+525641749969" class="hover:text-white transition-colors"> +52 56 4174 9969</a>
                         </li>
-                        <li class="flex items-center">
-                            <a href="mailto:socialmedia@controlone.com.mx" class="text-accent hover:text-white transition-colors">
-                                <svg class="h-5 w-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <li>
+                            <a href="https://wa.me/522218027570?text=Hola%2C%20quiero%20cotizar%20sellos%20de%20seguridad" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-gray-400 hover:text-[#25D366] transition-colors" title="Chatea por WhatsApp">
+                                <svg class="h-5 w-5 text-[#25D366] flex-shrink-0" fill="currentColor" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157z"/></svg>
+                                WhatsApp
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:ventas@controlone.com.mx" class="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
+                                <svg class="h-5 w-5 text-accent flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
+                                ventas@controlone.com.mx
                             </a>
-                            <a href="mailto:socialmedia@controlone.com.mx" class="hover:text-white transition-colors"> socialmedia@controlone.com.mx</a>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </nav>
 
-            <div class="border-t border-gray-700 pt-8 text-center">
-                <p class="text-gray-400 text-sm">
-                    &copy; 2025 Control One. Todos los derechos reservados.
+            <!-- Bottom bar -->
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-gray-500 text-xs">
+                    &copy; 2026 Control One. Todos los derechos reservados.
+                </p>
+                <p class="text-gray-600 text-xs">
+                    Fabricantes de sellos de seguridad en México · ISO 17712 · C-TPAT
                 </p>
             </div>
         </div>
@@ -95,11 +120,12 @@
        href="#" 
        target="_blank" 
        class="fixed bottom-24 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 transform hover:scale-110 group"
-       title="Chatea con nosotros">
+       title="Chatea con nosotros por WhatsApp"
+       rel="noopener noreferrer">
        
-        <!-- Tooltip flotante (opcional) -->
-        <span class="absolute left-16 bg-white text-gray-800 text-xs font-bold px-3 py-1 rounded-md shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden md:block">
-            ¡Hola! ¿En qué podemos ayudarte? <!-- Texto dinámico via JS -->
+        <!-- Tooltip flotante -->
+        <span class="absolute right-16 bg-white text-gray-800 text-xs font-bold px-3 py-1 rounded-md shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden md:block">
+            ¡Hola! ¿En qué podemos ayudarte?
         </span>
 
         <svg class="w-8 h-8 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -109,34 +135,17 @@
 
     <script>
     (function() {
-        // Configuración
-        const phone = "525558642200"; // Tu número fijo
+        const phone = "525558642200";
         const defaultMsg = "Hola, vi su sitio web y me gustaria información.";
         const promoMsg   = "Hola, vi su anuncio y quiero cotizar.";
-        
-        // 1. Detectar UTM en URL
         const params = new URLSearchParams(window.location.search);
         const urlSource = params.get('utm_source');
-
-        // 2. Guardar en SessionStorage si existe (persistencia)
-        if (urlSource) {
-            sessionStorage.setItem('traffic_source', urlSource);
-        }
-
-        // 3. Recuperar fuente (de URL o de memoria)
+        if (urlSource) { sessionStorage.setItem('traffic_source', urlSource); }
         const currentSource = sessionStorage.getItem('traffic_source');
-
-        // 4. Definir mensaje según fuente
         let finalMsg = defaultMsg;
-        if (currentSource && (currentSource.includes('ad') || currentSource.includes('google'))) {
-            finalMsg = promoMsg;
-        }
-
-        // 5. Actualizar el enlace del botón
+        if (currentSource && (currentSource.includes('ad') || currentSource.includes('google'))) { finalMsg = promoMsg; }
         const btn = document.getElementById('whatsapp-float-btn');
-        if (btn) {
-            btn.href = `https://wa.me/${phone}?text=${encodeURIComponent(finalMsg)}`;
-        }
+        if (btn) { btn.href = `https://wa.me/${phone}?text=${encodeURIComponent(finalMsg)}`; }
     })();
     </script>
     

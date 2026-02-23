@@ -8,7 +8,7 @@ include 'includes/data_blog.php';
 <main>
     <section class="relative bg-primary min-h-[300px] md:min-h-[400px] flex items-center justify-center text-center py-12">
         <div class="absolute inset-0 z-0">
-            <img src="assets/img/bodega-control-one-sellos-seguridad.avif" alt="Blog Logística y Seguridad" class="w-full h-full object-cover object-center opacity-30">
+            <img src="/assets/img/bodega-control-one-sellos-seguridad.avif" alt="Blog de Logística y Seguridad - Control One" class="w-full h-full object-cover object-center opacity-30" fetchpriority="high">
             <div class="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
         </div>
         
@@ -46,7 +46,7 @@ include 'includes/data_blog.php';
 
                             foreach($categorias as $label => $val):
                                 $isActive = ($filter_cat == $val);
-                                $url = $val == '' ? 'blog' : 'blog?cat=' . urlencode($val);
+                                $url = $val == '' ? '/blog' : '/blog?cat=' . urlencode($val);
                             ?>
                                 <a href="<?php echo $url; ?>" 
                                    class="px-4 py-3 rounded-md text-sm font-medium transition-all duration-200 flex items-center justify-between group <?php echo $isActive ? 'bg-primary text-white shadow-md' : 'text-gray-600 hover:bg-gray-50 hover:text-accent'; ?>">
@@ -61,7 +61,7 @@ include 'includes/data_blog.php';
                         <!-- CTA Lateral -->
                         <div class="mt-8 pt-6 border-t border-gray-100 text-center">
                             <p class="text-xs text-gray-500 mb-3">¿Dudas sobre qué sello usar?</p>
-                            <a href="contacto" class="block w-full bg-accent text-white font-bold py-2 rounded text-sm hover:bg-orange-600 transition-colors">
+                            <a href="/contacto" class="block w-full bg-accent text-white font-bold py-2 rounded text-sm hover:bg-orange-600 transition-colors">
                                 Contactar un Experto
                             </a>
                         </div>
@@ -87,8 +87,8 @@ include 'includes/data_blog.php';
                         ?>
                             <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 flex flex-col h-full group">
                                 
-                                <a href="post/<?php echo $slug; ?>" class="block h-48 overflow-hidden relative">
-                                    <img src="<?php echo $post['imagen']; ?>" 
+                                <a href="/post/<?php echo $slug; ?>" class="block h-48 overflow-hidden relative">
+                                    <img src="/<?php echo $post['imagen']; ?>" 
                                          alt="<?php echo $post['titulo']; ?>" 
                                          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                          loading="lazy">
@@ -105,7 +105,7 @@ include 'includes/data_blog.php';
                                     </div>
 
                                     <h3 class="text-lg font-bold text-primary mb-3 leading-tight hover:text-accent transition-colors">
-                                        <a href="post/<?php echo $slug; ?>">
+                                        <a href="/post/<?php echo $slug; ?>">
                                             <?php echo $post['titulo']; ?>
                                         </a>
                                     </h3>
@@ -115,7 +115,7 @@ include 'includes/data_blog.php';
                                     </p>
 
                                     <div class="mt-auto pt-4 border-t border-gray-100">
-                                        <a href="post/<?php echo $slug; ?>" class="text-primary font-bold text-sm hover:text-accent inline-flex items-center transition-colors">
+                                        <a href="/post/<?php echo $slug; ?>" class="text-primary font-bold text-sm hover:text-accent inline-flex items-center transition-colors">
                                             Leer Artículo
                                             <svg class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                                         </a>
@@ -127,7 +127,7 @@ include 'includes/data_blog.php';
                         <?php if(!$found_posts): ?>
                             <div class="col-span-1 md:col-span-2 text-center py-12">
                                 <p class="text-gray-500 text-lg">No encontramos artículos en esta categoría por el momento.</p>
-                                <a href="blog" class="text-accent font-bold hover:underline mt-2 inline-block">Ver todos los artículos</a>
+                                <a href="/blog" class="text-accent font-bold hover:underline mt-2 inline-block">Ver todos los artículos</a>
                             </div>
                         <?php endif; ?>
 

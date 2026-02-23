@@ -15,7 +15,7 @@ if (array_key_exists($slug, $blog_posts)) {
     $meta_description = isset($post['meta_description']) ? $post['meta_description'] : $post['extracto'];
     
     // Imagen para Open Graph (WhatsApp/Facebook)
-    $page_image = $post['imagen']; 
+    $page_image = '/' . $post['imagen']; 
     
 } else {
     // CAMBIO: En lugar de error 404, redirigimos al Blog principal

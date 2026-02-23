@@ -1,6 +1,6 @@
 <?php 
 // SEO: Título enfocado en autoridad y confianza (Branding)
-$page_title = "Fábrica de Sellos de Seguridad Industrial en México | Control One";
+$page_title = "Fábrica de Sellos de Seguridad Industrial en México";
 // SEO: Meta descripción con énfasis en capacidad de producción y cobertura
 $meta_description = "Somos Fabricantes de Sellos de Seguridad en México. Planta certificada ISO 17712. Conoce nuestra ingeniería detrás del mejor precinto industrial.";
 include 'includes/header.php'; 
@@ -11,7 +11,7 @@ include 'includes/header.php';
     <section class="relative bg-gray-900 h-[500px] flex items-center justify-center text-center overflow-hidden">
         <div class="absolute inset-0 z-0">
             <!-- Nueva imagen generada con realismo industrial -->
-            <img src="assets/img/nosotros_factory_realism.png" alt="Planta de producción de sellos Control One" class="w-full h-full object-cover opacity-40">
+            <img src="/assets/img/nosotros_factory_realism.png" alt="Planta de producción de sellos de seguridad Control One en México" class="w-full h-full object-cover opacity-40" fetchpriority="high">
             <div class="absolute inset-0 bg-gradient-to-b from-gray-900/10 via-gray-900/60 to-gray-900"></div>
         </div>
         <div class="relative z-10 container mx-auto px-4 animate-fade-in-up">
@@ -82,7 +82,7 @@ include 'includes/header.php';
                 <p class="text-gray-600">Lo que nos hace diferentes a un distribuidor genérico.</p>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Card 1 -->
                 <div class="bg-white p-8 rounded-xl shadow-lg hover:-translate-y-2 transition-transform duration-300 text-center group">
                     <div class="w-20 h-20 mx-auto bg-blue-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
@@ -113,6 +113,16 @@ include 'includes/header.php';
                         Tu marca, tu seguridad. Grabamos códigos de barras, numeración consecutiva y el logotipo de tu empresa para control total.
                     </p>
                 </div>
+                <!-- Card 4: GPS -->
+                <a href="/info/producto-gps-tracker" class="bg-white p-8 rounded-xl shadow-lg hover:-translate-y-2 transition-transform duration-300 text-center group block">
+                    <div class="w-20 h-20 mx-auto bg-emerald-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
+                        <svg class="w-10 h-10 text-emerald-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Monitoreo GPS</h3>
+                    <p class="text-gray-500 text-sm">
+                        Rastreo satelital en tiempo real para tu flota. Sellos + GPS = seguridad física y digital bajo una misma marca.
+                    </p>
+                </a>
             </div>
         </div>
     </section>
@@ -129,10 +139,10 @@ include 'includes/header.php';
                 Únete a las empresas que ya blindaron su carga con Control One.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-6">
-                <a href="productos" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-bold shadow-lg transition-transform hover:scale-105">
+                <a href="/productos" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-bold shadow-lg transition-transform hover:scale-105">
                     Ver Productos
                 </a>
-                <a href="contacto" class="bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-white px-8 py-4 rounded-lg font-bold transition-colors">
+                <a href="/contacto" class="bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-white px-8 py-4 rounded-lg font-bold transition-colors">
                     Solicitar Cotización
                 </a>
             </div>
@@ -147,12 +157,21 @@ include 'includes/header.php';
   "name": "Control One",
   "url": "https://controlone.com.mx",
   "logo": "https://controlone.com.mx/assets/img/logo-control-one-industrial.avif",
+  "description": "Fabricantes de sellos de seguridad ISO 17712, precintos, marchamos y sistemas de rastreo GPS para transporte de carga en México.",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+52-56-4174-9969",
+    "telephone": "+52-55-5864-2200",
     "contactType": "sales",
     "areaServed": ["MX", "US"],
     "availableLanguage": ["Spanish", "English"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av Lago de Guadalupe km 27.5-Bodega A3",
+    "addressLocality": "Tlalnepantla",
+     "addressRegion": "Estado de México",
+    "postalCode": "54010",
+    "addressCountry": "MX"
   },
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61584181824253",
