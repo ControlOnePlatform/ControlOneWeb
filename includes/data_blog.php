@@ -2571,6 +2571,188 @@ $blog_posts = [
             </div>
         '
     ],
+
+    // --- SEMANA 8: 23 FEB - 02 MAR 2026 ---
+    
+    // 68. LUNES 23 FEB -> CONTROL INTERNO (Ángulo: Mermas)
+    'precintos-plastico-control-interno-mermas' => [
+        'titulo'           => 'Control Interno: Cómo los precintos de plástico reducen mermas en un 40%',
+        'meta_description' => 'El robo hormiga en almacenes se puede controlar. Implementa precintos indicativos de plástico foliados para proteger cajas, jaulas y pasillos de alto valor.',
+        'autor'            => 'Auditoría Interna',
+        'fecha'            => '2026-02-23',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem8_lunes_control_interno.avif',
+        'extracto'         => 'No toda la seguridad es para los camiones. Asegurar el inventario estático dentro del CEDIS con sellos indicativos foliados es clave para reducir el robo hormiga.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Sellar las puertas exteriores está muy bien, pero el mayor porcentaje de "mermas" ocurre en los pasillos de tu propio almacén, donde solo tienen acceso tus empleados.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Poder del Sello Indicativo</h2>
+            <p class="mb-4">
+                Los <strong>precintos de plástico</strong> (cola de rata o de longitud fija) no están diseñados para resistir asaltos armados, sino para <strong>disuadir y evidenciar</strong> manipulaciones internas. Si un preparador de pedidos sabe que la caja de electrónicos está sellada con un folio único, se lo pensará dos veces.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Dónde usarlos hoy mismo?</h2>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Retornos (Logística Inversa):</strong> Cierra cada caja devuelta antes de subirla a la unidad.</li>
+                <li><strong>Cajas de Herramientas y Botiquines:</strong> Evita "préstamos" permanentes de equipo.</li>
+                <li><strong>Carros de Servicio / Totes:</strong> Para picking interno protegido.</li>
+            </ul>
+        '
+    ],
+
+    // 69. MARTES 24 FEB -> EXPORTACIÓN TERRESTRE (Ángulo: C-TPAT Frontera)
+    'sellos-para-cruces-fronterizos-usa-mexico' => [
+        'titulo'           => 'Cruces Fronterizos: Qué sellos usar para evitar revisiones secundarias (Rojo)',
+        'meta_description' => 'Evita multas y retrasos en Laredo o Tijuana. Usa sellos para contenedores ISO 17712 y reduce las probabilidades de una revisión secundaria de la CBP.',
+        'autor'            => 'Comercio Exterior',
+        'fecha'            => '2026-02-24',
+        'categoria'        => 'Normatividad y C-TPAT',
+        'imagen'           => 'assets/img/blog/blog_sem8_martes_cruces_fronterizos.avif',
+        'extracto'         => 'Cruzar a Estados Unidos por tierra exige precisión. Un sello roto o un modelo no certificado garantiza retrasos costosos y multas de la aduana.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La frontera terrestre México-USA es el cruce comercial más dinámico del mundo, pero también el más vigilado. Cualquier irregularidad en tus <strong>sellos de seguridad</strong> encenderá las alarmas de la CBP (Customs and Border Protection).
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Radiografía (Rayos X) y Sellos</h2>
+            <p class="mb-4">
+                En el cruce, los camiones pasan por portales de rayos X. Las autoridades verifican no solo el contenido, sino el mecanismo de cierre. Si tu <strong>marchamo</strong> no está clasificado como "H" o ha sido manipulado, el camión va directo a revisión profunda.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Estrategia Segura</h2>
+            <p class="mb-4">
+                Nunca mandes un camión a la frontera con un solo sello si haces transbordo o múltiples paradas. Usa <strong>sellos de botella y sellos de cable simultáneamente</strong> y lleva una bitácora perfecta de reemplazos.
+            </p>
+        '
+    ],
+
+    // 70. MIÉRCOLES 25 FEB -> CADENA DE SUMINISTRO (Ángulo: Auditorías)
+    'auditoria-manejo-sellos-seguridad-almacen' => [
+        'titulo'           => 'Cómo realizar una auditoría relámpago a tus sellos de seguridad',
+        'meta_description' => 'Guía de 5 pasos para auditar el uso, almacenaje y descarte de marchamos de seguridad en tu almacén. Evalúa a tus proveedores y personal.',
+        'autor'            => 'Auditoría Control One',
+        'fecha'            => '2026-02-25',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog_sem8_miercoles_auditoria_sellos.avif',
+        'extracto'         => 'La confianza es buena, el control es mejor. Audita si tu personal de andén está siguiendo el protocolo de sellos correctamente con este checklist.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Muchos gerentes se confían porque "compraron los sellos más caros". Pero la mejor tecnología falla si el factor humano no está auditado. Realiza esta prueba hoy mismo.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Checklist de Auditoría Express</h2>
+            <ol class="list-decimal pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Resguardo:</strong> Ve a la oficina de despachos. ¿Los <strong>sellos de seguridad</strong> están bajo llave o sueltos en un escritorio?</li>
+                <li><strong>Asignación:</strong> Pide el registro del día. ¿Se anota nombre, fecha, hora, unidad y firma por cada folio asignado?</li>
+                <li><strong>Inspección Física:</strong> Ve al patio, pide a un guardia que te muestre los sellos colocados. ¿Hay evidencia de ajuste forzado? </li>
+                <li><strong>Destrucción:</strong> ¿Dónde están los sellos cortados de los arribos matutinos? ¿En una bolsa de evidencias o tirados en la basura común?</li>
+            </ol>
+            <p class="mb-4">
+                Si fallaste en más de 2 puntos, tu cadena logística es vulnerable al fraude interno.
+            </p>
+        '
+    ],
+
+    // 71. JUEVES 26 FEB -> TRANSPORTE ESPECIALIZADO (Ángulo: Químicos)
+    'sellos-para-pipas-quimicos-materiales-peligrosos' => [
+        'titulo'           => 'Transporte de Materiales Peligrosos: Precintos para Químicos y Solventes',
+        'meta_description' => 'La industria química (Hazmat) exige marchamos de seguridad que soporten desgaste extremo. Sellos de aluminio y cables recubiertos para máxima seguridad.',
+        'autor'            => 'División Químicos',
+        'fecha'            => '2026-02-26',
+        'categoria'        => 'Control de Fluidos y Energía',
+        'imagen'           => 'assets/img/blog/blog_sem8_jueves_pipas_quimicos.avif',
+        'extracto'         => 'En pipas de químicos, un sello disuelto por vapores ácidos es un peligro letal. Usa materiales inertes como aluminio anodizado para evitar accidentes.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                El transporte Hazmat (Materiales Peligrosos) y líquidos químicos supone retos más allá del robo. Los vapores corrosivos y los derrames accidentales destruyen plásticos comunes.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Incompatibilidad del Polipropileno</h2>
+            <p class="mb-4">
+                El plástico PP, excelente para uso general, puede derretirse o cristalizarse al contacto prolongado con ciertos solventes. Necesitas <strong>precintos de seguridad</strong> especializados para válvulas de descarga.
+            </p>
+            <div class="bg-gray-100 p-6 rounded-lg border-l-4 border-yellow-500 my-6">
+                <h3 class="font-bold text-gray-800 text-lg mb-2">Alternativas Seguras</h3>
+                <p class="text-gray-700 text-sm">
+                1. <strong>Cuerpo de Aluminio (C-ONE 116):</strong> El aluminio es inerte ante la mayoría de químicos comerciales y no produce chispas peligrosas si roza con otras partes metálicas.<br><br>
+                2. <strong>Cables Recubiertos:</strong> Cables de acero forrados con PVC para proteger el metal de ácidos que pudieran oxidarlo.
+                </p>
+            </div>
+        '
+    ],
+
+    // 72. VIERNES 27 FEB -> ADUANAS Y LOGÍSTICA (Ángulo: Multas)
+    'consecuencias-multas-romper-sello-fiscal-aduanal' => [
+        'titulo'           => 'Multas Aduaneras: ¿Qué pasa si se rompe el Marchamo Fiscal?',
+        'meta_description' => 'Un marchamo fiscal roto en tránsito no es un simple accidente. Consecuencias legales, multas y cómo un marchamo operativo previene la catástrofe.',
+        'autor'            => 'Comercio Exterior',
+        'fecha'            => '2026-02-27',
+        'categoria'        => 'Normatividad y C-TPAT',
+        'imagen'           => 'assets/img/blog/blog_sem8_viernes_multa_fiscal.avif',
+        'extracto'         => 'Violentar un candado oficial es un delito. Te explicamos las multas del SAT, embargo de mercancía y cómo protegerlo con sellos redundantes.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                El <strong>marchamo</strong> fiscal oficial verde o rojo que coloca la aduana es intocable. Llegar al destino o a un recinto fiscalizador con el candado alterado detona alertas de contrabando.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Sanciones Económicas en México</h2>
+            <p class="mb-4">
+                La Ley Aduanera establece multas severas (que pueden superar decenas de miles de pesos) y el PAMA (Procedimiento Administrativo en Materia Aduanera), que implica retener el medio de transporte y la carga.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Cómo evitar accidentes con el Sello Fiscal?</h2>
+            <p class="mb-4">
+                Coloca tu propio <strong>sello de seguridad operativo</strong> al lado del fiscal. Esto no solo disuade robos comunes, sino que, si en un bache o inspección externa el candado oficial sufre daños, el tuyo mantendrá la evidencia de que las puertas nunca fueron abiertas.
+            </p>
+        '
+    ],
+
+    // 73. SÁBADO 28 FEB -> RETAIL / ALIMENTOS (Ángulo: Delivery Exprés)
+    'cintillos-seguridad-delivery-comida-retail' => [
+        'titulo'           => 'Cintillos de Seguridad para Delivery y Comida Rápida',
+        'meta_description' => 'Los clientes ya no confían en bolsas abiertas. Mejora tu servicio de delivery y retail con cintillos de seguridad económicos y etiquetas VOID.',
+        'autor'            => 'Logística Última Milla',
+        'fecha'            => '2026-02-28',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem8_sabado_delivery_retail.avif',
+        'extracto'         => 'El 28% de los repartidores admite haber probado la comida que entrega. Garantiza higiene y confianza sellando tus bolsas y empaques.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La logística de última milla no es solo para paletas pesadas, también abarca las Dark Kitchens, farmacias y comercio exprés.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Psicología del Empaque Sellado</h2>
+            <p class="mb-4">
+                Para el consumidor, un envase o bolsa de papel cerrada con grapas es insuficiente. Al introducir <strong>cintillos de seguridad</strong> finos o <a href="/post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">etiquetas adhesivas VOID</a> en tu delivery:
+            </p>
+            <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-700">
+                <li><strong>Incrementas la confianza:</strong> El comensal o paciente sabe que nadie tocó su pedido desde que salió de la cocina/farmacia.</li>
+                <li><strong>Evitas fraudes al restaurante:</strong> El repartidor no puede sustraer ítems pequeños (papas, medicinas) y culpar al negocio.</li>
+            </ul>
+        '
+    ],
+
+    // 74. DOMINGO 01 MAR -> ESTRATEGIA INICIO MES (Ángulo: Planeación Mar/Abr)
+    'plan-seguridad-logistica-marzo-primavera-2026' => [
+        'titulo'           => 'Primavera 2026: Plan Logístico y Actualización de Marchamos',
+        'meta_description' => 'Inicia marzo actualizando tus protocolos y colorimetría de marchamos logísticos. Prepárate para las altas temperaturas y cambios de ruta.',
+        'autor'            => 'Dirección Operativa',
+        'fecha'            => '2026-03-01',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog_sem8_domingo_plan_marzo.avif',
+        'extracto'         => 'El cambio de clima modifica también los patrones delictivos. Inicia Marzo con una revisión proactiva de tu estrategia de sellado logístico.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Con el inicio de marzo y el aumento de temperaturas y demanda antes de Semana Santa, los volúmenes de carga cambian. Esto significa que debes rotar tu estrategia de seguridad.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Rotación de Colores</h2>
+            <p class="mb-4">
+                Si usaste rojo en enero y febrero, es momento de cambiar al azul o verde. Alterar periódicamente los <strong>colores de tus marchamos</strong> confunde a las mafias internas que intentan fotocopiar códigos o conseguir sellos sobrantes de meses anteriores.
+            </p>
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Revisión de Inventarios</h2>
+            <p class="mb-4">
+                Asegura stock suficiente para abril. Contáctanos hoy para programar tu siguiente pedido de <strong>sellos de botella y precintos de seguridad</strong>.
+            </p>
+            <div class="mt-8 text-center">
+                <a href="/contacto" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Contactar a Asesor Comercial
+                </a>
+            </div>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
