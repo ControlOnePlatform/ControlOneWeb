@@ -1,3 +1,14 @@
+<?php
+// radar_admin.php - Radar de Amenazas
+
+require_once 'config.php';
+
+// 1. SEGURIDAD
+if (!isset($_GET['k']) || $_GET['k'] !== ADMIN_ACCESS_KEY) {
+    http_response_code(403);
+    die("⛔ ACCESO DENEGADO. Intento de intrusión registrado.");
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

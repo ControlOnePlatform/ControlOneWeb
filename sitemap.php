@@ -41,12 +41,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <priority>0.9</priority>
     </url>
     <url>
-        <loc><?php echo $base_url; ?>/blog</loc>
-        <lastmod><?php echo $today; ?></lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
         <loc><?php echo $base_url; ?>/aviso-privacidad</loc>
         <priority>0.5</priority>
     </url>

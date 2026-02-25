@@ -1,9 +1,10 @@
 <?php
 // leads_dashboard.php - Visualizador de Leads "War Room" (Versión 2.0)
 
+require_once 'config.php';
+
 // 1. SEGURIDAD
-$access_key = 'ControlOne2026';
-if (!isset($_GET['k']) || $_GET['k'] !== $access_key) {
+if (!isset($_GET['k']) || $_GET['k'] !== ADMIN_ACCESS_KEY) {
     http_response_code(403);
     die("⛔ ACCESO DENEGADO. Intento de intrusión registrado.");
 }
