@@ -84,9 +84,66 @@ if ($chat_response) {
     exit;
 }
 
-// 2. CAPA DE BÚSQUEDA (Si no es charla, busca en el blog)
+// 2. CAPA DE BÚSQUEDA (Si no es charla, busca en el blog y productos)
 if (strlen($query) > 2) {
-    // Buscar en el array de posts
+
+    // A. Buscar en Productos (info/*.php)
+    $product_files = glob(__DIR__ . '/info/*.php');
+    foreach ($product_files as $file) {
+        $filename = basename($file, '.php');
+        if ($filename === 'index') continue;
+
+        // Leer contenido para extraer título y descripción
+        $content = file_get_contents($file);
+
+        // Extraer $page_title usando regex
+        if (preg_match('/\$page_title\s*=\s*["\']([^"\']+)["\']/', $content, $matches)) {
+            $title = $matches[1];
+        } else {
+            $title = ucwords(str_replace('-', ' ', $filename)); // Fallback
+        }
+
+        // Extraer $meta_description
+        $description = '';
+        if (preg_match('/\$meta_description\s*=\s*["\']([^"\']+)["\']/', $content, $matches_desc)) {
+            $description = $matches_desc[1];
+        }
+
+        // Extraer imagen ($page_image)
+        $image = '';
+        if (preg_match('/\$page_image\s*=\s*["\']([^"\']+)["\']/', $content, $matches_img)) {
+            $image = '/' . ltrim($matches_img[1], '/'); // Asegurar ruta absoluta
+        } else {
+            $image = '/assets/img/logo-control-one-industrial.avif'; // Fallback
+        }
+
+        // Normalizar para búsqueda
+        $title_norm = mb_strtolower($title);
+        $desc_norm = mb_strtolower($description);
+
+        $found = false;
+        $relevance = 0;
+
+        if (strpos($title_norm, $q_norm) !== false) {
+            $found = true;
+            $relevance = 15; // Mayor prioridad que blog
+        } elseif (strpos($desc_norm, $q_norm) !== false) {
+            $found = true;
+            $relevance = 8;
+        }
+
+        if ($found) {
+            $results[] = [
+                'title' => $title,
+                'url' => '/info/' . $filename,
+                'image' => $image,
+                'excerpt' => substr($description, 0, 80) . '...',
+                'relevance' => $relevance
+            ];
+        }
+    }
+
+    // B. Buscar en el array de posts
     foreach ($blog_posts as $slug => $post) {
         $found = false;
         
