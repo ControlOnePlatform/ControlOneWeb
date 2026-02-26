@@ -1,7 +1,7 @@
 <?php 
 // SEO TÉCNICO: Título optimizado para búsqueda general y específica
-$page_title = "Sellos y Marchamos de Seguridad en México | Fábrica de Precintos";
-$meta_description = "Fabricantes de sellos de seguridad y marchamos de seguridad certificados ISO 17712. Venta de precintos de botella, cables de acero y plásticos. Cotiza ahora.";
+$page_title = "Sellos de Seguridad y Marchamos en México | Fábrica de Precintos";
+$meta_description = "Sellos de seguridad y marchamos de seguridad certificados ISO 17712. Fábrica de precintos de botella, cables de acero y plásticos en México. ¡Cotiza ahora!";
 $preload_image_hero = "/assets/img/blog/bodega-control-one-sellos-seguridad.avif";
 include 'includes/header.php'; 
 include 'includes/data_blog.php'; 
@@ -40,11 +40,11 @@ html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
                 🏭 Fabricantes desde México
             </div>
             <h1 class="anim-up text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                Sellos y Marchamos de Seguridad<br>
+                Sellos de Seguridad y Marchamos<br>
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-yellow-300">Certificados ISO 17712</span>
             </h1>
             <p class="anim-up-d1 text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-                Protege tu logística con <strong class="text-white">marchamos de seguridad</strong>, sellos de botella de alta resistencia y cable de acero. Cumplimiento C-TPAT garantizado.
+                Protege tu logística con <strong class="text-white">sellos de seguridad</strong> y marchamos de alta resistencia. Precintos de botella y cable de acero con cumplimiento C-TPAT garantizado.
             </p>
             <div class="anim-up-d2 flex flex-col sm:flex-row justify-center gap-4">
                 <a href="/contacto" class="bg-accent hover:bg-orange-500 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all shadow-lg shadow-accent/30 hover:shadow-xl hover:shadow-accent/40 transform hover:-translate-y-1" style="animation: pulse-glow 2s infinite">

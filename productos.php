@@ -1,7 +1,7 @@
 <?php 
 // SEO TÉCNICO: Título enfocado en intención de compra y variedad
-$page_title = "Catálogo de Sellos y Marchamos de Seguridad 2026 | Fábrica";
-$meta_description = "Catálogo de Marchamos de Seguridad 2026. Precios directos de fábrica en precintos de botella ISO 17712, cables y plásticos. Cotiza aquí.";
+$page_title = "Catálogo de Sellos de Seguridad y Marchamos 2026 | Fábrica";
+$meta_description = "Catálogo de sellos de seguridad y marchamos 2026. Precios de fábrica en precintos ISO 17712, sellos de botella, cables de acero y plásticos. Cotiza aquí.";
 $preload_image_hero = "/assets/img/blog/bodega-control-one-sellos-seguridad.avif";
 include 'includes/header.php'; 
 ?>
@@ -19,10 +19,10 @@ include 'includes/header.php';
             <div class="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-gray-900/90"></div>
         </div>
         <div class="relative z-10 container mx-auto px-4 animate-fade-in-up">
-            <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Catálogo de Sellos y Marchamos de Seguridad</h1>
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">Catálogo de Sellos de Seguridad y Marchamos</h1>
             
             <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8 font-light leading-relaxed">
-                Protección certificada para tu cadena de suministro con <strong class="text-white">marchamos de seguridad</strong>. Cumplimiento C-TPAT e ISO 17712 "H".
+                Protección certificada para tu cadena de suministro con <strong class="text-white">sellos de seguridad</strong> y marchamos. Cumplimiento C-TPAT e ISO 17712 "H".
             </p>
             
             <a href="/assets/pdf/Catalogo.pdf" target="_blank" class="inline-flex items-center bg-accent hover:bg-orange-500 text-white px-8 py-3 rounded-full font-bold text-base transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-orange-500/40 ring-1 ring-white/20 backdrop-blur-sm group">

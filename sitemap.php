@@ -19,6 +19,12 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <priority>1.0</priority>
     </url>
     <url>
+        <loc><?php echo $base_url; ?>/sellos-de-seguridad</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
         <loc><?php echo $base_url; ?>/productos</loc>
         <lastmod><?php echo $today; ?></lastmod>
         <changefreq>weekly</changefreq>
@@ -33,12 +39,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <loc><?php echo $base_url; ?>/contacto</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-    </url>
-    <url>
-        <loc><?php echo $base_url; ?>/blog</loc>
-        <lastmod><?php echo $today; ?></lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
     </url>
     <url>
         <loc><?php echo $base_url; ?>/blog</loc>

@@ -40,6 +40,7 @@
                 <div>
                     <h4 class="text-sm font-bold mb-5 text-accent uppercase tracking-wider">Soluciones</h4>
                     <ul class="space-y-2.5 text-sm">
+                        <li><a href="/sellos-de-seguridad" class="text-gray-400 hover:text-white hover:pl-1 transition-all font-semibold">Sellos de Seguridad</a></li>
                         <li><a href="/productos#alta-seguridad" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos de Alta Seguridad</a></li>
                         <li><a href="/productos#plasticos" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Precintos Plásticos</a></li>
                         <li><a href="/productos#cables" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos de Cable</a></li>
