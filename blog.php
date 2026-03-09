@@ -3,6 +3,20 @@ $page_title = "Blog de Logística y Normativa C-TPAT";
 $meta_description = "Artículos técnicos, guías de uso y noticias sobre seguridad logística, prevención de robo de carga y normativas internacionales de exportación.";
 include 'includes/header.php'; 
 include 'includes/data_blog.php'; 
+
+// --- CONFIGURACIÓN DE CARGA ---
+$posts_per_page = 12;
+$today = date("Y-m-d");
+$filter_cat = isset($_GET['cat']) ? urldecode($_GET['cat']) : '';
+
+// Filtrar posts (futuros + categoría)
+$filtered_posts = [];
+foreach ($blog_posts as $slug => $post) {
+    if ($post['fecha'] > $today) continue;
+    if ($filter_cat != '' && $post['categoria'] != $filter_cat) continue;
+    $filtered_posts[$slug] = $post;
+}
+$total_posts = count($filtered_posts);
 ?>
 
 <main>
@@ -32,8 +46,6 @@ include 'includes/data_blog.php';
                         <h3 class="font-bold text-primary text-lg mb-4 border-b border-gray-100 pb-2">Explorar por Tema</h3>
                         <nav class="flex flex-col space-y-1">
                             <?php 
-                            $filter_cat = isset($_GET['cat']) ? urldecode($_GET['cat']) : '';
-                            
                             // Lista Maestra de Categorías
                             $categorias = [
                                 'Todas' => '',
@@ -58,8 +70,13 @@ include 'includes/data_blog.php';
                             <?php endforeach; ?>
                         </nav>
                         
+                        <!-- Contador de artículos -->
+                        <div class="mt-4 pt-4 border-t border-gray-100">
+                            <p class="text-xs text-gray-400 text-center"><?php echo $total_posts; ?> artículos disponibles</p>
+                        </div>
+
                         <!-- CTA Lateral -->
-                        <div class="mt-8 pt-6 border-t border-gray-100 text-center">
+                        <div class="mt-4 pt-4 border-t border-gray-100 text-center">
                             <p class="text-xs text-gray-500 mb-3">¿Dudas sobre qué sello usar?</p>
                             <a href="/contacto" class="block w-full bg-accent text-white font-bold py-2 rounded text-sm hover:bg-orange-600 transition-colors">
                                 Contactar un Experto
@@ -70,22 +87,25 @@ include 'includes/data_blog.php';
 
                 <!-- GRID DE ARTÍCULOS (Lado Derecho) -->
                 <div class="w-full lg:w-3/4">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    <!-- Contador visible -->
+                    <div class="flex items-center justify-between mb-6">
+                        <p class="text-sm text-gray-500">
+                            Mostrando <span id="blog-visible-count" class="font-bold text-primary"><?php echo min($posts_per_page, $total_posts); ?></span> de <span class="font-bold"><?php echo $total_posts; ?></span> artículos
+                        </p>
+                    </div>
+
+                    <div id="blog-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         
                         <?php 
-                        $today = date("Y-m-d"); 
-                        $found_posts = false;
+                        $post_index = 0;
 
-                        foreach ($blog_posts as $slug => $post): 
-                            // 1. Ocultar posts futuros
-                            if ($post['fecha'] > $today) continue;
-
-                            // 2. Filtrar por categoría (Si hay filtro activo)
-                            if ($filter_cat != '' && $post['categoria'] != $filter_cat) continue;
-                            
-                            $found_posts = true;
+                        foreach ($filtered_posts as $slug => $post): 
+                            $post_index++;
+                            $is_hidden = ($post_index > $posts_per_page);
                         ?>
-                            <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 flex flex-col h-full group">
+                            <article class="blog-card bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 flex flex-col h-full group <?php echo $is_hidden ? 'hidden' : ''; ?>"
+                                     data-post-index="<?php echo $post_index; ?>">
                                 
                                 <a href="/post/<?php echo $slug; ?>" class="block h-48 overflow-hidden relative">
                                     <img src="/<?php echo $post['imagen']; ?>" 
@@ -124,7 +144,7 @@ include 'includes/data_blog.php';
                             </article>
                         <?php endforeach; ?>
 
-                        <?php if(!$found_posts): ?>
+                        <?php if($total_posts === 0): ?>
                             <div class="col-span-1 md:col-span-2 text-center py-12">
                                 <p class="text-gray-500 text-lg">No encontramos artículos en esta categoría por el momento.</p>
                                 <a href="/blog" class="text-accent font-bold hover:underline mt-2 inline-block">Ver todos los artículos</a>
@@ -132,11 +152,93 @@ include 'includes/data_blog.php';
                         <?php endif; ?>
 
                     </div>
+
+                    <!-- BOTÓN "CARGAR MÁS" -->
+                    <?php if ($total_posts > $posts_per_page): ?>
+                    <div id="load-more-wrap" class="mt-10 text-center">
+                        <button id="load-more-btn" 
+                                class="inline-flex items-center gap-2 bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-8 py-3 rounded-lg transition-all duration-300 shadow-sm hover:shadow-lg group"
+                                data-per-page="<?php echo $posts_per_page; ?>"
+                                data-total="<?php echo $total_posts; ?>">
+                            <span id="load-more-text">Cargar más artículos</span>
+                            <svg class="w-5 h-5 transform group-hover:translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                            </svg>
+                        </button>
+                        <p id="load-more-hint" class="text-xs text-gray-400 mt-2"></p>
+                    </div>
+                    <?php endif; ?>
+
                 </div>
 
             </div>
         </div>
     </section>
 </main>
+
+<!-- Script: Cargar Más Posts -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('load-more-btn');
+    if (!btn) return;
+
+    const perPage = parseInt(btn.dataset.perPage);
+    const total = parseInt(btn.dataset.total);
+    const grid = document.getElementById('blog-grid');
+    const counter = document.getElementById('blog-visible-count');
+    const wrap = document.getElementById('load-more-wrap');
+    const hint = document.getElementById('load-more-hint');
+    const btnText = document.getElementById('load-more-text');
+    let currentVisible = perPage;
+
+    function updateHint() {
+        const remaining = total - currentVisible;
+        if (remaining > 0) {
+            hint.textContent = remaining + ' artículo' + (remaining !== 1 ? 's' : '') + ' restante' + (remaining !== 1 ? 's' : '');
+        }
+    }
+    updateHint();
+
+    btn.addEventListener('click', function() {
+        const nextBatch = currentVisible + perPage;
+        const cards = grid.querySelectorAll('.blog-card[data-post-index]');
+        let revealed = 0;
+
+        cards.forEach(function(card) {
+            const idx = parseInt(card.dataset.postIndex);
+            if (idx > currentVisible && idx <= nextBatch) {
+                card.classList.remove('hidden');
+                // Animación de entrada
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                requestAnimationFrame(function() {
+                    card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                });
+                revealed++;
+            }
+        });
+
+        currentVisible = Math.min(nextBatch, total);
+        counter.textContent = currentVisible;
+
+        // ¿Ya se mostraron todos?
+        if (currentVisible >= total) {
+            wrap.innerHTML = '<p class="text-sm text-gray-400 py-4">✅ Has visto todos los artículos</p>';
+        } else {
+            updateHint();
+        }
+
+        // Scroll suave al primer post nuevo
+        if (revealed > 0) {
+            const firstNew = grid.querySelector('.blog-card[data-post-index="' + (currentVisible - revealed + 1) + '"]');
+            if (firstNew) {
+                firstNew.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+    });
+});
+</script>
 
 <?php include 'includes/footer.php'; ?>

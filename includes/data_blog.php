@@ -2965,6 +2965,521 @@ $blog_posts = [
             </p>
         '
     ],
+
+    // --- SEMANA 10: 09 MAR - 15 MAR 2026 ---
+
+    // 82. LUNES 09 MAR -> FARMACÉUTICA / CADENA DE FRÍO
+    'sellos-seguridad-farmaceutica-cadena-frio-vacunas' => [
+        'titulo'           => 'Sellos de Seguridad para Farmacéutica: Protege Vacunas y Medicamentos',
+        'meta_description' => 'La cadena de frío farmacéutica exige precintos que resistan -20°C sin cristalizarse. Conoce los sellos de cable y etiquetas VOID aprobados para medicamentos.',
+        'autor'            => 'Ingeniería Farmacéutica',
+        'fecha'            => '2026-03-09',
+        'categoria'        => 'Control de Fluidos y Energía',
+        'imagen'           => 'assets/img/blog/blog_sem10_lunes_farma.avif',
+        'extracto'         => 'Los medicamentos biológicos y vacunas requieren sellos que soporten frío extremo sin fracturarse. Un cintillo de plástico común se rompe a -5°C.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La industria farmacéutica no perdona errores de seguridad. Un lote de vacunas abierto durante el tránsito pierde su validez de cadena de custodia, generando pérdidas millonarias y riesgos sanitarios.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Reto: Frío Extremo y Humedad</h2>
+            <p class="mb-4">
+                Las <strong>cámaras refrigeradas</strong> para el transporte de biológicos operan entre -20°C y 8°C. A esas temperaturas, el polipropileno estándar de los cintillos indicativos sufre <strong>cristalización</strong>: el plástico se vuelve frágil como vidrio y se rompe con el menor movimiento.
+            </p>
+            <p class="mb-4">
+                Además, la condensación constante genera humedad que oxida los componentes metálicos baratos, debilitando sellos de cable genéricos en cuestión de semanas.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Soluciones Técnicas para Cadena de Frío</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-blue-50 p-5 rounded-lg border border-blue-200">
+                    <h3 class="font-bold text-primary text-lg mb-2">Para Contenedores y Termoking</h3>
+                    <p class="text-sm text-gray-700 mb-3">Usa <strong>sellos de cable de acero galvanizado</strong> como el <strong><a href="/info/producto-sello-cable-acero" class="text-accent hover:underline font-bold">C-ONE 316</a></strong>. El acero galvanizado resiste la corrosión por humedad y el cable flexible absorbe las vibraciones del equipo de refrigeración sin fracturarse.</p>
+                </div>
+                <div class="bg-blue-50 p-5 rounded-lg border border-blue-200">
+                    <h3 class="font-bold text-primary text-lg mb-2">Para Cajas Térmicas y Hieleras</h3>
+                    <p class="text-sm text-gray-700 mb-3">Utiliza <strong><a href="/post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">etiquetas VOID No Transfer</a></strong>. Al no dejar residuo, puedes aplicarlas directamente sobre la tapa de la hielera isotérmica sin contaminar la superficie.</p>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Protocolo GDP (Good Distribution Practice)</h2>
+            <p class="mb-4">
+                La normativa de <strong>Buenas Prácticas de Distribución</strong> exige que cada punto de apertura de la cadena de frío quede documentado. Los <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">sellos con folio consecutivo</a> permiten crear una bitácora exacta de quién, cuándo y dónde se abrió cada contenedor.
+            </p>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-4 my-6">
+                <p class="font-bold text-red-700">⚠️ Dato Crítico:</p>
+                <p class="text-sm">Si la autoridad sanitaria (COFEPRIS) detecta que un envío farmacéutico llegó sin evidencia de sellado continuo, puede decomisarlo completo. El costo del sello es insignificante comparado con el valor de un lote destruido.</p>
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto?producto=farmaceutica" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Cotizar Sellos para Cadena de Frío
+                </a>
+            </div>
+        '
+    ],
+
+    // 83. MARTES 10 MAR -> ERRORES AL COMPRAR SELLOS
+    'errores-comunes-comprar-sellos-seguridad' => [
+        'titulo'           => '7 Errores Fatales al Comprar Sellos de Seguridad (y Cómo Evitarlos)',
+        'meta_description' => 'Comprar sellos baratos o sin certificación causa pérdidas millonarias. Conoce los 7 errores más comunes al elegir precintos de seguridad para tu empresa.',
+        'autor'            => 'Equipo Control One',
+        'fecha'            => '2026-03-10',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog_sem10_martes_errores.avif',
+        'extracto'         => 'El 60% de las empresas cometen al menos 3 de estos errores al comprar precintos logísticos. Descubre si tu empresa está en riesgo.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Comprar <strong>sellos de seguridad</strong> parece sencillo: buscas el más barato y listo. Pero esa mentalidad le cuesta a la industria mexicana miles de millones de pesos anuales en robos, multas y mercancía perdida.
+            </p>
+
+            <div class="space-y-8 my-8">
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">1</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">Elegir Solo por Precio</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Un sello de $2 pesos sin certificación ISO 17712 se rompe con la mano. Si alguien viola tu contenedor y reemplaza el sello por uno idéntico comprado en ferretería, no tendrás ni evidencia ni reclamo de seguro. Invierte en <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline font-bold">sellos certificados ISO 17712</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">2</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">No Verificar la Certificación del Fabricante</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Muchos distribuidores dicen vender sellos "ISO 17712" pero son revendedores sin respaldo técnico. Exige siempre el <strong>certificado de laboratorio vigente</strong> emitido por un organismo acreditado. En Control One, mostramos nuestras certificaciones de forma transparente.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">3</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">Usar un Solo Tipo de Sello para Todo</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Un <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline">sello de botella</a> no entra en una válvula de pipa, y un cintillo de plástico no sirve para un contenedor de exportación. Cada aplicación requiere su tecnología. Lee nuestra <a href="/post/guia-2025-que-precinto-seguridad-elegir" class="text-accent hover:underline font-bold">guía completa para elegir el sello correcto</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">4</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">Comprar sin Folios Consecutivos</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Si tus sellos no tienen un <strong>folio único grabado con láser</strong>, cualquier persona puede comprar el mismo modelo y reemplazarlo sin dejar evidencia. El folio es tu prueba forense en caso de robo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">5</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">Ignorar el Diámetro del Orificio</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            El error más técnico: compras un cable de 5mm para una válvula que tiene un orificio de 2mm. El sello no entra y lo fuerzan, dañando la válvula. Siempre mide antes de comprar. Para orificios pequeños, usa el <a href="/info/producto-sello-c-one-116" class="text-accent hover:underline font-bold">C-ONE 116 (1.5mm)</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">6</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">No Tener Stock de Emergencia</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            Si se te acaban los sellos un viernes por la noche y tienes un embarque urgente, tu carga sale sin protección. Mantén siempre un <strong>stock mínimo de seguridad</strong> equivalente a 2 semanas de consumo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-red-500 text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">7</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-primary text-lg">No Capacitar al Personal</h3>
+                        <p class="text-gray-700 text-sm mt-2">
+                            El mejor sello del mundo es inútil si el operador lo coloca mal. Invierte 15 minutos en enseñar la técnica del <a href="/post/como-colocar-sello-seguridad-cable-correctamente" class="text-accent hover:underline font-bold">"Tirón Seco"</a> y el protocolo <a href="/post/como-aplicar-sello-botella-clavo-contenedor" class="text-accent hover:underline">VVTT</a> a todo tu equipo de andén.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-8 p-6 bg-primary text-white rounded-lg text-center shadow-md">
+                <h3 class="text-xl font-bold mb-2">¿Necesitas asesoría personalizada?</h3>
+                <p class="mb-4 text-sm opacity-90">Nuestros ingenieros te ayudan a elegir el sello correcto para tu operación sin compromiso.</p>
+                <a href="/contacto" class="inline-block bg-white text-primary font-bold py-2 px-6 rounded hover:bg-gray-100 transition-colors">
+                    Hablar con un Asesor
+                </a>
+            </div>
+        '
+    ],
+
+    // 84. MIÉRCOLES 11 MAR -> CERTIFICACIÓN OEA MÉXICO
+    'certificacion-oea-mexico-sellos-seguridad' => [
+        'titulo'           => 'Certificación OEA en México: Qué Sellos Necesitas para Aprobar la Auditoría',
+        'meta_description' => 'La certificación OEA del SAT exige estándares de seguridad física en tu cadena logística. Conoce qué sellos y protocolos necesitas para aprobar la auditoría.',
+        'autor'            => 'Comercio Exterior Control One',
+        'fecha'            => '2026-03-11',
+        'categoria'        => 'Normatividad y Aduanas',
+        'imagen'           => 'assets/img/blog/blog_sem10_miercoles_oea.avif',
+        'extracto'         => 'El programa OEA del SAT es el equivalente mexicano del C-TPAT. Si quieres facilitar tus operaciones aduaneras, necesitas demostrar protocolos de sellado impecables.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                El programa <strong>Operador Económico Autorizado (OEA)</strong> del SAT es la certificación más importante para las empresas mexicanas que participan en comercio exterior. Obtenerla significa carriles rápidos en aduanas, menos inspecciones y mayor confianza comercial.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Qué es el OEA y por Qué Importa?</h2>
+            <p class="mb-4">
+                El OEA es el equivalente mexicano del programa <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline font-bold">C-TPAT estadounidense</a>. Las empresas certificadas OEA demuestran ante el SAT que su cadena logística cumple con estándares internacionales de seguridad, lo que les otorga beneficios como:
+            </p>
+            <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                <li><strong>Reducción de inspecciones</strong> en aduanas hasta en un 80%.</li>
+                <li><strong>Carriles exclusivos</strong> para despacho aduanero exprés.</li>
+                <li><strong>Reconocimiento mutuo</strong> con aduanas de EE.UU., Canadá, la UE y otros socios comerciales.</li>
+                <li><strong>Facilidades fiscales</strong> y simplificación administrativa con el SAT.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Requisitos de Sellado para la Auditoría OEA</h2>
+            <p class="mb-4">
+                El auditor del SAT verificará que tu empresa cumpla con un <strong>protocolo documentado de sellado físico</strong>. Estos son los puntos que revisan:
+            </p>
+
+            <div class="space-y-4 mb-8">
+                <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-accent">
+                    <h4 class="font-bold text-primary">1. Uso de Sellos Certificados ISO 17712</h4>
+                    <p class="text-sm text-gray-600">Todos los contenedores de exportación deben usar sellos clasificados "H" (Alta Seguridad). En Control One, nuestro <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Star One Seal</a> cumple con este requisito.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-accent">
+                    <h4 class="font-bold text-primary">2. Trazabilidad de Folios</h4>
+                    <p class="text-sm text-gray-600">Debes llevar una bitácora donde se registre qué folio se asignó a qué embarque, quién lo colocó y quién lo retiró. Los sellos con <a href="/post/codigo-barras-vs-qr-sellos-seguridad" class="text-accent hover:underline">códigos QR</a> automatizan este proceso.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-accent">
+                    <h4 class="font-bold text-primary">3. Resguardo Seguro del Inventario</h4>
+                    <p class="text-sm text-gray-600">Los sellos sin usar deben estar bajo llave en un área de acceso restringido. Si el auditor encuentra cajas de sellos tiradas en el piso del almacén, es una no-conformidad inmediata.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-accent">
+                    <h4 class="font-bold text-primary">4. Capacitación Documentada</h4>
+                    <p class="text-sm text-gray-600">Tu personal debe estar capacitado en la <a href="/post/como-aplicar-sello-botella-clavo-contenedor" class="text-accent hover:underline">inspección VVTT</a> y la <a href="/post/senales-manipulacion-sellos-seguridad" class="text-accent hover:underline">detección de señales de manipulación</a>. El auditor puede pedir evidencia de cursos impartidos.</p>
+                </div>
+            </div>
+
+            <div class="bg-primary text-white p-6 rounded-lg text-center shadow-md mt-10">
+                <h3 class="text-xl font-bold mb-2">¿Preparándote para tu Auditoría OEA?</h3>
+                <p class="mb-4 text-sm opacity-90">Te ayudamos a armar tu expediente de seguridad física con sellos certificados y asesoría técnica.</p>
+                <a href="/contacto?asunto=Certificacion+OEA" class="inline-block bg-white text-primary font-bold py-2 px-6 rounded hover:bg-gray-100 transition-colors">
+                    Solicitar Asesoría OEA
+                </a>
+            </div>
+        '
+    ],
+
+    // 85. JUEVES 12 MAR -> AUDITAR PROVEEDOR DE SELLOS
+    'como-auditar-proveedor-sellos-seguridad' => [
+        'titulo'           => 'Cómo Auditar a tu Proveedor de Sellos de Seguridad: Checklist Completo',
+        'meta_description' => 'No todos los proveedores de sellos son iguales. Usa este checklist de 10 puntos para evaluar si tu proveedor actual está poniendo en riesgo tu cadena logística.',
+        'autor'            => 'Control de Calidad',
+        'fecha'            => '2026-03-12',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog_sem10_jueves_auditoria.avif',
+        'extracto'         => 'Tu proveedor de sellos es un eslabón crítico de seguridad. Si falla, toda tu cadena se compromete. Evalúalo con este checklist profesional de 10 puntos.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Tu proveedor de <strong>sellos de seguridad</strong> no es un simple vendedor de insumos. Es un socio estratégico de tu cadena de custodia. Si te entrega un lote defectuoso o sin trazabilidad, eres tú quien responde ante el auditor, la aseguradora o peor aún, ante un juez.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Checklist de Evaluación (10 Puntos)</h2>
+            <p class="mb-4">Califica a tu proveedor actual del 1 al 10. Si obtiene menos de 7, es momento de considerar un cambio:</p>
+
+            <div class="space-y-4 mb-8">
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">1</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Tiene certificado ISO 17712 vigente?</h4>
+                        <p class="text-sm text-gray-600">No basta con que lo diga verbalmente. Exige ver el documento original emitido por un laboratorio acreditado con fecha de vigencia.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">2</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Es fabricante o solo distribuidor?</h4>
+                        <p class="text-sm text-gray-600">Un fabricante controla la calidad desde la materia prima. Un distribuidor solo revende, y si hay un reclamo, te manda a "preguntar al de China".</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">3</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Garantiza folios consecutivos exclusivos?</h4>
+                        <p class="text-sm text-gray-600">Tus folios no deben repetirse ni compartirse con otros clientes. Un proveedor serio te asigna un rango exclusivo para tu empresa.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">4</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Tiene stock disponible para entregas urgentes?</h4>
+                        <p class="text-sm text-gray-600">Si cada pedido tarda 6-8 semanas "porque viene de importación", tu operación está en riesgo permanente de desabasto.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">5</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Ofrece personalización (logo, código de barras, QR)?</h4>
+                        <p class="text-sm text-gray-600">Un sello personalizado con tu marca es imposible de replicar en el mercado negro. Si tu proveedor solo vende "genéricos", cualquiera puede comprar el mismo modelo.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">6</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Tiene asesoría técnica real?</h4>
+                        <p class="text-sm text-gray-600">Un buen proveedor te pregunta para qué necesitas el sello antes de cotizar. Si solo te dice "¿cuántas piezas quieres?", no se preocupa por tu seguridad.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">7</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Proporciona fichas técnicas por producto?</h4>
+                        <p class="text-sm text-gray-600">Cada modelo de sello debe tener una <strong>hoja de datos</strong> con resistencia a la tracción, materiales, dimensiones y temperatura de operación.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">8</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Tiene presencia web profesional?</h4>
+                        <p class="text-sm text-gray-600">Un proveedor sin sitio web o con una página abandonada es una señal de alerta. Demuestra falta de inversión y profesionalismo.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">9</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Acepta visitas a planta?</h4>
+                        <p class="text-sm text-gray-600">Si tu proveedor no te deja visitar su fábrica o almacén, pregúntate qué está escondiendo. La transparencia es la base de la confianza.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-lg">
+                    <span class="bg-primary text-white font-bold w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 text-sm">10</span>
+                    <div>
+                        <h4 class="font-bold text-dark">¿Ofrece soporte post-venta y respuesta a reclamos?</h4>
+                        <p class="text-sm text-gray-600">Si reportas un lote defectuoso y te ignoran, imagina qué pasará cuando necesites una carta de certificación urgente para responder ante una aseguradora.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-md">
+                    Conoce la Diferencia Control One
+                </a>
+            </div>
+        '
+    ],
+
+    // 86. VIERNES 13 MAR -> MATERIALES PELIGROSOS (HAZMAT)
+    'sellos-transporte-materiales-peligrosos-hazmat' => [
+        'titulo'           => 'Transporte de Materiales Peligrosos (Hazmat): Sellos Obligatorios en México',
+        'meta_description' => 'El transporte Hazmat exige sellos que no generen chispas al cortarse. Conoce las normativas SCT y los sellos de aluminio aprobados para cargas peligrosas.',
+        'autor'            => 'Seguridad Industrial Hazmat',
+        'fecha'            => '2026-03-13',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog_sem10_viernes_hazmat.avif',
+        'extracto'         => 'El autotransporte de sustancias peligrosas (Hazmat) en México tiene reglas especiales. No cualquier sello sirve cuando un corte puede generar una chispa mortal.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Transportar <strong>materiales peligrosos</strong> (Hazmat) en México no es como mover paletas de cartón. Las normativas de la SCT (Secretaría de Comunicaciones y Transportes) y la SEMARNAT exigen protocolos de seguridad física que incluyen el tipo de sello que usas.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Riesgo de la Chispa</h2>
+            <p class="mb-4">
+                Cuando sellas una válvula en una pipa que transporta <strong>gas LP, gasolina, solventes o productos inflamables</strong>, el momento de la inspección y corte del sello es crítico. Un sello de acero al carbono, al ser cortado con cizalla, puede generar una chispa por fricción.
+            </p>
+            <p class="mb-4">
+                En un ambiente con vapores inflamables, esa chispa puede detonar una explosión. Por esta razón, los sellos para transporte Hazmat deben ser de materiales que <strong>no produzcan chispas al cortarse</strong>.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Materiales Aprobados para Hazmat</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-green-50 p-5 rounded-lg border border-green-200">
+                    <h3 class="font-bold text-green-800 text-lg mb-2">✅ Aluminio</h3>
+                    <p class="text-sm text-gray-700">El <strong><a href="/info/producto-sello-c-one-116" class="text-accent hover:underline font-bold">C-ONE 116</a></strong> tiene cuerpo de aluminio. Al cortarse, no genera chispa. Además, resiste la corrosión de <a href="/post/sellos-seguridad-pipas-acidos-quimicos" class="text-accent hover:underline">ácidos y solventes</a>.</p>
+                </div>
+                <div class="bg-green-50 p-5 rounded-lg border border-green-200">
+                    <h3 class="font-bold text-green-800 text-lg mb-2">✅ Plástico de Ingeniería</h3>
+                    <p class="text-sm text-gray-700">Los <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">cintillos de polipropileno</a> tampoco generan chispa, aunque su nivel de seguridad es indicativo. Útiles para puntos de control visual rápido.</p>
+                </div>
+            </div>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-4 my-6">
+                <p class="font-bold text-red-700">🚫 Materiales Prohibidos en Hazmat:</p>
+                <p class="text-sm">Evita sellos con cuerpo 100% de acero al carbono sin recubrimiento (como algunos sellos de botella genéricos). El acero ferroso + cizalla de acero = chispa garantizada. Si necesitas alta seguridad en pipas, usa cables de acero <strong>inoxidable</strong> o con recubrimiento de nylon.</p>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Normativa SCT Aplicable</h2>
+            <p class="mb-4">
+                La <strong>NOM-002-SCT/2011</strong> y sus actualizaciones regulan el listado de sustancias y materiales peligrosos más usualmente transportados. Para el sellado específico de las válvulas y domes de unidades que transportan estas sustancias, se debe seguir:
+            </p>
+            <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                <li><strong>Clase 2 (Gases):</strong> Gas LP, oxígeno, nitrógeno. Requiere sellos en cada válvula de servicio y en el domo superior. Usa el <a href="/info/producto-sello-c-gas" class="text-accent hover:underline font-bold">C-GAS L</a> para cilindros.</li>
+                <li><strong>Clase 3 (Líquidos Inflamables):</strong> Gasolina, diésel, solventes. Exige sellado anti-chispa en la <a href="/post/sellos-seguridad-valvulas-pipas-gas" class="text-accent hover:underline">válvula de descarga y domo</a>.</li>
+                <li><strong>Clase 8 (Corrosivos):</strong> Ácidos, lejías. Requiere sellos resistentes a la corrosión química.</li>
+            </ul>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto?producto=hazmat" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Cotizar Sellos para Transporte Hazmat
+                </a>
+            </div>
+        '
+    ],
+
+    // 87. SÁBADO 14 MAR -> INDUSTRIA CERVECERA Y BEBIDAS
+    'sellos-seguridad-industria-cervecera-bebidas' => [
+        'titulo'           => 'Industria Cervecera y de Bebidas: Sellos que Protegen Barriles y Pipas',
+        'meta_description' => 'El robo de cerveza y bebidas en tránsito es un problema multimillonario. Protege tus barriles, pipelines y camiones repartidores con precintos certificados.',
+        'autor'            => 'Equipo Control One',
+        'fecha'            => '2026-03-14',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem10_sabado_cervecera.avif',
+        'extracto'         => 'México es el #1 exportador de cerveza del mundo. Cada barril y cada pipa de cerveza en tránsito necesita un sello que garantice la integridad del producto.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                México produce más de 140 millones de hectolitros de cerveza al año, siendo el <strong>principal exportador mundial</strong>. Esa producción masiva se traduce en millones de barriles, pipas y cajas que viajan diariamente desde las plantas hasta los centros de distribución y puntos de venta.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Problema: Robo y Adulteración</h2>
+            <p class="mb-4">
+                La industria cervecera enfrenta dos amenazas principales en tránsito:
+            </p>
+            <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                <li><strong>Robo hormiga de cajas:</strong> Los repartidores o ayudantes sustraen cajas sueltas durante la ruta de reparto. Es el tipo de <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">robo hormiga</a> más común y difícil de detectar.</li>
+                <li><strong>Adulteración de barriles:</strong> En el mercado de barriles (draft/keg), existe el riesgo de que se extraiga cerveza premium y se reemplace con producto de menor calidad, dañando la marca.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Soluciones por Punto de Riesgo</h2>
+            <div class="space-y-4 mb-8">
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-accent">
+                    <h3 class="font-bold text-primary mb-2">🍺 Barriles (Kegs)</h3>
+                    <p class="text-sm text-gray-600">El <strong><a href="/info/producto-sello-c-gas" class="text-accent hover:underline font-bold">C-GAS L</a></strong> es ideal para sellar la válvula superior del barril. Su diseño compacto no interfiere con los conectores de dispensado y su cuerpo de ABS muestra evidencia de manipulación.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-accent">
+                    <h3 class="font-bold text-primary mb-2">🚛 Camiones Repartidores</h3>
+                    <p class="text-sm text-gray-600">Para las puertas de los camiones de reparto urbano, los <strong><a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">cintillos Quantum</a></strong> con folio láser permiten un control rápido: el supervisor verifica el folio al salir del CEDIS y lo compara al regresar. Si no coincide, hubo apertura no autorizada.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-accent">
+                    <h3 class="font-bold text-primary mb-2">📦 Pallets de Exportación</h3>
+                    <p class="text-sm text-gray-600">Para embarques internacionales, los contenedores con cerveza de exportación requieren un <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">sello de botella ISO 17712 "H"</a> para cumplir con los requisitos <a href="/post/precintos-seguridad-contenedores-c-tpat-iso-17712" class="text-accent hover:underline">C-TPAT</a> y facilitar el cruce aduanero.</p>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Caso: Control de Mermas en Ruta</h2>
+            <p class="mb-4">
+                Una cervecería artesanal del Bajío implementó un sistema de <strong>doble sellado con colores por turno</strong>: rojo para la mañana, azul para la tarde. Al cruzar los datos de los folios con las entregas facturadas, detectaron que un 4% de la carga se "perdía" entre el CEDIS y las tiendas. El problema se eliminó en 3 semanas.
+            </p>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto?producto=cervecera" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-md">
+                    Cotizar Sellos para Industria de Bebidas
+                </a>
+            </div>
+        '
+    ],
+
+    // 88. DOMINGO 15 MAR -> CHECKLIST SEMANAL
+    'checklist-semanal-seguridad-logistica' => [
+        'titulo'           => 'Checklist Semanal de Seguridad Logística: 12 Puntos que Salvan tu Carga',
+        'meta_description' => 'Descarga el checklist gratuito de 12 puntos para revisar cada semana tu protocolo de seguridad logística. Previene robos, mermas y multas con disciplina operativa.',
+        'autor'            => 'Equipo Control One',
+        'fecha'            => '2026-03-15',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog_sem10_domingo_checklist.avif',
+        'extracto'         => 'La seguridad logística no es un proyecto de una vez; es un hábito semanal. Usa este checklist de 12 puntos cada lunes para mantener tu operación blindada.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Las empresas que sufren menos robos no son las que compraron el sello más caro una vez, sino las que <strong>revisan su protocolo de seguridad cada semana</strong>. La disciplina operativa es más poderosa que cualquier tecnología.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Tu Checklist de los Lunes</h2>
+            <p class="mb-6">Imprime esta lista y revísala cada inicio de semana con tu equipo de logística:</p>
+
+            <div class="space-y-3 mb-8">
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>1. Inventario de sellos:</strong> ¿Cuántos sellos tienes en stock? ¿Es suficiente para 2 semanas de operación?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>2. Resguardo seguro:</strong> ¿Las cajas de sellos están bajo llave? ¿Solo personal autorizado tiene acceso?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>3. Bitácora de folios:</strong> ¿Está actualizada? ¿Todos los folios de la semana pasada están registrados con embarque, operador y destino?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>4. Sellos rotos devueltos:</strong> ¿Los operadores regresaron TODOS los <a href="/post/disposicion-final-sellos-rotos" class="text-accent hover:underline">sellos rotos</a> de la semana? Un sello faltante es una alerta roja.</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>5. Capacitación:</strong> ¿Hay personal nuevo que necesite entrenamiento en el protocolo <a href="/post/como-aplicar-sello-botella-clavo-contenedor" class="text-accent hover:underline">VVTT</a>?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>6. Revisión de unidades:</strong> ¿Los camiones no tienen daños en puertas, bisagras o barras que faciliten la apertura sin romper el sello?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>7. Auditoría sorpresa:</strong> ¿Realizaste al menos UNA inspección sorpresa de un sello en tránsito la semana pasada?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>8. Reportes de incidentes:</strong> ¿Hubo algún sello roto sin explicación o alguna <a href="/post/senales-manipulacion-sellos-seguridad" class="text-accent hover:underline">señal de manipulación</a> detectada?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>9. Colorimetría:</strong> ¿Es momento de <a href="/post/plan-seguridad-logistica-marzo-primavera-2026" class="text-accent hover:underline">rotar el color</a> de los sellos para evitar falsificaciones internas?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>10. Proveedores:</strong> ¿Necesitas hacer un <a href="/post/como-auditar-proveedor-sellos-seguridad" class="text-accent hover:underline">pedido anticipado</a> para evitar desabasto?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>11. Documentación:</strong> ¿Los folios de la <a href="/post/sello-seguridad-complemento-carta-porte-sat" class="text-accent hover:underline">Carta Porte</a> coinciden con los sellos físicos en todas las unidades activas?</p>
+                </div>
+                <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+                    <div class="w-6 h-6 border-2 border-primary rounded flex-shrink-0"></div>
+                    <p class="text-sm text-gray-700"><strong>12. Comunicación:</strong> ¿Compartiste con tu equipo algún caso de éxito o aprendizaje de seguridad de la semana pasada?</p>
+                </div>
+            </div>
+
+            <div class="bg-blue-50 border-l-4 border-accent p-6 my-8 rounded-r-lg">
+                <h3 class="font-bold text-primary mb-2">💡 Tip Pro: La Reunión de 15 Minutos</h3>
+                <p class="text-sm">Las empresas con menor siniestralidad realizan un briefing de seguridad de 15 minutos cada lunes. Revisan este checklist, asignan responsables y actualizan la bitácora. No necesitas una junta de 2 horas — solo disciplina constante.</p>
+            </div>
+
+            <div class="mt-8 p-6 bg-primary text-white rounded-lg text-center shadow-md">
+                <h3 class="text-xl font-bold mb-2">¿Necesitas reforzar tu protocolo?</h3>
+                <p class="mb-4 text-sm opacity-90">Nuestro equipo te ayuda a implementar un sistema de seguridad logística integral con sellos certificados.</p>
+                <a href="/contacto" class="inline-block bg-white text-primary font-bold py-2 px-6 rounded hover:bg-gray-100 transition-colors">
+                    Solicitar Asesoría Gratuita
+                </a>
+            </div>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.
