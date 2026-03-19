@@ -1,5 +1,5 @@
 <?php 
-$page_title = "Aviso de Privacidad | Control One";
+$page_title = "Aviso de Privacidad";
 $meta_description = "Consulta nuestro Aviso de Privacidad. En Control One nos comprometemos a proteger tus datos personales conforme a la Ley Federal de Protección de Datos en México.";
 include 'includes/header.php'; 
 ?>
@@ -55,7 +55,31 @@ include 'includes/header.php';
 
                 <h3 class="text-xl font-bold text-primary mt-8">3. Derechos ARCO</h3>
                 <p>
-                    Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso). 
+                    Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (<strong>Acceso</strong>). 
+                    Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta (<strong>Rectificación</strong>); 
+                    que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no está siendo utilizada adecuadamente (<strong>Cancelación</strong>); 
+                    así como oponerse al uso de sus datos personales para fines específicos (<strong>Oposición</strong>).
+                </p>
+                <p class="mt-2">
+                    Para ejercer cualquiera de estos derechos (ARCO), puede enviar su solicitud al correo electrónico: 
+                    <strong><a href="mailto:ventas@controlone.com.mx" class="text-primary hover:text-accent transition-colors">ventas@controlone.com.mx</a></strong>, 
+                    indicando su nombre completo, los datos que desea Acceder, Rectificar, Cancelar u Oponerse, y una descripción clara de su solicitud. 
+                    Responderemos en un plazo no mayor a 20 días hábiles.
+                </p>
+
+                <h3 class="text-xl font-bold text-primary mt-8">4. Uso de Cookies y Tecnologías de Rastreo</h3>
+                <p>
+                    Nuestro sitio web utiliza cookies y otras tecnologías de rastreo (como píxeles de seguimiento) para mejorar su experiencia de navegación, 
+                    analizar el tráfico del sitio y personalizar el contenido. Las cookies que utilizamos incluyen:
+                </p>
+                <ul class="list-disc pl-6 space-y-1">
+                    <li><strong>Cookies esenciales:</strong> Necesarias para el funcionamiento básico del sitio web.</li>
+                    <li><strong>Cookies analíticas:</strong> Nos permiten medir y analizar el comportamiento de los visitantes (Google Analytics).</li>
+                    <li><strong>Cookies de marketing:</strong> Utilizadas para mostrar anuncios relevantes (Meta Pixel, LinkedIn Insight).</li>
+                </ul>
+                <p class="mt-2">
+                    Usted puede desactivar las cookies en la configuración de su navegador en cualquier momento. 
+                    Sin embargo, esto podría afectar la funcionalidad de algunas secciones del sitio.
                 </p>
 
                 <h3 class="text-xl font-bold text-primary mt-8">5. Cambios al Aviso de Privacidad</h3>

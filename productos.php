@@ -1,7 +1,7 @@
 <?php 
 // SEO TÉCNICO: Título enfocado en intención de compra y variedad
-$page_title = "Catálogo de Sellos de Seguridad y Marchamos 2026 | Fábrica";
-$meta_description = "Catálogo de sellos de seguridad y marchamos 2026. Precios de fábrica en precintos ISO 17712, sellos de botella, cables de acero y plásticos. Cotiza aquí.";
+$page_title = "Catálogo de Precintos y Marchamos de Seguridad 2026";
+$meta_description = "Catálogo completo de precintos, marchamos y sellos industriales 2026. Precios de fábrica en sellos ISO 17712 de botella, cables de acero y plásticos. Cotiza aquí.";
 $preload_image_hero = "/assets/img/blog/bodega-control-one-sellos-seguridad.avif";
 include 'includes/header.php'; 
 ?>

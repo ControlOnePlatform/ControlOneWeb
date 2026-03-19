@@ -1,5 +1,5 @@
 <?php 
-$page_title = "Términos y Condiciones | Control One";
+$page_title = "Términos y Condiciones";
 $meta_description = "Conoce los términos y condiciones comerciales de Control One. Políticas de venta, envíos, devoluciones y uso de nuestros sellos de seguridad.";
 include 'includes/header.php'; 
 ?>

@@ -3480,6 +3480,530 @@ $blog_posts = [
             </div>
         '
     ],
+
+    // --- SEMANA 11: 16 MAR - 22 MAR 2026 ---
+
+    // 89. LUNES 16 MAR -> SEMANA SANTA / ESTACIONAL
+    'seguridad-logistica-semana-santa-vacaciones-2026' => [
+        'titulo'           => 'Semana Santa 2026: Cómo Proteger tu Carga cuando Todo se Detiene',
+        'meta_description' => 'Semana Santa paraliza las rutas pero no a los ladrones. Protocolos de seguridad para almacenes cerrados, patios vacíos y camiones varados durante el periodo vacacional.',
+        'autor'            => 'Dirección Operativa',
+        'fecha'            => '2026-03-16',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog_sem11_lunes_semana_santa.avif',
+        'extracto'         => 'Abril está a la vuelta. Mientras tu personal descansa, los delincuentes trabajan horas extra. Prepara tu almacén y flota AHORA para el periodo vacacional más peligroso del año.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Cada año, el periodo de Semana Santa genera un <strong>vacío operativo</strong> de 5 a 10 días en la industria logística mexicana. Almacenes con guardias mínimos, patios con tráileres cargados estacionados y rutas semidesiertas. Para el crimen organizado, es temporada de cosecha.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Peligro del "Patio Dormido"</h2>
+            <p class="mb-4">
+                Un patio de maniobras con 15 tráileres estacionados y un solo guardia nocturno es una invitación. Los ladrones no necesitan prisa: tienen toda la madrugada para trabajar en silencio.
+            </p>
+            <p class="mb-4">
+                El dato duro: según la <strong>ANTP</strong>, los robos a transporte aumentan un <strong>25% durante los periodos vacacionales</strong> respecto al promedio mensual. Y la mayoría ocurren en los patios, no en carretera.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Protocolo Pre-Vacacional de 5 Pasos</h2>
+            <div class="space-y-6 my-8">
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-accent p-3 rounded-full text-white font-bold mr-4">1</div>
+                    <div>
+                        <h4 class="font-bold text-primary text-lg">Sellado Perimetral del Almacén</h4>
+                        <p class="text-sm text-gray-600">Antes del último día laboral, coloca <strong><a href="/info/producto-sello-cable-acero" class="text-accent hover:underline font-bold">sellos de cable de acero</a></strong> en todas las puertas de andén, accesos peatonales y portones vehiculares que NO se usarán durante el periodo. Documenta los folios con foto y hora.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-accent p-3 rounded-full text-white font-bold mr-4">2</div>
+                    <div>
+                        <h4 class="font-bold text-primary text-lg">Doble Sellado en Tráileres Estacionados</h4>
+                        <p class="text-sm text-gray-600">Cada unidad cargada debe tener <strong>dos sellos</strong>: uno de <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">botella ISO 17712</a> y uno de cable, cruzando las barras verticales. Si el guardia detecta uno roto, sabe que hubo intento sin necesidad de abrir para verificar.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-accent p-3 rounded-full text-white font-bold mr-4">3</div>
+                    <div>
+                        <h4 class="font-bold text-primary text-lg">Bitácora Fotográfica de Cierre</h4>
+                        <p class="text-sm text-gray-600">El jefe de patio debe fotografiar CADA sello puesto el último día laboral. Esas fotos son tu acta notarial visual. Al regresar, compara foto por foto antes de empezar operaciones.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-accent p-3 rounded-full text-white font-bold mr-4">4</div>
+                    <div>
+                        <h4 class="font-bold text-primary text-lg">Ronda de Sellos cada 6 Horas</h4>
+                        <p class="text-sm text-gray-600">Instruye a tu equipo de vigilancia para que, en su ronda, <strong>toque y jale</strong> cada sello (Pull Test). No basta con ver de lejos. Un sello pegado con Kola Loka se ve "bien" pero falla al tirón.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-accent p-3 rounded-full text-white font-bold mr-4">5</div>
+                    <div>
+                        <h4 class="font-bold text-primary text-lg">Stock de Emergencia Resguardado</h4>
+                        <p class="text-sm text-gray-600">Deja un sobre cerrado con 20 sellos de reserva en la caja fuerte del guardia. Si una puerta necesita abrirse por emergencia (inundación, fuga), el guardia puede re-sellar y documentar sin esperar al lunes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-lg">
+                <h3 class="font-bold text-red-800 mb-2">⚠️ No Cometas este Error:</h3>
+                <p class="text-sm text-gray-700">Muchas empresas desconectan las alarmas o cámaras "para ahorrar luz" durante el asueto. Esto es un regalo para los delincuentes que vigilan tus patrones. Mantén la vigilancia electrónica encendida y los sellos físicos como respaldo constante.</p>
+            </div>
+
+            <div class="bg-primary text-white p-8 rounded-xl text-center mt-10 shadow-2xl">
+                <p class="text-lg font-medium mb-4">¿Ya tienes stock suficiente para sellar antes de Semana Santa?</p>
+                <p class="text-sm opacity-80 mb-6">Hacemos entregas exprés a todo México. Asegura tu inventario antes de que se acaben los pedidos de temporada.</p>
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-500 text-white font-bold py-3 px-8 rounded-lg transition-transform transform hover:-translate-y-1">
+                    Pedir Stock Urgente
+                </a>
+            </div>
+        '
+    ],
+
+    // 90. MARTES 17 MAR -> E-COMMERCE CROSS-BORDER (Nuevo ángulo)
+    'sellos-seguridad-ecommerce-crossborder-exportacion' => [
+        'titulo'           => 'E-Commerce Cross-Border: Sellos de Seguridad para Exportar desde México',
+        'meta_description' => 'Vendes en Amazon USA o Shopify Internacional desde México? Tu paquetería cruza aduana. Descubre qué precintos necesitas para evitar que tu envío sea abierto y decomisado.',
+        'autor'            => 'Comercio Digital C1',
+        'fecha'            => '2026-03-17',
+        'categoria'        => 'Normatividad y Aduanas',
+        'imagen'           => 'assets/img/blog/blog_sem11_martes_ecommerce_cross.avif',
+        'extracto'         => 'El boom del cross-border e-commerce mexicano choca con la realidad aduanera. Si tus paquetes cruzan la frontera sin sello de integridad, arriesgas devoluciones masivas y baneos.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                México exporta cada vez más a través de plataformas digitales (Amazon FBA, Shopify, Etsy). Pero muchos emprendedores ignoran que sus paquetes pasan por las mismas aduanas que un contenedor industrial. Si llegan abiertos o manipulados, el marketplace te penaliza.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Problema Invisible del Cross-Border</h2>
+            <p class="mb-4">
+                Cuando envías 500 unidades de artesanía, cosmética o electrónica desde tu bodega en Guadalajara hasta un fulfillment center en Texas, tu carga pasa por al menos <strong>4 puntos de manipulación</strong>: tu bodega, la paquetería, la aduana mexicana y la aduana americana.
+            </p>
+            <p class="mb-4">
+                En cada punto, alguien puede abrir tu caja master. Si el producto llega manipulado al warehouse de Amazon, recibes una queja de <strong>"Item not as described"</strong> y comienza el ciclo de devoluciones que destruye tu rating de vendedor.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Solución Práctica por Nivel de Embarque</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-accent">
+                    <h4 class="font-bold text-primary mb-2">📦 Paquete Individual</h4>
+                    <p class="text-sm text-gray-600">Usa <strong><a href="/post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">etiquetas VOID</a></strong> sobre la apertura de cada caja. Si el agente aduanal abre para inspección, la etiqueta evidencia que fue abierta (normal). Si llega "cerrada" pero con VOID visible, alguien la abrió y reconditcionó mal.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-accent">
+                    <h4 class="font-bold text-primary mb-2">📋 Caja Master (Multi-pack)</h4>
+                    <p class="text-sm text-gray-600">Sella la caja LTL con un <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">cintillo Quantum</a> foliado. En tu lista de packing, anota el folio. Al recibir en USA, tu 3PL verifica que el folio coincida antes de dar entrada al inventario.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-accent">
+                    <h4 class="font-bold text-primary mb-2">🚛 Pallet / Contenedor FTL</h4>
+                    <p class="text-sm text-gray-600">Para envíos grandes (pallets completos por camión), aplica un <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">sello de botella ISO 17712</a>. La aduana americana (CBP) lo reconoce y facilita tu despacho, evitando <a href="/post/sellos-para-cruces-fronterizos-usa-mexico" class="text-accent hover:underline">revisiones secundarias</a>.</p>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Beneficio Oculto: Menos "Claims" en Amazon FBA</h2>
+            <p class="mb-4">
+                Amazon penaliza a los vendedores con alto porcentaje de "defect rate". Un producto que llega abierto o dañado cuenta como defecto, aunque tú lo hayas empacado perfecto. Al implementar sellos de integridad en cada unidad, puedes <strong>demostrar con fotos de folio</strong> que el problema ocurrió en el fulfillment, no en tu almacén.
+            </p>
+
+            <div class="bg-blue-50 border-l-4 border-accent p-6 my-8 rounded-r-lg">
+                <h3 class="font-bold text-primary mb-2">💡 Tip para Sellers Mexicanos:</h3>
+                <p class="text-sm">Incluye el número de folio del sello en tu "packing slip". Si tu 3PL en Texas reporta un paquete con sello roto, tienes evidencia documental cruzada para tu reclamo de seguro o tu disputa con el carrier.</p>
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto?producto=ecommerce" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Cotizar Sellos para E-Commerce
+                </a>
+            </div>
+        '
+    ],
+
+    // 91. MIÉRCOLES 18 MAR -> NFC / SELLOS ELECTRÓNICOS (Nuevo ángulo tech)
+    'sellos-electronicos-nfc-vs-mecanicos-logistica' => [
+        'titulo'           => 'Sellos Electrónicos NFC vs Mecánicos: ¿Vale la Pena el Salto Digital?',
+        'meta_description' => 'Los sellos con chip NFC prometen trazabilidad total. Pero, ¿son más seguros que un sello de botella ISO 17712? Análisis honesto de costos, ventajas y limitaciones en 2026.',
+        'autor'            => 'Innovación Control One',
+        'fecha'            => '2026-03-18',
+        'categoria'        => 'Innovación y Tecnología',
+        'imagen'           => 'assets/img/blog/blog_sem11_miercoles_nfc_electronico.avif',
+        'extracto'         => 'Un sello con chip NFC se lee con el celular y registra GPS, hora y temperatura. Pero cuesta 10x más. ¿Para quién tiene sentido? Analizamos sin venderte humo.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La industria logística escucha cada vez más sobre "sellos inteligentes" con tecnología <strong>NFC (Near Field Communication)</strong>: precintos con un microchip embebido que se lee acercando un smartphone. Suenan como el futuro, pero antes de saltar, necesitas entender qué resuelven y qué NO resuelven.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Qué es un Sello Electrónico NFC?</h2>
+            <p class="mb-4">
+                Es un precinto físico (generalmente de plástico o cable) que tiene un <strong>chip pasivo NFC</strong> integrado en su cuerpo. Al acercar un celular con NFC habilitado:
+            </p>
+            <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                <li><strong>Lee el folio digital:</strong> Sin errores de captura manual.</li>
+                <li><strong>Registra evento:</strong> GPS, fecha, hora y usuario quedan grabados en la nube.</li>
+                <li><strong>Detecta apertura:</strong> Algunos modelos premium tienen antenas que se "rompen" al abrir el sello, cambiando el estatus digital automáticamente.</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Comparativa Honesta: NFC vs Mecánico</h2>
+            <div class="overflow-x-auto mb-8 shadow-sm rounded-lg">
+                <table class="min-w-full bg-white border border-gray-200">
+                    <thead class="bg-primary text-white">
+                        <tr>
+                            <th class="py-3 px-4 text-left">Criterio</th>
+                            <th class="py-3 px-4 text-center">Sello Mecánico (ISO 17712)</th>
+                            <th class="py-3 px-4 text-center">Sello NFC</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700 text-sm">
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 px-4 font-bold">Costo por unidad</td>
+                            <td class="py-3 px-4 text-center text-green-600 font-bold">$15 - $30 MXN</td>
+                            <td class="py-3 px-4 text-center text-red-600 font-bold">$150 - $500 MXN</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 px-4 font-bold">Resistencia física</td>
+                            <td class="py-3 px-4 text-center">Alta (> 1,000 kg)</td>
+                            <td class="py-3 px-4 text-center">Media (plástico reforzado)</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 px-4 font-bold">Trazabilidad digital</td>
+                            <td class="py-3 px-4 text-center">Manual (bitácora + fotos)</td>
+                            <td class="py-3 px-4 text-center font-bold text-green-600">Automática (nube)</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 px-4 font-bold">Funciona en frío extremo</td>
+                            <td class="py-3 px-4 text-center">Sí (metal)</td>
+                            <td class="py-3 px-4 text-center">Limitado (chip puede fallar a -20°C)</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-3 px-4 font-bold">Certificación C-TPAT</td>
+                            <td class="py-3 px-4 text-center font-bold text-green-600">Sí (obligatorio)</td>
+                            <td class="py-3 px-4 text-center">Complementario (no sustituye al "H")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Para Quién Tiene Sentido el NFC?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                <div class="bg-green-50 p-5 rounded-lg border border-green-200">
+                    <h4 class="font-bold text-green-800 mb-2">✅ SÍ lo necesitas si...</h4>
+                    <ul class="text-sm text-gray-700 space-y-2">
+                        <li>• Manejas circuitos cerrados con miles de eventos diarios.</li>
+                        <li>• Necesitas integración automática con tu WMS/ERP.</li>
+                        <li>• Tu carga es farmacéutica con exigencias GDP.</li>
+                        <li>• Tienes presupuesto de +$500K anuales en seguridad.</li>
+                    </ul>
+                </div>
+                <div class="bg-red-50 p-5 rounded-lg border border-red-200">
+                    <h4 class="font-bold text-red-800 mb-2">❌ NO lo necesitas si...</h4>
+                    <ul class="text-sm text-gray-700 space-y-2">
+                        <li>• Tus operadores no tienen smartphones con NFC.</li>
+                        <li>• Usas menos de 500 sellos al mes.</li>
+                        <li>• Tus destinos son rurales sin cobertura de datos.</li>
+                        <li>• Tus clientes exigen <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline">ISO 17712 "H" físico</a>.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Estrategia Inteligente: Híbrido</h2>
+            <p class="mb-4">
+                La mejor práctica en 2026 es <strong>no elegir uno u otro, sino combinarlos</strong>. Usa sellos mecánicos <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">ISO 17712 "H"</a> como barrera física obligatoria, y complementa con un <a href="/post/codigo-barras-vs-qr-sellos-seguridad" class="text-accent hover:underline">sello indicativo con código QR</a> para la trazabilidad digital rápida. Obtienes lo mejor de ambos mundos sin multiplicar tu presupuesto por 10.
+            </p>
+
+            <div class="bg-primary text-white p-6 rounded-lg text-center shadow-md mt-10">
+                <h3 class="text-xl font-bold mb-2">¿Necesitas sellos con QR integrado?</h3>
+                <p class="mb-4 text-sm opacity-90">Grabamos códigos QR únicos con láser HD en cualquiera de nuestros modelos. Digitaliza sin romper tu presupuesto.</p>
+                <a href="/contacto" class="inline-block bg-white text-primary font-bold py-2 px-6 rounded hover:bg-gray-100 transition-colors">
+                    Solicitar Cotización QR
+                </a>
+            </div>
+        '
+    ],
+
+    // 92. JUEVES 19 MAR -> INDUSTRIA TEQUILERA (Nuevo sector)
+    'sellos-seguridad-industria-tequilera-mezcal-destilados' => [
+        'titulo'           => 'Industria Tequilera: Sellos de Seguridad para Barricas, Pipones y Embarques',
+        'meta_description' => 'México es tequila. Y el tequila adulterado destruye marcas. Conoce cómo proteger barricas en reposo, pipones en tránsito y contenedores de exportación con sellos certificados.',
+        'autor'            => 'Control One Industria',
+        'fecha'            => '2026-03-19',
+        'categoria'        => 'Control de Fluidos y Energía',
+        'imagen'           => 'assets/img/blog/blog_sem11_jueves_tequila_destilados.avif',
+        'extracto'         => 'El tequila es oro líquido mexicano. Proteger cada barrica, cada pipón y cada contenedor de exportación con sellos certificados no es lujo: es supervivencia de marca.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La industria del tequila y mezcal mueve más de <strong>$4,000 millones de dólares anuales</strong> en exportaciones. Cada litro que sale de Jalisco debe llegar intacto a Tokio, Nueva York o Berlín. La adulteración y el robo en la cadena logística no solo cuestan dinero: destruyen Denominaciones de Origen y reputaciones centenarias.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">3 Puntos Críticos en la Cadena del Tequila</h2>
+
+            <div class="space-y-6 my-8">
+                <div class="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-500">
+                    <h3 class="font-bold text-amber-900 text-lg mb-2">1. Barricas en Reposo (Añejamiento)</h3>
+                    <p class="text-gray-700 text-sm mb-3">
+                        Un tequila añejo reposa mínimo 12 meses en barrica de roble. Durante ese tiempo, la tentación de "ordeñar" litros de un barril entre auditorías es real. El personal de bodega tiene acceso 24/7.
+                    </p>
+                    <p class="text-gray-700 text-sm">
+                        <strong>Solución:</strong> Sella el tapón de la barrica con un <a href="/info/producto-sello-c-one-116" class="text-accent hover:underline font-bold">cable delgado C-ONE 116</a> (1.5mm). Es lo suficientemente fino para no dañar la madera, pero requiere cizalla para retirarse. Al romper el sello para la cata de control de calidad, se documenta el folio y se coloca uno nuevo.
+                    </p>
+                </div>
+
+                <div class="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-500">
+                    <h3 class="font-bold text-amber-900 text-lg mb-2">2. Pipones y Autotanques en Tránsito</h3>
+                    <p class="text-gray-700 text-sm mb-3">
+                        El tequila a granel viaja en pipones de acero inoxidable desde la destilería hasta la planta embotelladora (a veces a cientos de kilómetros). El riesgo: extracción parcial y dilución con agua.
+                    </p>
+                    <p class="text-gray-700 text-sm">
+                        <strong>Solución:</strong> Triple sellado del <a href="/post/sellos-seguridad-valvulas-pipas-gas" class="text-accent hover:underline">domo superior, válvula de descarga y aforador</a>. Use sellos de cable con cuerpo de aluminio que no contamine el producto (no usar acero que pueda oxidarse al contacto con vapores alcohólicos).
+                    </p>
+                </div>
+
+                <div class="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-500">
+                    <h3 class="font-bold text-amber-900 text-lg mb-2">3. Contenedores de Exportación</h3>
+                    <p class="text-gray-700 text-sm mb-3">
+                        Un contenedor de 40 pies puede cargar 24 pallets de tequila con valor comercial superior a <strong>$1 millón de dólares</strong>. La aduana de destino es exigente: si el sello no es <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline">ISO 17712 "H"</a>, el contenedor va a inspección profunda.
+                    </p>
+                    <p class="text-gray-700 text-sm">
+                        <strong>Solución:</strong> <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Sello de Botella Star One Seal</a> con tecnología Anti-Spin. Adicionalmente, la palletización debe incluir <a href="/post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">etiquetas VOID</a> en las cajas master para detectar sustracción unitaria.
+                    </p>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El CRT y la Trazabilidad</h2>
+            <p class="mb-4">
+                El <strong>Consejo Regulador del Tequila (CRT)</strong> exige trazabilidad estricta desde la destilación hasta el punto de venta. Los folios de tus sellos de seguridad pueden integrarse a tu sistema de rastreo CRT, creando una cadena documental ininterrumpida que protege tu Denominación de Origen ante falsificadores.
+            </p>
+
+            <div class="mt-8 text-center flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/contacto?producto=destilados" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Cotizar para Destilados
+                </a>
+                <a href="/productos" class="inline-block bg-white border-2 border-primary text-primary hover:bg-gray-50 px-8 py-3 rounded-md font-bold transition-all">
+                    Ver Catálogo Completo
+                </a>
+            </div>
+        '
+    ],
+
+    // 93. VIERNES 20 MAR -> CONSTRUCCIÓN / OBRA (Nuevo sector)
+    'sellos-seguridad-obras-construccion-herramientas' => [
+        'titulo'           => 'Obras y Construcción: Cómo Evitar el Robo de Herramienta y Material',
+        'meta_description' => 'El robo en obras llega al 15% del presupuesto. Sella contenedores de herramienta, almacenes temporales y accesos con precintos económicos que evitan pérdidas.',
+        'autor'            => 'Control One Industrial',
+        'fecha'            => '2026-03-20',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/blog_sem11_viernes_construccion.avif',
+        'extracto'         => 'Taladros, llantas, cableado eléctrico... En una obra activa, el robo hormiga devora tu margen. Soluciones de sellado económicas para constructoras y contratistas.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Según la <strong>CMIC (Cámara Mexicana de la Industria de la Construcción)</strong>, las pérdidas por robo de materiales y herramientas representan entre el <strong>5% y 15% del costo total de un proyecto</strong>. Cables de cobre, herramienta eléctrica, válvulas, e incluso cemento desaparecen cada noche.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Los 4 Puntos Vulnerables de una Obra</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                <div class="bg-gray-50 p-5 rounded border-l-4 border-accent">
+                    <h4 class="font-bold text-primary mb-2">🔧 Contenedor de Herramientas</h4>
+                    <p class="text-sm text-gray-600">Los contenedores marítimos reciclados que se usan como bodega en obra tienen puertas difíciles de cerrar. Un <a href="/info/producto-sello-cable-acero" class="text-accent hover:underline font-bold">sello de cable C-ONE 316</a> abraza las manijas deformadas donde un candado ya no cierra bien.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded border-l-4 border-accent">
+                    <h4 class="font-bold text-primary mb-2">⚡ Almacén de Material Eléctrico</h4>
+                    <p class="text-sm text-gray-600">El cobre es el objetivo #1. Sella las jaulas o cuartos de almacenamiento con <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">cintillos foliados</a>. Si el electricista necesita material, debe romper el sello y justificar el consumo contra la requisición.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded border-l-4 border-accent">
+                    <h4 class="font-bold text-primary mb-2">🚧 Accesos Controlados</h4>
+                    <p class="text-sm text-gray-600">En obras grandes con múltiples subcontratistas, controla quién entra a qué zona. Sella las puertas o mallas de áreas restringidas con sellos de color diferente por contratista. Si un sello azul (plomería) aparece roto en el área verde (eléctrica), algo anda mal.</p>
+                </div>
+                <div class="bg-gray-50 p-5 rounded border-l-4 border-accent">
+                    <h4 class="font-bold text-primary mb-2">🚛 Vehículos Utilitarios</h4>
+                    <p class="text-sm text-gray-600">Las camionetas de obra cargan taladros y rotomartillos que valen miles de pesos. Al final del turno, el supervisor sella la caja de herramientas del vehículo. Al día siguiente, si el folio no coincide, se investiga.</p>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Ventaja del Sello sobre el Candado en Obra</h2>
+            <p class="mb-4">
+                En construcción, los candados tienen un problema fatal: <strong>las llaves se comparten</strong>. El residente, el maestro de obra, el vigilante... todos tienen copia. Cuando falta algo, nadie sabe quién abrió.
+            </p>
+            <p class="mb-4">
+                Con un <a href="/post/sello-seguridad-vs-candado-diferencias" class="text-accent hover:underline font-bold">sello de seguridad foliado</a>, cada apertura queda registrada. Sello roto = evento documentado. No hay excusas de "yo no fui, ya estaba abierto".
+            </p>
+
+            <div class="bg-blue-50 border-l-4 border-accent p-6 my-8 rounded-r-lg">
+                <h3 class="font-bold text-primary mb-2">💰 ROI Rápido:</h3>
+                <p class="text-sm">Si una obra gasta $50,000 mensuales en reposición de herramienta "perdida", invertir $2,000 en sellos al mes que reduzcan ese robo un 60% te ahorra <strong>$28,000 mensuales</strong>. Se paga solo 14 veces.</p>
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto?producto=construccion" class="inline-block bg-accent hover:bg-orange-600 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Cotizar Sellos para Obra
+                </a>
+            </div>
+        '
+    ],
+
+    // 94. SÁBADO 21 MAR -> CONTAMINACIÓN CRUZADA EN CARGA COMPARTIDA (Nuevo ángulo)
+    'contaminacion-cruzada-carga-compartida-ltl-sellos' => [
+        'titulo'           => 'Carga Compartida (LTL): Cómo Evitar la Contaminación Cruzada con Sellos',
+        'meta_description' => 'En un camión LTL viajan productos de 5 clientes diferentes. Si uno lleva químicos y otro alimentos, la contaminación cruzada es un riesgo real. Los sellos son tu defensa.',
+        'autor'            => 'Logística Especializada',
+        'fecha'            => '2026-03-21',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/blog_sem11_sabado_ltl_contaminacion.avif',
+        'extracto'         => 'Cuando compartes camión con otros clientes, no controlas qué viaja al lado de tu mercancía. Los sellos individuales por lote son tu prueba de que TU carga llegó intacta.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                El transporte LTL (Less Than Truckload) es la columna vertebral de las PyMEs mexicanas. Si no llenas un tráiler completo, compartes espacio con carga de otros clientes. Esto es eficiente, pero introduce un riesgo que pocos consideran: la <strong>contaminación cruzada</strong>.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">¿Qué es la Contaminación Cruzada en Transporte?</h2>
+            <p class="mb-4">
+                No solo se trata de químicos cerca de comida. La contaminación cruzada incluye:
+            </p>
+            <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                <li><strong>Olores:</strong> Un pallet de solventes impregna tu cargamento de ropa por cercanía durante 12 horas de viaje. Tu cliente rechaza "por olor extraño".</li>
+                <li><strong>Humedad:</strong> Hielo derretido de una carga refrigerada moja las cajas de tu electrónica.</li>
+                <li><strong>Insectos/Plagas:</strong> Carga agrícola sin fumigar que viaja junto a alimentos procesados puede causar rechazos sanitarios en destino.</li>
+                <li><strong>Responsabilidad:</strong> Si se rompe un sello del contenedor y faltan productos de OTRO cliente, ¿cómo pruebas que TU mercancía no fue la afectada?</li>
+            </ul>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Estrategia de "Burbuja de Seguridad" por Lote</h2>
+            <p class="mb-4">
+                La clave es crear una <strong>burbuja sellada individual</strong> alrededor de tu carga, independientemente del sello general del camión:
+            </p>
+
+            <div class="space-y-4 my-8">
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">1.</span>
+                    <div><strong>Envuelve tu pallet</strong> con stretch film opaco y cruza un <a href="/info/producto-jumbo-seal" class="text-accent hover:underline font-bold">Jumbo Seal</a> de esquina a esquina. Si alguien quita el playo para robar, deberá cortar el sello.</div>
+                </div>
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">2.</span>
+                    <div><strong>Sella cada caja master</strong> con <a href="/post/etiquetas-seguridad-void-cajas-carton" class="text-accent hover:underline">etiquetas VOID</a>. Así, si el cargador en la terminal de consolidación abre una caja "para revisar", la evidencia queda.</div>
+                </div>
+                <div class="flex items-center bg-white p-4 rounded shadow-sm border-l-4 border-green-500">
+                    <span class="text-2xl font-bold text-green-600 mr-4">3.</span>
+                    <div><strong>Toma foto</strong> de los folios de tus sellos antes de que la carga entre al camión LTL. Esa foto, con fecha y hora del celular, es tu acta de entrega sellada.</div>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 mt-8">
+                <h3 class="font-bold text-primary mb-2">📋 Para tu Carta de Instrucciones al Carrier:</h3>
+                <p class="text-gray-600 text-sm">Añade esta cláusula: <em>"La carga del Cliente X viaja sellada con folios [rango]. Al momento de la descarga, verificar la integridad de los sellos ANTES de firmar la carta porte. Si algún sello está roto, documentar con foto y notificar al remitente antes de descargar."</em></p>
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="/contacto" class="inline-block bg-primary hover:bg-gray-800 text-white px-8 py-3 rounded-md font-bold transition-all shadow-lg">
+                    Asesoría para Carga LTL
+                </a>
+            </div>
+        '
+    ],
+
+    // 95. DOMINGO 22 MAR -> PROTOCOLO POST-INCIDENTE (Nuevo ángulo legal/operativo)
+    'protocolo-sello-roto-que-hacer-paso-a-paso' => [
+        'titulo'           => 'Sello Roto al Llegar: El Protocolo de 8 Pasos que Salva tu Reclamo',
+        'meta_description' => 'Tu camión llega y el sello está violado. ¿Qué haces en los primeros 10 minutos? Este protocolo post-incidente protege tu evidencia, tu seguro y tu relación con el cliente.',
+        'autor'            => 'Seguridad Patrimonial C1',
+        'fecha'            => '2026-03-22',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/blog_sem11_domingo_protocolo_post.avif',
+        'extracto'         => 'Los primeros 10 minutos después de descubrir un sello violado son críticos. Lo que hagas (o dejes de hacer) determina si cobras el seguro o pierdes todo.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                El guardia de recibo ve el camión llegar. Se acerca a la puerta trasera. El <strong>sello de seguridad</strong> tiene una marca blanca en el ABS. Lo toca: se siente flojo. El folio no coincide con la hoja de ruta. ¿Qué hace? La mayoría comete el error de abrir las puertas "para ver si falta algo". <strong>ALTO</strong>. Eso destruye la escena.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Los 8 Pasos del Protocolo Post-Incidente</h2>
+            <div class="space-y-6 my-8">
+                <div class="flex flex-col md:flex-row gap-4 bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-yellow-500 text-white font-bold w-10 h-10 flex items-center justify-center rounded-full text-lg">1</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-lg">NO ABRIR las Puertas</h3>
+                        <p class="text-gray-700 text-sm mt-1">El instinto dice "abre para contar". Resiste. Al abrir, pierdes la posibilidad de demostrar que el sello fue violado ANTES de tu intervención. La aseguradora necesita esta evidencia intacta.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-yellow-500 text-white font-bold w-10 h-10 flex items-center justify-center rounded-full text-lg">2</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-lg">Fotografiar el Sello IN SITU</h3>
+                        <p class="text-gray-700 text-sm mt-1">Toma mínimo 5 fotos: panorámica del sello puesto, close-up del folio, close-up de la anomalía (<a href="/post/senales-manipulacion-sellos-seguridad" class="text-accent hover:underline">blanqueamiento, pegamento, corte</a>), foto de la puerta completa y foto de la placa del camión. Usa la cámara del celular con ubicación activada para que quede geodata y timestamp.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-yellow-500 text-white font-bold w-10 h-10 flex items-center justify-center rounded-full text-lg">3</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-lg">Notificar al Supervisor (NO al Chofer)</h3>
+                        <p class="text-gray-700 text-sm mt-1">El chofer puede ser cómplice. Notifica directamente a tu jefe de seguridad o gerente de operaciones para que active la cadena de comunicación. El chofer debe permanecer en el patio.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-yellow-500 text-white font-bold w-10 h-10 flex items-center justify-center rounded-full text-lg">4</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-lg">Llamar a la Aseguradora ANTES de Abrir</h3>
+                        <p class="text-gray-700 text-sm mt-1">Muchas pólizas exigen aviso previo a la apertura para que el ajustador autorice o envíe un perito. Abrir sin notificar puede invalidar tu reclamo por "alteración de la escena".</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-yellow-500 text-white font-bold w-10 h-10 flex items-center justify-center rounded-full text-lg">5</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-lg">Abrir con Testigos y Video</h3>
+                        <p class="text-gray-700 text-sm mt-1">Cuando la aseguradora autorice, abre en presencia de mínimo 2 testigos (supervisor + guardia). Graba en video el momento exacto del corte del sello y la primera vista de la carga. El video es tu prueba más fuerte.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-yellow-500 text-white font-bold w-10 h-10 flex items-center justify-center rounded-full text-lg">6</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-lg">Conservar el Sello Físico como Evidencia</h3>
+                        <p class="text-gray-700 text-sm mt-1">Mete las partes del sello cortado en una bolsa ziploc. Etiqueta con fecha, hora, folio y firma del testigo. Este sello es evidencia forense. Conserva mínimo <a href="/post/disposicion-final-sellos-rotos" class="text-accent hover:underline">90 días</a> o hasta que cierre el reclamo.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-yellow-500 text-white font-bold w-10 h-10 flex items-center justify-center rounded-full text-lg">7</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-lg">Realizar Conteo Detallado</h3>
+                        <p class="text-gray-700 text-sm mt-1">Haz el inventario pieza por pieza contra el remision/packing list. Documenta cada faltante con foto del espacio vacío. Registra también si hay cajas abiertas, reconditcionadas o con cintas diferentes.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 bg-yellow-50 p-5 rounded-lg border-l-4 border-yellow-500">
+                    <div class="flex-shrink-0">
+                        <span class="bg-yellow-500 text-white font-bold w-10 h-10 flex items-center justify-center rounded-full text-lg">8</span>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 text-lg">Levantar Acta y Denunciar</h3>
+                        <p class="text-gray-700 text-sm mt-1">Si hay faltante confirmado, redacta un acta interna con todos los datos (folios, fotos, testigos) y presenta denuncia ante el MP. La denuncia formal es requisito para el cobro del seguro en la mayoría de las pólizas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-lg">
+                <h3 class="font-bold text-red-800 mb-2">⚠️ Error que DESTRUYE tu Reclamo:</h3>
+                <p class="text-sm text-gray-700">El error más costoso es tener un sello genérico sin certificado ISO 17712 del fabricante. La aseguradora preguntará: <em>"¿De dónde son estos sellos?"</em>. Si muestras una factura de <a href="/post/error-comprar-sellos-seguridad-marketplace-amazon" class="text-accent hover:underline">Mercado Libre sin RFC</a>, tu reclamo tendrá serios problemas. Siempre compra de un fabricante certificado con factura CFDI.</p>
+            </div>
+
+            <div class="bg-primary text-white p-8 rounded-xl text-center mt-10 shadow-2xl">
+                <p class="text-lg font-medium mb-4">Los primeros 10 minutos definen tu resultado</p>
+                <p class="text-sm opacity-80 mb-6">Protege tu reclamo desde antes del incidente usando sellos certificados con documentación completa.</p>
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-500 text-white font-bold py-3 px-8 rounded-lg transition-transform transform hover:-translate-y-1">
+                    Blindar mi Operación Hoy
+                </a>
+            </div>
+        '
+    ],
 ];
 // --- PASO 1.1: ORDENAMIENTO AUTOMÁTICO POR FECHA (MÁS NUEVO PRIMERO) ---
     // Esto asegura que sin importar el orden en el código, siempre se muestre lo más reciente.

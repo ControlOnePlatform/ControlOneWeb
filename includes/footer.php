@@ -19,7 +19,7 @@
                 <!-- Col 1: Logo + Social -->
                 <div class="lg:col-span-2 space-y-4">
                     <a href="/" class="inline-block mb-2">
-                        <img src="/assets/img/logo-control-one-industrial.avif" alt="Control One - Sellos de Seguridad" class="h-12 w-auto">
+                        <img src="/assets/img/logo-control-one-industrial.avif" alt="Control One - Sellos de Seguridad" class="h-12 w-auto" width="165" height="48" loading="lazy">
                     </a>
                     <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
                         Fabricantes de sellos de seguridad ISO 17712 y precintos certificados para la industria logística en México. Más de 12 años protegiendo tu cadena de suministro.
@@ -76,7 +76,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
-                            <span class="text-gray-400">Av Lago de Guadalupe km 27.5, Bodega A3, Tlalnepantla, Méx.</span>
+                            <a href="https://maps.google.com/?q=Av+Lago+de+Guadalupe+km+27.5+Bodega+A3+Tlalnepantla+Estado+de+Mexico" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">Av Lago de Guadalupe km 27.5, Bodega A3, Tlalnepantla, Méx.</a>
                         </li>
                         <li>
                             <a href="tel:+525558642200" class="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
@@ -101,19 +101,59 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="mt-5 pt-4 border-t border-white/10">
+                        <div class="flex items-center gap-2 text-sm text-gray-400">
+                            <svg class="h-4 w-4 text-accent flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>Lun - Vie: 9:00 - 18:00</span>
+                        </div>
+                    </div>
                 </div>
             </nav>
 
             <!-- Bottom bar -->
             <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
                 <p class="text-gray-500 text-xs">
-                    &copy; 2026 Control One. Todos los derechos reservados.
+                    &copy; <?php echo date('Y'); ?> Control One. Todos los derechos reservados.
                 </p>
+                <div class="flex items-center gap-3 text-xs">
+                    <a href="/aviso-privacidad" rel="nofollow" class="text-gray-500 hover:text-white transition-colors">Aviso de Privacidad</a>
+                    <span class="text-gray-700">·</span>
+                    <a href="/terminos-condiciones" rel="nofollow" class="text-gray-500 hover:text-white transition-colors">Términos y Condiciones</a>
+                </div>
                 <p class="text-gray-600 text-xs">
                     Fabricantes de sellos de seguridad en México · ISO 17712 · C-TPAT
                 </p>
             </div>
         </div>
+
+        <!-- Schema.org LocalBusiness (SEO Local) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Control One",
+            "description": "Fabricantes de sellos de seguridad ISO 17712 y precintos certificados para la industria logística en México.",
+            "url": "https://controlone.com.mx",
+            "telephone": "+525558642200",
+            "email": "ventas@controlone.com.mx",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Av Lago de Guadalupe km 27.5, Bodega A3",
+                "addressLocality": "Tlalnepantla",
+                "addressRegion": "Estado de México",
+                "postalCode": "54010",
+                "addressCountry": "MX"
+            },
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "sameAs": [
+                "https://www.facebook.com/profile.php?id=61584181824253",
+                "https://www.linkedin.com/in/control-one-0b2488397/"
+            ],
+            "image": "https://controlone.com.mx/assets/img/logo-control-one-industrial.avif"
+        }
+        </script>
     </footer>
 
     <!-- Botón de WhatsApp Inteligente -->
