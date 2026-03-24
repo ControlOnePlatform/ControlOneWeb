@@ -220,8 +220,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // ERROR: Guardamos en log del servidor pero no mostramos al usuario
         error_log("Error al enviar correo (Lead guardado en backup): " . $mail->ErrorInfo);
         
-        // Redirigir a error amigable
-        header("Location: contacto.php?status=error");
+        // Redirigir con detalle del error (TEMPORAL para diagnóstico)
+        $error_detail = urlencode($mail->ErrorInfo);
+        header("Location: contacto.php?status=error&debug=" . $error_detail);
         exit();
     }
 } else {

@@ -4002,6 +4002,397 @@ $blog_posts = [
                     Blindar mi Operación Hoy
                 </a>
             </div>
+        ],
+    
+    // ==========================================
+    // NUEVOS BLOGS - SEMANA 23 MARZO 2026
+    // ==========================================
+
+    // BLOG 1: INDICATIVOS VS BARRERA
+    'diferencia-cintillos-indicativos-y-sellos-barrera' => [
+        'titulo'           => 'Diferencia técnica entre Cintillos Indicativos y Sellos de Barrera',
+        'meta_description' => '¿Cuándo usar un cintillo de plástico y cuándo un sello metálico? Entiende la diferencia entre evidencia visual (indicativo) y resistencia física (barrera).',
+        'autor'            => 'Ingeniería Control One',
+        'fecha'            => '2026-03-24',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/sellos-seguridad-para-tolvas-y-pipas-comparativa.avif', 
+        'extracto'         => 'No todos los precintos sirven para lo mismo. Aprende por qué intentar asegurar un contenedor con un cintillo de plástico es un error logístico grave.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Uno de los errores más comunes (y costosos) en logística es confundir un <strong>sello indicativo</strong> con un <strong>sello de barrera</strong>. Elegir el equivocado no solo incumple normativas aduanales, sino que deja tu carga completamente vulnerable al robo.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Pregunta Clave: ¿Evidencia o Resistencia?</h2>
+            <p class="mb-4">
+                La industria clasifica los sellos basándose en su función principal. Aunque todos los sellos comparten el propósito de mostrar si algo fue abierto, la forma en que responden a un ataque físico los divide en dos mundos.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                <div class="bg-gray-50 border-t-4 border-accent p-6 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-primary text-xl mb-3">1. Sellos Indicativos (Evidencia Visual)</h3>
+                    <p class="text-sm text-gray-700 mb-4">
+                        Su objetivo <strong>NO</strong> es detener a un ladrón. Están diseñados para romperse fácilmente con la mano o un corte ligero. Su única misión es dejar una evidencia visual innegable de que la puerta o caja fue abierta.
+                    </p>
+                    <ul class="list-disc pl-5 text-sm text-gray-600 space-y-2 mb-4">
+                        <li><strong>Materiales:</strong> Plástico (Polipropileno o Nylon), alambre delgado.</li>
+                        <li><strong>Norma ISO 17712:</strong> Clasificación "I" (Indicative).</li>
+                        <li><strong>Casos de Uso:</strong> Botiquines, cajas de plástico, cortinas de camiones urbanos, puertas de almacén interno, <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">prevención de robo hormiga</a>.</li>
+                    </ul>
+                    <a href="/info/producto-precinto-quantum" class="text-xs font-bold text-accent uppercase tracking-wider">Ver Sello Quantum &rarr;</a>
+                </div>
+
+                <div class="bg-primary text-white border-t-4 border-yellow-400 p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-yellow-400 text-xl mb-3">2. Sellos de Barrera (Resistencia Física)</h3>
+                    <p class="text-sm text-gray-300 mb-4">
+                        Además de dar evidencia, actúan como un <strong>candado de un solo uso</strong>. Están diseñados para retrasar o impedir la apertura, requiriendo herramientas industriales (cizallas o esmeriles) para ser retirados.
+                    </p>
+                    <ul class="list-disc pl-5 text-sm text-gray-300 space-y-2 mb-4">
+                        <li><strong>Materiales:</strong> Acero, Aluminio, cables de acero trenzado (<a href="/info/producto-sello-cable-acero" class="text-white hover:underline">sellos tipo cable</a>).</li>
+                        <li><strong>Norma ISO 17712:</strong> Clasificación "H" (High Security) o "S" (Security).</li>
+                        <li><strong>Casos de Uso:</strong> Exportación (C-TPAT), contenedores marítimos, furgones de tren, pipas de químicos.</li>
+                    </ul>
+                    <a href="/info/producto-sello-botella-star-one" class="text-xs font-bold text-yellow-400 uppercase tracking-wider">Ver Sello Star One &rarr;</a>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Peligro de Usar el Sello Equivocado</h2>
+            <p class="mb-4">
+                Poner un <strong>sello indicativo</strong> en un contenedor de exportación resultará en un rechazo inmediato en aduana fronteriza (incumple C-TPAT). Por el contrario, poner un <strong>sello de barrera</strong> (como uno de botella) en el botiquín de primeros auxilios de tu empresa es un peligro: si hay una emergencia, nadie tendrá las pinzas corta-pernos a la mano para abrirlo.
+            </p>
+
+            <div class="bg-blue-50 border-l-4 border-primary p-5 my-6">
+                <p class="font-bold text-primary mb-1">Regla Práctica del Gerente de Logística:</p>
+                <p class="text-sm">Si el destino final de la caja térmica o puerta requiere que el usuario final lo abra rápidamente a mano, usa plástico. Si cruzará fronteras o estará 12 horas en carretera sin vigilancia, usa acero.</p>
+            </div>
+        '
+    ],
+
+    // BLOG 2: INSERTO METÁLICO EN PLÁSTICO
+    'por-que-sellos-de-plastico-necesitan-inserto-metalico' => [
+        'titulo'           => 'Seguridad en Plástico: ¿Por qué exigir un inserto metálico?',
+        'meta_description' => 'Un cincho de plástico común se puede abrir y cerrar. Aprende cómo el inserto metálico en la cápsula de los sellos Control One impide el fraude térmico.',
+        'autor'            => 'Control de Calidad Control One',
+        'fecha'            => '2026-03-26',
+        'categoria'        => 'Prevención de Pérdidas y Retail',
+        'imagen'           => 'assets/img/blog/inspeccion-visual-sellos.avif', 
+        'extracto'         => 'No te dejes engañar por un "cincho" barato. Descubre cómo la trampa de calor permite abrir sellos 100% de plástico y por qué el inserto metálico es tu única defensa.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Cuando buscas <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline font-bold">cintillos de seguridad</a> encontrarás opciones extremadamente baratas hechas 100% de plástico (una sola pieza inyectada). Cuidado: lo barato es el mejor amigo del fraude interno.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Fraude Térmico ("La Trampa del Hervidor")</h2>
+            <p class="mb-4">
+                Si un sello es de una sola pieza plástica, sus dientes de sujeción (las pestañas internas que atoran la tira) también son de plástico.
+            </p>
+            <p class="mb-4 text-gray-700">
+                Los delincuentes saben que aplicando calor moderado (con agua hirviendo, un encendedor o una pistola de calor), esas pestañas de plástico se ablandan y se dilatan. Con la técnica correcta, pueden deslizar la tira hacia atrás, <strong>abrir el sello sin romperlo</strong>, extraer la mercancía y volver a cerrarlo.
+            </p>
+
+            <div class="flex flex-col md:flex-row gap-6 my-8 items-center bg-gray-50 border border-gray-200 rounded-lg p-6">
+                <div class="md:w-1/2">
+                    <h3 class="font-bold text-red-600 text-xl mb-2">El Problema del Cincho Liso</h3>
+                    <p class="text-sm text-gray-600">Al carecer de un mecanismo de bloqueo diferencial, el calor revierte la flexibilidad del polipropileno. A simple vista, en el momento de la recepción, el sello parecerá intacto aunque el robo ya ocurrió.</p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-red-100 p-4 rounded text-center">
+                        <span class="text-4xl">🔥 🔓</span>
+                        <p class="font-bold text-red-800 mt-2 text-sm">Vulnerabilidad Térmica = Riesgo Crítico</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Defensa: El Inserto Metálico Inoxidable</h2>
+            <p class="mb-4">
+                Aquí es donde entra la ingeniería del <a href="/info/producto-precinto-quantum" class="text-accent hover:underline font-bold">Sello Quantum 12"</a> de Control One. 
+            </p>
+            <p class="mb-4">
+                Al ver la cápsula de cierre (la cabeza del sello), notarás una pequeña placa brillante. Ese es un <strong>inserto de acero inoxidable</strong>. Su función cambia las reglas del juego por completo:
+            </p>
+            
+            <ul class="space-y-4 mb-8">
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <div>
+                        <strong class="text-gray-900 block">Antirretorno Mecánico:</strong> 
+                        <span class="text-sm text-gray-600">El diente metálico, al ser mucho más duro que la tira plástica, muerde profundamente el material y funciona como un arpón: entra, pero no sale.</span>
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <div>
+                        <strong class="text-gray-900 block">Inmunidad al Calor:</strong> 
+                        <span class="text-sm text-gray-600">El metal requiere cientos de grados centígrados para perder su forma. Si un operador intenta aflojarlo con agua caliente o un encendedor, el plástico alrededor se derretirá y se deformará visiblemente antes de que el metal ceda. Resultado: <strong>Evidencia inmediata.</strong></span>
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <div>
+                        <strong class="text-gray-900 block">Evidencia de Fricción:</strong> 
+                        <span class="text-sm text-gray-600">Al intentar girar violentamente el cable para romper el inserto de metal, la fricción marca la tira de forma irreversible (blanqueamiento por estrés).</span>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="bg-industrial border border-gray-300 p-6 rounded text-center my-6">
+                <h3 class="font-bold text-primary mb-2">Conclusión para tus Compras</h3>
+                <p class="text-sm text-gray-700">Comprar un sello sin inserto metálico es equivalente a comprar una puerta sin cerradura. Siempre exige que la ficha técnica especifique: <em>"Mecanismo de cierre con inserto metálico multidireccional"</em>.</p>
+            </div>
+        '
+    ],
+
+    // BLOG 3: LEER CERTIFICADO ISO (FRAUDES)
+    'certificado-iso-17712-como-saber-si-es-real' => [
+        'titulo'           => 'Cuidado con los Sellos Piratas: Cómo verificar un Certificado ISO 17712',
+        'meta_description' => 'Muchos sellos en internet afirman ser "Alta Seguridad", pero son falsos. Aprende a leer un certificado ISO 17712 real y evita que C-TPAT rechace tu contenedor.',
+        'autor'            => 'Auditoría Control One',
+        'fecha'            => '2026-03-28',
+        'categoria'        => 'Normatividad y Aduanas',
+        'imagen'           => 'assets/img/blog/comparativa-c-tpat-iso-17772.avif', 
+        'extracto'         => 'No arriesgues 50,000 dólares en mercancía atorada en aduana. Aprende a diferenciar un sello chino con sello de goma falso de uno que sí cuenta con certificación internacional válida.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Con el auge de los marketplaces, han inundado a México "sellos de botella baratos" que prometen estar certificados. Si bien traen la letra "H" grabada en el metal de forma burda, carecen por completo de trazabilidad real.
+            </p>
+            <p class="mb-6">
+                Si la aduana americana detecta un <strong>sello pirata</strong>, tu contenedor será retenido (causando gastos de almacenaje de cientos de dólares diarios) y tu empresa podría perder la certificación <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent hover:underline">C-TPAT</a> en USA.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Verdad sobre la Letra "H"</h2>
+            <p class="mb-4">
+                La letra "H" de <em>High Security</em> (Alta Seguridad) viene grabada en nuestro <a href="/info/producto-sello-botella-star-one" class="text-accent hover:underline font-bold">Star One Seal</a> y en el cuerpo del clavo. <strong>Sin embargo, que tenga impresa la letra no lo hace legal.</strong> Cualquiera puede inyectar plástico y poner esa letra. 
+            </p>
+            <p class="mb-4">
+                Lo único que avala esa "H" es que puedas solicitar a tu proveedor un documento emitido por un laboratorio independiente (como Dayton T. Brown) certificado ante ISO.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">3 Cosas a revisar en el Documento (Puntos de Auditoría)</h2>
+            <p class="mb-4">
+                Cuando compres lotes de sellos, siempre exige al vendedor el certificado y revisa detalladamente estos tres puntos:
+            </p>
+
+            <div class="space-y-6 my-8">
+                <div class="bg-white border-2 border-dashed border-gray-300 p-6 rounded-lg">
+                    <h3 class="font-bold text-primary text-lg mb-2"><span class="text-accent mr-2">1.</span> Vigencia de Laboratorio (Cláusula 6)</h3>
+                    <p class="text-sm text-gray-700">
+                        La norma ISO 17712 se revisa periódicamente. Un certificado que diga "Conforme a ISO 17712:2010" está obsoleto. Las pruebas mecánicas (Tensión, Cizalle, Doblado y Golpe) deben estar realizadas bajo el anexo de pruebas actualizado de la norma y el documento del laboratorio <strong>no debe tener más de 2 años de antigüedad</strong> desde la fecha de ensayo.
+                    </p>
+                </div>
+
+                <div class="bg-white border-2 border-dashed border-gray-300 p-6 rounded-lg">
+                    <h3 class="font-bold text-primary text-lg mb-2"><span class="text-accent mr-2">2.</span> Concordancia de Modelo Explicito</h3>
+                    <p class="text-sm text-gray-700">
+                        Una trampa común de los importadores "genéricos" es mostrar un certificado de la fábrica china que evaluó el modelo "X", y tratar de venderte el modelo "Y". <strong>El nombre del producto y el número de parte físico que recibes, DEBE coincidir carácter por carácter</strong> con el folio descriptivo en el certificado de laboratorio.
+                    </p>
+                </div>
+
+                <div class="bg-white border-2 border-dashed border-gray-300 p-6 rounded-lg">
+                    <h3 class="font-bold text-primary text-lg mb-2"><span class="text-accent mr-2">3.</span> Cláusula Anti-Evidencia Falsa (Cláusula 18)</h3>
+                    <p class="text-sm text-gray-700">
+                        Muchos solo pasan las pruebas de fuerza, pero olvidan la segunda parte de la norma: evidenciar la manipulación. Tu certificado debe indicar claramente que el sello cumple con los requisitos para mostrar pruebas visuales al intentar girarlo a alta fricción (Anti-Spin) o congelarlo (Shock Térmico).
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-primary text-center p-6 rounded-lg mt-8 text-white">
+                <h3 class="font-bold text-xl mb-3">La Garantía Documental Control One</h3>
+                <p class="text-sm mb-4">
+                    Al adquirir nuestros sellos de Alta Seguridad (Clavo o Cable 316), garantizamos la trazabilidad total y te respaldamos con las pruebas de laboratorio internacionales requeridas para tus auditorías.
+                </p>
+                <a href="/contacto" class="inline-block bg-accent hover:bg-orange-600 text-white font-bold py-2 px-6 rounded transition-colors shadow-lg">
+                    Solicitar Sellos Certificados 
+                </a>
+            </div>
+    // BLOG 4: LOGÍSTICA INVERSA (23 MARZO)
+    'sellos-para-logistica-inversa-devoluciones' => [
+        'titulo'           => 'Logística Inversa: Cómo evitar pérdidas durante las devoluciones',
+        'meta_description' => 'El retorno de mercancía es el punto ciego de la logística. Aprende a usar sellos foliados para asegurar camiones vacíos y devoluciones.',
+        'autor'            => 'Equipo Control One',
+        'fecha'            => '2026-03-23',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/vista-trasera-camion.avif', 
+        'extracto'         => 'Las devoluciones son un caos controlado. Controla las mermas en tu logística inversa usando sellos indicativos en cada viaje de regreso.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Todo el mundo blinda la mercancía cuando sale del almacén, pero ¿qué pasa cuando regresa? La logística inversa (manejo de devoluciones, pallets vacíos y merma) es el escenario perfecto para el robo interno porque los niveles de supervisión bajan drásticamente.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Viaje de Regreso: Un Punto Vulnerable</h2>
+            <p class="mb-4">
+                Un camión que regresa "vacío" o con producto dañado suele viajar sin sellos de seguridad. Sin embargo, en la ruta, el chófer podría hacer paradas no autorizadas para cargar mercancía ilegal (contrabando o piratería), usando la caja de tu empresa. Si la autoridad lo detiene, tu camión será decomisado.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Protocolo de Retorno Seguro (PRS)</h2>
+            <p class="mb-4">Para mitigar este riesgo legal y financiero, debes implementar un protocolo básico:</p>
+            
+            <div class="space-y-4 mb-8">
+                <div class="flex items-start bg-gray-50 p-4 border border-gray-200 rounded-lg">
+                    <div class="flex-shrink-0 bg-primary text-white font-bold px-3 py-1 rounded">1</div>
+                    <div class="ml-4">
+                        <strong class="text-gray-900 block text-lg">Sellar el Camión "Vacío"</strong> 
+                        <span class="text-sm text-gray-600">Al descargar en el cliente, el chofer debe colocar inmediatamente un <strong>sello indicativo</strong> (como un <a href="/info/producto-precinto-quantum" class="text-accent font-bold hover:underline">cintillo plástico Quantum</a>) en la puerta trasera y reportar el folio por WhatsApp a la base.</span>
+                    </div>
+                </div>
+                <div class="flex items-start bg-gray-50 p-4 border border-gray-200 rounded-lg">
+                    <div class="flex-shrink-0 bg-primary text-white font-bold px-3 py-1 rounded">2</div>
+                    <div class="ml-4">
+                        <strong class="text-gray-900 block text-lg">Protección de Merma</strong> 
+                        <span class="text-sm text-gray-600">El producto dañado sigue teniendo valor en el mercado negro. Si consolidas devoluciones en <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent hover:underline">cajas plásticas (totes)</a>, séllalas individualmente antes de subirlas al camión.</span>
+                    </div>
+                </div>
+                <div class="flex items-start bg-gray-50 p-4 border border-gray-200 rounded-lg">
+                    <div class="flex-shrink-0 bg-primary text-white font-bold px-3 py-1 rounded">3</div>
+                    <div class="ml-4">
+                        <strong class="text-gray-900 block text-lg">Recepción en Base</strong> 
+                        <span class="text-sm text-gray-600">Al llegar a tu almacén, la patrulla de entrada no solo revisa que el camión esté vacío; verifica que el folio del sello de plástico coincida con el reportado horas antes.</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="mb-4">
+                Invertir en sellos plásticos para logística inversa no es un gasto, es la póliza de seguro más económica contra el uso indebido de tu flotilla terrestre.
+            </p>
+        '
+    ],
+
+    // BLOG 5: C-TPAT TENDENCIAS 2026 (25 MARZO)
+    'tendencias-c-tpat-2026-seguridad-aduanal' => [
+        'titulo'           => 'C-TPAT 2026: Nuevos retos en la seguridad fronteriza',
+        'meta_description' => 'Las auditorías de C-TPAT son más rigurosas que nunca. Asegúrate de cumplir con la norma ISO 17712 y documentar el protocolo de tus sellos de seguridad.',
+        'autor'            => 'Control de Calidad Control One',
+        'fecha'            => '2026-03-25',
+        'categoria'        => 'Normatividad y Aduanas',
+        'imagen'           => 'assets/img/blog/comparativa-c-tpat-iso-17772.avif', 
+        'extracto'         => 'Cruzar a USA exige perfección. Descubre por qué las auditorías de C-TPAT están rechazando contenedores por mala gestión documental de sus sellos ISO.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                La certificación C-TPAT es el pase VIP para la exportación a Estados Unidos, pero mantenerla en 2026 se ha vuelto un desafío. Aduanas (CBP) ya no solo exige tener un sello de botella puesto, sino que audita rigurosamente su <strong>proceso de resguardo</strong>.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Sello "H" ya no basta por sí solo</h2>
+            <p class="mb-4">
+                Es sabido que requieres un sello clasificado "H" (como nuestro <a href="/info/producto-sello-botella-star-one" class="text-accent font-bold hover:underline">Sello de Botella Star One</a>). Sin embargo, las auditorías recientes reportan suspensiones por fallas en el <strong>Criterio 7.1 de C-TPAT</strong> (Seguridad de Procesos Agrícolas y Sellos).
+            </p>
+
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 my-6">
+                <h3 class="font-bold text-primary text-xl mb-3">Qué te auditarán este año:</h3>
+                <ul class="list-disc pl-5 text-sm text-gray-700 space-y-2">
+                    <li><strong>Registro Fotográfico:</strong> ¿Tus guardias toman una foto del sello colocado antes de que el camión abandone el andén?</li>
+                    <li><strong>Auditoría de Inconsistencias:</strong> Si un sello llega roto de EUA, ¿tienes un protocolo escrito de cómo reportarlo ante la autoridad?</li>
+                    <li><strong>Almacenaje Restringido:</strong> Comprar sellos certificados de nada sirve si están tirados en el escritorio del jefe de almacén (<a href="/post/protocolo-resguardo-sellos" class="text-accent hover:underline">mira cómo guardarlos correctamente</a>).</li>
+                </ul>
+            </div>
+
+            <p class="mb-4">
+                <strong>Consejo de Experto:</strong> Mantén siempre copias actualizadas de los <a href="/post/certificado-iso-17712-como-saber-si-es-real" class="text-accent hover:underline">certificados emitidos por el laboratorio</a> de tu proveedor de sellos, a menos de que quieras que CBP retenga tu carga por 48 horas.
+            </p>
+        '
+    ],
+
+    // BLOG 6: PROTOCOLO ALMACÉN (27 MARZO)
+    'protocolo-resguardo-sellos' => [
+        'titulo'           => 'Protocolo de Resguardo: ¿Estás cuidando bien tus Sellos de Seguridad?',
+        'meta_description' => 'Un sello en manos equivocadas es un cheque al portador. Aprende cómo resguardar, inventariar y auditar tus sellos de seguridad en almacén.',
+        'autor'            => 'Auditoría Control One',
+        'fecha'            => '2026-03-27',
+        'categoria'        => 'Logística y Transporte de Carga',
+        'imagen'           => 'assets/img/blog/auditoria-sellos-de-seguridad.avif', 
+        'extracto'         => 'Si tus sellos de seguridad están expuestos sobre un escritorio, ya tienes una fuga de seguridad. Aprende a resguardar tus precintos en almacén.',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Comprar el sello más resistente del mundo (como el <a href="/info/producto-sello-cable-acero" class="text-accent font-bold hover:underline">C-ONE 316</a>) es inútil si la caja donde los guardas está al alcance de cualquiera. El robo de un solo sello sin usar le da luz verde a un ladrón interno para saquear un camión entero.
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">La Hoja de Ruta del Sello Seguro</h2>
+            <p class="mb-4">
+                Tus precintos son equivalentes a dinero en efectivo, y deben tratarse con la misma rigurosidad. Sigue estos 3 mandamientos del resguardo:
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+                <div class="bg-gray-50 border border-gray-200 p-5 rounded-lg text-center shadow-sm">
+                    <span class="text-4xl">🔐</span>
+                    <h3 class="font-bold text-primary text-lg mt-3 mb-2">1. Control de Acceso</h3>
+                    <p class="text-sm text-gray-600">
+                        Los sellos deben estar en un gavetero bajo llave. Solo <strong>dos personas</strong> autorizadas deben tener acceso a esa llave por turno (ej. Gerente de Logística y Jefe de Operaciones).
+                    </p>
+                </div>
+                <div class="bg-gray-50 border border-gray-200 p-5 rounded-lg text-center shadow-sm">
+                    <span class="text-4xl">📝</span>
+                    <h3 class="font-bold text-primary text-lg mt-3 mb-2">2. Bitácora Consecutiva</h3>
+                    <p class="text-sm text-gray-600">
+                        Los <a href="/post/cintillos-seguridad-evitar-robo-hormiga" class="text-accent underline">sellos vienen foliados de fábrica</a>. La entrega debe hacerse estrictamente en orden numérico apuntando fecha, hora, unidad a sellar y nombre de quien lo recibe.
+                    </p>
+                </div>
+                <div class="bg-gray-50 border border-gray-200 p-5 rounded-lg text-center shadow-sm">
+                    <span class="text-4xl">🕵️</span>
+                    <h3 class="font-bold text-primary text-lg mt-3 mb-2">3. Auditorías Sorpresa</h3>
+                    <p class="text-sm text-gray-600">
+                        Realiza conteos aleatorios del stock de sellos al menos una vez a la semana. Si falta el sello "004523" sin registro de salida, decláralo como comprometido de inmediato.
+                    </p>
+                </div>
+            </div>
+
+            <p class="mb-4">
+                Las mejores auditoras aduanales a nivel internacional enfocan al menos el 40% de su revisión de seguridad física a comprobar que tu bitácora de folios sea precisa e incorruptible.
+            </p>
+        '
+    ],
+
+    // BLOG 7: CABLE VS CLAVO (29 MARZO)
+    'sello-de-cable-vs-clavo-cual-es-mejor' => [
+        'titulo'           => 'Cable de Acero vs Sello de Clavo: ¿Cuál resiste más cortes?',
+        'meta_description' => 'Comparativa técnica de sellos de barrera. Analizamos la resistencia a cizallas, tensión y uso en campo del Sello de Botella vs Sello de Cable 316.',
+        'autor'            => 'Tecnología Control One',
+        'fecha'            => '2026-03-29',
+        'categoria'        => 'Guías Técnicas y Tutoriales',
+        'imagen'           => 'assets/img/blog/sello-tipo-cable-aplicacion.avif', 
+        'extracto'         => 'Dos titanes de la alta seguridad cara a cara. ¿Qué precinto debes escoger cuando la carga vale oro: la rigidez del clavo o la fuerza del acero trenzado?',
+        'contenido'        => '
+            <p class="lead text-xl text-gray-600 mb-6 font-medium">
+                Cuando tu carga supera el millón de pesos en valor comercial, solo tienes dos opciones viables para cumplir la <a href="/post/norma-iso-17712-c-tpat-explicada" class="text-accent font-bold hover:underline">Norma ISO 17712</a>: El Sello de Botella (Clavo) o el Sello de Cable Grueso. ¿Pero cuál gana en un ataque real en carretera?
+            </p>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">Análisis de Corte: La Cizalla</h2>
+            <p class="mb-4">
+                El arma preferida del ladrón carretero es la cizalla corta-pernos industrial (bolt-cutter) de 36 pulgadas.
+            </p>
+
+            <div class="bg-white border-2 border-gray-200 rounded-lg overflow-hidden shadow-sm my-6">
+                <table class="min-w-full text-left">
+                    <thead class="bg-primary text-white">
+                        <tr>
+                            <th class="py-3 px-5 border-r border-gray-600">Característica</th>
+                            <th class="py-3 px-5 border-r border-gray-600 bg-blue-800">Sello tipo Clavo (Vástago Sólido)</th>
+                            <th class="py-3 px-5 bg-gray-800">Sello de Cable (Acero Trenzado)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm text-gray-700">
+                        <tr class="border-b">
+                            <td class="py-3 px-5 font-bold bg-gray-50 border-r border-gray-200">Reacción al Corte</td>
+                            <td class="py-3 px-5 border-r border-gray-200">Dependiendo del diámetro (normalmente 8mm), una cizalla gigante puede cortarlo de un solo tajo aplicando mucha fuerza palanca.</td>
+                            <td class="py-3 px-5">El cable trenzado <strong>absorbe el impacto</strong>. Las cuchillas resbalan o aplastan el cable antes de cortarlo por completo. Requiere varios intentos.</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 px-5 font-bold bg-gray-50 border-r border-gray-200">Vulnerabilidad de Fricción</td>
+                            <td class="py-3 px-5 border-r border-gray-200">Puede girarse a altísima velocidad (taladro) para desgastarlo internamente, aunque modelos de Alta Gama como el <a href="/info/producto-sello-botella-star-one" class="text-accent font-bold">Star One</a> traen freno anti-spin.</td>
+                            <td class="py-3 px-5">Inmune al giro. El cable gira sobre sí mismo y absorbe la fuerza sin transferirla a la cerradura interna.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-5 font-bold bg-gray-50 border-r border-gray-200">Uso Principal</td>
+                            <td class="py-3 px-5 border-r border-gray-200">Contenedores Marítimos, Cajas de Tráiler rectas e idénticas.</td>
+                            <td class="py-3 px-5">Tolvas, <a href="/post/sellos-seguridad-valvulas-pipas-gas" class="text-accent font-bold">Pipas Químicas</a>, Puertas desalineadas o chocadas.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="text-2xl font-bold text-primary mt-8 mb-4">El Veredicto Logístico</h2>
+            <p class="mb-4">
+                Si tus puertas son rectas, estándar y nuevas, el <strong>sello de botella</strong> es más rápido de inspeccionar visualmente de lejos (por su color sólido de ABS). 
+            </p>
+            <p class="mb-4">
+                Pero si envías carga pesada en cajas o tolvas con puertas golpeadas por el tiempo, el diámetro de >4mm del <a href="/info/producto-sello-cable-acero" class="text-accent font-bold hover:underline">Sello de Cable</a> se adaptará perfectamente y ofrecerá una "mordida" que vuelve locos a los asaltantes con cizallas baratas.
+            </p>
         '
     ],
 ];

@@ -1,0 +1,30 @@
+# ====================================
+# Control One Web - .gitignore
+# ====================================
+
+# 🔒 Configuración con credenciales (NUNCA subir)
+config.php
+config.local.php
+
+# 📁 Carpeta de leads y logs de seguridad
+protegido/
+
+# 📝 Logs del servidor
+error_log
+*.log
+
+# 💻 Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 📦 Dependencias (si en el futuro usas Composer)
+vendor/
+node_modules/
+
+# 🔧 Archivos de editores/IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

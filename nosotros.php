@@ -11,7 +11,7 @@ include 'includes/header.php';
     <section class="relative bg-gray-900 h-[500px] flex items-center justify-center text-center overflow-hidden">
         <div class="absolute inset-0 z-0">
             <!-- Nueva imagen generada con realismo industrial -->
-            <img src="/assets/img/nosotros_factory_realism.png" alt="Planta de producción de sellos de seguridad Control One en México" class="w-full h-full object-cover opacity-40" fetchpriority="high">
+            <img src="/assets/img/nosotros_factory_realism.avif" alt="Planta de producción de sellos de seguridad Control One en México" class="w-full h-full object-cover opacity-40" fetchpriority="high">
             <div class="absolute inset-0 bg-gradient-to-b from-gray-900/10 via-gray-900/60 to-gray-900"></div>
         </div>
         <div class="relative z-10 container mx-auto px-4 animate-fade-in-up">
