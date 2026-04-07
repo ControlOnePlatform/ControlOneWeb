@@ -3,6 +3,13 @@
 
 include 'includes/data_blog.php'; 
 
+// Helper: Fecha en español
+function fecha_es($fecha) {
+    $meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+    $ts = strtotime($fecha);
+    return (int)date('j', $ts) . ' de ' . $meses[(int)date('n', $ts) - 1] . ' de ' . date('Y', $ts);
+}
+
 $slug = isset($_GET['slug']) ? $_GET['slug'] : '';
 
 if (array_key_exists($slug, $blog_posts)) {
@@ -48,7 +55,7 @@ include 'includes/header.php';
                 </span>
                 <span class="flex items-center">
                     <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                    <?php echo date('d M, Y', strtotime($post['fecha'])); ?>
+                    <?php echo fecha_es($post['fecha']); ?>
                 </span>
             </div>
         </div>

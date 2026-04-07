@@ -1,9 +1,18 @@
+<?php
+// SEGURIDAD: Acceso por clave
+$access_key = 'ControlOne2026';
+if (!isset($_GET['k']) || $_GET['k'] !== $access_key) {
+    http_response_code(403);
+    die('⛔ ACCESO DENEGADO. Intento de intrusión registrado.');
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radar de Amenazas - Control One</title>
+    <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="/assets/css/output.css">
     <style>
         .radar-scan {
@@ -26,7 +35,12 @@
                 </div>
                 <h1 class="text-3xl font-bold text-white tracking-widest">RADAR<span class="text-green-500">.ADMIN</span></h1>
             </div>
-            <a href="index.php" class="text-sm text-slate-400 hover:text-white transition-colors">Volver al Sitio</a>
+            <div class="flex items-center gap-4">
+                <span id="refreshCountdown" class="text-xs font-mono text-slate-500" title="Auto-refresh cada 60s">⏱ 60s</span>
+                <button id="toggleRefresh" onclick="toggleAutoRefresh()" class="bg-slate-700 hover:bg-slate-600 text-white px-2 py-1 rounded text-xs transition-colors border border-slate-600" title="Pausar auto-refresh">⏸</button>
+                <button onclick="location.reload()" class="bg-slate-700 hover:bg-slate-600 text-white px-3 py-1 rounded text-xs transition-colors border border-slate-600">🔄 Refresh</button>
+                <a href="/" class="text-sm text-slate-400 hover:text-white transition-colors">Volver al Sitio</a>
+            </div>
         </header>
 
         <?php
@@ -35,7 +49,8 @@
         
         if (file_exists($log_file)) {
             $lines = file($log_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-            // Leer últimas 100 líneas al revés (más recientes primero)
+            // Limitar a últimas 500 líneas para performance
+            $lines = array_slice($lines, -500);
             $lines = array_reverse($lines);
             
             foreach ($lines as $line) {
@@ -47,24 +62,39 @@
         }
         
         $total_bloqueos = count($amenazas);
+        $today_str = date('Y-m-d');
+        $amenazas_hoy = 0;
+        foreach ($amenazas as $a) {
+            if (isset($a['fecha']) && substr($a['fecha'], 0, 10) === $today_str) {
+                $amenazas_hoy++;
+            }
+        }
         ?>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
             <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 relative overflow-hidden group">
                 <div class="absolute -right-6 -top-6 bg-red-500/10 w-32 h-32 rounded-full blur-2xl group-hover:bg-red-500/20 transition-all"></div>
-                <h3 class="text-slate-400 text-sm font-semibold uppercase mb-1">Amenazas Neutralizadas</h3>
-                <p class="text-4xl font-bold text-white"><?php echo $total_bloqueos; ?></p>
+                <div class="absolute right-0 top-0 h-full w-1 bg-red-500"></div>
+                <h3 class="text-slate-400 text-xs font-semibold uppercase tracking-widest mb-1">Total Neutralizadas</h3>
+                <p class="text-4xl font-bold text-white group-hover:text-red-400 transition-colors"><?php echo $total_bloqueos; ?></p>
+                <span class="text-xs text-slate-500">histórico</span>
+            </div>
+            <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 relative overflow-hidden group">
+                <div class="absolute right-0 top-0 h-full w-1 bg-orange-500"></div>
+                <h3 class="text-slate-400 text-xs font-semibold uppercase tracking-widest mb-1">Amenazas Hoy</h3>
+                <p class="text-4xl font-bold text-white group-hover:text-orange-400 transition-colors"><?php echo $amenazas_hoy; ?></p>
+                <span class="text-xs text-slate-500"><?php echo date('d/m/Y'); ?></span>
             </div>
             <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
-                <h3 class="text-slate-400 text-sm font-semibold uppercase mb-1">Estado del Sistema</h3>
-                <p class="text-green-400 font-bold flex items-center gap-2">
+                <h3 class="text-slate-400 text-xs font-semibold uppercase tracking-widest mb-1">Estado del Sistema</h3>
+                <p class="text-green-400 font-bold flex items-center gap-2 mt-2">
                     <span class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
                     ACTIVO Y VIGILANDO
                 </p>
             </div>
-             <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
-                <h3 class="text-slate-400 text-sm font-semibold uppercase mb-1">Última Actualización</h3>
-                <p class="text-slate-300 font-mono text-sm"><?php echo date('Y-m-d H:i:s'); ?></p>
+            <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+                <h3 class="text-slate-400 text-xs font-semibold uppercase tracking-widest mb-1">Última Actualización</h3>
+                <p class="text-slate-300 font-mono text-sm mt-2"><?php echo date('Y-m-d H:i:s'); ?></p>
             </div>
         </div>
 
@@ -129,5 +159,35 @@
         </div>
         
     </div>
+
+    <script>
+        // Auto-Refresh cada 60 segundos
+        let refreshSeconds = 60;
+        let refreshPaused = false;
+
+        setInterval(() => {
+            if (refreshPaused) return;
+            refreshSeconds--;
+            document.getElementById('refreshCountdown').textContent = '⏱ ' + refreshSeconds + 's';
+            if (refreshSeconds <= 0) location.reload();
+        }, 1000);
+
+        function toggleAutoRefresh() {
+            refreshPaused = !refreshPaused;
+            const btn = document.getElementById('toggleRefresh');
+            const countdown = document.getElementById('refreshCountdown');
+            if (refreshPaused) {
+                btn.textContent = '▶';
+                countdown.classList.add('text-red-400');
+                countdown.classList.remove('text-slate-500');
+                countdown.textContent = '⏸ Pausado';
+            } else {
+                btn.textContent = '⏸';
+                countdown.classList.remove('text-red-400');
+                countdown.classList.add('text-slate-500');
+                refreshSeconds = 60;
+            }
+        }
+    </script>
 </body>
 </html>

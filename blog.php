@@ -4,6 +4,13 @@ $meta_description = "Artículos técnicos, guías de uso y noticias sobre seguri
 include 'includes/header.php'; 
 include 'includes/data_blog.php'; 
 
+// Helper: Fecha en español
+function fecha_es($fecha) {
+    $meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+    $ts = strtotime($fecha);
+    return (int)date('j', $ts) . ' de ' . $meses[(int)date('n', $ts) - 1] . ' de ' . date('Y', $ts);
+}
+
 // --- CONFIGURACIÓN DE CARGA ---
 $posts_per_page = 12;
 $today = date("Y-m-d");
@@ -121,7 +128,7 @@ $total_posts = count($filtered_posts);
                                 <div class="p-5 flex flex-col flex-grow">
                                     <div class="flex items-center text-xs text-gray-500 mb-3">
                                         <svg class="w-4 h-4 mr-2 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                                        <?php echo date('d M, Y', strtotime($post['fecha'])); ?>
+                                        <?php echo fecha_es($post['fecha']); ?>
                                     </div>
 
                                     <h3 class="text-lg font-bold text-primary mb-3 leading-tight hover:text-accent transition-colors">
