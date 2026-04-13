@@ -7,7 +7,7 @@ return [
         'autor'            => 'Auditoría Control One',
         'fecha'            => '2025-12-31', // MAÑANA
         'categoria'        => 'Prevención de Pérdidas y Retail', // CAT 5
-        'imagen'           => 'assets/img/blog/sem05_mie_cierre-inventario-anual-cero-mermas.avif', // (Generaremos esta imagen en un momento)
+        'imagen'           => 'assets/img/blog/sem05_mie_cierre-inventario-anual-cero-mermas.avif',
         'extracto'         => 'El momento más peligroso para el robo hormiga es JUSTO después del conteo. Aprende a bloquear pallets y cajas contabilizadas para que tus cifras cuadren al 100%.',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">

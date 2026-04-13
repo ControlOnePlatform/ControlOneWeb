@@ -7,7 +7,7 @@ return [
         'autor'            => 'Seguridad Patrimonial C1',
         'fecha'            => '2026-01-03', // MAÑANA SÁBADO
         'categoria'        => 'Logística y Transporte de Carga', // CAT 2
-        'imagen'           => 'assets/img/blog/sem07_sab_seguridad-rutas-fin-semana.avif', // Usaremos una existente o genérica por ahora
+        'imagen'           => 'assets/img/blog/sem07_sab_seguridad-rutas-fin-semana.avif',
         'extracto'         => 'Menos patrullas, menos tráfico, más riesgo. Si tus unidades salen este sábado, asegúrate de que lleven doble sello (Botella + Cable).',
         'contenido'        => '
             <p class="lead text-xl text-gray-600 mb-6 font-medium">
