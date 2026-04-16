@@ -47,6 +47,7 @@
                         <li><a href="/sellos-para-trailer" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos para Tráiler</a></li>
                         <li><a href="/sellos-para-contenedores" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos para Contenedores</a></li>
                         <li><a href="/productos#plasticos" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Precintos Plásticos</a></li>
+                        <li><a href="/sellos-seguridad-transporte" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos para Transporte</a></li>
                     </ul>
                 </div>
 

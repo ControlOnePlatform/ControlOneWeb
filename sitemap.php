@@ -84,6 +84,12 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+    <url>
+        <loc><?php echo $base_url; ?>/sellos-seguridad-transporte</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
     <?php
     // 3. PRODUCTOS INDIVIDUALES (Carpeta 'info') - CRÍTICO PARA SEO
     $info_files = glob(__DIR__ . '/info/*.php');
