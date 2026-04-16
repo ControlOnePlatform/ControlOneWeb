@@ -41,6 +41,7 @@
                     <h4 class="text-sm font-bold mb-5 text-accent uppercase tracking-wider">Soluciones</h4>
                     <ul class="space-y-2.5 text-sm">
                         <li><a href="/sellos-de-seguridad" class="text-gray-400 hover:text-white hover:pl-1 transition-all font-semibold">Sellos de Seguridad</a></li>
+                        <li><a href="/marchamos-de-seguridad" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Marchamos de Seguridad</a></li>
                         <li><a href="/sellos-iso-17712" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos ISO 17712 (C-TPAT)</a></li>
                         <li><a href="/sellos-de-cable" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos de Cable</a></li>
                         <li><a href="/sellos-para-trailer" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos para Tráiler</a></li>
