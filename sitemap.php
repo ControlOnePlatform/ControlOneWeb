@@ -54,6 +54,30 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <loc><?php echo $base_url; ?>/terminos-condiciones</loc>
         <priority>0.5</priority>
     </url>
+    <url>
+        <loc><?php echo $base_url; ?>/sellos-iso-17712</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc><?php echo $base_url; ?>/sellos-para-trailer</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc><?php echo $base_url; ?>/sellos-para-contenedores</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc><?php echo $base_url; ?>/sellos-de-cable</loc>
+        <lastmod><?php echo $today; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
     <?php
     // 3. PRODUCTOS INDIVIDUALES (Carpeta 'info') - CRÍTICO PARA SEO
     $info_files = glob(__DIR__ . '/info/*.php');

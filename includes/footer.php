@@ -41,11 +41,11 @@
                     <h4 class="text-sm font-bold mb-5 text-accent uppercase tracking-wider">Soluciones</h4>
                     <ul class="space-y-2.5 text-sm">
                         <li><a href="/sellos-de-seguridad" class="text-gray-400 hover:text-white hover:pl-1 transition-all font-semibold">Sellos de Seguridad</a></li>
-                        <li><a href="/productos#alta-seguridad" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos de Alta Seguridad</a></li>
+                        <li><a href="/sellos-iso-17712" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos ISO 17712 (C-TPAT)</a></li>
+                        <li><a href="/sellos-de-cable" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos de Cable</a></li>
+                        <li><a href="/sellos-para-trailer" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos para Tráiler</a></li>
+                        <li><a href="/sellos-para-contenedores" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos para Contenedores</a></li>
                         <li><a href="/productos#plasticos" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Precintos Plásticos</a></li>
-                        <li><a href="/productos#cables" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos de Cable</a></li>
-                        <li><a href="/productos#metalicos" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Sellos Metálicos</a></li>
-                        <li><a href="/productos#gps" class="text-gray-400 hover:text-white hover:pl-1 transition-all">Rastreo GPS</a></li>
                     </ul>
                 </div>
 
